@@ -3,41 +3,67 @@
 	$TYPE
 \*------------------------------------*/
 
+body{
+	color: $copy;
+	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 24px;
+	line-height: 1.5rem;
+}
+
 /*--- HEADINGS ---*/
 h1,.alpha{
-	font-size:Xpx;
-	font-size:Xrem;
-	line-height:;
+	font-size:55px;
+	font-size:3.44rem;
+	line-height:auto;
+	font-weight: 600;
+	text-align: center;
 }
 h2,.beta{
-	font-size:Xpx;
-	font-size:Xrem;
-	line-height:;
+	font-size:48px;
+	font-size:3rem;
+	line-height:auto;
+	text-align: center;
+	font-weight: 600;
+	padding: 65px 0 48px 0;
 }
 h3,.gamma{
-	font-size:Xpx;
-	font-size:Xrem;
-	line-height:;
+	font-size:24px;
+	font-size:1.5rem;
+	font-weight: 100;
+	text-align: center;
+	margin-bottom: 24px;
+	line-height:auto;
 }
 h4,.delta{
-	font-size:Xpx;
-	font-size:Xrem;
-	line-height:;
+	font-size:20px;
+	font-size:1.25rem;
+	line-height:auto;
 }
 h5,.epsilon{
-	font-size:Xpx;
-	font-size:Xrem;
-	line-height:;
+	font-size:18px;
+	font-size:1.12rem;
+	line-height:auto;
 }
 h6,.zeta{
-	font-size:Xpx;
-	font-size:Xrem;
-	line-height:;
+	font-size:16px;
+	font-size:1rem;
+	line-height:auto;
 }
+
+p{
+	padding-bottom: 24px;
+	padding-bottom: 1.5rem;
+}
+
 
 /*--- LINKS ---*/
 a:hover{
 	text-decoration:underline;
+}
+
+a{
+	text-decoration:none;
+	color: $highlight;
 }
 
 /*--- LISTS ---*/

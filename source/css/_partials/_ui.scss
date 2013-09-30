@@ -1,0 +1,86 @@
+// header
+.site-logo{
+	background: url(../img/flo-logo.svg) no-repeat;
+	width: 91px;
+	height: 73px;
+	display: block;
+	float: left;
+}
+
+ul.main-nav{
+	float: right;
+	position: relative;
+	top: 55px;
+	li{
+		display: inline;
+		a{
+			margin-left: 46px;
+			color: $inactive;
+			text-decoration: none;
+			font-size: 18px;
+			font-size: 1.12rem;
+		}
+	}
+}
+
+header{
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, .9);
+	padding: 24px 0;
+	position: fixed;
+	width: 100%
+}
+
+.masthead{
+	background: url(../img/water.jpg) no-repeat center;
+	h1{
+		color: #fff;
+		padding: 215px 0 35px 0;
+		line-height: 65px;
+	}
+
+	a{
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 24px;
+		font-size: 1.5rem;
+		font-weight: 400;
+		padding: 7px 30px 7px 15px;
+		white-space: nowrap;
+	}
+}
+
+.ctas{
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 90px;
+}
+
+.masthead__btn{
+	color: #fff;
+	border: 1px solid #fff;
+	background:url(../img/right-chev.svg) no-repeat 205px center;
+}
+
+.masthead__btn--solid{
+	color: #072e4a;
+	background: url(../img/right-chev-blue.svg) no-repeat 192px center #fff;
+	border: 1px solid #fff;
+	margin-left: 18px;
+}
+
+.box{
+	border: 1px solid $highlight;
+	padding: 35px 24px;
+	text-align: center;
+	p{
+		font-size: 14px;
+		font-size: .88rem;
+	}
+	a{
+		text-transform: uppercase;
+	}
+}
+
+
+
