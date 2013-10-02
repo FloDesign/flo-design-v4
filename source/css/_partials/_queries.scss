@@ -3,6 +3,145 @@
 	$MEDIA QUERIES
 \*------------------------------------*/
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 850px) {
+	
+	.wrapper{
+		margin: 0 20px;
+	}
+
+	.col3{
+		width: 49%;
+	}
+
+	.row .col3:nth-child(even){
+	margin: 0;
+	}
+
+	.box{
+		margin-bottom: 20px;
+	}
+	
+	ul.main-nav{
+		li a{
+			margin-left: 25px;
+		}
+	}
+
+
+}
+
+@media screen and (max-width: 535px) {
+	.col1,.col2,.col3,.col4,.col5,.col6,.col7,.col8,.col9,.col10,.col11,.col12{
+		width: 100%;
+		margin: 0;
+	}
+
+h1,.alpha{
+	font-size:33px;
+	font-size:2.06rem;
+	}
+
+.masthead{
+	h1{
+		line-height: 40px;
+		padding: 20px 0 15px 0;
+	}
+
+	a{
+		display: block;
+		width: 100%;
+		padding: 7px 0;
+		margin-top: 10px;
+		font-size: 18px;
+		font-size: 1.12rem;
+	}
+}
+
+.masthead__btn--solid{
+	margin-left: 0;
+}
+
+.ctas{
+	padding-bottom: 30px;
+}
+
+header{
+	height: auto;
+	border-bottom: 0;
+	position: relative;
+	.wrapper{
+		margin: 0;
+	}
+}
+
+.site-logo{
+	background-size: 70%;
+	top: 11px;
+	left: 10px;
+	float: none;
+	width: 91px;
+	height: 73px;
+}
+
+ul.main-nav{
+	height: 0;
+	overflow: hidden;
+	float: none;
+	top:0;
+	text-align: center;
+	@include transition-property(height);
+  	@include transition-duration(.6s);
+	li{
+		display: block;
+		padding: 10px 0;
+		border-top: 1px solid $inactive;
+		a{
+			margin-left: 0;
+			border-top: 0;
+			&:hover{
+				border-top: 0;
+			}
+		}
+		a.active{
+			border-top: 0;
+		}
+	}
+}
+
+ul.main-nav-open{
+	height: 225px;
+}
+
+a.mob-nav-btn{
+	display: block;
+	font-size: 36px;
+	position: absolute;
+	right: 10px;
+	top: 16px;
+	text-decoration: none;
+	
+}
+
+.shrink ul.main-nav{
+	top: 0px;
+}
+
+header.shrink{
+	height: auto;
+	border-bottom: none;
+	overflow: inherit;
+}
+
+
+.mob-nav{
+	display: block;
+	float: right;
+}
+
+.masthead{
+	img{
+		height: 550px;
+	}
+}
 
 }

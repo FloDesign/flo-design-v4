@@ -3,6 +3,31 @@
 	$TYPE
 \*------------------------------------*/
 
+/*--- Icons ---*/
+@font-face {
+	font-family: 'flo-icon';
+	src:url('../fonts/flo-icon.eot');
+	src:url('../fonts/flo-icon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/flo-icon.woff') format('woff'),
+		url('../fonts/flo-icon.ttf') format('truetype'),
+		url('../fonts/flo-icon.svg#flo-icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[data-icon]:before {
+	font-family: 'flo-icon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
 body{
 	color: $copy;
 	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -35,14 +60,15 @@ h3,.gamma{
 	line-height:auto;
 }
 h4,.delta{
-	font-size:20px;
-	font-size:1.25rem;
+	font-size:30px;
+	font-size:1.88rem;
 	line-height:auto;
 }
 h5,.epsilon{
 	font-size:18px;
 	font-size:1.12rem;
 	line-height:auto;
+	font-weight: 600;
 }
 h6,.zeta{
 	font-size:16px;

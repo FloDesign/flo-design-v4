@@ -4,15 +4,18 @@ title: HTML5 Boilerplate Middleman
 
 <!-- Add your site or application content here -->
 
-<header class="cf">
+<header class="cf site-header">
 	<div class="wrapper">
 		<a href="/" class="site-logo">
 			<img src="img/dot.gif" height="1" width="1" alt="logo" class="logo">
 		</a>
+		
+		
 
 		<nav>
+			<a href="/" class="mob-nav-btn"><span aria-hidden="true" data-icon="&#x32;"></a>
 			<ul class="main-nav">
-				<li><a href="index.html">Work</a></li>
+				<li><a href="index.html" class="active">Work</a></li>
 				<li><a href="about.html">About</a></li>
 				<li><a href="services.html">Services</a></li>
 				<li><a href="blog.html">Blog</a></li>
@@ -24,109 +27,170 @@ title: HTML5 Boilerplate Middleman
 
 
 <div class="masthead">
+
+	<img src="img/seawater.jpg" alt="" class="bg">
+
 	<div class="wrapper">
 		<h1>We are Flo.</br> We build the web.</h1>
 		<div class="ctas">
-			<a href="" class="masthead__btn">Find out more</a>
-			<a href="" class="masthead__btn--solid">Work with us</a>
+			<a href="" class="masthead__btn">Find out more <span aria-hidden="true" data-icon="&#x21;"></span></a>
+			<a href="" class="masthead__btn--solid">Work with us <span aria-hidden="true" data-icon="&#x21;"></span></a>
 		</div>
 	</div><!--end wrapper-->
 </div>
 
 
-<div class="wrapper">
+
 <div class="offer">
+	<div class="wrapper">
 	<h2>We offer.</h2>
 	<div class="row cf">
 		<div class="col3">
-			<div class="box">
+			<div class="box box1">
+				<div class="box__corner"></div>
 				<h3>Digital Stratagy</h3>
-				<span class="icon" aria-hidden="true" data-icon="&#x61;">Arrows</span>
+				<span class="icon" aria-hidden="true" data-icon="&#x25;"></span>
 				<p>We’ll work with you to devise a digital stratagy that’s right for your business. We’ll ask a lot of questions and conduct needs analysis to ensure we start on the right foot.</p>
-				<a href="">Find out more</a>
+				<!-- <a href=""><span data-hover="Find out more" class="roll">Find out more<span class="icon-link" aria-hidden="true" data-icon="&#x21;"></span></span></a> -->
+				<div class="cl-effect-2">
+				<a href="#"><span data-hover="Find out more" class="hover-effect">Find out more<span class="icon-link" aria-hidden="true" data-icon="&#x21;"></span></span></a>
+				</div>
 			</div>
 		</div><!--end col3-->
 		<div class="col3">
-			<div class="box">
-				<h3>Digital Stratagy</h3>
-				<span class="icon" aria-hidden="true" data-icon="&#x61;">Arrows</span>
+			<div class="box box2">
+				<div class="box__corner"></div>
+				<h3>Design</h3>
+				<span class="icon" aria-hidden="true" data-icon="&#x26;"></span>
 				<p>We’ll work with you to devise a digital stratagy that’s right for your business. We’ll ask a lot of questions and conduct needs analysis to ensure we start on the right foot.</p>
-				<a href="">Find out more</a>
+				<!-- <a href="">Find out more<span class="icon-link" aria-hidden="true" data-icon="&#x21;"></span></a> -->
+				<div class="cl-effect-2">
+				<a href="#"><span data-hover="Find out more" class="hover-effect">Find out more<span class="icon-link" aria-hidden="true" data-icon="&#x21;"></span></span></a>
+				</div>
 			</div>
 		</div><!--end col3-->
 		<div class="col3">
-			<div class="box">
-				<h3>Digital Stratagy</h3>
-				<span class="icon" aria-hidden="true" data-icon="&#x61;">Arrows</span>
+			<div class="box box3">
+				<div class="box__corner"></div>
+				<h3>Development</h3>
+				<span class="icon" aria-hidden="true" data-icon="&#x27;"></span>
 				<p>We’ll work with you to devise a digital stratagy that’s right for your business. We’ll ask a lot of questions and conduct needs analysis to ensure we start on the right foot.</p>
-				<a href="">Find out more</a>
+				<!-- <a href="">Find out more<span class="icon-link" aria-hidden="true" data-icon="&#x21;"></span></a> -->
+				<div class="cl-effect-2">
+				<a href="#"><span data-hover="Find out more" class="hover-effect">Find out more<span class="icon-link" aria-hidden="true" data-icon="&#x21;"></span></span></a>
+				</div>
 			</div>
 		</div><!--end col3-->
 		<div class="col3">
-			<div class="box">
-				<h3>Digital Stratagy</h3>
-				<span class="icon" aria-hidden="true" data-icon="&#x61;">Arrows</span>
+			<div class="box box4">
+				<div class="box__corner"></div>
+				<h3>Search</h3>
+				<span class="icon" aria-hidden="true" data-icon="&#x28;"></span>
 				<p>We’ll work with you to devise a digital stratagy that’s right for your business. We’ll ask a lot of questions and conduct needs analysis to ensure we start on the right foot.</p>
-				<a href="">Find out more</a>
+				<!-- <a href="">Find out more<span class="icon-link" aria-hidden="true" data-icon="&#x21;"></span></a> -->
+				<div class="cl-effect-2">
+				<a href="#"><span data-hover="Find out more" class="hover-effect">Find out more<span class="icon-link" aria-hidden="true" data-icon="&#x21;"></span></span></a>
+				</div>
 			</div>
 		</div><!--end col3-->
 	</div><!--end row-->
+	</div><!--end wrapper-->
 </div>
+
+
 
 <div class="built">
-	<h2>We've Built</h2>
-	<ul>
-		<li><img src="" alt=""></li>
-		<li><img src="" alt=""></li>
-		<li>
-			<div class="built__item">
-				<h4>NHS Health Developer Network</h4>
-				<a href="">View More</a>
-			</div>
-		</li>
-	</ul>
+	<div class="wrapper">
+		<h2>We've Built.</h2>
+		<div id="sequence">
+			<ul class="sequence-canvas">
+				<li>
+					<img src="img/slider_hdn_macbook.png" alt="" class="mbp" onload="this.width*=0.5;this.onload=null;">
+					<img src="img/slider_hdn_iphone.png"  alt="" class="iphone" onload="this.width*=0.5;this.onload=null;">
+					<div class="built__info">
+						<h4>NHS Health Developer Network</h4>
+						<a href="">View More <span aria-hidden="true" data-icon="&#x21;"></span></a>
+					</div>
+				</li>
+				<li>
+					<img src="img/slider_vp_ipad.png" alt="" class="ipad-vp" onload="this.width*=0.5;this.onload=null;">
+					<img src="img/slider_vp_iphone.png"  alt="" class="iphone-vp" onload="this.width*=0.5;this.onload=null;">
+					<div class="built__info">
+						<h4>Voice Power Limited</h4>
+						<a href="">View More <span aria-hidden="true" data-icon="&#x21;"></span></a>
+					</div>
+				</li>
+				<li>
+					<img src="img/slider_cfs_macbook.png" alt="" class="mbp_cfs" onload="this.width*=0.5;this.onload=null;">
+					<div class="built__info cfs-info">
+						<h4>Contract furniture specialists</h4>
+						<a href="">View More <span aria-hidden="true" data-icon="&#x21;"></span></a>
+					</div>
+				</li>
+			</ul>
+
+		</div><!--end sequence-->
+	</div><!--end wrapper-->
 </div>
+
+
+
 
 <div class="talk">
-	<h2>We want to talk</h2>
-	<form action="">
-		<input type="text" name="name" placeholder="Name">
-		<input type="text" name="email" placeholder="Email">
-		<textarea name="message" id="message" cols="30" rows="10" placeholder="message"></textarea>
-	</form>
-	
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+	<div class="wrapper">
+		<div class="row cf">
+			<h2>We want to talk.</h2>
+			<div class="col6">
+				<form action="" class="talk__form">
+					<input type="text" name="name" placeholder="Name">
+					<input type="text" name="email" placeholder="Email">
+					<textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+				</form>
+			</div>
+				<div class="col6">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
 
-	<ul>
-		<li>0113 314 2010</li>
-		<li>hello@flodesign.co.uk</li>
-	</ul>
+				<ul class="talk__details">
+					<li><span class="talk-icon" aria-hidden="true" data-icon="&#x2b;"></span><span class="grey">0113</span> 314 2010</li>
+					<li><span class="talk-icon" aria-hidden="true" data-icon="&#x2a;"></span><a href="mailto:hello@flodesign.co.uk"><span class="grey">hello@</span>flodesign.co.uk</a></li>
+				</ul>
+			</div>
+		</div><!--end row-->
+	</div><!--end wrapper-->
 </div>
 
+
 <footer>
-	<h4>We're social</h4>
-	<ul>
-		<li><a href="#">Twitter</a></li>
-		<li><a href="#">Facebook</a></li>
-		<li><a href="#">Instagram</a></li>
-	</ul>
+	<div class="wrapper">
+		<div class="row cf">
+			<div class="col7">
+				<h5>We're social</h5>
+				<ul class="social-links">
+					<li><a href="#"><span aria-hidden="true" data-icon="&#x2f;"></span></a></li>
+					<li><a href="#"><span aria-hidden="true" data-icon="&#x30;"></span></a></li>
+					<li><a href="#"><span aria-hidden="true" data-icon="&#x31;"></span></a></li>
+				</ul>
 
-	<h4>We're here</h4>
-	<p>Flo Design Limited, 15 Queen Square, Leeds, LS2 8AJ</p>
+				<h5>We're here</h5>
+				<p>Flo Design Limited, 15 Queen Square, Leeds, LS2 8AJ</p>
 
-	<p>&copy; Flo Design Limited 2013</p>
-	<p>Regestered in England & Wales: 7301868</p>
+				<p>&copy; Flo Design Limited 2013 <br/>Regestered in England & Wales: 7301868</p>
+			</div><!--end col-->
+			
+			<div class="col5">
+				<img src="img/flo-logo-footer.svg" class="footer-logo">
 
-	<a href="/"><img src="" alt=""></a>
-
-	<nav>
-		<ul class="footer-nav">
-			<li><a href="work.html">Work</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="services.html">Services</a></li>
-			<li><a href="blog.html">Blog</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
+				<nav>
+					<ul class="footer-nav">
+						<li><a href="work.html">Work</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div><!--end col-->
+		</div><!--end row-->
+	</div><!--end wrapper-->
 </footer>
-</div><!--end wrapper-->
+
