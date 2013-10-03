@@ -66,7 +66,8 @@ $(".mob-nav-btn").click(function (e) {
 
 
 $(window).scroll(function(e){
-  parallax();
+  if ($(window).width()>535){
+  parallax();}
 });
 function parallax(){
   var scrolled = $(window).scrollTop();

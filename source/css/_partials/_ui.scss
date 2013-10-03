@@ -148,6 +148,14 @@ header.shrink{
 		-moz-perspective: 1000px;
 		perspective: 1000px;
 	}
+
+	.icon
+	{
+		color: $highlight;
+		font-size: 40px;
+		margin: 0 0 22px 0;
+		display: block;
+	}	
 }
 
 
@@ -213,12 +221,7 @@ header.shrink{
 	overflow: hidden;
 }
 
-.box .icon{
-	color: $highlight;
-	font-size: 40px;
-	margin: 0 0 22px 0;
-	display: block;
-}
+
 
 a .icon-link{
 	position: relative;
@@ -410,6 +413,10 @@ a .icon-link{
 }
 
 #sequence {
+	-webkit-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
 	width: 100%;
 	height: 600px;
     position: relative; /* required */
@@ -433,6 +440,7 @@ a .icon-link{
 
 .talk{
 	background: #fff;
+	overflow: hidden;
 }
 
 form.talk__form{
