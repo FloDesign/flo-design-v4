@@ -164,22 +164,22 @@ header.shrink{
 }
 
 .box2{
-	-webkit-animation-delay: 1s;
+	-webkit-animation-delay: .75s;
 }
 
 .box3{
-	-webkit-animation-delay: 1.5s;
+	-webkit-animation-delay: 1s;
 }
 
 .box4{
-	-webkit-animation-delay: 2s;
+	-webkit-animation-delay: 1.25s;
 }
 
 
  @-webkit-keyframes pulse {
-    0% { -webkit-transform: scale(1); }	
-    50% { -webkit-transform: scale(1.1); }
-    100% { -webkit-transform: scale(1); }
+    0% {opacity: 0; -webkit-transform: scale(1.2); }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% {opacity: 1; -webkit-transform: scale(1);}
 }
 
 @-moz-keyframes pulse {

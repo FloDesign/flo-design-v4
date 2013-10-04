@@ -250,6 +250,9 @@
 		top: 0;
 	}
 	
+	.animate-in .mbp_cfs{
+		bottom: -70px
+	}
 
 	.iphone-vp{
 		width: 50%;
@@ -293,6 +296,10 @@
 
 	.footer-nav{
 		position: relative;
+	}
+
+	.footer-logo{
+		display: none;
 	}
 
 
