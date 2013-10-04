@@ -3,7 +3,7 @@ $(window).scroll(function(e){
 });
 function scrollshow(){
   var scrolled = $(window).scrollTop();
-   if (scrolled >= 500 ) {
+   if (scrolled >= 300 ) {
     $('.box').addClass('showscroll');
    }
 }
