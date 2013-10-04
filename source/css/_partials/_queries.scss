@@ -144,6 +144,9 @@
 			}
 		}
 	}
+	
+
+
 
 	ul.main-nav-open{
 		height: 225px;
@@ -183,6 +186,12 @@
 
 	.box{
 		padding: 17px 14px;
+		-webkit-animation-duration: 0s;
+		-webkit-animation-fill-mode:both;
+		-webkit-animation-name: none;
+		-moz-animation-name: none;
+		-o-animation-name: none;
+		animation-name: none;
 		.icon
 		{
 			font-size: 30px;
@@ -294,6 +303,11 @@
 	}
 	
 
+	.talk{
+	
+	padding-bottom: 48px;
+}
+
 	.footer-nav{
 		position: relative;
 	}
@@ -301,6 +315,7 @@
 	.footer-logo{
 		display: none;
 	}
+	
 
 
 }

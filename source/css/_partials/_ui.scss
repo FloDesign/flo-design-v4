@@ -95,6 +95,26 @@ header.shrink{
 		padding: 215px 0 35px 0;
 		line-height: 65px;
 	}
+	
+	.hp-title-one{
+		-webkit-animation-delay: .5s;
+		-webkit-animation-duration: .5s;
+		-webkit-animation-fill-mode:both;
+		-webkit-animation-name: show;
+		-moz-animation-name: show;
+		-o-animation-name: show;
+		animation-name: show;
+	}
+
+	.hp-title-two{
+		-webkit-animation-delay: 1s;
+		-webkit-animation-duration: .5s;
+		-webkit-animation-fill-mode:both;
+		-webkit-animation-name: show;
+		-moz-animation-name: show;
+		-o-animation-name: show;
+		animation-name: show;
+	}
 
 	a{
 		text-decoration: none;
@@ -106,6 +126,14 @@ header.shrink{
 		white-space: nowrap;
 	}
 }
+
+ @-webkit-keyframes show {
+    0% {opacity: 0; -webkit-transform: scale(.8); }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% {opacity: 1; -webkit-transform: scale(1);}
+}
+
+
 
 .ctas{
 	margin: 0 auto;
@@ -164,20 +192,20 @@ header.shrink{
 }
 
 .box2{
-	-webkit-animation-delay: .75s;
+	-webkit-animation-delay: .7s;
 }
 
 .box3{
-	-webkit-animation-delay: 1s;
+	-webkit-animation-delay: .9s;
 }
 
 .box4{
-	-webkit-animation-delay: 1.25s;
+	-webkit-animation-delay: 1.1s;
 }
 
 
  @-webkit-keyframes pulse {
-    0% {opacity: 0; -webkit-transform: scale(1.2); }	
+    0% {opacity: 0; -webkit-transform: scale(1.5); }	
     // 50% {opacity: .5; -webkit-transform: scale(1.05);}
     100% {opacity: 1; -webkit-transform: scale(1);}
 }
@@ -441,6 +469,7 @@ a .icon-link{
 .talk{
 	background: #fff;
 	overflow: hidden;
+	padding-bottom: 72px;
 }
 
 form.talk__form{
@@ -496,7 +525,6 @@ form.talk__form{
 footer{
 	color: $footer-copy;
 	background: $copy;
-	margin-top: 72px;
 	padding: 48px 0 24px 0;
 }
 
