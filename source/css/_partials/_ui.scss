@@ -153,8 +153,7 @@ header.shrink{
 
 .masthead__btn{
 	color: #fff;
-	border: 1px solid #fff;
-	
+	border: 1px solid #fff;	
 }
 
 .masthead__btn--solid{
@@ -162,6 +161,11 @@ header.shrink{
 	background: #fff;
 	border: 1px solid #fff;
 	margin-left: 18px;
+}
+
+.bg-arrow{
+	position: relative;
+	top: 3px;
 }
 
 .box{
@@ -493,6 +497,7 @@ form.talk__form{
 	top: -20px;
 
 	input, textarea{
+		color: #aaaaaa;
 		background: #fff;
 		display: block;
 		width: 100%;
@@ -509,6 +514,28 @@ form.talk__form{
 		outline: none;
 	}
 	}
+}
+
+.form_dropdown select{
+	color: #aaaaaa;
+	width: 100%;
+	background: transparent;
+	display: block;
+	border: none;
+	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	font-size: 24px;
+	font-size: 1.5rem;
+	padding: 20px 0 10px 0;
+	border-radius: 0;
+	-webkit-appearance: none;
+	&:focus{
+		outline: none;
+	}
+}
+
+.form_dropdown{
+	border-bottom: 1px solid $highlight;
 }
 
 .talk__details li{
@@ -536,6 +563,26 @@ form.talk__form{
 	position: relative;
 	top: 5px;
 }
+
+
+.work_item{
+	background: #fff;
+	overflow-y: hidden;
+	p{
+		font-size:18px;
+		font-size:1.12rem;
+		margin-top: 48px;
+	}
+}
+
+.work_item--iphone, .work_item--mbp{
+	position: absolute;
+}
+
+.work_item--iphone{
+	top: 110px;
+}
+
 
 footer{
 	color: $footer-copy;
