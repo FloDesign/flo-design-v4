@@ -1,0 +1,1485 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"li",
+				"inline"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"search",
+				"searchform.php"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"tr",
+				"tree_nav.php"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"wp-c",
+				"wp-content/"
+			],
+			[
+				"d",
+				"disc"
+			],
+			[
+				"n",
+				"georgian"
+			],
+			[
+				"l",
+				"lower-alpha"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"en",
+				"entypo.svg"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"t",
+				"text	@=text"
+			],
+			[
+				"al",
+				"alert.jpg	w:37 h:32"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"ear",
+				"early_tab_bg_pink.png	w:549 h:260"
+			],
+			[
+				"ea",
+				"early_tab_bg_green.png	w:549 h:260"
+			],
+			[
+				"e",
+				"early_tab_bg_blue.png	w:549 h:260"
+			],
+			[
+				"ch",
+				"childcare_benefits_img_03.png	w:961 h:234"
+			],
+			[
+				"ont",
+				"font-size"
+			],
+			[
+				"ta",
+				"tab_bg.png	w:548 h:219"
+			],
+			[
+				"tab_bg_",
+				"tab_bg_red.png	w:548 h:219"
+			],
+			[
+				"ben",
+				"benifits_lr_arrows.png	w:38 h:34"
+			],
+			[
+				"benefits_icons_0",
+				"benefits_icons_05.png	w:92 h:92"
+			],
+			[
+				"lg_icon",
+				"lg_icon_cont.jpg	w:151 h:151"
+			],
+			[
+				"DI",
+				"display"
+			],
+			[
+				"NO",
+				"no-repeat"
+			],
+			[
+				"a",
+				"social_share_icons.jpg	w:96 h:16"
+			],
+			[
+				"baco",
+				"background-color"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"main",
+				"main_bg__no_img_02.jpg	w:1470 h:811"
+			],
+			[
+				"main_bg_0",
+				"main_bg__no_img_02.jpg	w:1470 h:811"
+			],
+			[
+				"social_icons_",
+				"social_icons_15.jpg	w:29 h:29"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"alert",
+				"alert_cross.jpg	w:16 h:15"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"ho",
+				"hos_res_bg.jpg	w:360 h:400"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"icon_new",
+				"icon_new_wifi.png	w:23 h:22"
+			],
+			[
+				"icon_new_",
+				"icon_new_shop.png	w:23 h:22"
+			],
+			[
+				"icon_n",
+				"icon_new_loop.png	w:23 h:22"
+			],
+			[
+				"ic",
+				"icon_new_library.png	w:23 h:22"
+			],
+			[
+				"icon",
+				"icon_new_hotel.png	w:23 h:22"
+			],
+			[
+				"ico",
+				"icon_new_ensuit.png	w:23 h:22"
+			],
+			[
+				"her",
+				"hero_wNav_l_corners.png	w:8 h:292"
+			],
+			[
+				"hp",
+				"hp_hero_l_corners.png	w:7 h:292"
+			],
+			[
+				"land",
+				"landing_hero_nav_overlay.png	w:760 h:292"
+			],
+			[
+				"th",
+				"th"
+			],
+			[
+				"bx-pager",
+				"bx-pager-item"
+			],
+			[
+				"pod",
+				"pod_vids"
+			],
+			[
+				"bx",
+				"bx-next"
+			],
+			[
+				"bx-",
+				"bx-prev"
+			],
+			[
+				"sli",
+				"slider"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"slid",
+				"slide_text"
+			],
+			[
+				"c",
+				"css"
+			],
+			[
+				"sc",
+				"scroll"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"open",
+				"openclose"
+			],
+			[
+				"image",
+				"images"
+			],
+			[
+				"gr",
+				"green"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "source/work.html.erb",
+			"settings":
+			{
+				"buffer_size": 4307,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/layouts/layout.erb",
+			"settings":
+			{
+				"buffer_size": 4753,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 6348,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/css/_partials/_ui.scss",
+			"settings":
+			{
+				"buffer_size": 11142,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/css/_partials/_type.scss",
+			"settings":
+			{
+				"buffer_size": 1681,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/css/_partials/_vars.scss",
+			"settings":
+			{
+				"buffer_size": 199,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/css/_partials/_grid.scss",
+			"settings":
+			{
+				"buffer_size": 924,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 327.0,
+		"selected_items":
+		[
+			[
+				"sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"si",
+				"View: Toggle Side Bar"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"syht",
+				"Set Syntax: HTML"
+			],
+			[
+				"synru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Plugin Readme"
+			],
+			[
+				"synht",
+				"Set Syntax: HTML"
+			],
+			[
+				"sn",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"sav",
+				"Project: Save As"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"pl",
+				"Package Control: List Packages"
+			],
+			[
+				"sny",
+				"Set Syntax: YAML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"viw",
+				"View: Toggle Side Bar"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/login.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/lib_art.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/bbpress.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/index.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/archive-community.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/contributors.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/community-blog.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/archive-library.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/lib_cat.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/functions.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/community-blogs.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/archive-learn.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/single-learn.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/lib_art_full_width.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/footer.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/community-events.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/page.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/header.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/js/fancybox/jquery.fancybox.js",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/sass/custom-editor-style.scss",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/likes.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/custom-editor-style.scss",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/sass/partials/_queries.scss",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/sass/partials/_ie.scss",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/sass/ie.scss",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/js/script.js",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/single-downloads-data.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/community-event.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/single-testcentre.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/js/plugins.js",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/single-community-artiles.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/taxonomy-learning-key-words.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/taxonomy-community-key-words.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/taxonomy-community-categories.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/taxonomy-learning-categories.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/search.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/archive.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/sass/partials/_layout.scss",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/style.css",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/share_tools.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/breadcrumbs.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/404.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/js/jquery.cookie.js",
+		"/Users/Russ/Dropbox/repos/aj-architects.com/wp-config.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN-bbpress/style.css",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/.sass-cache/495acf31ba99b757819f2d6ada7c3dc918a65425/_modules.scssc",
+		"/Users/Russ/Library/Caches/Cleanup At Startup/Transmit/F0C1EE40-F745-438D-8600-7F265856BB10/footer.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/sass/partials/_type.scss",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/sass/partials/_modules.scss",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-config-local.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/archive-downloads-data.php",
+		"/Users/Russ/Desktop/php.ini",
+		"/Users/Russ/Desktop/.user.ini",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/archive-testcentre.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/tree_nav.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/ie.css",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/searchform.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/single-downloads.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/archive-downloads.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/css/ie.css",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/library_landing.php",
+		"/Users/Russ/Library/Application Support/Sublime Text 2/Packages/User/wp_footer.sublime-snippet",
+		"/Users/Russ/Library/Application Support/Sublime Text 2/Packages/User/wp_header.sublime-snippet",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/library.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/sass/partials/_mixins.scss",
+		"/Users/Russ/Library/Application Support/Sublime Text 2/Packages/User/wp_template.sublime-snippet",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/.gitignore",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-config.php",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/hdn-wp.sublime-project",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/config.rb",
+		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/sass/screen.scss",
+		"/Users/Russ/Dropbox/repos/hdn.frontend.dev/js/script.js",
+		"/Users/Russ/Dropbox/repos/hdn.frontend.dev/js/plugins.js",
+		"/Users/Russ/Dropbox/repos/hdn.frontend.dev/js/jQuery.equalHeights.js",
+		"/Users/Russ/Dropbox/repos/hdn.frontend.dev/index.html",
+		"/Users/Russ/Dropbox/repos/hdn.frontend.dev/sass/partials/_mixins.scss",
+		"/Users/Russ/Dropbox/repos/hdn.frontend.dev/sass/partials/_ie.scss",
+		"/Users/Russ/Dropbox/repos/hdn.frontend.dev/humans.txt",
+		"/Users/Russ/Dropbox/repos/hdn.frontend.dev/sass/partials/_variables.scss",
+		"/Users/Russ/Dropbox/repos/hdn.frontend.dev/css/screen.css",
+		"/Users/Russ/Dropbox/repos/hdn.frontend.dev/sass/partials/_reset.scss",
+		"/Users/Russ/Dropbox/repos/hdn.frontend.dev/css/elusive-webfont.css",
+		"/Users/Russ/Dropbox/repos/hdn.frontend.dev/.gitignore",
+		"/Users/Russ/Dropbox/repos/hdn.frontend.dev/README",
+		"/Users/Russ/Dropbox/Flo Design/SandBox/foundation_test/stylesheets/ie.css",
+		"/Users/Russ/Dropbox/repos/aj-architects.com/wp-content/themes/aj/page-contact.php",
+		"/Users/Russ/Dropbox/repos/aj-architects.com/wp-content/themes/aj/page-projects.php",
+		"/Users/Russ/Dropbox/Public/dev/enjoy_benefits/static/landing.html",
+		"/Users/Russ/Dropbox/Public/dev/enjoy_benefits/static/case_studies.html",
+		"/Users/Russ/Dropbox/Public/dev/enjoy_benefits/static/_footer.html",
+		"/Users/Russ/Dropbox/Public/dev/enjoy_benefits/static/index.html",
+		"/Users/Russ/Dropbox/Public/dev/enjoy_benefits/static/contact.html",
+		"/Users/Russ/Dropbox/Public/dev/enjoy_benefits/static/blog_article.html",
+		"/Users/Russ/Dropbox/Public/dev/enjoy_benefits/static/blog_list.html",
+		"/Users/Russ/Dropbox/Public/dev/enjoy_benefits/static/common/css/style.css",
+		"/Users/Russ/Dropbox/Public/dev/enjoy_benefits/static/common/scripts/custom/common.js",
+		"/Users/Russ/Dropbox/Public/dev/enjoy_benefits/_footer.html",
+		"/Users/Russ/Dropbox/Public/dev/enjoy_benefits/_header.html",
+		"/Users/Russ/Dropbox/Public/dev/enjoy_benefits/common/css/style.css",
+		"/Users/Russ/Library/Application Support/Sublime Text 2/Packages/User/wrapper",
+		"/Users/Russ/Dropbox/Public/dev/enjoy_benefits/Build/Icon",
+		"/Users/Russ/Dropbox/Public/dev/Benenden_build/static/over50.html",
+		"/Users/Russ/Dropbox/Public/dev/Benenden_build/static/mobile/_pod_join.html",
+		"/Users/Russ/Dropbox/Public/dev/Benenden_build/static/mobile/_pod_offer.html",
+		"/Users/Russ/Dropbox/Public/dev/Benenden_build/static/mobile/_pod_contact_lg.html",
+		"/Users/Russ/Dropbox/Public/dev/Benenden_build/static/mobile/_pod_members.html",
+		"/Users/Russ/Dropbox/Public/dev/Benenden_build/static/page_b.html",
+		"/Users/Russ/Dropbox/Public/dev/Benenden_build/static/page.html",
+		"/Users/Russ/Dropbox/Public/dev/Benenden_build/static/hospital.html",
+		"/Users/Russ/Dropbox/Public/dev/Benenden_build/static/hospital_list.html",
+		"/Users/Russ/Dropbox/Public/dev/Benenden_build/static/common/css/style.css",
+		"/Users/Russ/Dropbox/Public/dev/Benenden_build/static/ personal.html",
+		"/Users/Russ/Dropbox/Public/dev/Benenden_build/static/personal.html",
+		"/Users/Russ/Dropbox/Public/dev/Benenden_build/static/forms.html",
+		"/Users/Russ/Dropbox/Public/dev/Benenden_build/static/index.html",
+		"/Users/Russ/Dropbox/Public/dev/Benenden_build/static/self_pay.html",
+		"/Users/Russ/Dropbox/Public/dev/Benenden_build/static/charitable.html",
+		"/Users/Russ/Dropbox/Flo Design/Current Work/OutdoorPlay_private/static_build/README",
+		"/Users/Russ/Dropbox/Flo Design/Current Work/OutdoorPlay_private/static_build/style.scss",
+		"/Users/Russ/Dropbox/Flo Design/Current Work/OutdoorPlay_private/static_build/projects.html",
+		"/Users/Russ/Dropbox/Flo Design/Current Work/OutdoorPlay_private/static_build/humans.txt",
+		"/Users/Russ/Dropbox/Flo Design/Current Work/OutdoorPlay_private/static_build/.sass-cache/2e134217811eaa9152cccfe0e37677d795c2d322/style.scssc",
+		"/Users/Russ/Dropbox/Flo Design/Current Work/OutdoorPlay_private/static_build/functions.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open files>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"col6",
+			"btn",
+			"no-s",
+			"meta",
+			"tree",
+			"url(../",
+			"nav_box",
+			"nav_box^",
+			"nav_box",
+			"one_third",
+			"sidebar",
+			"btn",
+			"nav_box",
+			"sear",
+			"add_image_size",
+			"pink_link",
+			"social",
+			".main",
+			".alert",
+			".last",
+			"pod",
+			"hospital",
+			"only",
+			"grad",
+			"search",
+			"vid_thumb_pod_over.jpg",
+			"vid_pod_overlay",
+			"expand",
+			"services",
+			"content",
+			"table",
+			"tabe",
+			"pager",
+			"bx-pre",
+			"slider",
+			"slide",
+			"wellbeing",
+			"precious",
+			"width",
+			"Facebook",
+			"image",
+			"grad",
+			"latest",
+			"wrapper",
+			"title",
+			"cont_details",
+			"outdoorandplay",
+			"200",
+			"class",
+			"wrapper",
+			"last",
+			"col1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"url(",
+			"vid_thumb_pod_over.png"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "source/work.html.erb",
+					"settings":
+					{
+						"buffer_size": 4307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4047,
+								4047
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 397.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/layouts/layout.erb",
+					"settings":
+					{
+						"buffer_size": 4753,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 6348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1252,
+								1263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "source/css/_partials/_ui.scss",
+					"settings":
+					{
+						"buffer_size": 11142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								717,
+								717
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "source/css/_partials/_type.scss",
+					"settings":
+					{
+						"buffer_size": 1681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1093,
+								1093
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 234.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "source/css/_partials/_vars.scss",
+					"settings":
+					{
+						"buffer_size": 199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "source/css/_partials/_grid.scss",
+					"settings":
+					{
+						"buffer_size": 924,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.510227433983,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				"log",
+				"login.php"
+			],
+			[
+				"commun",
+				"community-blog.php"
+			],
+			[
+				"func",
+				"functions.php"
+			],
+			[
+				"ie",
+				"sass/ie.scss"
+			],
+			[
+				"arch",
+				"archive-community.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"cont",
+				"contributors.php"
+			],
+			[
+				"ful",
+				"lib_art_full_width.php"
+			],
+			[
+				"var",
+				"sass/partials/_variables.scss"
+			],
+			[
+				"bbp",
+				"bbpress.php"
+			],
+			[
+				"lib",
+				"lib_art.php"
+			],
+			[
+				"footer",
+				"footer.php"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				"lay",
+				"sass/partials/_layout.scss"
+			],
+			[
+				"foot",
+				"footer.php"
+			],
+			[
+				"funt",
+				"functions.php"
+			],
+			[
+				"comm",
+				"community-blogs.php"
+			],
+			[
+				"learn",
+				"archive-learn.php"
+			],
+			[
+				"sing",
+				"single-learn.php"
+			],
+			[
+				"funct",
+				"functions.php"
+			],
+			[
+				".js",
+				"js/script.js"
+			],
+			[
+				"_qu",
+				"sass/partials/_queries.scss"
+			],
+			[
+				"cus",
+				"sass/custom-editor-style.scss"
+			],
+			[
+				"art",
+				"lib_art.php"
+			],
+			[
+				"rest",
+				"sass/partials/_reset.scss"
+			],
+			[
+				"bbpre",
+				"bbpress.php"
+			],
+			[
+				"test",
+				"single-testcentre.php"
+			],
+			[
+				"scr",
+				"js/script.js"
+			],
+			[
+				"down",
+				"single-downloads-data.php"
+			],
+			[
+				"page",
+				"page.php"
+			],
+			[
+				"bbpr",
+				"bbpress.php"
+			],
+			[
+				"lik",
+				"likes.php"
+			],
+			[
+				"bb",
+				"bbpress.php"
+			],
+			[
+				"tax",
+				"taxonomy-learning-categories.php"
+			],
+			[
+				"sear",
+				"search.php"
+			],
+			[
+				"css",
+				"style.css"
+			],
+			[
+				"",
+				"sass/partials/_ie.scss"
+			],
+			[
+				"sc",
+				"js/script.js"
+			],
+			[
+				"cook",
+				"js/jquery.cookie.js"
+			],
+			[
+				"plu",
+				"js/plugins.js"
+			],
+			[
+				"type",
+				"sass/partials/_type.scss"
+			],
+			[
+				"sha",
+				"share_tools.php"
+			],
+			[
+				"pa",
+				"page.php"
+			],
+			[
+				"js",
+				"js/script.js"
+			],
+			[
+				"br",
+				"breadcrumbs.php"
+			],
+			[
+				"40",
+				"404.php"
+			],
+			[
+				"_mod",
+				"sass/partials/_modules.scss"
+			],
+			[
+				"_mo",
+				".sass-cache/495acf31ba99b757819f2d6ada7c3dc918a65425/_modules.scssc"
+			],
+			[
+				"qu",
+				"sass/partials/_queries.scss"
+			],
+			[
+				"ty",
+				"sass/partials/_type.scss"
+			],
+			[
+				"sin",
+				"single-downloads-data.php"
+			],
+			[
+				"sh",
+				"share_tools.php"
+			],
+			[
+				"single",
+				"single-testcentre.php"
+			],
+			[
+				"tr",
+				"tree_nav.php"
+			],
+			[
+				"bre",
+				"breadcrumbs.php"
+			],
+			[
+				"plug",
+				"js/plugins.js"
+			],
+			[
+				"mod",
+				"sass/partials/_modules.scss"
+			],
+			[
+				"libca",
+				"lib_cat.php"
+			],
+			[
+				"_m",
+				"sass/partials/_modules.scss"
+			],
+			[
+				"he",
+				"header.php"
+			],
+			[
+				"_ty",
+				"sass/partials/_type.scss"
+			],
+			[
+				"_lay",
+				"sass/partials/_layout.scss"
+			],
+			[
+				"_ie",
+				"sass/partials/_ie.scss"
+			],
+			[
+				"sty",
+				"sass/style.scss"
+			],
+			[
+				"fo",
+				"footer.php"
+			],
+			[
+				"sub",
+				"hdn-wp.sublime-project"
+			],
+			[
+				"config",
+				"wp-content/themes/HDN/config.rb"
+			],
+			[
+				"wp",
+				"wp-config.php"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"mi",
+				"sass/partials/_mixins.scss"
+			],
+			[
+				"va",
+				"sass/partials/_variables.scss"
+			],
+			[
+				"hu",
+				"humans.txt"
+			],
+			[
+				"scri",
+				"js/script.js"
+			],
+			[
+				"res",
+				"sass/partials/_reset.scss"
+			],
+			[
+				"el",
+				"css/elusive-webfont.css"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"re",
+				"README"
+			],
+			[
+				"app",
+				"sass/app.scss"
+			],
+			[
+				"pro",
+				"page-projects.php"
+			],
+			[
+				"cas",
+				"single-ts_case_study.php"
+			],
+			[
+				"con",
+				"page-contact.php"
+			],
+			[
+				"hom",
+				"homepage.php"
+			],
+			[
+				"ho",
+				"home.php"
+			],
+			[
+				"wp-co",
+				"wp-config.php"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"_he",
+				"mobile/_header.html"
+			],
+			[
+				"hos",
+				"hospital_list.html"
+			],
+			[
+				"faq",
+				"faq.html"
+			],
+			[
+				"la",
+				"landing.html"
+			],
+			[
+				"st",
+				"standard.html"
+			],
+			[
+				"case",
+				"case_studies.html"
+			],
+			[
+				"_",
+				"_footer.html"
+			],
+			[
+				"com",
+				"common/scripts/custom/common.js"
+			],
+			[
+				"bl",
+				"blog_list.html"
+			],
+			[
+				"i",
+				"index.html"
+			],
+			[
+				"co",
+				"static/common/scripts/custom/common.js"
+			],
+			[
+				"fa",
+				"static/faq.html"
+			],
+			[
+				"foo",
+				"_footer.html"
+			],
+			[
+				"sy",
+				"common/css/style.css"
+			],
+			[
+				"ap",
+				"sass/app.scss"
+			],
+			[
+				"new",
+				"news.html"
+			],
+			[
+				"sea",
+				"search.html"
+			],
+			[
+				"pag",
+				"page.html"
+			],
+			[
+				"over",
+				"over50table.html"
+			],
+			[
+				"per",
+				" personal.html"
+			],
+			[
+				"ch",
+				"charitable.html"
+			],
+			[
+				"ine",
+				"index.html"
+			],
+			[
+				"for",
+				"forms.html"
+			],
+			[
+				"sel",
+				"self_pay.html"
+			],
+			[
+				"scss",
+				"style.scss"
+			],
+			[
+				"style",
+				"style.scss"
+			],
+			[
+				"fu",
+				"functions.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/Russ/Dropbox/repos/hdn.frontend.dev/hdn_frontend.sublime-project"
+			],
+			[
+				"en",
+				"/Users/Russ/Dropbox/Public/dev/enjoy_benefits/enjoy_benefits.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 322.0,
+	"status_bar_visible": true
+}

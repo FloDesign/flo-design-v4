@@ -32,7 +32,8 @@ ul.main-nav{
 			text-decoration: none;
 			font-size: 18px;
 			font-size: 1.12rem;
-			border-top: 2px solid #fff;
+			border-top: 2px solid rgb(255, 255, 255);
+			border-top: 2px solid rgba(255, 255, 255, 0);
 			@include transition-duration(.5s);
 			padding-top: 0px;
 			&:hover{
@@ -83,6 +84,7 @@ header.shrink{
 }
 
 .masthead{
+	padding-bottom: 140px;
 	// background: url(../img/water.jpg) no-repeat center fixed;
 	img{
 		position: fixed;
@@ -92,7 +94,7 @@ header.shrink{
 
 	h1{
 		color: #fff;
-		padding: 215px 0 35px 0;
+		padding: 275px 0 35px 0;
 		line-height: 65px;
 	}
 	
@@ -148,7 +150,6 @@ header.shrink{
 .ctas{
 	margin: 0 auto;
 	text-align: center;
-	padding-bottom: 100px;
 }
 
 .masthead__btn{
@@ -195,7 +196,7 @@ header.shrink{
 	}	
 }
 
-// hello!
+
 
 .box.showscroll{
 	-webkit-animation-duration: .5s;
@@ -567,11 +568,14 @@ form.talk__form{
 
 .work_item{
 	background: #fff;
-	overflow-y: hidden;
+	overflow: hidden;
 	p{
 		font-size:18px;
 		font-size:1.12rem;
 		margin-top: 48px;
+	}
+	.col7{
+		height: 1px;
 	}
 }
 
@@ -579,10 +583,62 @@ form.talk__form{
 	position: absolute;
 }
 
-.work_item--iphone{
-	top: 110px;
+.work_item--mbp{
+	top: 20px;
 }
 
+.work_item--iphone{
+	top: 130px;
+}
+
+.tags{
+	margin-bottom: 100px;
+	li{
+		float: left;
+		padding: 2px 8px 0 8px;
+		font-size: 0.88rem;
+		font-size: 14px;
+		color: #9e9f9f;
+		background: $grey-bg;
+		margin: 0 10px 0 0;	
+	}
+}
+
+.work_item--even{
+	background: $grey-bg;
+	.work_item--mbp{
+		
+		right: 400px;
+	}
+	.work_item--iphone{
+		top: 130px;
+		right: 450px;
+	}
+
+	.tags li{
+		background: #fff;
+	}
+}
+
+
+
+
+.work_ctas{
+	margin-bottom: 15px;
+	li{
+		float: left;
+		text-transform: uppercase;
+		margin-right: 20px;
+		a{
+			padding: 5px;
+			&:hover{
+				text-decoration: none;
+				background: $highlight;
+				color: #fff;
+			}
+		}
+	}
+}
 
 footer{
 	color: $footer-copy;
