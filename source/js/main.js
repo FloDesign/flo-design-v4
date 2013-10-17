@@ -75,6 +75,11 @@ function parallax(){
 }
 
 
+$('.work_item').bind('inview', function (event, visible) {
+  if (visible == true) {
+    $(this).addClass('inview');
+  }
+});
 
 
 

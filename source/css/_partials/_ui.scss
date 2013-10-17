@@ -84,7 +84,7 @@ header.shrink{
 }
 
 .masthead{
-	padding-bottom: 140px;
+	// padding-bottom: 140px;
 	// background: url(../img/water.jpg) no-repeat center fixed;
 	img{
 		position: fixed;
@@ -93,8 +93,12 @@ header.shrink{
 	}
 
 	h1{
+		position: absolute;
+		top: 50%;
+		right: 24px;
+		left: 24px;
 		color: #fff;
-		padding: 275px 0 35px 0;
+		// padding: 275px 0 35px 0;
 		line-height: 65px;
 	}
 	
@@ -591,6 +595,41 @@ form.talk__form{
 	top: 130px;
 }
 
+
+.inview .work_item--iphone{
+		-webkit-animation-delay: 1.5s;
+		-webkit-animation-duration: .5s;
+		-webkit-animation-fill-mode:both;
+		-webkit-animation-name: ani-iphone-in;
+		-moz-animation-name: ani-iphone-in;
+		-o-animation-name: ani-iphone-in;
+		animation-name: ani-iphone-in;
+}
+
+.inview .work_item--mbp{
+		-webkit-animation-delay: 1.8s;
+		-webkit-animation-duration: .8s;
+		-webkit-animation-fill-mode:both;
+		-webkit-animation-name: ani-mbp-in;
+		-moz-animation-name: ani-mbp-in;
+		-o-animation-name: ani-mbp-in;
+		animation-name: ani-mbp-in;
+}
+
+
+@-webkit-keyframes ani-iphone-in {
+    0% { top: 500px; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { top: 130px;}
+}
+
+@-webkit-keyframes ani-mbp-in {
+    0% {top: 600px; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% {top: 20px;}
+}
+
+
 .tags{
 	margin-bottom: 100px;
 	li{
@@ -639,6 +678,10 @@ form.talk__form{
 		}
 	}
 }
+
+
+
+
 
 footer{
 	color: $footer-copy;
