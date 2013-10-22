@@ -84,21 +84,23 @@ header.shrink{
 }
 
 .masthead{
-	// padding-bottom: 140px;
+	padding-bottom: 140px;
 	// background: url(../img/water.jpg) no-repeat center fixed;
+
 	img{
 		position: fixed;
 		z-index: -1;
 		top:0;
+		
 	}
 
 	h1{
-		position: absolute;
-		top: 50%;
-		right: 24px;
-		left: 24px;
+		// position: absolute;
+		// top: 50%;
+		// right: 24px;
+		// left: 24px;
 		color: #fff;
-		// padding: 275px 0 35px 0;
+		padding: 275px 0 35px 0;
 		line-height: 65px;
 	}
 	

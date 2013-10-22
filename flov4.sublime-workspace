@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"max",
+				"max-height"
+			],
+			[
 				"bo",
 				"border-color"
 			],
@@ -375,7 +379,7 @@
 			"file": "source/work.html.erb",
 			"settings":
 			{
-				"buffer_size": 4307,
+				"buffer_size": 4321,
 				"line_ending": "Unix"
 			}
 		},
@@ -383,7 +387,7 @@
 			"file": "source/layouts/layout.erb",
 			"settings":
 			{
-				"buffer_size": 4753,
+				"buffer_size": 5103,
 				"line_ending": "Unix"
 			}
 		},
@@ -391,7 +395,7 @@
 			"file": "source/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 6348,
+				"buffer_size": 6362,
 				"line_ending": "Unix"
 			}
 		},
@@ -399,7 +403,7 @@
 			"file": "source/css/_partials/_ui.scss",
 			"settings":
 			{
-				"buffer_size": 11142,
+				"buffer_size": 12061,
 				"line_ending": "Unix"
 			}
 		},
@@ -424,6 +428,22 @@
 			"settings":
 			{
 				"buffer_size": 924,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/js/plugins.js",
+			"settings":
+			{
+				"buffer_size": 4517,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/js/main.js",
+			"settings":
+			{
+				"buffer_size": 1906,
 				"line_ending": "Unix"
 			}
 		}
@@ -752,7 +772,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -760,15 +780,15 @@
 					"file": "source/work.html.erb",
 					"settings":
 					{
-						"buffer_size": 4307,
+						"buffer_size": 4321,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4047,
-								4047
+								339,
+								339
 							]
 						],
 						"settings":
@@ -777,7 +797,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 397.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -787,15 +807,15 @@
 					"file": "source/layouts/layout.erb",
 					"settings":
 					{
-						"buffer_size": 4753,
+						"buffer_size": 5103,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								4283,
+								4283
 							]
 						],
 						"settings":
@@ -805,7 +825,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1000.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -815,15 +835,15 @@
 					"file": "source/index.html.erb",
 					"settings":
 					{
-						"buffer_size": 6348,
+						"buffer_size": 6362,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1252,
-								1263
+								3,
+								3
 							]
 						],
 						"settings":
@@ -848,15 +868,15 @@
 					"file": "source/css/_partials/_ui.scss",
 					"settings":
 					{
-						"buffer_size": 11142,
+						"buffer_size": 12061,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								717,
-								717
+								1540,
+								1518
 							]
 						],
 						"settings":
@@ -865,7 +885,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2.0,
+						"translation.y": 900.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -949,6 +969,62 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "source/js/plugins.js",
+					"settings":
+					{
+						"buffer_size": 4517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4514,
+								4514
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1392.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "source/js/main.js",
+					"settings":
+					{
+						"buffer_size": 1906,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1896,
+								1896
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 326.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		}
@@ -981,7 +1057,7 @@
 		"cols":
 		[
 			0.0,
-			0.510227433983,
+			0.443440265072,
 			1.0
 		],
 		"rows":
@@ -1480,6 +1556,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 322.0,
+	"side_bar_width": 180.0,
 	"status_bar_visible": true
 }
