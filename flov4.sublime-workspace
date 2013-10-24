@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background"
+			],
+			[
 				"max",
 				"max-height"
 			],
@@ -26,10 +30,6 @@
 			[
 				"fl",
 				"float"
-			],
-			[
-				"back",
-				"background-size"
 			],
 			[
 				"padd",
@@ -403,7 +403,7 @@
 			"file": "source/css/_partials/_ui.scss",
 			"settings":
 			{
-				"buffer_size": 12061,
+				"buffer_size": 12238,
 				"line_ending": "Unix"
 			}
 		},
@@ -560,6 +560,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Russ/Dropbox/patch-edid.rb",
 		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/login.php",
 		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/lib_art.php",
 		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/bbpress.php",
@@ -772,7 +773,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -825,7 +826,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1000.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -842,8 +843,8 @@
 						"selection":
 						[
 							[
-								3,
-								3
+								3068,
+								3068
 							]
 						],
 						"settings":
@@ -852,7 +853,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 678.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -868,15 +869,15 @@
 					"file": "source/css/_partials/_ui.scss",
 					"settings":
 					{
-						"buffer_size": 12061,
+						"buffer_size": 12238,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1540,
-								1518
+								3217,
+								3217
 							]
 						],
 						"settings":
@@ -885,7 +886,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 900.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -993,7 +994,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1392.0,
+						"translation.y": 1268.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1057,7 +1058,7 @@
 		"cols":
 		[
 			0.0,
-			0.443440265072,
+			0.505809181388,
 			1.0
 		],
 		"rows":
