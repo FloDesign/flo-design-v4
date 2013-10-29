@@ -13,6 +13,8 @@
     transition: all 0.3s;
 }
 
+
+
 ul.main-nav{
 	float: right;
 	position: relative;
@@ -693,8 +695,24 @@ form.talk__form{
 }
 
 
+.values{
+	background: #fff;
+	padding: 96px 0;
+	.box{
+		padding: 35px 24px 10px 24px; 
+	}
+}
 
-
+.big_quote{
+	font-size: 48px;
+	font-size: 3rem;
+	font-weight: 100;
+	color: $highlight;
+	text-align: center;
+	padding: 82px 0;
+	line-height: 60px;
+	line-height: 3.75rem;
+}
 
 footer{
 	color: $footer-copy;
