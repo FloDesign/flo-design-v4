@@ -511,10 +511,20 @@ a .icon-link{
 	padding-bottom: 72px;
 }
 
+.process{
+	background: #fff;
+	overflow: hidden;
+	padding-bottom: 72px;
+	img{
+		width: 100%;
+	}
+}
+
 form.talk__form{
 	width: 100%;
 	position: relative;
 	top: -20px;
+
 
 	input, textarea{
 		color: #aaaaaa;
