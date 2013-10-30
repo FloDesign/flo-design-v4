@@ -194,6 +194,12 @@ header.shrink{
 	text-align: center;
 	position: relative;
 	
+	h3{
+		font-weight: 100;
+		text-align: center;
+		margin-bottom: 24px;
+	}
+
 	p{
 		font-size: 14px;
 		font-size: .88rem;
@@ -722,6 +728,36 @@ form.talk__form{
 	padding: 82px 0;
 	line-height: 60px;
 	line-height: 3.75rem;
+}
+
+
+.team{
+	background: $grey-bg;
+	padding-bottom: 50px;
+}
+
+.member{
+	img{
+		width: 30%;
+		float: left;
+		margin-right: 5%;
+	}
+}
+
+.member__copy{
+	width: 65%;
+	float: right;
+	p{
+		padding-right: 10px;
+	}
+}
+
+ul.member__social li{
+	display: inline;
+	margin-right: 10px;
+	a{
+		color: $copy;
+	}
 }
 
 footer{
