@@ -1245,7 +1245,7 @@ footer {
     /* line 98, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     .masthead h1 {
       line-height: 40px;
-      padding: 20px 0 15px 0; }
+      padding: 40px 0 35px 0; }
     /* line 103, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     .masthead a {
       display: block;
@@ -1489,10 +1489,34 @@ footer {
     padding-bottom: 48px; }
 
   /* line 328, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
+  .values {
+    padding: 30px 0; }
+
+  /* line 332, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
+  .values .box {
+    padding: 20px 24px 10px 24px; }
+
+  /* line 336, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
+  .big_quote {
+    font-size: 22px;
+    font-size: 1.4rem;
+    padding: 32px 0;
+    line-height: 32px;
+    line-height: 2rem; }
+
+  /* line 344, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
+  .team {
+    padding-bottom: 10px; }
+
+  /* line 348, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
+  .member {
+    margin-bottom: 30px; }
+
+  /* line 352, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .footer-nav {
     position: relative; }
 
-  /* line 332, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
+  /* line 356, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .footer-logo {
     display: none; } }
 /*------------------------------------*\
