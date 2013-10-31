@@ -96,7 +96,7 @@
 	.masthead{
 		h1{
 			line-height: 40px;
-			padding: 20px 0 15px 0;
+			padding: 40px 0 35px 0;
 		}
 
 		a{
@@ -322,6 +322,30 @@
 
 	.talk{
 		padding-bottom: 48px;
+	}
+	
+	.values{
+		padding: 30px 0;
+	}
+
+	.values .box{
+		padding: 20px 24px 10px 24px;
+	}
+	
+	.big_quote{
+		font-size: 22px;
+		font-size: 1.4rem;
+		padding: 32px 0;
+		line-height: 32px;
+		line-height: 2rem;
+	}
+	
+	.team{
+		padding-bottom: 10px;
+	}
+
+	.member{
+		margin-bottom: 30px;
 	}
 
 	.footer-nav{
