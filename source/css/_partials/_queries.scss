@@ -43,12 +43,18 @@
 
 	
 	.talk-icon{
-	font-size: 34px;
-	font-size: 1.5rem;
-	padding-right: 10px;
-	
-}
+		font-size: 34px;
+		font-size: 1.5rem;
+		padding-right: 10px;	
+	}
 
+	.big_quote{
+	font-size: 38px;
+	font-size: 2.38rem;
+	padding: 62px 0;
+	line-height: 48px;
+	line-height: 3rem;
+}
 }
 
 @media screen and (max-width: 535px) {
