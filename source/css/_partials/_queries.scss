@@ -49,17 +49,26 @@
 	}
 
 	.big_quote{
-	font-size: 38px;
-	font-size: 2.38rem;
-	padding: 62px 0;
-	line-height: 48px;
-	line-height: 3rem;
-}
+		font-size: 38px;
+		font-size: 2.38rem;
+		padding: 62px 0;
+		line-height: 48px;
+		line-height: 3rem;
+	}
 }
 
 @media screen and (max-width: 535px) {
 	.col1,.col2,.col3,.col4,.col5,.col6,.col7,.col8,.col9,.col10,.col11,.col12{
 		width: 100%;
+		margin: 0;
+	}
+	
+	.process .col3{
+		width: 49%;
+		margin-right: 2%;
+	}
+
+	.process .col3:nth-child(even){
 		margin: 0;
 	}
 
@@ -98,6 +107,8 @@
 			font-size: 18px;
 			font-size: 1.12rem;
 		}
+
+		padding-bottom: 0;
 	}
 
 	.masthead__btn--solid{
@@ -310,9 +321,8 @@
 	
 
 	.talk{
-	
-	padding-bottom: 48px;
-}
+		padding-bottom: 48px;
+	}
 
 	.footer-nav{
 		position: relative;
