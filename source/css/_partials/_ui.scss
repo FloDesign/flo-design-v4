@@ -792,6 +792,52 @@ ul.member__social li{
 	}
 }
 
+
+.articles{
+	background: #fff;
+	padding-bottom: 20px;
+}
+.blog{
+	padding: 50px 0 40px 0;
+	border-bottom: 1px solid #ececec;
+	h2{
+		text-align: left;
+		padding: 10px 0 50px 0;
+		line-height: 48px;
+		line-height: 3rem;
+		a{
+			color: $copy;
+			&:hover{
+				color: $highlight;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.blog__main{
+	padding-right: 11.4%;
+}
+
+.post_meta{
+	position: absolute;
+	bottom: -60px;
+	width: 100%;
+	dl{
+	border-left: 1px solid #ececec;
+	padding: 0px 0 85px 10px;
+	font-size: 18px;
+	font-size: 1.12rem;
+	font-weight: 600;
+	display: block;
+		dt{
+		float: left;
+		color: #a6a6a6;
+		margin-right: 10px;
+		}
+	}	
+} 
+
 footer{
 	color: $footer-copy;
 	background: $copy;

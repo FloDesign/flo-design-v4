@@ -12,6 +12,10 @@
 	.col3{
 		width: 49%;
 	}
+	
+	.articles .col3{
+		width: 23.5%;
+	}
 
 	.row .col3:nth-child(even){
 	margin: 0;
@@ -347,6 +351,29 @@
 	.member{
 		margin-bottom: 30px;
 	}
+	
+	.blog{
+		padding: 50px 0 50px 0;
+		h2{
+			padding: 0 0 20px 0;
+		}
+	}
+	
+	.blog__main{
+		padding-right: 0;
+	}
+
+	.post_meta{
+		bottom: -30px;
+		dl{
+		border-left: none;
+		padding: 0;
+		dd{
+			float: left;
+			margin-right: 15px;
+		}
+	}
+	} 
 
 	.footer-nav{
 		position: relative;
@@ -355,7 +382,4 @@
 	.footer-logo{
 		display: none;
 	}
-	
-
-
 }
