@@ -63,7 +63,7 @@ ul.main-nav{
 	background-size: 70%;
 }
 
-header{
+header.site-header{
 	z-index: 999;
 	background: rgb(255, 255, 255);
 	background: rgba(255, 255, 255, .95);
@@ -73,7 +73,10 @@ header{
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+}
 
+.blog_post .site-header{
+	border-bottom: 1px solid $inactive;
 }
 
 header.shrink{
@@ -81,6 +84,8 @@ header.shrink{
 	border-bottom: 1px solid $inactive;
 	overflow: hidden;
 }
+
+
 
 .mob-nav-btn{
 	display: none;
@@ -523,6 +528,7 @@ a .icon-link{
 	padding-bottom: 72px;
 	img{
 		width: 100%;
+
 	}
 }
 
@@ -789,6 +795,11 @@ ul.member__social li{
 	margin-right: 10px;
 	a{
 		color: $copy;
+		@include transition-duration(.5s);
+		&:hover{
+			text-decoration: none;
+			color: $highlight;
+		}
 	}
 }
 
@@ -797,7 +808,7 @@ ul.member__social li{
 	background: #fff;
 	padding-bottom: 20px;
 }
-.blog{
+.blog_item{
 	padding: 50px 0 40px 0;
 	border-bottom: 1px solid #ececec;
 	h2{
@@ -807,6 +818,7 @@ ul.member__social li{
 		line-height: 3rem;
 		a{
 			color: $copy;
+			@include transition-duration(.5s);
 			&:hover{
 				color: $highlight;
 				text-decoration: none;
@@ -837,6 +849,12 @@ ul.member__social li{
 		}
 	}	
 } 
+
+
+.article_wrapper{
+	padding-top: 100px;
+	background: #fff;
+}
 
 footer{
 	color: $footer-copy;
