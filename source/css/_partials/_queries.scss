@@ -59,6 +59,13 @@
 		line-height: 48px;
 		line-height: 3rem;
 	}
+
+	.tags{
+		margin-bottom: 10px;
+		li{
+			margin: 0 10px 10px 0;
+		}
+	}
 }
 
 @media screen and (max-width: 535px) {
@@ -86,6 +93,8 @@
 		font-size:1.88rem;
 		font-weight: 600;
 		padding: 35px 0 25px 0;
+		line-height: 30px;
+		line-height: 1.88rem;
 	}
 
 	h3,.gamma{
@@ -131,6 +140,10 @@
 			margin: 0;
 		}
 	}
+
+	header.shrink{
+			position: relative;
+		}
 
 	.site-logo{
 		background-size: 70%;
@@ -374,6 +387,38 @@
 		}
 	}
 	} 
+	
+	
+	.work_item{
+		padding-bottom: 250px;
+		p{
+			margin-top: 0;
+		}
+	}
+	
+	.work_imgs{
+		top: -10px;
+	}
+	
+	
+	.article_wrapper{
+	padding-top: 0px;
+	
+	}
+
+	.blog_item{
+		padding: 20px 0 40px 0;
+		h2{
+			padding: 0px 0 15px 0;
+		}
+	}
+
+	@-webkit-keyframes ani-iphone-in {
+    0% { top: 500px; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { top: 50px;}
+	}
+	
 
 	.footer-nav{
 		position: relative;

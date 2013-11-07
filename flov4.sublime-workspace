@@ -4,8 +4,28 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
 				"back",
-				"background"
+				"background-position"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"s",
+				"structure.svg"
 			],
 			[
 				"max",
@@ -16,10 +36,6 @@
 				"border-color"
 			],
 			[
-				"text",
-				"text-decoration"
-			],
-			[
 				"fo",
 				"font-size"
 			],
@@ -28,20 +44,8 @@
 				"margin"
 			],
 			[
-				"fl",
-				"float"
-			],
-			[
-				"padd",
-				"padding-bottom"
-			],
-			[
 				"pa",
 				"padding"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"padding",
@@ -379,7 +383,31 @@
 			"file": "source/work.html.erb",
 			"settings":
 			{
-				"buffer_size": 4321,
+				"buffer_size": 4307,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/about.html.erb",
+			"settings":
+			{
+				"buffer_size": 5765,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/blog_post.html.erb",
+			"settings":
+			{
+				"buffer_size": 4698,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/blog.html.erb",
+			"settings":
+			{
+				"buffer_size": 2707,
 				"line_ending": "Unix"
 			}
 		},
@@ -387,7 +415,7 @@
 			"file": "source/layouts/layout.erb",
 			"settings":
 			{
-				"buffer_size": 5103,
+				"buffer_size": 4792,
 				"line_ending": "Unix"
 			}
 		},
@@ -395,7 +423,7 @@
 			"file": "source/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 6362,
+				"buffer_size": 6418,
 				"line_ending": "Unix"
 			}
 		},
@@ -403,7 +431,23 @@
 			"file": "source/css/_partials/_ui.scss",
 			"settings":
 			{
-				"buffer_size": 12250,
+				"buffer_size": 14615,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/css/_partials/_grid.scss",
+			"settings":
+			{
+				"buffer_size": 978,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/js/plugins.js",
+			"settings":
+			{
+				"buffer_size": 4517,
 				"line_ending": "Unix"
 			}
 		},
@@ -411,7 +455,7 @@
 			"file": "source/css/_partials/_type.scss",
 			"settings":
 			{
-				"buffer_size": 1681,
+				"buffer_size": 1726,
 				"line_ending": "Unix"
 			}
 		},
@@ -424,18 +468,10 @@
 			}
 		},
 		{
-			"file": "source/css/_partials/_grid.scss",
+			"file": "source/css/_partials/_queries.scss",
 			"settings":
 			{
-				"buffer_size": 924,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/js/plugins.js",
-			"settings":
-			{
-				"buffer_size": 4517,
+				"buffer_size": 4755,
 				"line_ending": "Unix"
 			}
 		},
@@ -560,6 +596,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Russ/Documents/flodesign_v4/.gitignore",
 		"/Users/Russ/Dropbox/patch-edid.rb",
 		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/login.php",
 		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/lib_art.php",
@@ -773,7 +810,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -781,15 +818,15 @@
 					"file": "source/work.html.erb",
 					"settings":
 					{
-						"buffer_size": 4321,
+						"buffer_size": 4307,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								339,
-								339
+								260,
+								260
 							]
 						],
 						"settings":
@@ -805,18 +842,99 @@
 				},
 				{
 					"buffer": 1,
-					"file": "source/layouts/layout.erb",
+					"file": "source/about.html.erb",
 					"settings":
 					{
-						"buffer_size": 5103,
+						"buffer_size": 5765,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4283,
-								4283
+								2538,
+								2538
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/blog_post.html.erb",
+					"settings":
+					{
+						"buffer_size": 4698,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "source/blog.html.erb",
+					"settings":
+					{
+						"buffer_size": 2707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								359,
+								95
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "source/layouts/layout.erb",
+					"settings":
+					{
+						"buffer_size": 4792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1686,
+								1686
 							]
 						],
 						"settings":
@@ -832,19 +950,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 5,
 					"file": "source/index.html.erb",
 					"settings":
 					{
-						"buffer_size": 6362,
+						"buffer_size": 6418,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3068,
-								3068
+								3537,
+								3537
 							]
 						],
 						"settings":
@@ -853,7 +971,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 678.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -865,19 +983,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 6,
 					"file": "source/css/_partials/_ui.scss",
 					"settings":
 					{
-						"buffer_size": 12250,
+						"buffer_size": 14615,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1057,
-								1057
+								1398,
+								1431
 							]
 						],
 						"settings":
@@ -886,93 +1004,40 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "source/css/_partials/_type.scss",
-					"settings":
-					{
-						"buffer_size": 1681,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1093,
-								1093
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 234.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "source/css/_partials/_vars.scss",
-					"settings":
-					{
-						"buffer_size": 199,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "source/css/_partials/_grid.scss",
-					"settings":
-					{
-						"buffer_size": 924,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								94,
-								94
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1.0,
+						"translation.y": 178.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
+					"file": "source/css/_partials/_grid.scss",
+					"settings":
+					{
+						"buffer_size": 978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								974,
+								974
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "source/js/plugins.js",
 					"settings":
 					{
@@ -998,9 +1063,95 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"file": "source/css/_partials/_type.scss",
+					"settings":
+					{
+						"buffer_size": 1726,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1563,
+								1563
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
+					"file": "source/css/_partials/_vars.scss",
+					"settings":
+					{
+						"buffer_size": 199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "source/css/_partials/_queries.scss",
+					"settings":
+					{
+						"buffer_size": 4755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4546,
+								4546
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3474.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
 					"file": "source/js/main.js",
 					"settings":
 					{
@@ -1011,8 +1162,8 @@
 						"selection":
 						[
 							[
-								1896,
-								1896
+								1862,
+								1869
 							]
 						],
 						"settings":
@@ -1022,7 +1173,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 326.0,
+						"translation.y": 104.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1053,12 +1204,19 @@
 				0,
 				2,
 				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.505809181388,
+			0.375428830102,
+			0.739181679187,
 			1.0
 		],
 		"rows":
@@ -1078,6 +1236,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"_qu",
+				"css/_partials/_queries.scss"
+			],
 			[
 				"ind",
 				"index.php"
@@ -1169,10 +1331,6 @@
 			[
 				".js",
 				"js/script.js"
-			],
-			[
-				"_qu",
-				"sass/partials/_queries.scss"
 			],
 			[
 				"cus",
@@ -1556,7 +1714,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 180.0,
 	"status_bar_visible": true
 }
