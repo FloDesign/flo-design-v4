@@ -45,7 +45,6 @@
 
 	}	
 
-	
 	.talk-icon{
 		font-size: 34px;
 		font-size: 1.5rem;
@@ -65,6 +64,18 @@
 		li{
 			margin: 0 10px 10px 0;
 		}
+	}
+
+	@-webkit-keyframes ani-iphone-in {
+	    0% { top: 1000px; }	
+	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+	    100% { top: 110px;}
+	}
+
+	@-webkit-keyframes ani-mbp-in {
+	    0% {top: 1000px; }	
+	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+	    100% {top: 20px;}
 	}
 }
 
@@ -419,6 +430,14 @@
     100% { top: 50px;}
 	}
 	
+	.work_item--even {
+		.col7{
+			position: absolute;
+			bottom: -20px;
+		}
+	}
+
+	.work_item--even 
 
 	.footer-nav{
 		position: relative;
