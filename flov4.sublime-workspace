@@ -387,7 +387,7 @@
 			"file": "source/work.html.erb",
 			"settings":
 			{
-				"buffer_size": 4504,
+				"buffer_size": 4502,
 				"line_ending": "Unix"
 			}
 		},
@@ -424,6 +424,14 @@
 			}
 		},
 		{
+			"file": "source/services.html.erb",
+			"settings":
+			{
+				"buffer_size": 1082,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "source/index.html.erb",
 			"settings":
 			{
@@ -432,10 +440,7 @@
 			}
 		},
 		{
-			"contents": "// header\n.site-logo{\n	background: url(../img/flo-logo.svg) no-repeat;\n	background-size: 100%;\n	width: 91px;\n	height: 73px;\n	display: block;\n	float: left;\n	position: relative;\n	top: 24px;\n	-webkit-transition: all 0.3s;\n    -moz-transition: all 0.3s;\n    transition: all 0.3s;\n}\n\n.index .site-logo{\n	cursor: default;\n}\n\n\nul.main-nav{\n	float: right;\n	position: relative;\n	top: 80px;\n	-webkit-transform: translateZ(0);\n	-ms-transform: translateZ(0);\n	-o-transform: translateZ(0);\n	transform: translateZ(0);\n	-webkit-transition: all 0.3s;\n    -moz-transition: all 0.3s;\n    transition: all 0.3s;\n	li{\n		display: inline;\n		a{\n			margin-left: 46px;\n			color: $inactive;\n			text-decoration: none;\n			font-size: 18px;\n			font-size: 1.12rem;\n			border-top: 2px solid rgb(255, 255, 255);\n			border-top: 2px solid rgba(255, 255, 255, 0);\n			@include transition-duration(.5s);\n			padding-top: 0px;\n			&:hover{\n				color: $highlight;\n				border-top: 2px solid $highlight;\n				padding-top: 10px;\n			}\n		}\n	}\n}\n\n.about a.about_link,\n.work a.work_link,\n.blog a.blog_link,\n.blog_post a.blog_link,{\n	color: $highlight;\n	border-top: 2px solid $highlight;\n	padding-top: 10px;\n}\n\n.shrink ul.main-nav{\n	top: 15px;\n}\n\n.shrink .site-logo{\n	top: 8px;\n	background-size: 70%;\n}\n\nheader{\n	z-index: 999;\n	background: rgb(255, 255, 255);\n	background: rgba(255, 255, 255, .95);\n	position: fixed;\n	width: 100%;\n	height: 120px;\n	-webkit-transition: all 0.3s;\n    -moz-transition: all 0.3s;\n    transition: all 0.3s;\n    -webkit-transform: translateZ(0);\n}\n\n.blog_post .site-header{\n	border-bottom: 1px solid $inactive;\n}\n\nheader.shrink{\n	height: 50px;\n	border-bottom: 1px solid $inactive;\n	overflow: hidden;\n	z-index: 999;\n	background: rgb(255, 255, 255);\n	background: rgba(255, 255, 255, .95);\n	position: fixed;\n	width: 100%;\n}\n\n\n\n.mob-nav-btn{\n	display: none;\n}\n\n.masthead{\n	padding-bottom: 140px;\n	// background: url(../img/water.jpg) no-repeat center fixed;\n\n	img{\n		position: fixed;\n		z-index: -1;\n		top:0;\n		\n	}\n\n	h1{\n		// position: absolute;\n		// top: 50%;\n		// right: 24px;\n		// left: 24px;\n		color: #fff;\n		padding: 275px 0 35px 0;\n		line-height: 65px;\n	}\n	\n	.hp-title-one{\n		-webkit-animation-delay: .5s;\n		-webkit-animation-duration: 1s;\n		-webkit-animation-fill-mode:both;\n		-webkit-animation-name: show;\n		-moz-animation-name: show;\n		-o-animation-name: show;\n		animation-name: show;\n		position: relative;\n	}\n\n	.hp-title-two{\n		-webkit-animation-delay: 1.5s;\n		-webkit-animation-duration: 1s;\n		-webkit-animation-fill-mode:both;\n		-webkit-animation-name: show;\n		-moz-animation-name: show;\n		-o-animation-name: show;\n		animation-name: show;\n		position: relative;\n	}\n\n	a{\n		text-decoration: none;\n		text-transform: uppercase;\n		font-size: 24px;\n		font-size: 1.5rem;\n		font-weight: 400;\n		padding: 7px 15px;\n		white-space: nowrap;\n		-webkit-animation-delay: 1.5s;\n		-webkit-animation-duration: 1.5s;\n		-webkit-animation-fill-mode:both;\n		-webkit-animation-name: show;\n		-moz-animation-name: show;\n		-o-animation-name: show;\n		animation-name: show;\n		position: relative;\n	}\n}\n\n @-webkit-keyframes show {\n    0% {opacity: 0; top: 20px; }	\n    // 50% {opacity: .5; -webkit-transform: scale(1.05);}\n    100% {opacity: 1; top: 0px;}\n}\n\n\n\n.ctas{\n	margin: 0 auto;\n	text-align: center;\n}\n\n.masthead__btn{\n	color: #fff;\n	border: 1px solid #fff;\n	@include transition-duration(.5s);\n	&:hover{\n		background: #fff;\n		color: #072e4a;\n	}\n}\n\n.masthead__btn--solid{\n	color: #072e4a;\n	background: #fff;\n	border: 1px solid #fff;\n	margin-left: 18px;\n	@include transition-duration(.5s);\n	&:hover{\n		background: transparent;\n		color: #fff;\n	}\n}\n\n.bg-arrow{\n	position: relative;\n	top: 3px;\n}\n\n.box{\n	border: 1px solid $highlight;\n	padding: 35px 24px;\n	text-align: center;\n	position: relative;\n	\n	h3{\n		font-weight: 100;\n		text-align: center;\n		margin-bottom: 24px;\n	}\n\n	p{\n		font-size: 14px;\n		font-size: .88rem;\n	}\n	a{\n		text-transform: uppercase;\n		padding: 5px;\n		-webkit-perspective: 1000px;\n		-moz-perspective: 1000px;\n		perspective: 1000px;\n	}\n\n	.icon\n	{\n		color: $highlight;\n		font-size: 40px;\n		margin: 0 0 22px 0;\n		display: block;\n	}	\n}\n\n\n\n.box.showscroll{\n	-webkit-animation-duration: .5s;\n	-webkit-animation-fill-mode:both;\n	-webkit-animation-name: pulse;\n	-moz-animation-name: pulse;\n	-o-animation-name: pulse;\n	animation-name: pulse;\n}\n\n.showscroll.box1{\n	-webkit-animation-delay: .5s;\n}\n\n.showscroll.box2{\n	-webkit-animation-delay: .7s;\n}\n\n.showscroll.box3{\n	-webkit-animation-delay: .9s;\n}\n\n.showscroll.box4{\n	-webkit-animation-delay: 1.1s;\n}\n\n\n@-webkit-keyframes pulse {\n    0% {-webkit-transform: scale(1); }	\n    50% { -webkit-transform: scale(1.05);}\n    100% { -webkit-transform: scale(1);}\n}\n\n@-moz-keyframes pulse {\n    0% { -moz-transform: scale(1); }	\n	50% { -moz-transform: scale(1.1); }\n    100% { -moz-transform: scale(1); }\n}\n@-o-keyframes pulse {\n    0% { -o-transform: scale(1); }	\n	50% { -o-transform: scale(1.1); }\n    100% { -o-transform: scale(1); }\n}\n@keyframes pulse {\n    0% { transform: scale(1); }	\n	50% { transform: scale(1.1); }\n    100% { transform: scale(1); }\n}\n\n\n\n.box__corner{\n	width: 0px;\n	height: 0px;\n	border-style: solid;\n	border-width: 30px 30px 0 0;\n	border-color: #3d9add transparent transparent transparent;\n	position: absolute;\n	top: 0;\n	left: 0;\n}\n\n.offer{\n	background: #fff;\n	padding-bottom: 96px;\n}\n\n.built{\n	background: $grey-bg;\n	overflow: hidden;\n}\n\n\n\na .icon-link{\n	position: relative;\n	top: 3px;\n	left: 4px;\n	font-size: 20px;\n}\n\n.cl-effect-2 a {\n	line-height: 26px;\n	-webkit-perspective: 1000px;\n	-moz-perspective: 1000px;\n	perspective: 1000px;\n}\n\n.cl-effect-2 a span.hover-effect {\n	position: relative;\n	display: inline-block;\n	padding: 0 14px;\n	background: #fff;\n	-webkit-transition: -webkit-transform 0.3s;\n	-moz-transition: -moz-transform 0.3s;\n	transition: transform 0.3s;\n	-webkit-transform-origin: 50% 0;\n	-moz-transform-origin: 50% 0;\n	transform-origin: 50% 0;\n	-webkit-transform-style: preserve-3d;\n	-moz-transform-style: preserve-3d;\n	transform-style: preserve-3d;\n}\n\n.csstransforms3d .cl-effect-2 a span.hover-effect::before {\n	position: absolute;\n	color: #fff;\n	top: 100%;\n	left: 0;\n	width: 100%;\n	height: 100%;\n	background: $highlight;\n	content: attr(data-hover);\n	-webkit-transition: background 0.3s;\n	-moz-transition: background 0.3s;\n	transition: background 0.3s;\n	-webkit-transform: rotateX(-90deg);\n	-moz-transform: rotateX(-90deg);\n	transform: rotateX(-90deg);\n	-webkit-transform-origin: 50% 0;\n	-moz-transform-origin: 50% 0;\n	transform-origin: 50% 0;\n}\n\n.cl-effect-2 a:hover span.hover-effect,\n.cl-effect-2 a:focus span.hover-effect {\n	-webkit-transform: rotateX(90deg) translateY(-22px);\n	-moz-transform: rotateX(90deg) translateY(-22px);\n	transform: rotateX(90deg) translateY(-22px);\n}\n\n.csstransforms3d .cl-effect-2 a:hover span.hover-effect::before,\n.csstransforms3d .cl-effect-2 a:focus span.hover-effect::before {\n	background: #28a2ee;	\n}\n\n.built__info{\n	background: rgba(61, 155, 221, .9);\n	width: 50%;\n	padding: 20px;\n	min-height: 120px;\n    bottom: -270px;\n    \n	h4{\n		color: #fff;\n		padding-bottom: 10px;\n	}\n	a{\n		color: #fff;\n	}\n}\n\n.animate-in .built__info{\n	\n	left: 0px;\n    bottom: 141px;\n    @include transition-duration(.5s);\n    @include transition-delay(1s);\n}\n\n.animate-out .built__info{\n	\n    bottom: 800px;\n    @include transition-duration(.5s);\n}\n\n.mbp{\n	opacity: 1;\n	top: -1000px;\n}\n\n.animate-in .mbp{\n	opacity: 1;\n	top: 0;\n	@include transition-duration(.5s);\n	@include transition-delay(.5s);\n}\n\n.animate-out .mbp{\n	top: 0;\n	opacity: 0;\n	@include transition-duration(.8s);\n	@include transition-delay(.3s);\n}\n\n\n.iphone{\n	right: 100px;\n	bottom: 1000px;\n	opacity: 1;\n}\n\n.animate-in .iphone{\n	right: 100px;\n	bottom: 90px;\n	opacity: 1;\n	@include transition-duration(.5s);\n	@include transition-delay(.8s);\n}\n\n.animate-out .iphone{\n	opacity: 1;\n	bottom: 90px;\n	right: -800px;\n	@include transition-duration(.5s);\n	@include transition-delay(.2s);\n}\n\n.mbp_cfs{\n	opacity: 1;\n	bottom: -1000px;\n}\n\n.animate-in .mbp_cfs{\n	opacity: 1;\n	bottom: 0;\n	@include transition-duration(.5s);\n	@include transition-delay(.5s);\n}\n\n.animate-out .mbp_cfs{\n	bottom: -1000px;\n	opacity: 1;\n	@include transition-duration(.8s);\n}\n\n\n.ipad-vp{\n	\n	top: -1000px;\n	left: 50px;\n}\n\n.animate-in .ipad-vp{\n	\n	top: 0;\n	@include transition-duration(.5s);\n	@include transition-delay(.5s);\n}\n\n.animate-out .ipad-vp{\n	top: 1000px;\n	@include transition-duration(.8s);\n}\n\n\n.iphone-vp{\n	top: -1000px;\n	right: 80px;\n}\n\n.animate-in .iphone-vp{\n	top: 200px;\n	@include transition-duration(.5s);\n	@include transition-delay(.8s);\n}\n\n.animate-out .iphone-vp{\n	top: 1000px;\n	@include transition-duration(.8s);\n	@include transition-delay(.2s);\n}\n\n#sequence {\n	-webkit-transform: translateZ(0);\n	-ms-transform: translateZ(0);\n	-o-transform: translateZ(0);\n	transform: translateZ(0);\n	width: 100%;\n	height: 600px;\n    position: relative; /* required */\n}\n\n#sequence > .sequence-canvas li > * {  /* required */\n    position: absolute;\n}\n\n#sequence > .sequence-canvas { /* required */\n    height: 100%; \n    width: 100%;\n}\n\n#sequence > .sequence-canvas > li { /* required */\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    z-index: 1;\n}\n\n.talk{\n	background: #fff;\n	overflow: hidden;\n	padding-bottom: 72px;\n}\n\n.process{\n	background: #fff;\n	overflow: hidden;\n	padding-bottom: 72px;\n	img{\n		width: 100%;\n\n	}\n}\n\nform.talk__form{\n	width: 100%;\n	position: relative;\n	top: -20px;\n\n\n	input, textarea{\n		color: #aaaaaa;\n		background: #fff;\n		display: block;\n		width: 100%;\n		border-bottom: 1px solid $highlight;\n		border-top: 0;\n		border-right: 0;\n		border-left: 0;\n		font-family: \"proxima-nova\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n		font-weight: 100;\n		font-size: 24px;\n		font-size: 1.5rem;\n		padding: 20px 0 10px 0;\n		&:focus{\n		outline: none;\n	}\n	}\n}\n\n.form_dropdown select{\n	color: #aaaaaa;\n	width: 100%;\n	background: transparent;\n	display: block;\n	border: none;\n	font-family: \"proxima-nova\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n	font-weight: 100;\n	font-size: 24px;\n	font-size: 1.5rem;\n	padding: 20px 0 10px 0;\n	border-radius: 0;\n	-webkit-appearance: none;\n	&:focus{\n		outline: none;\n	}\n}\n\n.form_dropdown{\n	border-bottom: 1px solid $highlight;\n}\n\n.talk__details li{\n	font-size: 36px;\n	font-size: 2.25rem; \n	font-weight: 600;\n	padding: 24px 0;\n	&:first-child{\n		border-bottom: 1px solid #abadb2;\n	}\n	a{\n		color: $copy;\n	}\n}\n\n.grey{\n	color: #abadb2;\n}\n\n.talk-icon{\n	color: $highlight;\n	padding-right: 20px;\n	font-size: 30px;\n	font-size: 1.88rem;\n	position: relative;\n	top: 5px;\n}\n\n\n.work_item{\n	background: #fff;\n	overflow: hidden;\n	p{\n		font-size:18px;\n		font-size:1.12rem;\n		margin-top: 48px;\n	}\n	.col7{\n		height: 1px;\n	}\n}\n\n.work_imgs{\n	position: relative;\n}\n\n.work_item--iphone, .work_item--mbp{\n	position: absolute;\n}\n\n.work_item--mbp{\n	top: 20px;\n}\n\n.work_item--iphone{\n	top: 130px;\n}\n\n\n.inview .work_item--iphone{\n		-webkit-animation-delay: 1.5s;\n		-webkit-animation-duration: .5s;\n		-webkit-animation-fill-mode:both;\n		-webkit-animation-name: ani-iphone-in;\n		-moz-animation-name: ani-iphone-in;\n		-o-animation-name: ani-iphone-in;\n		animation-name: ani-iphone-in;\n}\n\n.inview .work_item--mbp{\n		-webkit-animation-delay: 1.8s;\n		-webkit-animation-duration: .8s;\n		-webkit-animation-fill-mode:both;\n		-webkit-animation-name: ani-mbp-in;\n		-moz-animation-name: ani-mbp-in;\n		-o-animation-name: ani-mbp-in;\n		animation-name: ani-mbp-in;\n}\n\n\n@-webkit-keyframes ani-iphone-in {\n    0% { top: 500px; }	\n    // 50% {opacity: .5; -webkit-transform: scale(1.05);}\n    100% { top: 110px;}\n}\n\n@-webkit-keyframes ani-mbp-in {\n    0% {top: 600px; }	\n    // 50% {opacity: .5; -webkit-transform: scale(1.05);}\n    100% {top: 20px;}\n}\n\n\n.tags{\n	margin-bottom: 100px;\n	li{\n		float: left;\n		padding: 2px 8px 0 8px;\n		font-size: 0.88rem;\n		font-size: 14px;\n		color: #9e9f9f;\n		background: $grey-bg;\n		margin: 0 10px 0 0;	\n	}\n}\n\n.work_item--even{\n	background: $grey-bg;\n	.work_item--mbp{\n		\n		right: 0px;\n	}\n	.work_item--iphone{\n		top: 130px;\n		right: 0px;\n	}\n\n	.tags li{\n		background: #fff;\n	}\n}\n\n\n\n\n.work_ctas{\n	margin-bottom: 15px;\n	li{\n		float: left;\n		text-transform: uppercase;\n		margin-right: 20px;\n		a{\n			padding: 5px;\n			&:hover{\n				text-decoration: none;\n				background: $highlight;\n				color: #fff;\n			}\n		}\n	}\n}\n\n\n\n\n\n\n\n.values{\n	background: #fff;\n	padding: 96px 0;\n	.box{\n		padding: 35px 24px 10px 24px; \n	}\n}\n\n.icon-fire{\n	background: url(../img/fire.svg) no-repeat;\n	width: 100%;\n	height: 49px;\n	background-position-x: center;\n	margin-bottom: 16px; \n}\n\n.icon-people{\n	background: url(../img/people.svg) no-repeat;\n	width: 100%;\n	height: 49px;\n	background-position-x: center;\n	margin-bottom: 16px; \n}\n\n.icon-happy{\n	background: url(../img/happy.svg) no-repeat;\n	width: 100%;\n	height: 49px;\n	background-position-x: center;\n	margin-bottom: 16px; \n}\n\n.icon-web{\n	background: url(../img/web.svg) no-repeat;\n	width: 100%;\n	height: 49px;\n	background-position-x: center;\n	margin-bottom: 16px; \n}\n\n.big_quote{\n	font-size: 48px;\n	font-size: 3rem;\n	font-weight: 100;\n	color: $highlight;\n	text-align: center;\n	padding: 82px 0;\n	line-height: 60px;\n	line-height: 3.75rem;\n}\n\n\n.team{\n	background: $grey-bg;\n	padding-bottom: 50px;\n}\n\n.member{\n	img{\n		width: 30%;\n		float: left;\n		margin-right: 5%;\n	}\n}\n\n.member__copy{\n	width: 65%;\n	float: right;\n	p{\n		padding-right: 10px;\n	}\n}\n\nul.member__social li{\n	display: inline;\n	margin-right: 10px;\n	a{\n		color: $copy;\n		@include transition-duration(.5s);\n		&:hover{\n			text-decoration: none;\n			color: $highlight;\n		}\n	}\n}\n\n\n.articles{\n	background: #fff;\n	padding-bottom: 20px;\n}\n.blog_item{\n	padding: 50px 0 40px 0;\n	border-bottom: 1px solid #ececec;\n	h2{\n		text-align: left;\n		padding: 10px 0 50px 0;\n		line-height: 48px;\n		line-height: 3rem;\n		a{\n			color: $copy;\n			@include transition-duration(.5s);\n			&:hover{\n				color: $highlight;\n				text-decoration: none;\n			}\n		}\n	}\n}\n\n.blog__main{\n	padding-right: 11.4%;\n}\n\n.post_meta{\n	position: absolute;\n	bottom: -60px;\n	width: 100%;\n	dl{\n	border-left: 1px solid #ececec;\n	padding: 0px 0 85px 10px;\n	font-size: 18px;\n	font-size: 1.12rem;\n	font-weight: 600;\n	display: block;\n		dt{\n		float: left;\n		color: #a6a6a6;\n		margin-right: 10px;\n		}\n	}	\n} \n\n\n.article_wrapper{\n	padding-top: 100px;\n	background: #fff;\n}\n\nfooter{\n	color: $footer-copy;\n	background: $copy;\n	padding: 48px 0 24px 0;\n}\n\n.social-links{\n	margin-bottom: 24px;\n	li{\n		display: inline;\n		a{\n			color: $footer-copy;\n			margin-right: 3px;\n		}\n	}\n}\n\n.footer-nav{\n		position: absolute;\n		right: 0;\n		bottom: 0;\n		margin-bottom: 24px;\n		li{\n			display: inline;\n			border-right: 1px solid $footer-copy;\n			&:last-child{\n					border-right: 0;\n				} \n			a{\n				color: $footer-copy;\n				\n				padding-right: 5px;\n				\n			}\n		}\n}\n\n.footer-logo{\n	position: absolute;\n	right: 0;\n}\n",
 			"file": "source/css/_partials/_ui.scss",
-			"file_size": 14741,
-			"file_write_time": 1384770599000000,
 			"settings":
 			{
 				"buffer_size": 14740,
@@ -494,7 +499,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 327.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -746,6 +751,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"work_item",
 			"col6",
 			"btn",
 			"no-s",
@@ -825,15 +831,15 @@
 					"file": "source/work.html.erb",
 					"settings":
 					{
-						"buffer_size": 4504,
+						"buffer_size": 4502,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4466,
-								4466
+								324,
+								324
 							]
 						],
 						"settings":
@@ -842,7 +848,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 210.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -958,6 +964,33 @@
 				},
 				{
 					"buffer": 5,
+					"file": "source/services.html.erb",
+					"settings":
+					{
+						"buffer_size": 1082,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								393,
+								393
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "source/index.html.erb",
 					"settings":
 					{
@@ -978,7 +1011,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1166.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -990,7 +1023,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "source/css/_partials/_ui.scss",
 					"settings":
 					{
@@ -1017,7 +1050,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "source/css/_partials/_grid.scss",
 					"settings":
 					{
@@ -1044,7 +1077,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "source/js/plugins.js",
 					"settings":
 					{
@@ -1070,15 +1103,9 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "source/css/_partials/_type.scss",
 					"settings":
 					{
@@ -1105,7 +1132,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "source/css/_partials/_vars.scss",
 					"settings":
 					{
@@ -1131,7 +1158,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "source/css/_partials/_queries.scss",
 					"settings":
 					{
@@ -1142,8 +1169,8 @@
 						"selection":
 						[
 							[
-								2341,
-								2378
+								1127,
+								1144
 							]
 						],
 						"settings":
@@ -1152,13 +1179,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1016.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "source/js/main.js",
 					"settings":
 					{
@@ -1211,19 +1238,12 @@
 				0,
 				2,
 				1
-			],
-			[
-				2,
-				0,
-				3,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.383581144449,
-			0.672259682117,
+			0.643817429315,
 			1.0
 		],
 		"rows":
