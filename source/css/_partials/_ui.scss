@@ -52,6 +52,7 @@ ul.main-nav{
 
 .about a.about_link,
 .work a.work_link,
+.services a.services_link,
 .blog a.blog_link,
 .blog_post a.blog_link,{
 	color: $highlight;
@@ -632,8 +633,20 @@ form.talk__form{
 }
 
 
+.service_item{
+	padding-bottom: 110px;
+}
+
 .service_item_even{
 	background: $grey-bg;
+}
+
+
+.service_img img{
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 315px;
 }
 
 .work_imgs{
