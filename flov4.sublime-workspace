@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"ar",
+				"arrows.svg"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
 				"padd",
 				"padding-bottom"
 			],
@@ -18,10 +26,6 @@
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"back",
-				"background-position"
 			],
 			[
 				"fl",
@@ -427,7 +431,7 @@
 			"file": "source/services.html.erb",
 			"settings":
 			{
-				"buffer_size": 1082,
+				"buffer_size": 1911,
 				"line_ending": "Unix"
 			}
 		},
@@ -443,7 +447,7 @@
 			"file": "source/css/_partials/_ui.scss",
 			"settings":
 			{
-				"buffer_size": 14740,
+				"buffer_size": 14802,
 				"line_ending": "Unix"
 			}
 		},
@@ -967,15 +971,15 @@
 					"file": "source/services.html.erb",
 					"settings":
 					{
-						"buffer_size": 1082,
+						"buffer_size": 1911,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								393,
-								393
+								1049,
+								1049
 							]
 						],
 						"settings":
@@ -984,7 +988,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1027,15 +1031,15 @@
 					"file": "source/css/_partials/_ui.scss",
 					"settings":
 					{
-						"buffer_size": 14740,
+						"buffer_size": 14802,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9761,
-								9747
+								10715,
+								10715
 							]
 						],
 						"settings":
@@ -1043,8 +1047,8 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 7267.0,
+						"translation.x": 1.0,
+						"translation.y": 9182.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1243,7 +1247,7 @@
 		"cols":
 		[
 			0.0,
-			0.643817429315,
+			0.558112444196,
 			1.0
 		],
 		"rows":

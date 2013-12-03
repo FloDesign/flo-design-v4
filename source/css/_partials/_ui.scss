@@ -618,7 +618,7 @@ form.talk__form{
 }
 
 
-.work_item{
+.work_item, .service_item{
 	background: #fff;
 	overflow: hidden;
 	p{
@@ -629,6 +629,11 @@ form.talk__form{
 	.col7{
 		height: 1px;
 	}
+}
+
+
+.service_item_even{
+	background: $grey-bg;
 }
 
 .work_imgs{
