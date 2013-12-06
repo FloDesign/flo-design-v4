@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"max",
+				"max-width"
+			],
+			[
+				"de",
+				"dev.svg"
+			],
+			[
+				"h",
+				"heart.svg"
+			],
+			[
 				"ar",
 				"arrows.svg"
 			],
@@ -34,10 +46,6 @@
 			[
 				"s",
 				"structure.svg"
-			],
-			[
-				"max",
-				"max-height"
 			],
 			[
 				"bo",
@@ -431,7 +439,7 @@
 			"file": "source/services.html.erb",
 			"settings":
 			{
-				"buffer_size": 1911,
+				"buffer_size": 3572,
 				"line_ending": "Unix"
 			}
 		},
@@ -447,7 +455,7 @@
 			"file": "source/css/_partials/_ui.scss",
 			"settings":
 			{
-				"buffer_size": 14802,
+				"buffer_size": 14960,
 				"line_ending": "Unix"
 			}
 		},
@@ -755,6 +763,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"col7",
+			"col5",
+			"col7",
+			"col5",
 			"work_item",
 			"col6",
 			"btn",
@@ -933,7 +945,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -971,15 +983,15 @@
 					"file": "source/services.html.erb",
 					"settings":
 					{
-						"buffer_size": 1911,
+						"buffer_size": 3572,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1049,
-								1049
+								210,
+								210
 							]
 						],
 						"settings":
@@ -988,7 +1000,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5.0,
+						"translation.y": 2.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1031,15 +1043,15 @@
 					"file": "source/css/_partials/_ui.scss",
 					"settings":
 					{
-						"buffer_size": 14802,
+						"buffer_size": 14960,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10715,
-								10715
+								1057,
+								1057
 							]
 						],
 						"settings":
@@ -1047,8 +1059,8 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 1.0,
-						"translation.y": 9182.0,
+						"translation.x": 0.0,
+						"translation.y": 437.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1733,7 +1745,7 @@
 		[
 			[
 				"",
-				"/Users/Russ/Dropbox/repos/hdn.frontend.dev/hdn_frontend.sublime-project"
+				"/Users/Russ/Documents/voicepower/voicepower.sublime-project"
 			],
 			[
 				"en",
