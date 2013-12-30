@@ -54,7 +54,8 @@ ul.main-nav{
 .work a.work_link,
 .services a.services_link,
 .blog a.blog_link,
-.blog_post a.blog_link,{
+.blog_post a.blog_link,
+.contact a.hire_link{
 	color: $highlight;
 	border-top: 2px solid $highlight;
 	padding-top: 10px;
@@ -649,7 +650,7 @@ form.talk__form{
 	padding-bottom: 110px;
 }
 
-.service_item_even{
+.service_item_even, .map_container{
 	background: $grey-bg;
 }
 
@@ -763,9 +764,15 @@ form.talk__form{
 
 
 
+.mapbox{
+	margin: 20px 0 -2% 0;
+	height: 500px;
+}
 
-
-
+.digits{
+	background: #fff;
+	padding-bottom: 110px;
+}
 
 .values{
 	background: #fff;
