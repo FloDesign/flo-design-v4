@@ -3,11 +3,14 @@
 	$MEDIA QUERIES
 \*------------------------------------*/
 
+@media screen and (max-width: 1160px) {
+	.masthead img{
+		width: auto;
+	}
+}
+
 @media screen and (max-width: 850px) {
 	
-	.wrapper{
-		margin: 0 20px;
-	}
 
 	.col3{
 		width: 49%;
@@ -77,6 +80,8 @@
 	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
 	    100% {top: 20px;}
 	}
+
+	
 }
 
 @media screen and (max-width: 535px) {
@@ -231,6 +236,7 @@
 
 	.box{
 		padding: 17px 14px;
+		min-height: inherit;
 		-webkit-animation-duration: 0s;
 		-webkit-animation-fill-mode:both;
 		-webkit-animation-name: none;

@@ -76,7 +76,7 @@ header{
 	position: fixed;
 	width: 100%;
 	height: 120px;
-	-webkit-transition: all 0.3s;
+	-webkit-transition: all 1s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     -webkit-transform: translateZ(0);
@@ -105,23 +105,26 @@ header.shrink{
 
 .masthead{
 	padding-bottom: 140px;
+	overflow: hidden;
 	// background: url(../img/water.jpg) no-repeat center fixed;
 
 	img{
 		position: fixed;
 		z-index: -1;
 		top:0;
+		width: 100%;
 		
 	}
 
 	h1{
-		// position: absolute;
+		position: relative;
 		// top: 50%;
 		// right: 24px;
 		// left: 24px;
 		color: #fff;
 		padding: 275px 0 35px 0;
 		line-height: 65px;
+		opacity: 1;
 	}
 	
 	.hp-title-one{
@@ -176,6 +179,7 @@ header.shrink{
 .ctas{
 	margin: 0 auto;
 	text-align: center;
+	position: relative;
 }
 
 .masthead__btn{
@@ -210,6 +214,7 @@ header.shrink{
 	padding: 35px 24px;
 	text-align: center;
 	position: relative;
+	min-height: 282px;
 	
 	h3{
 		font-weight: 100;
@@ -442,7 +447,7 @@ a .icon-link{
 .animate-out .iphone{
 	opacity: 1;
 	bottom: 90px;
-	right: -800px;
+	right: -1200px;
 	@include transition-duration(.5s);
 	@include transition-delay(.2s);
 }
@@ -468,7 +473,7 @@ a .icon-link{
 
 .ipad-vp{
 	
-	top: -1000px;
+	top: -1300px;
 	left: 50px;
 }
 
@@ -480,7 +485,7 @@ a .icon-link{
 }
 
 .animate-out .ipad-vp{
-	top: 1000px;
+	top: 1300px;
 	@include transition-duration(.8s);
 }
 
@@ -510,6 +515,8 @@ a .icon-link{
 	width: 100%;
 	height: 600px;
     position: relative; /* required */
+    max-width: 1000px;
+    margin: 0 auto; 
 }
 
 #sequence > .sequence-canvas li > * {  /* required */
@@ -605,6 +612,13 @@ form.talk__form{
 	}
 }
 
+.talk_details--hire li{
+	border-bottom: 1px solid #abadb2;
+	&:last-child{
+		border-bottom: none;
+	}
+}
+
 .grey{
 	color: #abadb2;
 }
@@ -627,9 +641,7 @@ form.talk__form{
 		font-size:1.12rem;
 		margin-top: 48px;
 	}
-	.col7{
-		height: 1px;
-	}
+	
 }
 
 
@@ -893,6 +905,7 @@ ul.member__social li{
 	padding-top: 100px;
 	background: #fff;
 }
+
 
 footer{
 	color: $footer-copy;
