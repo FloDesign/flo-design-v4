@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-decoration"
+			],
+			[
 				"padding",
 				"padding-bottom"
 			],
@@ -38,10 +42,6 @@
 			[
 				"cur",
 				"cursor"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"font",
@@ -435,7 +435,7 @@
 			"file": "source/layouts/layout.erb",
 			"settings":
 			{
-				"buffer_size": 4872,
+				"buffer_size": 4863,
 				"line_ending": "Unix"
 			}
 		},
@@ -451,7 +451,7 @@
 			"file": "source/contact.html.erb",
 			"settings":
 			{
-				"buffer_size": 5264,
+				"buffer_size": 3020,
 				"line_ending": "Unix"
 			}
 		},
@@ -459,7 +459,7 @@
 			"file": "source/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 6441,
+				"buffer_size": 6637,
 				"line_ending": "Unix"
 			}
 		},
@@ -467,7 +467,7 @@
 			"file": "source/css/_partials/_ui.scss",
 			"settings":
 			{
-				"buffer_size": 15169,
+				"buffer_size": 15550,
 				"line_ending": "Unix"
 			}
 		},
@@ -507,7 +507,7 @@
 			"file": "source/css/_partials/_queries.scss",
 			"settings":
 			{
-				"buffer_size": 5752,
+				"buffer_size": 5763,
 				"line_ending": "Unix"
 			}
 		},
@@ -851,7 +851,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -967,15 +967,15 @@
 					"file": "source/layouts/layout.erb",
 					"settings":
 					{
-						"buffer_size": 4872,
+						"buffer_size": 4863,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2707,
-								2712
+								1530,
+								1530
 							]
 						],
 						"settings":
@@ -985,7 +985,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 534.0,
+						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1022,15 +1022,15 @@
 					"file": "source/contact.html.erb",
 					"settings":
 					{
-						"buffer_size": 5264,
+						"buffer_size": 3020,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								829,
-								829
+								1310,
+								1310
 							]
 						],
 						"settings":
@@ -1039,7 +1039,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1049,15 +1049,15 @@
 					"file": "source/index.html.erb",
 					"settings":
 					{
-						"buffer_size": 6441,
+						"buffer_size": 6637,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5123,
-								5777
+								5887,
+								5887
 							]
 						],
 						"settings":
@@ -1066,7 +1066,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1575.0,
+						"translation.y": 1573.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1074,7 +1074,7 @@
 			]
 		},
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1082,15 +1082,15 @@
 					"file": "source/css/_partials/_ui.scss",
 					"settings":
 					{
-						"buffer_size": 15169,
+						"buffer_size": 15550,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14646,
-								14646
+								10591,
+								10591
 							]
 						],
 						"settings":
@@ -1099,7 +1099,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 12915.0,
+						"translation.y": 8524.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1217,15 +1217,15 @@
 					"file": "source/css/_partials/_queries.scss",
 					"settings":
 					{
-						"buffer_size": 5752,
+						"buffer_size": 5763,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3123,
-								3123
+								5682,
+								5682
 							]
 						],
 						"settings":
@@ -1234,7 +1234,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2031.0,
+						"translation.y": 4455.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1298,7 +1298,7 @@
 		"cols":
 		[
 			0.0,
-			0.517164248511,
+			0.560883730933,
 			1.0
 		],
 		"rows":

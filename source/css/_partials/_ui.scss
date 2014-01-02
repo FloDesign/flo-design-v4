@@ -600,6 +600,24 @@ form.talk__form{
 	border-bottom: 1px solid $highlight;
 }
 
+.form_send{
+	font-size: 24px;
+	font-size: 1.5rem;
+	display: block;
+	margin-top: 24px;
+	float: right;
+	padding: 5px;
+	&:hover{
+		color: #fff;
+		background: $highlight;
+		text-decoration: none;
+	}
+	span{
+		position: relative;
+		top: 2px;
+	}
+}
+
 .talk__details li{
 	font-size: 36px;
 	font-size: 2.25rem; 
