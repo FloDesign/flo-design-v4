@@ -403,7 +403,7 @@
 			"file": "source/work.html.erb",
 			"settings":
 			{
-				"buffer_size": 4492,
+				"buffer_size": 4930,
 				"line_ending": "Unix"
 			}
 		},
@@ -459,7 +459,7 @@
 			"file": "source/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 6637,
+				"buffer_size": 6951,
 				"line_ending": "Unix"
 			}
 		},
@@ -504,18 +504,10 @@
 			}
 		},
 		{
-			"file": "source/css/_partials/_queries.scss",
+			"file": "source/css/styles.css.scss",
 			"settings":
 			{
-				"buffer_size": 5763,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/js/main.js",
-			"settings":
-			{
-				"buffer_size": 2112,
+				"buffer_size": 205,
 				"line_ending": "Unix"
 			}
 		}
@@ -632,6 +624,9 @@
 	},
 	"file_history":
 	[
+		"/Users/Russ/Documents/yo_webapp/app/styles/a.scss",
+		"/Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss",
+		"/Users/Russ/Documents/flodesign_v4/source/js/main.js",
 		"/Users/Russ/Documents/flodesign_v4/.gitignore",
 		"/Users/Russ/Dropbox/patch-edid.rb",
 		"/Users/Russ/Dropbox/repos/hdn.wp-local.dev/wp-content/themes/HDN/login.php",
@@ -851,7 +846,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -859,15 +854,15 @@
 					"file": "source/work.html.erb",
 					"settings":
 					{
-						"buffer_size": 4492,
+						"buffer_size": 4930,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								203,
-								203
+								784,
+								784
 							]
 						],
 						"settings":
@@ -985,7 +980,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1049,15 +1044,15 @@
 					"file": "source/index.html.erb",
 					"settings":
 					{
-						"buffer_size": 6637,
+						"buffer_size": 6951,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5887,
-								5887
+								4332,
+								4735
 							]
 						],
 						"settings":
@@ -1066,7 +1061,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1573.0,
+						"translation.y": 1388.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1074,7 +1069,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -1098,8 +1093,8 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 8524.0,
+						"translation.x": 6.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1154,7 +1149,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1268.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1214,52 +1209,23 @@
 				},
 				{
 					"buffer": 13,
-					"file": "source/css/_partials/_queries.scss",
+					"file": "source/css/styles.css.scss",
 					"settings":
 					{
-						"buffer_size": 5763,
+						"buffer_size": 205,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5682,
-								5682
+								205,
+								205
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4455.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "source/js/main.js",
-					"settings":
-					{
-						"buffer_size": 2112,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1965,
-								1965
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1318,6 +1284,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"",
+				"css/styles.css.scss"
+			],
 			[
 				"_qu",
 				"css/_partials/_queries.scss"
@@ -1469,10 +1439,6 @@
 			[
 				"css",
 				"style.css"
-			],
-			[
-				"",
-				"sass/partials/_ie.scss"
 			],
 			[
 				"sc",
@@ -1796,7 +1762,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 180.0,
 	"status_bar_visible": true
 }
