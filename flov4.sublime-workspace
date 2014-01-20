@@ -403,7 +403,7 @@
 			"file": "source/work.html.erb",
 			"settings":
 			{
-				"buffer_size": 4930,
+				"buffer_size": 5064,
 				"line_ending": "Unix"
 			}
 		},
@@ -456,10 +456,13 @@
 			}
 		},
 		{
+			"contents": "---\ntitle: Flo Design Limited	\n---\n\n<!-- I test therefore I am -->\n\n<!-- Add your site or application content here -->\n\n\n<section class=\"masthead\" id=\"masthead\">\n	<img src=\"img/seawater.jpg\" alt=\"\" class=\"bg\">\n\n	<div class=\"wrapper\">\n		<h1><span class=\"hp-title-one\">We are Flo.</span><span class=\"hp-title-two\"><br/> We build the web.</span></h1>\n		<div class=\"ctas\">\n			\n			<a href=\"/about.html\" class=\"masthead__btn\">Find out more <span aria-hidden=\"true\" data-icon=\"&#xe604;\" class=\"bg-arrow\"></span></a>\n\n			<a href=\"/contact.html\" class=\"masthead__btn--solid\">Hire us <span aria-hidden=\"true\" data-icon=\"&#xe604;\" class=\"bg-arrow\"></span></a>\n		</div>\n	</div><!--end wrapper-->\n</section>\n\n\n<section class=\"offer\">\n	<div class=\"wrapper\">\n	<h2>We do.</h2>\n	<div class=\"row cf\">\n		<div class=\"col3\">\n			<div class=\"box box1\">\n				<div class=\"box__corner\"></div>\n				<h3>Digital Strategy</h3>\n				<span class=\"icon\" aria-hidden=\"true\" data-icon=\"&#xe60e;\"></span>\n				<p>We’ll work with you to devise a digital strategy that’s right for your business. We’ll ask a lot of questions and conduct needs analysis to ensure we start on the right foot.</p>\n				<!-- <a href=\"\"><span data-hover=\"Find out more\" class=\"roll\">Find out more<span class=\"icon-link\" aria-hidden=\"true\" data-icon=\"&#x21;\"></span></span></a> -->\n				<div class=\"cl-effect-2\">\n				<a href=\"services.html\"><span data-hover=\"Find out more\" class=\"hover-effect\">Find out more<span class=\"icon-link\" aria-hidden=\"true\" data-icon=\"&#xe604;\"></span></span></a>\n				</div>\n			</div>\n		</div><!--end col3-->\n		\n		<div class=\"col3\">\n			<div class=\"box box2\">\n				<div class=\"box__corner\"></div>\n				<h3>User Experience</h3>\n				<span class=\"icon\" aria-hidden=\"true\" data-icon=\"&#xe60f;\"></span>\n				<p>Our process is user centric. We build and design web sites for its users. If users have to think how to use a site we've failed and failure is not an option.</p>\n				<!-- <a href=\"\">Find out more<span class=\"icon-link\" aria-hidden=\"true\" data-icon=\"&#x21;\"></span></a> -->\n				<div class=\"cl-effect-2\">\n				<a href=\"services.html\"><span data-hover=\"Find out more\" class=\"hover-effect\">Find out more<span class=\"icon-link\" aria-hidden=\"true\" data-icon=\"&#xe604;\"></span></span></a>\n				</div>\n			</div>\n		</div><!--end col3-->\n		<div class=\"col3\">\n			<div class=\"box box3\">\n				<div class=\"box__corner\"></div>\n				<h3>Design</h3>\n				<span class=\"icon\" aria-hidden=\"true\" data-icon=\"&#xe609;\"></span>\n				<p>We Love design &amp; we believe that every pixel matters. Great design isn't just about a great looking web site it's about a great functioning site as well. Form is function.</p>\n				<!-- <a href=\"\">Find out more<span class=\"icon-link\" aria-hidden=\"true\" data-icon=\"&#x21;\"></span></a> -->\n				<div class=\"cl-effect-2\">\n				<a href=\"services.html\"><span data-hover=\"Find out more\" class=\"hover-effect\">Find out more<span class=\"icon-link\" aria-hidden=\"true\" data-icon=\"&#xe604;\"></span></span></a>\n				</div>\n			</div>\n		</div><!--end col3-->\n		<div class=\"col3\">\n			<div class=\"box box4\">\n				<div class=\"box__corner\"></div>\n				<h3>Development</h3>\n				<span class=\"icon\" aria-hidden=\"true\" data-icon=\"&#xe611;\"></span>\n				<p>We care about code and we set high standards for our selves. Our sites are custom built from the ground up with the very latest web technologys.</p>\n				<!-- <a href=\"\">Find out more<span class=\"icon-link\" aria-hidden=\"true\" data-icon=\"&#x21;\"></span></a> -->\n				<div class=\"cl-effect-2\">\n				<a href=\"services.html\"><span data-hover=\"Find out more\" class=\"hover-effect\">Find out more<span class=\"icon-link\" aria-hidden=\"true\" data-icon=\"&#xe604;\"></span></span></a>\n				</div>\n			</div>\n		</div><!--end col3-->\n	</div><!--end row-->\n	</div><!--end wrapper-->\n</section>\n\n\n<section class=\"built\">\n	<div class=\"wrapper\">\n		<h2>We Build.</h2>\n		<div id=\"sequence\" class=\"sequence\">\n			<ul class=\"sequence-canvas\">\n				<li>\n					<img src=\"img/slider_hdn_macbook.png\" alt=\"\" class=\"mbp\" onload=\"this.width*=0.5;this.onload=null;\">\n					<img src=\"img/slider_hdn_iphone.png\"  alt=\"\" class=\"iphone\" onload=\"this.width*=0.5;this.onload=null;\">\n					<div class=\"built__info\">\n						<h4>NHS Health Developer Network</h4>\n						<a href=\"work.html\">View More <span aria-hidden=\"true\" data-icon=\"&#xe604;\"></span></a>\n					</div>\n				</li>\n				<!-- <li>\n					<img src=\"img/slider_vp_ipad.png\" alt=\"\" class=\"ipad-vp\" onload=\"this.width*=0.5;this.onload=null;\">\n					<img src=\"img/slider_vp_iphone.png\"  alt=\"\" class=\"iphone-vp\" onload=\"this.width*=0.5;this.onload=null;\">\n					<div class=\"built__info\">\n						<h4>Voice Power Limited</h4>\n						<a href=\"work.html\">View More <span aria-hidden=\"true\" data-icon=\"&#xe604;\"></span></a>\n					</div>\n				</li> -->\n				<li>\n					<img src=\"img/slider_cfs_macbook.png\" alt=\"\" class=\"mbp_cfs\" onload=\"this.width*=0.5;this.onload=null;\">\n					<div class=\"built__info cfs-info\">\n						<h4>Contract furniture specialists</h4>\n						<a href=\"work.html\">View More <span aria-hidden=\"true\" data-icon=\"&#xe604;\"></span></a>\n					</div>\n				</li>\n				<li>\n					<img src=\"img/slider_cam_macbook.png\" alt=\"\" class=\"mbp_cfs\" onload=\"this.width*=0.5;this.onload=null;\">\n					<div class=\"built__info cfs-info\">\n						<h4>Cammax Limited</h4>\n						<a href=\"work.html\">View More <span aria-hidden=\"true\" data-icon=\"&#xe604;\"></span></a>\n					</div>\n				</li>\n			</ul>\n\n		</div><!--end sequence-->\n	</div><!--end wrapper-->\n</section>\n\n\n<section class=\"talk\">\n	<div class=\"wrapper\">\n		<div class=\"row cf\">\n			<h2>We talk.</h2>\n			<div class=\"col6\">\n				<form action=\"\" class=\"talk__form\">\n					<input type=\"text\" name=\"name\" placeholder=\"Name\">\n					<input type=\"text\" name=\"email\" placeholder=\"Email\">\n					<div class=\"form_dropdown\">\n						<select name=\"budget\">\n							<option value='' disabled selected style='display:none;'>Budget</option>\n							<option value=\"Under 10k\">Under 10k</option>\n							<option value=\"10k - 15k\">10k - 15k</option>\n							<option value=\"15k 20k\">15k - 20k</option>\n							<option value=\"over 20k\">Over 20k</option>\n						</select>\n					</div>\n					<textarea name=\"message\" id=\"message\" rows=\"5\" placeholder=\"Message\"></textarea>\n					<a href=\"\" class=\"form_send\">SEND <span aria-hidden=\"true\" data-icon=\"&#xe604;\"></span></a>\n				</form>\n			</div>\n				<div class=\"col6\">\n				<p>Have an upcoming web project that you'd like to work with us on? We'd love to hear from you.</p>\n				<p> Simply fill out the form to the left, drop us a line via email or give us a call, we'd be happy to have a chat!</p>\n\n				<ul class=\"talk__details\">\n					<li><span class=\"talk-icon\" aria-hidden=\"true\" data-icon=\"&#xe615;\"></span><span class=\"grey\">0113</span> 314 2010</li>\n					<li><span class=\"talk-icon\" aria-hidden=\"true\" data-icon=\"&#xe612;\"></span><a href=\"mailto:hello@flodesign.co.uk\"><span class=\"grey\">hello@</span>flodesign.co.uk</a></li>\n				</ul>\n			</div>\n		</div><!--end row-->\n	</div><!--end wrapper-->\n</section>",
 			"file": "source/index.html.erb",
+			"file_size": 6957,
+			"file_write_time": 1389129502000000,
 			"settings":
 			{
-				"buffer_size": 6951,
+				"buffer_size": 6956,
 				"line_ending": "Unix"
 			}
 		},
@@ -467,7 +470,7 @@
 			"file": "source/css/_partials/_ui.scss",
 			"settings":
 			{
-				"buffer_size": 15550,
+				"buffer_size": 16489,
 				"line_ending": "Unix"
 			}
 		},
@@ -846,7 +849,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -854,15 +857,15 @@
 					"file": "source/work.html.erb",
 					"settings":
 					{
-						"buffer_size": 4930,
+						"buffer_size": 5064,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								784,
-								784
+								1105,
+								1105
 							]
 						],
 						"settings":
@@ -871,7 +874,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 83.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1044,15 +1047,15 @@
 					"file": "source/index.html.erb",
 					"settings":
 					{
-						"buffer_size": 6951,
+						"buffer_size": 6956,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4332,
-								4735
+								372,
+								372
 							]
 						],
 						"settings":
@@ -1061,7 +1064,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1388.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1069,7 +1072,7 @@
 			]
 		},
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1077,15 +1080,15 @@
 					"file": "source/css/_partials/_ui.scss",
 					"settings":
 					{
-						"buffer_size": 15550,
+						"buffer_size": 16489,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10591,
-								10591
+								4517,
+								4517
 							]
 						],
 						"settings":
@@ -1093,8 +1096,8 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 6.0,
-						"translation.y": 0.0,
+						"translation.x": 0.0,
+						"translation.y": 3026.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1176,7 +1179,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 306.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
