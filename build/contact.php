@@ -69,7 +69,7 @@
 		</div><!--end row-->
 		<div class="row cf">
 			<div class="col6">
-				<form action="" class="talk__form">
+				<form action="mailer.php" class="talk__form">
 					<input type="text" name="name" placeholder="Name">
 					<input type="text" name="email" placeholder="Email">
 					<div class="form_dropdown">
