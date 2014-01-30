@@ -13,7 +13,7 @@ $(document).ready(function () {
   
     $('.form_send').click(function(event) {
       var form = $('#contact-form').serialize();
-      alert(form);
+      console.log(form);
 
       /*  event.preventDefault();
       
