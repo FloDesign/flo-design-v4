@@ -82,6 +82,7 @@
 						</select>
 					</div>
 					<textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+					<a href="" class="form_send">SEND <span aria-hidden="true" data-icon="&#xe604;"></span></a>
 				</form>
 			</div><!--end col6-->
 			<div class="col6">
