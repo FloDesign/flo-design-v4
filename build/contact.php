@@ -69,11 +69,11 @@
 		</div><!--end row-->
 		<div class="row cf">
 			<div class="col6">
-				<form action="mailer.php" class="talk__form">
-					<input type="text" name="name" placeholder="Name">
-					<input type="text" name="email" placeholder="Email">
+				<form method="post" class="talk__form">
+					<input type="text" name="name" id="name" placeholder="Name">
+					<input type="text" name="email" id="email" placeholder="Email">
 					<div class="form_dropdown">
-						<select name="budget">
+						<select name="budget" id="budget">
 							<option value='' disabled selected style='display:none;'>Budget</option>
 							<option value="Under 10k">Under 10k</option>
 							<option value="10k - 15k">10k - 15k</option>
@@ -83,6 +83,7 @@
 					</div>
 					<textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
 					<a href="" class="form_send">SEND <span aria-hidden="true" data-icon="&#xe604;"></span></a>
+					<div class="contact-message"></div>
 				</form>
 			</div><!--end col6-->
 			<div class="col6">

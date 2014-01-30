@@ -19,7 +19,58 @@ $(document).ready(function(){
             showNextButtonOnInit: true
         }
         var sequence = $("#sequence").sequence(options).data("sequence");
+
+    $( ".talk__form" ).on( "submit", function( event ) {
+      event.preventDefault();
+
+      var name = $("input#name").val();
+      var email = $("input#email").val();
+      var budget = $("select#budget").val();
+      var message = $("textarea#message").val();
+
+      if($('.contact-message').html() != ''){
+        $('.contact-message').attr('class', 'contact-message');
+        $('.contact-message').html('');
+        $('.contact-message').hide();
+      }
+
+      if (name == "" || name == " " || name == "Name") {
+        $('.contact-message').addClass('contact-error');
+        $('.contact-message').html('Hey John Doe! We need to know your name please. Thank you');
+        $('.contact-message').show();
+        return false;
+      }
+      if (email == "" || email == " ") {
+        $('.contact-message').addClass('contact-error');
+      $('.contact-message').html('Uh oh! Looks like something’s wrong with the Email you gave.');
+      $('.contact-message').show();
+      return false;
+    } 
+    else if (!IsEmail(email)) {
+      $('.contact-message').addClass('contact-error');
+      $('.contact-message').html('Uh oh! Looks like something’s wrong with the Email you gave.');
+      $('.contact-message').show();
+      return false;
+    }
+
+    if (message == "" || message == " " || message == "Message") {
+      $('.contact-message').addClass('contact-error');
+      $('.contact-message').html('Dont be shy! Leave us a message about what you want to discuss.');
+      $('.contact-message').show();
+      return false;
+    }
+
+      $('.contact-message').load('mailer.php', $('#contact-form').serialize(), function(){
+        $('.contact-message').addClass('contact-success');
+      });
+    $('.contact-message').show();
+  });
+
     });
+
+function IsEmail(email) {
+  var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  return filter.test(email);
 
 $(document).ready(function() {
 var cbpAnimatedHeader = (function() {
