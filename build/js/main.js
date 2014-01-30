@@ -19,9 +19,8 @@ $(document).ready(function(){
             showNextButtonOnInit: true
         }
         var sequence = $("#sequence").sequence(options).data("sequence");
-});
 
-$(".talk__form").on('click', 'a' function(event) {
+        $(".talk__form").on('click', 'a' function(event) {
       event.preventDefault();
 
       var name = $("input#name").val();
@@ -66,6 +65,7 @@ $(".talk__form").on('click', 'a' function(event) {
       });
     $('.contact-message').show();
   });
+});
 
 function IsEmail(email) {
   var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
