@@ -21,6 +21,7 @@ $(document).ready(function(){
         var sequence = $("#sequence").sequence(options).data("sequence");
 
         $(".talk__form").on('click', 'a', function(event) {
+          alert('Work ye bastard!');
       event.preventDefault();
 
       var name = $("input#name").val();
