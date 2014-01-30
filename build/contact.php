@@ -83,6 +83,7 @@
 					</div>
 					<textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
 					<a href="#" id="form_send" class="form_send">SEND <span aria-hidden="true" data-icon="&#xe604;"></span></a>
+					<img src="img/ajax-loader.gif" alt="Loader" class="loader" />
 					<div class="contact-message"></div>
 				</form>
 			</div><!--end col6-->

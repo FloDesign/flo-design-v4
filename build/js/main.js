@@ -10,9 +10,11 @@ $(document).ready(function () {
     };
   
     var sequence = $('#sequence').sequence(options).data('sequence');
-  
+    $('.loader').hide();
+
     $('.form_send').click(function(event) {
       event.preventDefault();
+      $('.loader').show();
       
         var name = $('input#name').val();
         var email = $('input#email').val();
@@ -29,6 +31,7 @@ $(document).ready(function () {
             $('.contact-message').addClass('contact-error');
             $('.contact-message').html('Hey John Doe! We need to know your name please. Thank you');
             $('.contact-message').show();
+            $('.loader').hide();
             return false;
         }
         
@@ -36,6 +39,7 @@ $(document).ready(function () {
             $('.contact-message').addClass('contact-error');
             $('.contact-message').html('Uh oh! Looks like something’s wrong with the Email you gave.');
             $('.contact-message').show();
+            $('.loader').hide();
             return false;
         }
         
@@ -43,6 +47,7 @@ $(document).ready(function () {
             $('.contact-message').addClass('contact-error');
             $('.contact-message').html('Uh oh! Looks like something’s wrong with the Email you gave.');
             $('.contact-message').show();
+            $('.loader').hide();
             return false;
         }
     
@@ -50,11 +55,13 @@ $(document).ready(function () {
             $('.contact-message').addClass('contact-error');
             $('.contact-message').html('Dont be shy! Leave us a message about what you want to discuss.');
             $('.contact-message').show();
+            $('.loader').hide();
             return false;
         }
     
         $('.contact-message').load('mailer.php', $('#contact-form').serialize(), function(){
             $('.contact-message').addClass('contact-success');
+            $('.loader').hide();
         });
     
         $('.contact-message').show();
