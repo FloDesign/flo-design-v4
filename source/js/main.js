@@ -122,7 +122,7 @@ $(window).scroll(function(e){
     if ($(window).width()>535){
       parallax();
     }
-  }
+  });
 
 function parallax(){
   var scrolled = $(window).scrollTop();
