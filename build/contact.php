@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <!-- Use title if it's in the page YAML frontmatter -->
-        <title>Services - Flo Design Limited</title>
+        <title>Hire Us - Flo Design Limited</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -22,7 +22,7 @@
 
 
     </head>
-    <body class="services">
+    <body class="contact">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
@@ -36,11 +36,11 @@
                 <nav>
                     <a href="/" class="mob-nav-btn"><span aria-hidden="true" data-icon="&#xe623;"></a>
                     <ul class="main-nav">
-                        <li><a href="work.html" class="work_link">Work</a></li>
-                        <li><a href="about.html" class="about_link">About</a></li>
+                        <li><a href="/work" class="work_link">Work</a></li>
+                        <li><a href="/about" class="about_link">About</a></li>
                         <!-- <li><a href="services.html" class="services_link">Services</a></li> -->
-                        <li><a href="blog.html" class="blog_link">Blog</a></li>
-                        <li><a href="contact.html" class="hire_link">Hire Us</a></li>
+                        <li><a href="//blog.flodesign.co.uk" class="blog_link">Blog</a></li>
+                        <li><a href="/contact" class="hire_link">Hire Us</a></li>
                     </ul>
                 </nav>
             </div><!--end wrapper-->
@@ -50,80 +50,70 @@
 	<img src="img/seawater.jpg" alt="" class="bg">
 
 	<div class="wrapper">
-		<h1><span class="hp-title-one">We focus.</span><span class="hp-title-two"><br/>This is what we offer.</span></h1>
+		<h1><span class="hp-title-one">We talk.</span><span class="hp-title-two"><br/>This is how to contact us.</span></h1>
 		
 	</div><!--end wrapper-->
 </section>
 
 
-<section class="service_item">
+<section class="digits">
 	<div class="wrapper">
-		<h2>Digital Strategy</h2>
+		<h2>Our Digits</h2>
+		<div class="row cf">
+			<div class="col2"></div>
+			<div class="col7">
+				<p>We love talking shop! if you've got a web project in the pipeline we'd love to have a chat about it with you to see if we can help. And if we can't we'll happily point you in the direction of someone can. We're nice like that :-)</p>
+				<p>So what are you waiting for? drop us a line now!</p>
+			</div>
+			<div class="col4"></div>
+		</div><!--end row-->
 		<div class="row cf">
 			<div class="col6">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus</p>
-			</div>
-
+				<form action="" class="talk__form">
+					<input type="text" name="name" placeholder="Name">
+					<input type="text" name="email" placeholder="Email">
+					<div class="form_dropdown">
+						<select name="budget">
+							<option value='' disabled selected style='display:none;'>Budget</option>
+							<option value="Under 10k">Under 10k</option>
+							<option value="10k - 15k">10k - 15k</option>
+							<option value="15k 20k">15k - 20k</option>
+							<option value="over 20k">Over 20k</option>
+						</select>
+					</div>
+					<textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+				</form>
+			</div><!--end col6-->
 			<div class="col6">
-				<div class="service_img">
-					<img src="img/arrows.svg" alt="arrows">
-				</div><!-- end work imgs-->
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="service_item service_item_even">
-	<div class="wrapper">
-		<h2>User Experance</h2>
-		<div class="row cf">
+				<ul class="talk__details talk_details--hire">
+					<li><span class="talk-icon" aria-hidden="true" data-icon="&#xe615;"></span><span class="grey">0113</span> 314 2010</li>
+					<li><span class="talk-icon" aria-hidden="true" data-icon="&#xe612;"></span><a href="mailto:hello@flodesign.co.uk"><span class="grey">hello@</span>flodesign.co.uk</a></li>
+					<li><span class="talk-icon" aria-hidden="true" data-icon="&#xe617;"></span><a href="https://twitter.com/flodesign"><span class="grey">@</span>flodesign</a></li>
+					<li><span class="talk-icon" aria-hidden="true" data-icon="&#xe616;"></span><a href="https://facebook.com/flodesignltd"><span class="grey">facebook.com/</span>flodesignltd</a></li>
+				</ul>
+			</div><!--end col6-->
 			
-			<div class="col6">
-				<div class="service_img">
-					<img src="img/heart.svg" alt="heart">
-				</div><!-- end work imgs-->
-			</div>
-
-			<div class="col6">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus</p>
-			</div>
-
-		</div>
-	</div>
+		</div><!--end row-->
+		
+	</div><!--end wrapper-->
 </section>
 
-<section class="service_item">
+<section class="map_container">
 	<div class="wrapper">
-		<h2>Design</h2>
-		<div class="row cf">
-			<div class="col6">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus</p>
+		<h2>Our Location</h2>
+		
+		<div class="row">
+			<div class="col2"></div>
+			<div class="col7">
+				<p>We're based in the heart of Leeds, the best city on the planet (well we we think so anyway!). Leeds is brilliant, Yorshire's brilliant, we're brilliant! If you're ever in the neighbourhood feel free to drop in and we'll get the kettle on! </p>
 			</div>
-
-			<div class="col6">
-				<div class="service_img">
-					<img src="img/brush.svg" alt="arrows">
-				</div><!-- end work imgs-->
-			</div>
+			<div class="col3"></div>
 		</div>
 	</div>
-</section>
 
-<section class="service_item service_item_even">
-	<div class="wrapper">
-		<h2>Development</h2>
-		<div class="row cf">
-			
-			<div class="col6">
-				<div class="service_img">
-					<img src="img/dev.svg" alt="heart">
-				</div><!-- end work imgs-->
-			</div>
-
-			<div class="col6">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus</p>
-			</div>
-
+	<div class="cf">
+		<div class="col12">
+			<iframe width='100%' frameBorder='0' src='https://a.tiles.mapbox.com/v3/flodesign.gj3gi8el/mm/zoompan.html?secure=1#16/53.7923/-1.5523' class="mapbox"></iframe>
 		</div>
 	</div>
 </section>
@@ -151,11 +141,11 @@
 
                         <nav>
                             <ul class="footer-nav cf">
-                                <li><a href="work.html">Work</a></li>
-                                <li><a href="about.html">About</a></li>
+                                <li><a href="/work">Work</a></li>
+                                <li><a href="/about">About</a></li>
                                 <!-- <li><a href="services.html">Services</a></li> -->
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="//blog.flodesign.co.uk">Blog</a></li>
+                                <li><a href="/contact">Contact</a></li>
                             </ul>
                         </nav>
                     </div><!--end col-->
