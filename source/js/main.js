@@ -20,7 +20,7 @@ $(document).ready(function(){
         }
         var sequence = $("#sequence").sequence(options).data("sequence");
 
-        $(".talk__form").on('click', 'a', function(event) {
+        $(".form_send").click(function(event) {
           alert('Work ye bastard!');
       event.preventDefault();
 
