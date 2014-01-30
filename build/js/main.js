@@ -1,109 +1,100 @@
 $(document).ready(function () {
-  var options = {
-    autoPlayDelay: 5000,
-    animateStartingFrameIn: true,
-    reverseAnimationsWhenNavigatingBackwards: false,
-    nextButton: true,
-    prevButton: true,
-    showNextButtonOnInit: true,
-    autoPlay: true
-  };
+    var options = {
+        autoPlayDelay: 5000,
+        animateStartingFrameIn: true,
+        reverseAnimationsWhenNavigatingBackwards: false,
+        nextButton: true,
+        prevButton: true,
+        showNextButtonOnInit: true,
+        autoPlay: true
+    };
   
-  var sequence = $("#sequence").sequence(options).data("sequence");
+    var sequence = $('#sequence').sequence(options).data('sequence');
   
-  $(".form_send").click(function(event) {
-    alert('Work ye bastard!');
-    event.preventDefault();
+    $('.form_send').click(function(event) {
+        alert('Work ye bastard!');
+        event.preventDefault();
+      
+        var name = $('input#name').val();
+        var email = $('input#email').val();
+        var budget = $('select#budget').val();
+        var message = $('textarea#message').val();
+      
+        if($('.contact-message').html() !== ''){
+            $('.contact-message').attr('class', 'contact-message');
+            $('.contact-message').html('');
+            $('.contact-message').hide();
+        }
+      
+        if (name === '' || name === ' ' || name === 'Name') {
+            $('.contact-message').addClass('contact-error');
+            $('.contact-message').html('Hey John Doe! We need to know your name please. Thank you');
+            $('.contact-message').show();
+            return false;
+        }
+        
+        if (email === '' || email === ' ') {
+            $('.contact-message').addClass('contact-error');
+            $('.contact-message').html('Uh oh! Looks like something’s wrong with the Email you gave.');
+            $('.contact-message').show();
+            return false;
+        }
+        
+        else if (!IsEmail(email)) {
+            $('.contact-message').addClass('contact-error');
+            $('.contact-message').html('Uh oh! Looks like something’s wrong with the Email you gave.');
+            $('.contact-message').show();
+            return false;
+        }
     
-    var name = $("input#name").val();
-    var email = $("input#email").val();
-    var budget = $("select#budget").val();
-    var message = $("textarea#message").val();
+        if (message === '' || message === ' ' || message === 'Message') {
+            $('.contact-message').addClass('contact-error');
+            $('.contact-message').html('Dont be shy! Leave us a message about what you want to discuss.');
+            $('.contact-message').show();
+            return false;
+        }
     
-    if($('.contact-message').html() != ''){
-      $('.contact-message').attr('class', 'contact-message');
-      $('.contact-message').html('');
-      $('.contact-message').hide();
-    }
+        $('.contact-message').load('mailer.php', $('#contact-form').serialize(), function(){
+            $('.contact-message').addClass('contact-success');
+        });
     
-    if (name == "" || name == " " || name == "Name") {
-      $('.contact-message').addClass('contact-error');
-      $('.contact-message').html('Hey John Doe! We need to know your name please. Thank you');
-      $('.contact-message').show();
-      return false;
-    }
-    
-    if (email == "" || email == " ") {
-      $('.contact-message').addClass('contact-error');
-      $('.contact-message').html('Uh oh! Looks like something’s wrong with the Email you gave.');
-      $('.contact-message').show();
-      return false;
-    }
-    
-    else if (!IsEmail(email)) {
-      $('.contact-message').addClass('contact-error');
-      $('.contact-message').html('Uh oh! Looks like something’s wrong with the Email you gave.');
-      $('.contact-message').show();
-      return false;
-    }
-    
-    if (message == "" || message == " " || message == "Message") {
-      $('.contact-message').addClass('contact-error');
-      $('.contact-message').html('Dont be shy! Leave us a message about what you want to discuss.');
-      $('.contact-message').show();
-      return false;
-    }
-    
-    $('.contact-message').load('mailer.php', $('#contact-form').serialize(), function(){
-      $('.contact-message').addClass('contact-success');
+        $('.contact-message').show();
     });
-    
-    $('.contact-message').show();
-  });
   
-  var cbpAnimatedHeader = (function() {
+    var cbpAnimatedHeader = (function() {
 
-    var docElem = document.documentElement,
+        var docElem = document.documentElement,
     header = document.querySelector( '.site-header' ),
     didScroll = false,
     changeHeaderOn = 500;
 
-    function init() {
-      window.addEventListener( 'scroll', function( event ) {
-        if( !didScroll ) {
-          didScroll = true;
-          setTimeout( scrollPage, 250 );
+        function init() {
+          window.addEventListener( 'scroll', function( event ) {
+            if( !didScroll ) {
+              didScroll = true;
+              setTimeout( scrollPage, 250 );
+            }
+          }, false );
         }
-      }, false );
-    }
 
-    function scrollPage() {
-      var sy = scrollY();
-        if ( sy >= changeHeaderOn ) {
-          classie.add( header, 'shrink' );
-        }
+        function scrollPage() {
+          var sy = scrollY();
+            if ( sy >= changeHeaderOn ) {
+              classie.add( header, 'shrink' );
+            }
         else {
-          classie.remove( header, 'shrink' );
+              classie.remove( header, 'shrink' );
+            }
+          didScroll = false;
         }
-      didScroll = false;
-    }
 
-    function scrollY() {
-      return window.pageYOffset || docElem.scrollTop;
-    }
+        function scrollY() {
+          return window.pageYOffset || docElem.scrollTop;
+        }
 
-    init();
+        init();
 
-  });
-});
-
-$(".mob-nav-btn").click(function (e) {
-  $(".main-nav").toggleClass("main-nav-open");
-  e.preventDefault();
-});
-
-$(window).scroll(function(e){
-  scrollshow();
+    });
 });
 
 function scrollshow(){
@@ -113,6 +104,15 @@ function scrollshow(){
   }
 }
 
+$('.mob-nav-btn').click(function (e) {
+    $('.main-nav').toggleClass('main-nav-open');
+    e.preventDefault();
+});
+
+$(window).scroll(function(e){
+    scrollshow();
+});
+
 function IsEmail(email) {
   var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
   return filter.test(email);
@@ -120,7 +120,8 @@ function IsEmail(email) {
     if ($(window).width()>535){
       parallax();
     }
-});
+  }
+}
 
 function parallax(){
   var scrolled = $(window).scrollTop();
