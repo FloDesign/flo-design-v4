@@ -12,10 +12,7 @@ $(document).ready(function () {
     var sequence = $('#sequence').sequence(options).data('sequence');
   
     $('.form_send').click(function(event) {
-      var form = $('#contact-form').serialize();
-      console.log(form);
-
-      /*  event.preventDefault();
+      event.preventDefault();
       
         var name = $('input#name').val();
         var email = $('input#email').val();
@@ -60,7 +57,7 @@ $(document).ready(function () {
             $('.contact-message').addClass('contact-success');
         });
     
-        $('.contact-message').show();*/
+        $('.contact-message').show();
     });
   
     var cbpAnimatedHeader = (function() {
