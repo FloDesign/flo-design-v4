@@ -1,146 +1,133 @@
+$(document).ready(function(){
+  var options = {
+    autoPlay: true,
+    autoPlayDelay: 5000,
+    animateStartingFrameIn: true,
+    reverseAnimationsWhenNavigatingBackwards: false,
+    nextButton: true,
+    prevButton: true,
+    showNextButtonOnInit: true
+  }
+  
+  var sequence = $("#sequence").sequence(options).data("sequence");
+  
+  $(".talk__form input").click(function(event) {
+    alert('Work ye bastard!');
+    event.preventDefault();
+    
+    var name = $("input#name").val();
+    var email = $("input#email").val();
+    var budget = $("select#budget").val();
+    var message = $("textarea#message").val();
+    
+    if($('.contact-message').html() != ''){
+      $('.contact-message').attr('class', 'contact-message');
+      $('.contact-message').html('');
+      $('.contact-message').hide();
+    }
+    
+    if (name == "" || name == " " || name == "Name") {
+      $('.contact-message').addClass('contact-error');
+      $('.contact-message').html('Hey John Doe! We need to know your name please. Thank you');
+      $('.contact-message').show();
+      return false;
+    }
+    
+    if (email == "" || email == " ") {
+      $('.contact-message').addClass('contact-error');
+      $('.contact-message').html('Uh oh! Looks like something’s wrong with the Email you gave.');
+      $('.contact-message').show();
+      return false;
+    }
+    
+    else if (!IsEmail(email)) {
+      $('.contact-message').addClass('contact-error');
+      $('.contact-message').html('Uh oh! Looks like something’s wrong with the Email you gave.');
+      $('.contact-message').show();
+      return false;
+    }
+    
+    if (message == "" || message == " " || message == "Message") {
+      $('.contact-message').addClass('contact-error');
+      $('.contact-message').html('Dont be shy! Leave us a message about what you want to discuss.');
+      $('.contact-message').show();
+      return false;
+    }
+    
+    $('.contact-message').load('mailer.php', $('#contact-form').serialize(), function(){
+      $('.contact-message').addClass('contact-success');
+    });
+    
+    $('.contact-message').show();
+  });
+  
+  var cbpAnimatedHeader = (function() {
+
+  var docElem = document.documentElement,
+  header = document.querySelector( '.site-header' ),
+  didScroll = false,
+  changeHeaderOn = 500;
+
+  function init() {
+  window.addEventListener( 'scroll', function( event ) {
+  if( !didScroll ) {
+  didScroll = true;
+  setTimeout( scrollPage, 250 );
+  }
+  }, false );
+  }
+
+  function scrollPage() {
+  var sy = scrollY();
+  if ( sy >= changeHeaderOn ) {
+  classie.add( header, 'shrink' );
+  }
+  else {
+  classie.remove( header, 'shrink' );
+  }
+  didScroll = false;
+  }
+
+  function scrollY() {
+  return window.pageYOffset || docElem.scrollTop;
+  }
+
+  init();
+
+});
+$(".mob-nav-btn").click(function (e) {
+$(".main-nav").toggleClass("main-nav-open");
+e.preventDefault();
+});
+});
 $(window).scroll(function(e){
-  scrollshow();
+scrollshow();
 });
 function scrollshow(){
-  var scrolled = $(window).scrollTop();
-   if (scrolled >= 300 ) {
-    $('.box').addClass('showscroll');
-   }
+var scrolled = $(window).scrollTop();
+if (scrolled >= 300 ) {
+$('.box').addClass('showscroll');
 }
-
-$(document).ready(function(){
-         var options = {
-            autoPlay: true,
-            autoPlayDelay: 5000,
-            animateStartingFrameIn: true,
-            reverseAnimationsWhenNavigatingBackwards: false,
-            nextButton: true,
-            prevButton: true,
-            showNextButtonOnInit: true
-        }
-        var sequence = $("#sequence").sequence(options).data("sequence");
-
-      $(".talk__form input").click(function(event) {
-          alert('Work ye bastard!');
-        event.preventDefault();
-
-        var name = $("input#name").val();
-        var email = $("input#email").val();
-        var budget = $("select#budget").val();
-        var message = $("textarea#message").val();
-
-        if($('.contact-message').html() != ''){
-          $('.contact-message').attr('class', 'contact-message');
-          $('.contact-message').html('');
-          $('.contact-message').hide();
-        }
-
-        if (name == "" || name == " " || name == "Name") {
-          $('.contact-message').addClass('contact-error');
-          $('.contact-message').html('Hey John Doe! We need to know your name please. Thank you');
-          $('.contact-message').show();
-          return false;
-        }
-        if (email == "" || email == " ") {
-          $('.contact-message').addClass('contact-error');
-        $('.contact-message').html('Uh oh! Looks like something’s wrong with the Email you gave.');
-        $('.contact-message').show();
-        return false;
-      } 
-      else if (!IsEmail(email)) {
-        $('.contact-message').addClass('contact-error');
-        $('.contact-message').html('Uh oh! Looks like something’s wrong with the Email you gave.');
-        $('.contact-message').show();
-        return false;
-      }
-
-      if (message == "" || message == " " || message == "Message") {
-        $('.contact-message').addClass('contact-error');
-        $('.contact-message').html('Dont be shy! Leave us a message about what you want to discuss.');
-        $('.contact-message').show();
-        return false;
-      }
-
-        $('.contact-message').load('mailer.php', $('#contact-form').serialize(), function(){
-          $('.contact-message').addClass('contact-success');
-        });
-      $('.contact-message').show();
-    });
-});
-
+}
 function IsEmail(email) {
-  var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-  return filter.test(email);
-
-$(document).ready(function() {
-var cbpAnimatedHeader = (function() {
- 
-    var docElem = document.documentElement,
-        header = document.querySelector( '.site-header' ),
-        didScroll = false,
-        changeHeaderOn = 500;
- 
-    function init() {
-        window.addEventListener( 'scroll', function( event ) {
-            if( !didScroll ) {
-                didScroll = true;
-                setTimeout( scrollPage, 250 );
-            }
-        }, false );
-    }
- 
-    function scrollPage() {
-        var sy = scrollY();
-        if ( sy >= changeHeaderOn ) {
-            classie.add( header, 'shrink' );
-        }
-        else {
-            classie.remove( header, 'shrink' );
-        }
-        didScroll = false;
-    }
- 
-    function scrollY() {
-        return window.pageYOffset || docElem.scrollTop;
-    }
- 
-    init();
- 
-})();
-}); // END DOCUMENT READY
-
-
-
-$(".mob-nav-btn").click(function (e) {
-      $(".main-nav").toggleClass("main-nav-open");
-      e.preventDefault();
-    });
-
-
+var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+return filter.test(email);
 $(window).scroll(function(e){
-  if ($(window).width()>535){
-  parallax();}
+if ($(window).width()>535){
+parallax();}
 });
 function parallax(){
-  var scrolled = $(window).scrollTop();
-  if(scrolled>0){
-  $('.bg').css('top',-(scrolled*0.5)+'px');
-  $('.masthead h1').css('top',-(scrolled*0.1)+'px');
+var scrolled = $(window).scrollTop();
+if(scrolled>0){
+$('.bg').css('top',-(scrolled*0.5)+'px');
+$('.masthead h1').css('top',-(scrolled*0.1)+'px');
+$('.masthead h1, .masthead .ctas').css('opacity',(5/scrolled*10));
 
-  $('.masthead h1, .masthead .ctas').css('opacity',(5/scrolled*10));
- 
-  $('.masthead .ctas').css('top',-(scrolled*-0.5)+'px');
-
-   }
+$('.masthead .ctas').css('top',-(scrolled*-0.5)+'px');
 }
-
-
+}
 $('.work_item').bind('inview', function (event, visible) {
-  if (visible == true) {
-    $(this).addClass('inview');
-  }
+if (visible == true) {
+$(this).addClass('inview');
+}
 });
-
-
-
-
