@@ -20,7 +20,7 @@ $(document).ready(function(){
         }
         var sequence = $("#sequence").sequence(options).data("sequence");
 
-        $(".talk__form").on('click', 'a' function(event) {
+        $(".talk__form").on('click', 'a', function(event) {
       event.preventDefault();
 
       var name = $("input#name").val();
