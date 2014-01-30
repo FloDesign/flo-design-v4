@@ -7,6 +7,7 @@
 
   $to      = 'hello@flodesign.co.uk';
   $subject = 'Flo Design contact form';
+  $message = 'Name: '. $name . "\n";
   $message = 'Budget: '. $budget . "\n";
   $message .= 'Message: ' . $text;
   $headers = "From:" . $email . "\r\n" .
