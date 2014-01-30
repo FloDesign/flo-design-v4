@@ -63,38 +63,40 @@ $(document).ready(function(){
   
   var cbpAnimatedHeader = (function() {
 
-  var docElem = document.documentElement,
-  header = document.querySelector( '.site-header' ),
-  didScroll = false,
-  changeHeaderOn = 500;
+    var docElem = document.documentElement,
+    header = document.querySelector( '.site-header' ),
+    didScroll = false,
+    changeHeaderOn = 500;
 
-  function init() {
-  window.addEventListener( 'scroll', function( event ) {
-  if( !didScroll ) {
-  didScroll = true;
-  setTimeout( scrollPage, 250 );
-  }
-  }, false );
-  }
+    function init() {
+      window.addEventListener( 'scroll', function( event ) {
+        if( !didScroll ) {
+          didScroll = true;
+          setTimeout( scrollPage, 250 );
+        }
+      }, false );
+    }
 
-  function scrollPage() {
-  var sy = scrollY();
-  if ( sy >= changeHeaderOn ) {
-  classie.add( header, 'shrink' );
-  }
-  else {
-  classie.remove( header, 'shrink' );
-  }
-  didScroll = false;
-  }
+    function scrollPage() {
+      var sy = scrollY();
+        if ( sy >= changeHeaderOn ) {
+          classie.add( header, 'shrink' );
+        }
+        else {
+          classie.remove( header, 'shrink' );
+        }
+      didScroll = false;
+    }
 
-  function scrollY() {
-  return window.pageYOffset || docElem.scrollTop;
-  }
+    function scrollY() {
+      return window.pageYOffset || docElem.scrollTop;
+    }
 
-  init();
+    init();
 
+  });
 });
+
 $(".mob-nav-btn").click(function (e) {
 $(".main-nav").toggleClass("main-nav-open");
 e.preventDefault();
