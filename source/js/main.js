@@ -20,7 +20,7 @@ $(document).ready(function(){
         }
         var sequence = $("#sequence").sequence(options).data("sequence");
 
-    $( ".talk__form" ).on( "submit", function( event ) {
+    $( ".form_send" ).click(function( event ) {
       event.preventDefault();
 
       var name = $("input#name").val();
@@ -66,7 +66,7 @@ $(document).ready(function(){
     $('.contact-message').show();
   });
 
-    });
+});
 
 function IsEmail(email) {
   var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
