@@ -1,17 +1,17 @@
-$(document).ready(function(){
+$(document).ready(function () {
   var options = {
-    autoPlay: true,
     autoPlayDelay: 5000,
     animateStartingFrameIn: true,
     reverseAnimationsWhenNavigatingBackwards: false,
     nextButton: true,
     prevButton: true,
-    showNextButtonOnInit: true
-  }
+    showNextButtonOnInit: true,
+    autoPlay: true
+  };
   
   var sequence = $("#sequence").sequence(options).data("sequence");
   
-  $(".talk__form input").click(function(event) {
+  $(".form_send").click(function(event) {
     alert('Work ye bastard!');
     event.preventDefault();
     
