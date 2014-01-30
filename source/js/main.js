@@ -21,8 +21,8 @@ $(document).ready(function(){
         var sequence = $("#sequence").sequence(options).data("sequence");
 });
 
-$( ".form_send" ).click(function(event) {
-      event.preventDefault();
+$(".form_send").click(function(event) {
+      event.stopImmediatePropagation();
 
       var name = $("input#name").val();
       var email = $("input#email").val();
