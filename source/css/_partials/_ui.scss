@@ -729,9 +729,9 @@ form.talk__form{
 .form_send{
 	font-size: 24px;
 	font-size: 1.5rem;
-	display: block;
 	margin-top: 24px;
-	float: left;
+	display: block;
+	width: 95px;
 	padding: 7px 7px 7px 15px;
 	border: 1px solid $highlight;
 	@include transition-duration(.5s);
@@ -740,10 +740,35 @@ form.talk__form{
 		background: $highlight;
 		text-decoration: none;
 	}
+
+	
 	span{
 		position: relative;
 		top: 2px;
 	}
+}
+
+.success_fail{
+	margin: 20px 0;
+
+	.contact-message{
+		font-weight: bold;
+		padding: 10px 15px;
+	}
+
+	.contact-error{
+		color: #e74c3c;
+		border: 1px solid #e74c3c;
+
+	}
+
+	.contact-success{
+		color: #27ae60;
+		border: 1px solid #27ae60;
+		
+	}
+
+
 }
 
 .talk__details li{
