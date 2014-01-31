@@ -66,13 +66,14 @@ $(document).ready(function () {
     
         $('.contact-message').show();
     });
-  
-    var cbpAnimatedHeader = (function() {
+});
+
+var cbpAnimatedHeader = (function() {
 
         var docElem = document.documentElement,
-    header = document.querySelector( '.site-header' ),
-    didScroll = false,
-    changeHeaderOn = 500;
+        header = document.querySelector( '.site-header' ),
+        didScroll = false,
+        changeHeaderOn = 500;
 
         function init() {
           window.addEventListener( 'scroll', function( event ) {
@@ -101,7 +102,6 @@ $(document).ready(function () {
         init();
 
     });
-});
 
 function scrollshow(){
   var scrolled = $(window).scrollTop();
