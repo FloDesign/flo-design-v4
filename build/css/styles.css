@@ -1412,18 +1412,22 @@ ul.member__social li {
   .blog__main pre {
     padding: 20px;
     background: #f6f6f6;
-    overflow: scroll;
+    overflow: auto;
     margin-bottom: 24px;
     margin-bottom: 1.5rem;
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     color: #a7a9ac; }
+  /* line 1125, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
+  .blog__main img {
+    max-width: 100%;
+    border: 1px solid #a7a9ac; }
 
-/* line 1127, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
+/* line 1132, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .post_meta {
   position: absolute;
   bottom: -60px;
   width: 100%; }
-  /* line 1131, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
+  /* line 1136, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .post_meta dl {
     border-left: 1px solid #ececec;
     padding: 0px 0 85px 10px;
@@ -1431,30 +1435,30 @@ ul.member__social li {
     font-size: 1.12rem;
     font-weight: 600;
     display: block; }
-    /* line 1138, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
+    /* line 1143, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
     .post_meta dl dt {
       float: left;
       color: #a6a6a6;
       margin-right: 10px; }
 
-/* line 1147, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
+/* line 1152, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .article_wrapper {
   padding-top: 100px;
   background: #fff; }
 
-/* line 1153, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
+/* line 1158, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 footer {
   color: #707174;
   background: #464749;
   padding: 48px 0 24px 0; }
 
-/* line 1159, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
+/* line 1164, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .social-links {
   margin-bottom: 24px; }
-  /* line 1161, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
+  /* line 1166, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .social-links li {
     display: inline; }
-    /* line 1163, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
+    /* line 1168, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
     .social-links li a {
       color: #707174;
       margin-right: 3px;
@@ -1462,30 +1466,30 @@ footer {
       -moz-transition-duration: 0.5s;
       -o-transition-duration: 0.5s;
       transition-duration: 0.5s; }
-      /* line 1167, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
+      /* line 1172, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
       .social-links li a:hover {
         text-decoration: none;
         color: #3d9bdd; }
 
-/* line 1176, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
+/* line 1181, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .footer-nav {
   position: absolute;
   right: 0;
   bottom: 0;
   margin-bottom: 24px; }
-  /* line 1181, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
+  /* line 1186, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .footer-nav li {
     display: inline;
     border-right: 1px solid #707174; }
-    /* line 1184, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
+    /* line 1189, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
     .footer-nav li:last-child {
       border-right: 0; }
-    /* line 1187, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
+    /* line 1192, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
     .footer-nav li a {
       color: #707174;
       padding-right: 5px; }
 
-/* line 1196, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
+/* line 1201, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .footer-logo {
   position: absolute;
   right: 0; }

@@ -1114,12 +1114,17 @@ ul.member__social li{
 	pre{
 		padding: 20px;
 		background: $grey-bg;
-		overflow: scroll;
+		overflow: auto;
 		margin-bottom: 24px;
 		margin-bottom: 1.5rem;
 		font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 		// border: 1px solid #a7a9ac;
 		color: #a7a9ac;
+	}
+
+	img{
+		max-width: 100%;
+		border: 1px solid #a7a9ac;
 	}
 
 }
