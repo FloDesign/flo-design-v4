@@ -99,9 +99,9 @@ var cbpAnimatedHeader = (function() {
           return window.pageYOffset || docElem.scrollTop;
         }
 
-        init();
-
     });
+
+init();
 
 function scrollshow(){
   var scrolled = $(window).scrollTop();
