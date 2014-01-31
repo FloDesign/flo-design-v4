@@ -68,7 +68,6 @@ $(document).ready(function () {
     });
 });
 
-var cbpAnimatedHeader = (function() {
 
         var docElem = document.documentElement,
         header = document.querySelector( '.site-header' ),
@@ -98,8 +97,6 @@ var cbpAnimatedHeader = (function() {
         function scrollY() {
           return window.pageYOffset || docElem.scrollTop;
         }
-
-    });
 
 init();
 
