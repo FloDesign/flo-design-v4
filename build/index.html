@@ -173,11 +173,11 @@
 		<div class="row cf">
 			<h2>We talk.</h2>
 			<div class="col6">
-				<form action="mailer.php" class="talk__form">
-					<input type="text" name="name" placeholder="Name">
-					<input type="text" name="email" placeholder="Email">
+				<form method="post" class="talk__form cf" name="contact-form" id="contact-form">
+					<input type="text" name="name" id="name" placeholder="Name">
+					<input type="text" name="email" id="email" placeholder="Email">
 					<div class="form_dropdown">
-						<select name="budget">
+						<select name="budget" id="budget">
 							<option value='' disabled selected style='display:none;'>Budget</option>
 							<option value="Under 10k">Under 10k</option>
 							<option value="10k - 15k">10k - 15k</option>
@@ -186,7 +186,12 @@
 						</select>
 					</div>
 					<textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
-					<a href="" class="form_send">SEND <span aria-hidden="true" data-icon="&#xe604;"></span></a>
+					<a href="#" id="form_send" class="form_send">SEND <span aria-hidden="true" data-icon="&#xe604;"></span></a>
+
+					<div class="success_fail">
+						<img src="img/ajax-loader.gif" alt="Loader" class="loader" />
+						<div class="contact-message"></div>
+					</div><!--end success fail-->
 				</form>
 			</div>
 				<div class="col6">
