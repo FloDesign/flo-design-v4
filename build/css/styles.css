@@ -1,4 +1,4 @@
-/* line 17, /home/cragflo/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, /Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,38 +19,38 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, /home/cragflo/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, /Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, /home/cragflo/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, /Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, /home/cragflo/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, /Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, /home/cragflo/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, /Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, /home/cragflo/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, /Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, /home/cragflo/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, /Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, /home/cragflo/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, /Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, /home/cragflo/.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, /Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
@@ -60,104 +60,104 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*------------------------------------*\
 	$GRID
 \*------------------------------------*/
-/* line 7, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 7, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 html {
   overflow-x: hidden; }
 
 /*----------------Clearfix------------*/
-/* line 14, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 14, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .cf:before,
 .cf:after {
   content: "";
   display: table; }
 
-/* line 18, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 18, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .cf:after {
   clear: both; }
 
-/* line 21, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 21, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .cf {
   zoom: 1; }
 
-/* line 25, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 25, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .clear {
   clear: both; }
 
 /*----------------Grid------------*/
-/* line 32, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 32, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 body {
   overflow-x: hidden; }
 
-/* line 36, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 36, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .wrapper {
   margin: 0 auto;
   max-width: 1300px;
   padding: 0 20px; }
 
-/* line 42, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 42, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .row {
   margin: 0 0 2% 0;
   position: relative; }
 
-/* line 47, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 47, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12 {
   margin: 0 2% 0 0;
   float: left;
   min-height: 1px; }
 
-/* line 54, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 54, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .col1 {
   width: 6.5%; }
 
-/* line 58, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 58, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .col2 {
   width: 15%; }
 
-/* line 62, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 62, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .col3 {
   width: 23.5%; }
 
-/* line 66, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 66, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .col4 {
   width: 32%; }
 
-/* line 70, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 70, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .col5 {
   width: 40.5%; }
 
-/* line 74, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 74, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .col6 {
   width: 49%; }
 
-/* line 78, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 78, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .col7 {
   width: 57.5%; }
 
-/* line 82, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 82, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .col8 {
   width: 66%; }
 
-/* line 86, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 86, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .col9 {
   width: 74.5%; }
 
-/* line 90, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 90, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .col10 {
   width: 83%; }
 
-/* line 94, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 94, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .col11 {
   width: 91.5%; }
 
-/* line 98, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 98, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .col12 {
   width: 100%; }
 
-/* line 102, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 102, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .row > div:last-child {
   margin: 0; }
 
-/* line 106, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_grid.scss */
+/* line 106, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_grid.scss */
 .copy_wrapper {
   margin-top: 48px; }
 
@@ -172,7 +172,7 @@ body {
   font-weight: normal;
   font-style: normal; }
 
-/* line 20, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_type.scss */
+/* line 20, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_type.scss */
 [data-icon]:before {
   font-family: 'flo-icon';
   content: attr(data-icon);
@@ -184,7 +184,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 33, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_type.scss */
+/* line 33, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_type.scss */
 body {
   color: #464749;
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -192,7 +192,7 @@ body {
   line-height: 1.5rem; }
 
 /*--- HEADINGS ---*/
-/* line 41, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_type.scss */
+/* line 41, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_type.scss */
 h1, .alpha {
   font-size: 55px;
   font-size: 3.44rem;
@@ -200,7 +200,7 @@ h1, .alpha {
   font-weight: 600;
   text-align: center; }
 
-/* line 48, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_type.scss */
+/* line 48, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_type.scss */
 h2, .beta {
   font-size: 48px;
   font-size: 3rem;
@@ -210,38 +210,38 @@ h2, .beta {
   font-weight: 600;
   padding: 85px 0 48px 0; }
 
-/* line 57, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_type.scss */
+/* line 57, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_type.scss */
 h3, .gamma {
   font-size: 24px;
   font-size: 1.5rem;
   font-weight: 600;
   line-height: auto; }
 
-/* line 63, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_type.scss */
+/* line 63, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_type.scss */
 h4, .delta {
   font-size: 30px;
   font-size: 1.88rem;
   line-height: auto; }
 
-/* line 68, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_type.scss */
+/* line 68, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_type.scss */
 h5, .epsilon {
   font-size: 18px;
   font-size: 1.12rem;
   line-height: auto;
   font-weight: 600; }
 
-/* line 74, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_type.scss */
+/* line 74, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_type.scss */
 h6, .zeta {
   font-size: 16px;
   font-size: 1rem;
   line-height: auto; }
 
-/* line 80, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_type.scss */
+/* line 80, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_type.scss */
 p {
   padding-bottom: 24px;
   padding-bottom: 1.5rem; }
 
-/* line 85, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_type.scss */
+/* line 85, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_type.scss */
 time {
   font-size: 18px;
   font-size: 1.12rem;
@@ -249,22 +249,22 @@ time {
   font-weight: 600; }
 
 /*--- LINKS ---*/
-/* line 92, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_type.scss */
+/* line 92, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_type.scss */
 a:hover {
   text-decoration: underline; }
 
-/* line 96, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_type.scss */
+/* line 96, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_type.scss */
 a {
   text-decoration: none;
   color: #3d9bdd; }
 
 /*--- LISTS ---*/
-/* line 103, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_type.scss */
+/* line 103, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_type.scss */
 li > ul,
 li > ol {
   margin-bottom: 0; }
 
-/* line 2, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 2, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .site-logo {
   background: url(../img/flo-logo.svg) no-repeat;
   background-size: 100%;
@@ -279,11 +279,11 @@ li > ol {
   -o-transition: all 0.3s;
   transition: all 0.3s; }
 
-/* line 17, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 17, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .index .site-logo {
   cursor: default; }
 
-/* line 22, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 22, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 ul.main-nav {
   float: right;
   position: relative;
@@ -296,10 +296,10 @@ ul.main-nav {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s; }
-  /* line 34, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 34, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   ul.main-nav li {
     display: inline; }
-    /* line 36, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+    /* line 36, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
     ul.main-nav li a {
       margin-left: 46px;
       color: #a7a9ac;
@@ -313,13 +313,13 @@ ul.main-nav {
       -o-transition-duration: 0.5s;
       transition-duration: 0.5s;
       padding-top: 0px; }
-      /* line 46, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+      /* line 46, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
       ul.main-nav li a:hover {
         color: #3d9bdd;
         border-top: 2px solid #3d9bdd;
         padding-top: 10px; }
 
-/* line 60, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 60, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .about a.about_link,
 .work a.work_link,
 .services a.services_link,
@@ -330,16 +330,16 @@ ul.main-nav {
   border-top: 2px solid #3d9bdd;
   padding-top: 10px; }
 
-/* line 66, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 66, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .shrink ul.main-nav {
   top: 15px; }
 
-/* line 70, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 70, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .shrink .site-logo {
   top: 8px;
   background-size: 70%; }
 
-/* line 75, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 75, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 header {
   z-index: 999;
   background: white;
@@ -356,11 +356,11 @@ header {
   -o-transform: translateZ(0);
   transform: translateZ(0); }
 
-/* line 93, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 93, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .blog_post .site-header {
   border-bottom: 1px solid #a7a9ac; }
 
-/* line 97, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 97, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 header.shrink {
   height: 50px;
   border-bottom: 1px solid #a7a9ac;
@@ -371,28 +371,28 @@ header.shrink {
   position: fixed;
   width: 100%; }
 
-/* line 110, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 110, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .mob-nav-btn {
   display: none; }
 
-/* line 114, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 114, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .masthead {
   padding-bottom: 140px;
   overflow: hidden; }
-  /* line 119, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 119, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .masthead img {
     position: fixed;
     z-index: -1;
     top: 0;
     width: 100%; }
-  /* line 127, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 127, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .masthead h1 {
     position: relative;
     color: #fff;
     padding: 275px 0 35px 0;
     line-height: 65px;
     opacity: 1; }
-  /* line 138, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 138, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .masthead .hp-title-one {
     -webkit-animation-delay: .5s;
     -moz-animation-delay: .5s;
@@ -411,7 +411,7 @@ header.shrink {
     -o-animation-name: show;
     animation-name: show;
     position: relative; }
-  /* line 158, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 158, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .masthead .hp-title-two {
     -webkit-animation-delay: 1.5s;
     -moz-animation-delay: 1.5s;
@@ -430,7 +430,7 @@ header.shrink {
     -o-animation-name: show;
     animation-name: show;
     position: relative; }
-  /* line 178, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 178, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .masthead a {
     text-decoration: none;
     text-transform: uppercase;
@@ -458,56 +458,56 @@ header.shrink {
     position: relative; }
 
 @-webkit-keyframes show {
-  /* line 209, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 209, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   0% {
     opacity: 0;
     top: 20px; }
 
-  /* line 211, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 211, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   100% {
     opacity: 1;
     top: 0px; } }
 
 @-moz-keyframes show {
-  /* line 215, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 215, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   0% {
     opacity: 0;
     top: 20px; }
 
-  /* line 217, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 217, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   100% {
     opacity: 1;
     top: 0px; } }
 
 @-o-keyframes show {
-  /* line 221, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 221, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   0% {
     opacity: 0;
     top: 20px; }
 
-  /* line 223, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 223, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   100% {
     opacity: 1;
     top: 0px; } }
 
 @keyframes show {
-  /* line 227, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 227, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   0% {
     opacity: 0;
     top: 20px; }
 
-  /* line 229, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 229, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   100% {
     opacity: 1;
     top: 0px; } }
 
-/* line 234, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 234, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .ctas {
   margin: 0 auto;
   text-align: center;
   position: relative; }
 
-/* line 240, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 240, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .masthead__btn {
   color: #fff;
   border: 1px solid #fff;
@@ -515,7 +515,7 @@ header.shrink {
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
   transition-duration: 0.3s; }
-  /* line 244, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 244, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .masthead__btn:after {
     content: '';
     position: absolute;
@@ -534,15 +534,15 @@ header.shrink {
     -moz-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%); }
-  /* line 261, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 261, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .masthead__btn:hover {
     color: #072e4a; }
-  /* line 265, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 265, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .masthead__btn:hover:after {
     width: 101%;
     opacity: 1; }
 
-/* line 272, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 272, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .masthead__btn--solid {
   color: #072e4a;
   border: 1px solid #fff;
@@ -551,7 +551,7 @@ header.shrink {
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
   transition-duration: 0.3s; }
-  /* line 277, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 277, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .masthead__btn--solid:after {
     content: '';
     position: absolute;
@@ -570,50 +570,50 @@ header.shrink {
     -moz-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%); }
-  /* line 294, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 294, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .masthead__btn--solid:hover {
     color: #fff; }
-  /* line 300, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 300, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .masthead__btn--solid:hover:after {
     width: 0%;
     opacity: 0; }
 
-/* line 306, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 306, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .bg-arrow {
   position: relative;
   top: 3px; }
 
-/* line 311, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 311, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .box {
   border: 1px solid #3d9bdd;
   padding: 35px 24px;
   text-align: center;
   position: relative;
   min-height: 282px; }
-  /* line 318, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 318, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .box h3 {
     font-weight: 100;
     text-align: center;
     margin-bottom: 24px; }
-  /* line 324, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 324, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .box p {
     font-size: 14px;
     font-size: .88rem; }
-  /* line 328, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 328, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .box a {
     text-transform: uppercase;
     padding: 5px;
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
     perspective: 1000px; }
-  /* line 337, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 337, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .box .icon {
     color: #3d9bdd;
     font-size: 40px;
     margin: 0 auto 22px auto;
     display: block; }
 
-/* line 347, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 347, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .box.showscroll {
   -webkit-animation-duration: .5s;
   -moz-animation-duration: .5s;
@@ -628,28 +628,28 @@ header.shrink {
   -o-animation-name: pulse;
   animation-name: pulse; }
 
-/* line 362, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 362, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .showscroll.box1 {
   -webkit-animation-delay: .5s;
   -moz-animation-delay: .5s;
   -o-animation-delay: .5s;
   animation-delay: .5s; }
 
-/* line 369, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 369, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .showscroll.box2 {
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   -o-animation-delay: 1s;
   animation-delay: 1s; }
 
-/* line 376, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 376, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .showscroll.box3 {
   -webkit-animation-delay: 1.5s;
   -moz-animation-delay: 1.5s;
   -o-animation-delay: 1.5s;
   animation-delay: 1.5s; }
 
-/* line 384, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 384, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .showscroll.box4 {
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
@@ -657,58 +657,58 @@ header.shrink {
   animation-delay: 2s; }
 
 @-webkit-keyframes pulse {
-  /* line 393, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 393, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   0% {
     -webkit-transform: scale(1); }
 
-  /* line 394, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 394, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   50% {
     -webkit-transform: scale(1.05); }
 
-  /* line 395, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 395, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   100% {
     -webkit-transform: scale(1); } }
 
 @-moz-keyframes pulse {
-  /* line 399, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 399, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   0% {
     -moz-transform: scale(1); }
 
-  /* line 400, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 400, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   50% {
     -moz-transform: scale(1.05); }
 
-  /* line 401, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 401, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   100% {
     -moz-transform: scale(1); } }
 
 @-o-keyframes pulse {
-  /* line 404, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 404, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   0% {
     -o-transform: scale(1); }
 
-  /* line 405, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 405, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   50% {
     -o-transform: scale(1.05); }
 
-  /* line 406, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 406, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   100% {
     -o-transform: scale(1); } }
 
 @keyframes pulse {
-  /* line 409, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 409, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   0% {
     transform: scale(1); }
 
-  /* line 410, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 410, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   50% {
     transform: scale(1.05); }
 
-  /* line 411, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 411, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   100% {
     transform: scale(1); } }
 
-/* line 416, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 416, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .box__corner {
   width: 0px;
   height: 0px;
@@ -719,39 +719,39 @@ header.shrink {
   top: 0;
   left: 0; }
 
-/* line 427, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 427, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .offer {
   background: #fff;
   padding-bottom: 96px; }
 
-/* line 432, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 432, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .built {
   background: #f6f6f6;
   overflow: hidden; }
 
-/* line 439, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 439, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 a .icon-link {
   position: relative;
   top: 3px;
   left: 4px;
   font-size: 20px; }
 
-/* line 507, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 507, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .built__info {
   background: rgba(61, 155, 221, 0.9);
   width: 50%;
   padding: 20px;
   min-height: 120px;
   bottom: -270px; }
-  /* line 514, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 514, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .built__info h4 {
     color: #fff;
     padding-bottom: 10px; }
-  /* line 518, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 518, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .built__info a {
     color: #fff; }
 
-/* line 523, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 523, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .animate-in .built__info {
   left: 0px;
   bottom: 141px;
@@ -764,7 +764,7 @@ a .icon-link {
   -o-transition-delay: 1s;
   transition-delay: 1s; }
 
-/* line 531, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 531, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .animate-out .built__info {
   bottom: 800px;
   -webkit-transition-duration: 0.5s;
@@ -772,12 +772,12 @@ a .icon-link {
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s; }
 
-/* line 537, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 537, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .mbp {
   opacity: 1;
   top: -1000px; }
 
-/* line 542, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 542, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .animate-in .mbp {
   opacity: 1;
   top: 0;
@@ -790,7 +790,7 @@ a .icon-link {
   -o-transition-delay: 0.5s;
   transition-delay: 0.5s; }
 
-/* line 549, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 549, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .animate-out .mbp {
   top: 0;
   opacity: 0;
@@ -803,13 +803,13 @@ a .icon-link {
   -o-transition-delay: 0.3s;
   transition-delay: 0.3s; }
 
-/* line 557, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 557, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .iphone {
   right: 100px;
   bottom: 1000px;
   opacity: 1; }
 
-/* line 563, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 563, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .animate-in .iphone {
   right: 100px;
   bottom: 90px;
@@ -823,7 +823,7 @@ a .icon-link {
   -o-transition-delay: 0.8s;
   transition-delay: 0.8s; }
 
-/* line 571, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 571, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .animate-out .iphone {
   opacity: 1;
   bottom: 90px;
@@ -837,12 +837,12 @@ a .icon-link {
   -o-transition-delay: 0.2s;
   transition-delay: 0.2s; }
 
-/* line 579, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 579, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .mbp_cfs {
   opacity: 1;
   bottom: -1000px; }
 
-/* line 584, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 584, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .animate-in .mbp_cfs {
   opacity: 1;
   bottom: 0;
@@ -855,7 +855,7 @@ a .icon-link {
   -o-transition-delay: 0.5s;
   transition-delay: 0.5s; }
 
-/* line 591, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 591, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .animate-out .mbp_cfs {
   bottom: -1000px;
   opacity: 1;
@@ -864,12 +864,12 @@ a .icon-link {
   -o-transition-duration: 0.8s;
   transition-duration: 0.8s; }
 
-/* line 598, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 598, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .ipad-vp {
   top: -1300px;
   left: 50px; }
 
-/* line 604, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 604, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .animate-in .ipad-vp {
   top: 0;
   -webkit-transition-duration: 0.5s;
@@ -881,7 +881,7 @@ a .icon-link {
   -o-transition-delay: 0.5s;
   transition-delay: 0.5s; }
 
-/* line 611, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 611, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .animate-out .ipad-vp {
   top: 1300px;
   -webkit-transition-duration: 0.8s;
@@ -889,12 +889,12 @@ a .icon-link {
   -o-transition-duration: 0.8s;
   transition-duration: 0.8s; }
 
-/* line 617, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 617, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .iphone-vp {
   top: -1000px;
   right: 80px; }
 
-/* line 622, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 622, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .animate-in .iphone-vp {
   top: 200px;
   -webkit-transition-duration: 0.5s;
@@ -906,7 +906,7 @@ a .icon-link {
   -o-transition-delay: 0.8s;
   transition-delay: 0.8s; }
 
-/* line 628, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 628, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .animate-out .iphone-vp {
   top: 1000px;
   -webkit-transition-duration: 0.8s;
@@ -918,7 +918,7 @@ a .icon-link {
   -o-transition-delay: 0.2s;
   transition-delay: 0.2s; }
 
-/* line 634, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 634, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 #sequence {
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
@@ -931,18 +931,18 @@ a .icon-link {
   max-width: 1000px;
   margin: 0 auto; }
 
-/* line 646, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 646, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 #sequence > .sequence-canvas li > * {
   /* required */
   position: absolute; }
 
-/* line 650, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 650, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 #sequence > .sequence-canvas {
   /* required */
   height: 100%;
   width: 100%; }
 
-/* line 655, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 655, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 #sequence > .sequence-canvas > li {
   /* required */
   position: absolute;
@@ -950,27 +950,27 @@ a .icon-link {
   height: 100%;
   z-index: 1; }
 
-/* line 662, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 662, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .talk {
   background: #fff;
   overflow: hidden;
   padding-bottom: 72px; }
 
-/* line 668, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 668, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .process {
   background: #fff;
   overflow: hidden;
   padding-bottom: 72px; }
-  /* line 672, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 672, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .process img {
     width: 100%; }
 
-/* line 678, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 678, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 form.talk__form {
   width: 100%;
   position: relative;
   top: -20px; }
-  /* line 684, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 684, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   form.talk__form input, form.talk__form textarea {
     color: #aaaaaa;
     background: #fff;
@@ -985,11 +985,11 @@ form.talk__form {
     font-size: 24px;
     font-size: 1.5rem;
     padding: 20px 0 10px 0; }
-    /* line 698, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+    /* line 698, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
     form.talk__form input:focus, form.talk__form textarea:focus {
       outline: none; }
 
-/* line 704, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 704, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .form_dropdown select {
   color: #aaaaaa;
   width: 100%;
@@ -1006,15 +1006,15 @@ form.talk__form {
   -moz-appearance: none;
   -o-appearance: none;
   appearance: none; }
-  /* line 720, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 720, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .form_dropdown select:focus {
     outline: none; }
 
-/* line 725, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 725, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .form_dropdown {
   border-bottom: 1px solid #3d9bdd; }
 
-/* line 729, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 729, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .form_send {
   font-size: 24px;
   font-size: 1.5rem;
@@ -1027,57 +1027,57 @@ form.talk__form {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s; }
-  /* line 738, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 738, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .form_send:hover {
     color: #fff;
     background: #3d9bdd;
     text-decoration: none; }
-  /* line 745, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 745, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .form_send span {
     position: relative;
     top: 2px; }
 
-/* line 751, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 751, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .success_fail {
   margin: 20px 0; }
-  /* line 754, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 754, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .success_fail .contact-message {
     font-weight: bold;
     padding: 10px 15px; }
-  /* line 759, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 759, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .success_fail .contact-error {
     color: #e74c3c;
     border: 1px solid #e74c3c; }
-  /* line 765, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 765, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .success_fail .contact-success {
     color: #27ae60;
     border: 1px solid #27ae60; }
 
-/* line 773, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 773, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .talk__details li {
   font-size: 36px;
   font-size: 2.25rem;
   font-weight: 600;
   padding: 24px 0; }
-  /* line 778, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 778, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .talk__details li:first-child {
     border-bottom: 1px solid #abadb2; }
-  /* line 781, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 781, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .talk__details li a {
     color: #464749; }
 
-/* line 786, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 786, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .talk_details--hire li {
   border-bottom: 1px solid #abadb2; }
-  /* line 788, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 788, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .talk_details--hire li:last-child {
     border-bottom: none; }
 
-/* line 793, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 793, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .grey {
   color: #abadb2; }
 
-/* line 797, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 797, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .talk-icon {
   color: #3d9bdd;
   padding-right: 20px;
@@ -1086,48 +1086,48 @@ form.talk__form {
   position: relative;
   top: 5px; }
 
-/* line 807, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 807, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .work_item, .service_item {
   background: #fff;
   overflow: hidden; }
-  /* line 810, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 810, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .work_item p, .service_item p {
     font-size: 18px;
     font-size: 1.12rem;
     margin-top: 48px; }
 
-/* line 819, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 819, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .service_item {
   padding-bottom: 110px; }
 
-/* line 823, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 823, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .service_item_even, .map_container {
   background: #f6f6f6; }
 
-/* line 828, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 828, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .service_img img {
   display: block;
   margin: 0 auto;
   width: 100%;
   max-width: 315px; }
 
-/* line 835, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 835, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .work_imgs {
   position: relative; }
 
-/* line 839, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 839, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .work_item--iphone, .work_item--mbp {
   position: absolute; }
 
-/* line 843, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 843, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .work_item--mbp {
   top: 20px; }
 
-/* line 847, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 847, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .work_item--iphone {
   top: 130px; }
 
-/* line 852, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 852, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .inview .work_item--iphone {
   -webkit-animation-delay: 1.5s;
   -moz-animation-delay: 1.5s;
@@ -1146,7 +1146,7 @@ form.talk__form {
   -o-animation-name: ani-iphone-in;
   animation-name: ani-iphone-in; }
 
-/* line 871, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 871, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .inview .work_item--mbp {
   -webkit-animation-delay: 1.8s;
   -moz-animation-delay: 1.8s;
@@ -1166,81 +1166,81 @@ form.talk__form {
   animation-name: ani-mbp-in; }
 
 @-webkit-keyframes ani-iphone-in {
-  /* line 892, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 892, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   0% {
     top: 700px; }
 
-  /* line 894, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 894, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   100% {
     top: 110px; } }
 
 @-moz-keyframes ani-iphone-in {
-  /* line 898, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 898, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   0% {
     top: 700px; }
 
-  /* line 900, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 900, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   100% {
     top: 110px; } }
 
 @-o-keyframes ani-iphone-in {
-  /* line 904, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 904, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   0% {
     top: 700px; }
 
-  /* line 906, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 906, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   100% {
     top: 110px; } }
 
 @keyframes ani-iphone-in {
-  /* line 910, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 910, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   0% {
     top: 700px; }
 
-  /* line 912, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 912, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   100% {
     top: 110px; } }
 
 @-webkit-keyframes ani-mbp-in {
-  /* line 916, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 916, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   0% {
     top: 600px; }
 
-  /* line 918, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 918, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   100% {
     top: 20px; } }
 
 @-moz-keyframes ani-mbp-in {
-  /* line 922, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 922, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   0% {
     top: 600px; }
 
-  /* line 924, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 924, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   100% {
     top: 20px; } }
 
 @-o-keyframes ani-mbp-in {
-  /* line 928, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 928, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   0% {
     top: 600px; }
 
-  /* line 930, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 930, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   100% {
     top: 20px; } }
 
 @keyframes ani-mbp-in {
-  /* line 934, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 934, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   0% {
     top: 600px; }
 
-  /* line 936, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 936, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   100% {
     top: 20px; } }
 
-/* line 940, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 940, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .tags {
   margin-bottom: 100px; }
-  /* line 942, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 942, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .tags li {
     float: left;
     padding: 2px 8px 0 8px;
@@ -1250,56 +1250,56 @@ form.talk__form {
     background: #f6f6f6;
     margin: 0 10px 10px 0; }
 
-/* line 953, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 953, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .work_item--even {
   background: #f6f6f6; }
-  /* line 955, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 955, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .work_item--even .work_item--mbp {
     right: 0px; }
-  /* line 959, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 959, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .work_item--even .work_item--iphone {
     top: 130px;
     right: 0px; }
-  /* line 964, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 964, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .work_item--even .tags li {
     background: #fff; }
 
-/* line 972, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 972, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .work_ctas {
   margin-bottom: 15px; }
-  /* line 974, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 974, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .work_ctas li {
     float: left;
     text-transform: uppercase;
     margin-right: 20px; }
-    /* line 978, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+    /* line 978, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
     .work_ctas li a {
       padding: 5px; }
-      /* line 980, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+      /* line 980, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
       .work_ctas li a:hover {
         text-decoration: none;
         background: #3d9bdd;
         color: #fff; }
 
-/* line 991, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 991, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .mapbox {
   margin: 20px 0 -2% 0;
   height: 500px; }
 
-/* line 996, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 996, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .digits {
   background: #fff;
   padding-bottom: 110px; }
 
-/* line 1001, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1001, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .values {
   background: #fff;
   padding: 96px 0; }
-  /* line 1004, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 1004, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .values .box {
     padding: 35px 24px 10px 24px; }
 
-/* line 1009, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1009, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .icon-fire {
   background: url(../img/fire.svg) no-repeat;
   width: 100%;
@@ -1308,7 +1308,7 @@ form.talk__form {
   margin-bottom: 16px;
   text-align: center; }
 
-/* line 1018, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1018, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .icon-people {
   background: url(../img/people.svg) no-repeat;
   width: 100%;
@@ -1316,7 +1316,7 @@ form.talk__form {
   background-position: center;
   margin-bottom: 16px; }
 
-/* line 1026, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1026, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .icon-happy {
   background: url(../img/happy.svg) no-repeat;
   width: 100%;
@@ -1324,7 +1324,7 @@ form.talk__form {
   background-position: center;
   margin-bottom: 16px; }
 
-/* line 1034, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1034, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .icon-web {
   background: url(../img/web.svg) no-repeat;
   width: 100%;
@@ -1332,7 +1332,7 @@ form.talk__form {
   background-position: center;
   margin-bottom: 16px; }
 
-/* line 1042, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1042, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .big_quote {
   font-size: 48px;
   font-size: 3rem;
@@ -1343,72 +1343,72 @@ form.talk__form {
   line-height: 60px;
   line-height: 3.75rem; }
 
-/* line 1054, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1054, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .team {
   background: #f6f6f6;
   padding-bottom: 50px; }
 
-/* line 1060, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1060, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .member img {
   width: 30%;
   float: left;
   margin-right: 5%; }
 
-/* line 1067, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1067, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .member__copy {
   width: 65%;
   float: right; }
-  /* line 1070, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 1070, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .member__copy p {
     padding-right: 10px; }
 
-/* line 1075, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1075, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 ul.member__social li {
   display: inline;
   margin-right: 10px; }
-  /* line 1078, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 1078, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   ul.member__social li a {
     color: #464749;
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
     transition-duration: 0.5s; }
-    /* line 1081, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+    /* line 1081, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
     ul.member__social li a:hover {
       text-decoration: none;
       color: #3d9bdd; }
 
-/* line 1089, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1089, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .articles {
   background: #fff;
   padding-bottom: 20px; }
 
-/* line 1093, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1093, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .blog_item {
   padding: 50px 0 40px 0;
   border-bottom: 1px solid #ececec; }
-  /* line 1096, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 1096, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .blog_item h2 {
     text-align: left;
     padding: 10px 0 50px 0;
     line-height: 48px;
     line-height: 3rem; }
-    /* line 1101, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+    /* line 1101, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
     .blog_item h2 a {
       color: #464749;
       -webkit-transition-duration: 0.5s;
       -moz-transition-duration: 0.5s;
       -o-transition-duration: 0.5s;
       transition-duration: 0.5s; }
-      /* line 1104, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+      /* line 1104, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
       .blog_item h2 a:hover {
         color: #3d9bdd;
         text-decoration: none; }
 
-/* line 1112, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1112, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .blog__main {
   padding-right: 11.4%; }
-  /* line 1114, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 1114, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .blog__main pre {
     padding: 20px;
     background: #f6f6f6;
@@ -1417,17 +1417,17 @@ ul.member__social li {
     margin-bottom: 1.5rem;
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     color: #a7a9ac; }
-  /* line 1125, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 1125, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .blog__main img {
     max-width: 100%;
     border: 1px solid #a7a9ac; }
 
-/* line 1132, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1132, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .post_meta {
   position: absolute;
   bottom: -60px;
   width: 100%; }
-  /* line 1136, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 1136, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .post_meta dl {
     border-left: 1px solid #ececec;
     padding: 0px 0 85px 10px;
@@ -1435,30 +1435,30 @@ ul.member__social li {
     font-size: 1.12rem;
     font-weight: 600;
     display: block; }
-    /* line 1143, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+    /* line 1143, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
     .post_meta dl dt {
       float: left;
       color: #a6a6a6;
       margin-right: 10px; }
 
-/* line 1152, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1152, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .article_wrapper {
   padding-top: 100px;
   background: #fff; }
 
-/* line 1158, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1158, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 footer {
   color: #707174;
   background: #464749;
   padding: 48px 0 24px 0; }
 
-/* line 1164, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1164, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .social-links {
   margin-bottom: 24px; }
-  /* line 1166, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 1166, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .social-links li {
     display: inline; }
-    /* line 1168, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+    /* line 1168, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
     .social-links li a {
       color: #707174;
       margin-right: 3px;
@@ -1466,30 +1466,30 @@ footer {
       -moz-transition-duration: 0.5s;
       -o-transition-duration: 0.5s;
       transition-duration: 0.5s; }
-      /* line 1172, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+      /* line 1172, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
       .social-links li a:hover {
         text-decoration: none;
         color: #3d9bdd; }
 
-/* line 1181, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1181, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .footer-nav {
   position: absolute;
   right: 0;
   bottom: 0;
   margin-bottom: 24px; }
-  /* line 1186, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+  /* line 1186, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
   .footer-nav li {
     display: inline;
     border-right: 1px solid #707174; }
-    /* line 1189, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+    /* line 1189, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
     .footer-nav li:last-child {
       border-right: 0; }
-    /* line 1192, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+    /* line 1192, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
     .footer-nav li a {
       color: #707174;
       padding-right: 5px; }
 
-/* line 1201, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_ui.scss */
+/* line 1201, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_ui.scss */
 .footer-logo {
   position: absolute;
   right: 0; }
@@ -1498,50 +1498,50 @@ footer {
 	$MEDIA QUERIES
 \*------------------------------------*/
 @media screen and (max-width: 1160px) {
-  /* line 8, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 8, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .masthead img {
     width: auto; } }
 @media screen and (max-width: 850px) {
-  /* line 16, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 16, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .col3 {
     width: 49%; }
 
-  /* line 20, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 20, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .articles .col3 {
     width: 23.5%; }
 
-  /* line 24, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 24, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .row .col3:nth-child(even) {
     margin: 0; }
 
-  /* line 28, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 28, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .box {
     margin-bottom: 20px; }
 
-  /* line 33, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 33, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   ul.main-nav li a {
     margin-left: 25px; }
 
-  /* line 38, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 38, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .talk__details li {
     font-size: 24px;
     font-size: 1.5rem;
     font-weight: 600;
     padding: 12px 0; }
-    /* line 43, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 43, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     .talk__details li:first-child {
       border-bottom: 1px solid #abadb2; }
-    /* line 46, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 46, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     .talk__details li a {
       color: #464749; }
 
-  /* line 52, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 52, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .talk-icon {
     font-size: 34px;
     font-size: 1.5rem;
     padding-right: 10px; }
 
-  /* line 58, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 58, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .big_quote {
     font-size: 38px;
     font-size: 2.38rem;
@@ -1549,51 +1549,51 @@ footer {
     line-height: 48px;
     line-height: 3rem; }
 
-  /* line 66, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 66, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .tags {
     margin-bottom: 10px; }
-    /* line 68, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 68, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     .tags li {
       margin: 0 10px 10px 0; }
 
   @-webkit-keyframes ani-iphone-in {
-    /* line 74, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 74, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     0% {
       top: 1000px; }
 
-    /* line 76, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 76, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     100% {
       top: 110px; } }
 
   @-webkit-keyframes ani-mbp-in {
-    /* line 80, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 80, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     0% {
       top: 1000px; }
 
-    /* line 82, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 82, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     100% {
       top: 20px; } } }
 @media screen and (max-width: 535px) {
-  /* line 89, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 89, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12 {
     width: 100%;
     margin: 0; }
 
-  /* line 94, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 94, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .process .col3 {
     width: 49%;
     margin-right: 2%; }
 
-  /* line 99, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 99, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .process .col3:nth-child(even) {
     margin: 0; }
 
-  /* line 103, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 103, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   h1, .alpha {
     font-size: 33px;
     font-size: 2.06rem; }
 
-  /* line 108, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 108, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   h2, .beta {
     font-size: 30px;
     font-size: 1.88rem;
@@ -1602,23 +1602,23 @@ footer {
     line-height: 30px;
     line-height: 1.88rem; }
 
-  /* line 117, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 117, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   h3, .gamma {
     margin-bottom: 12px; }
 
-  /* line 121, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 121, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   h4, .delta {
     font-size: 21px;
     font-size: 1.31rem; }
 
-  /* line 126, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 126, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .masthead {
     padding-bottom: 0; }
-    /* line 127, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 127, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     .masthead h1 {
       line-height: 40px;
       padding: 40px 0 35px 0; }
-    /* line 132, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 132, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     .masthead a {
       display: block;
       width: 100%;
@@ -1627,29 +1627,29 @@ footer {
       font-size: 18px;
       font-size: 1.12rem; }
 
-  /* line 144, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 144, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .masthead__btn--solid {
     margin-left: 0;
     background: #fff; }
 
-  /* line 149, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 149, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .ctas {
     padding-bottom: 30px; }
 
-  /* line 153, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 153, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   header {
     height: auto;
     border-bottom: 0;
     position: relative; }
-    /* line 157, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 157, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     header .wrapper {
       margin: 0; }
 
-  /* line 162, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 162, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   header.shrink {
     position: relative; }
 
-  /* line 166, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 166, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .site-logo {
     background-size: 70%;
     top: 11px;
@@ -1658,7 +1658,7 @@ footer {
     width: 91px;
     height: 73px; }
 
-  /* line 175, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 175, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   ul.main-nav {
     height: 0;
     overflow: hidden;
@@ -1673,27 +1673,27 @@ footer {
     -moz-transition-duration: 0.6s;
     -o-transition-duration: 0.6s;
     transition-duration: 0.6s; }
-    /* line 183, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 183, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     ul.main-nav li {
       display: block;
       padding: 10px 0;
       border-top: 1px solid #a7a9ac; }
-      /* line 187, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+      /* line 187, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
       ul.main-nav li a {
         margin-left: 0;
         border-top: 0; }
-        /* line 190, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+        /* line 190, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
         ul.main-nav li a:hover {
           border-top: 0; }
-      /* line 194, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+      /* line 194, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
       ul.main-nav li a.active {
         border-top: 0; }
 
-  /* line 203, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 203, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   ul.main-nav-open {
     height: 225px; }
 
-  /* line 207, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 207, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   a.mob-nav-btn {
     display: block;
     font-size: 36px;
@@ -1702,26 +1702,26 @@ footer {
     top: 16px;
     text-decoration: none; }
 
-  /* line 217, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 217, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .shrink ul.main-nav {
     top: 0px; }
 
-  /* line 221, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 221, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   header.shrink {
     height: auto;
     border-bottom: none;
     overflow: inherit; }
 
-  /* line 228, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 228, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .mob-nav {
     display: block;
     float: right; }
 
-  /* line 234, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 234, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .masthead img {
     height: 550px; }
 
-  /* line 239, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 239, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .box {
     padding: 17px 14px;
     min-height: inherit;
@@ -1731,31 +1731,31 @@ footer {
     -moz-animation-name: none;
     -o-animation-name: none;
     animation-name: none; }
-    /* line 249, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 249, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     .box .icon {
       font-size: 30px;
       margin: 0 0 14px 0;
       display: block; }
-    /* line 255, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 255, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     .box p {
       padding-bottom: 12px; }
 
-  /* line 260, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 260, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .offer {
     padding-bottom: 26px; }
 
-  /* line 264, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 264, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   #sequence {
     height: 300px; }
 
-  /* line 270, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 270, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .built__info {
     min-height: 80px;
     bottom: -170px;
     width: 75%;
     left: -20px; }
 
-  /* line 277, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 277, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .animate-in .built__info {
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
@@ -1764,7 +1764,7 @@ footer {
     left: -20px;
     bottom: 20px; }
 
-  /* line 283, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 283, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .animate-out .built__info {
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
@@ -1772,11 +1772,11 @@ footer {
     transition-duration: 0.8s;
     left: -20px; }
 
-  /* line 288, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 288, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .iphone {
     right: 0px; }
 
-  /* line 292, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 292, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .animate-in .iphone {
     right: 0;
     left: 0;
@@ -1786,7 +1786,7 @@ footer {
     -o-transition-duration: 0.8s;
     transition-duration: 0.8s; }
 
-  /* line 299, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 299, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .animate-out .iphone {
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
@@ -1795,11 +1795,11 @@ footer {
     right: -800px;
     bottom: -70px; }
 
-  /* line 305, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 305, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .mbp {
     left: -60px; }
 
-  /* line 309, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 309, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .animate-in .mbp {
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
@@ -1808,16 +1808,16 @@ footer {
     left: -60px;
     top: 0; }
 
-  /* line 315, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 315, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .animate-in .mbp_cfs {
     bottom: -70px; }
 
-  /* line 319, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 319, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .iphone-vp {
     width: 50%;
     right: 0; }
 
-  /* line 324, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 324, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .animate-in .iphone-vp {
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
@@ -1826,7 +1826,7 @@ footer {
     right: 0;
     top: 100px; }
 
-  /* line 330, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 330, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .animate-out .iphone-vp {
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
@@ -1834,13 +1834,13 @@ footer {
     transition-duration: 0.8s;
     right: 0; }
 
-  /* line 335, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 335, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .ipad-vp {
     top: 500px;
     width: 100%;
     left: 0; }
 
-  /* line 341, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 341, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .animate-in .ipad-vp {
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
@@ -1849,7 +1849,7 @@ footer {
     left: 0;
     top: -6px; }
 
-  /* line 347, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 347, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .animate-out .ipad-vp {
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
@@ -1858,23 +1858,23 @@ footer {
     left: 0;
     top: 500px; }
 
-  /* line 354, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 354, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .mbp_cfs {
     width: 175%; }
 
-  /* line 359, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 359, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .talk {
     padding-bottom: 48px; }
 
-  /* line 363, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 363, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .values {
     padding: 30px 0; }
 
-  /* line 367, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 367, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .values .box {
     padding: 20px 24px 10px 24px; }
 
-  /* line 371, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 371, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .big_quote {
     font-size: 22px;
     font-size: 1.4rem;
@@ -1882,82 +1882,82 @@ footer {
     line-height: 32px;
     line-height: 2rem; }
 
-  /* line 379, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 379, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .team {
     padding-bottom: 10px; }
 
-  /* line 383, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 383, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .member {
     margin-bottom: 30px; }
 
-  /* line 387, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 387, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .blog {
     padding: 50px 0 50px 0; }
-    /* line 389, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 389, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     .blog h2 {
       padding: 0 0 20px 0; }
 
-  /* line 394, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 394, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .blog__main {
     padding-right: 0; }
 
-  /* line 398, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 398, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .post_meta {
     bottom: -30px; }
-    /* line 400, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 400, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     .post_meta dl {
       border-left: none;
       padding: 0; }
-      /* line 403, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+      /* line 403, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
       .post_meta dl dd {
         float: left;
         margin-right: 15px; }
 
-  /* line 411, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 411, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .work_item {
     padding-bottom: 250px; }
-    /* line 413, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 413, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     .work_item p {
       margin-top: 0; }
 
-  /* line 418, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 418, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .work_imgs {
     top: -10px; }
 
-  /* line 423, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 423, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .article_wrapper {
     padding-top: 0px; }
 
-  /* line 428, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 428, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .blog_item {
     padding: 20px 0 40px 0; }
-    /* line 430, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 430, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     .blog_item h2 {
       padding: 0px 0 15px 0; }
 
   @-webkit-keyframes ani-iphone-in {
-    /* line 436, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 436, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     0% {
       top: 500px; }
 
-    /* line 438, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+    /* line 438, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
     100% {
       top: 50px; } }
 
-  /* line 442, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 442, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .work_item--even .col7 {
     position: absolute;
     bottom: -20px; }
 
-  /* line 448, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 448, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .mapbox {
     height: 250px; }
 
-  /* line 452, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 452, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .footer-nav {
     position: relative; }
 
-  /* line 456, /home/cragflo/Projects/flo-design-v4/source/css/_partials/_queries.scss */
+  /* line 456, /Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss */
   .footer-logo {
     display: none; } }
 /*------------------------------------*\
