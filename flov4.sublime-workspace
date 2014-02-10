@@ -4,8 +4,12 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-family"
+			],
+			[
 				"text",
-				"text-decoration"
+				"text-align"
 			],
 			[
 				"padding",
@@ -42,10 +46,6 @@
 			[
 				"cur",
 				"cursor"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"fl",
@@ -403,7 +403,7 @@
 			"file": "source/work.html.erb",
 			"settings":
 			{
-				"buffer_size": 6381,
+				"buffer_size": 6371,
 				"line_ending": "Unix"
 			}
 		},
@@ -411,7 +411,7 @@
 			"file": "source/about.html.erb",
 			"settings":
 			{
-				"buffer_size": 5759,
+				"buffer_size": 6001,
 				"line_ending": "Unix"
 			}
 		},
@@ -419,7 +419,7 @@
 			"file": "source/blog_post.html.erb",
 			"settings":
 			{
-				"buffer_size": 4696,
+				"buffer_size": 4983,
 				"line_ending": "Unix"
 			}
 		},
@@ -435,7 +435,7 @@
 			"file": "source/layouts/layout.erb",
 			"settings":
 			{
-				"buffer_size": 4872,
+				"buffer_size": 5080,
 				"line_ending": "Unix"
 			}
 		},
@@ -451,7 +451,7 @@
 			"file": "source/contact.html.erb",
 			"settings":
 			{
-				"buffer_size": 3020,
+				"buffer_size": 3466,
 				"line_ending": "Unix"
 			}
 		},
@@ -459,7 +459,7 @@
 			"file": "source/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 6992,
+				"buffer_size": 7294,
 				"line_ending": "Unix"
 			}
 		},
@@ -467,7 +467,7 @@
 			"file": "source/css/_partials/_ui.scss",
 			"settings":
 			{
-				"buffer_size": 16492,
+				"buffer_size": 20857,
 				"line_ending": "Unix"
 			}
 		},
@@ -508,6 +508,14 @@
 			"settings":
 			{
 				"buffer_size": 205,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/css/_partials/_queries.scss",
+			"settings":
+			{
+				"buffer_size": 5783,
 				"line_ending": "Unix"
 			}
 		}
@@ -624,6 +632,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Russ/Documents/flodesign_v4/source/work.php.erb",
+		"/Users/Russ/Documents/flodesign_v4/source/services.php.erb",
 		"/Users/Russ/Documents/yo_webapp/app/styles/a.scss",
 		"/Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss",
 		"/Users/Russ/Documents/flodesign_v4/source/js/main.js",
@@ -749,9 +759,7 @@
 		"/Users/Russ/Dropbox/Flo Design/Current Work/OutdoorPlay_private/static_build/README",
 		"/Users/Russ/Dropbox/Flo Design/Current Work/OutdoorPlay_private/static_build/style.scss",
 		"/Users/Russ/Dropbox/Flo Design/Current Work/OutdoorPlay_private/static_build/projects.html",
-		"/Users/Russ/Dropbox/Flo Design/Current Work/OutdoorPlay_private/static_build/humans.txt",
-		"/Users/Russ/Dropbox/Flo Design/Current Work/OutdoorPlay_private/static_build/.sass-cache/2e134217811eaa9152cccfe0e37677d795c2d322/style.scssc",
-		"/Users/Russ/Dropbox/Flo Design/Current Work/OutdoorPlay_private/static_build/functions.php"
+		"/Users/Russ/Dropbox/Flo Design/Current Work/OutdoorPlay_private/static_build/humans.txt"
 	],
 	"find":
 	{
@@ -846,7 +854,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -854,15 +862,15 @@
 					"file": "source/work.html.erb",
 					"settings":
 					{
-						"buffer_size": 6381,
+						"buffer_size": 6371,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4079,
-								4079
+								0,
+								0
 							]
 						],
 						"settings":
@@ -871,7 +879,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 915.0,
+						"translation.y": 1169.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -881,15 +889,15 @@
 					"file": "source/about.html.erb",
 					"settings":
 					{
-						"buffer_size": 5759,
+						"buffer_size": 6001,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								250,
-								250
+								0,
+								0
 							]
 						],
 						"settings":
@@ -908,15 +916,15 @@
 					"file": "source/blog_post.html.erb",
 					"settings":
 					{
-						"buffer_size": 4696,
+						"buffer_size": 4983,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								100,
-								100
+								3021,
+								3021
 							]
 						],
 						"settings":
@@ -962,15 +970,15 @@
 					"file": "source/layouts/layout.erb",
 					"settings":
 					{
-						"buffer_size": 4872,
+						"buffer_size": 5080,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2323,
-								2323
+								3268,
+								3268
 							]
 						],
 						"settings":
@@ -980,7 +988,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 434.0,
+						"translation.y": 35.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -997,8 +1005,8 @@
 						"selection":
 						[
 							[
-								45,
-								45
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1017,15 +1025,15 @@
 					"file": "source/contact.html.erb",
 					"settings":
 					{
-						"buffer_size": 3020,
+						"buffer_size": 3466,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1310,
-								1310
+								1509,
+								1509
 							]
 						],
 						"settings":
@@ -1044,15 +1052,15 @@
 					"file": "source/index.html.erb",
 					"settings":
 					{
-						"buffer_size": 6992,
+						"buffer_size": 7294,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1764,
-								1764
+								6203,
+								6203
 							]
 						],
 						"settings":
@@ -1061,7 +1069,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 336.0,
+						"translation.y": 1318.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1077,15 +1085,15 @@
 					"file": "source/css/_partials/_ui.scss",
 					"settings":
 					{
-						"buffer_size": 16492,
+						"buffer_size": 20857,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13071,
-								13071
+								19857,
+								19857
 							]
 						],
 						"settings":
@@ -1094,7 +1102,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 11078.0,
+						"translation.y": 16087.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1149,7 +1157,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 272.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1193,8 +1201,8 @@
 						"selection":
 						[
 							[
-								110,
-								116
+								164,
+								156
 							]
 						],
 						"settings":
@@ -1232,6 +1240,33 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "source/css/_partials/_queries.scss",
+					"settings":
+					{
+						"buffer_size": 5783,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1997,
+								1997
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 392.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		}
@@ -1264,7 +1299,7 @@
 		"cols":
 		[
 			0.0,
-			0.560883730933,
+			0.537824910316,
 			1.0
 		],
 		"rows":
@@ -1284,6 +1319,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"qu",
+				"css/_partials/_queries.scss"
+			],
 			[
 				"",
 				"css/styles.css.scss"
@@ -1483,10 +1522,6 @@
 			[
 				"_mo",
 				".sass-cache/495acf31ba99b757819f2d6ada7c3dc918a65425/_modules.scssc"
-			],
-			[
-				"qu",
-				"sass/partials/_queries.scss"
 			],
 			[
 				"ty",
@@ -1763,6 +1798,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 180.0,
+	"side_bar_width": 196.0,
 	"status_bar_visible": true
 }
