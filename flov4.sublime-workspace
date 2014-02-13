@@ -403,7 +403,7 @@
 			"file": "source/work.html.erb",
 			"settings":
 			{
-				"buffer_size": 6371,
+				"buffer_size": 6389,
 				"line_ending": "Unix"
 			}
 		},
@@ -411,7 +411,7 @@
 			"file": "source/about.html.erb",
 			"settings":
 			{
-				"buffer_size": 6001,
+				"buffer_size": 6010,
 				"line_ending": "Unix"
 			}
 		},
@@ -435,7 +435,7 @@
 			"file": "source/layouts/layout.erb",
 			"settings":
 			{
-				"buffer_size": 5080,
+				"buffer_size": 5136,
 				"line_ending": "Unix"
 			}
 		},
@@ -451,7 +451,7 @@
 			"file": "source/contact.html.erb",
 			"settings":
 			{
-				"buffer_size": 3466,
+				"buffer_size": 3481,
 				"line_ending": "Unix"
 			}
 		},
@@ -459,7 +459,7 @@
 			"file": "source/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 7294,
+				"buffer_size": 7441,
 				"line_ending": "Unix"
 			}
 		},
@@ -862,15 +862,15 @@
 					"file": "source/work.html.erb",
 					"settings":
 					{
-						"buffer_size": 6371,
+						"buffer_size": 6389,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								58,
+								58
 							]
 						],
 						"settings":
@@ -879,7 +879,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1169.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -889,15 +889,15 @@
 					"file": "source/about.html.erb",
 					"settings":
 					{
-						"buffer_size": 6001,
+						"buffer_size": 6010,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								29,
+								29
 							]
 						],
 						"settings":
@@ -970,15 +970,15 @@
 					"file": "source/layouts/layout.erb",
 					"settings":
 					{
-						"buffer_size": 5080,
+						"buffer_size": 5136,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3268,
-								3268
+								616,
+								616
 							]
 						],
 						"settings":
@@ -988,7 +988,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 35.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1025,15 +1025,15 @@
 					"file": "source/contact.html.erb",
 					"settings":
 					{
-						"buffer_size": 3466,
+						"buffer_size": 3481,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1509,
-								1509
+								54,
+								54
 							]
 						],
 						"settings":
@@ -1052,15 +1052,15 @@
 					"file": "source/index.html.erb",
 					"settings":
 					{
-						"buffer_size": 7294,
+						"buffer_size": 7441,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6203,
-								6203
+								74,
+								74
 							]
 						],
 						"settings":
@@ -1069,7 +1069,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1318.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1077,7 +1077,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -1227,8 +1227,8 @@
 						"selection":
 						[
 							[
-								205,
-								205
+								49,
+								1
 							]
 						],
 						"settings":
@@ -1798,6 +1798,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 196.0,
+	"side_bar_width": 486.0,
 	"status_bar_visible": true
 }
