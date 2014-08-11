@@ -204,11 +204,6 @@ header.shrink{
 }
 
 
-
-	zt
-
-
-
 .ctas{
 	margin: 0 auto;
 	text-align: center;
@@ -219,25 +214,26 @@ header.shrink{
 	color: #fff;
 	border: 1px solid #fff;
 	@include transition-duration(.3s);
-	&:after{
-		content: '';
-		position: absolute;
-		z-index: -1;
-		@include transition-duration(.3s);
-		width: 0;
-		height: 103%;
-		top: 50%;
-		left: 50%;
-		background: #fff;
-		opacity: 0;
-		-webkit-transform: translateX(-50%) translateY(-50%);
-		-moz-transform: translateX(-50%) translateY(-50%);
-		-ms-transform: translateX(-50%) translateY(-50%);
-		transform: translateX(-50%) translateY(-50%);
-	}
+	// &:after{
+	// 	content: '';
+	// 	position: absolute;
+	// 	z-index: -1;
+	// 	@include transition-duration(.3s);
+	// 	width: 0;
+	// 	height: 103%;
+	// 	top: 50%;
+	// 	left: 50%;
+	// 	background: #fff;
+	// 	opacity: 0;
+	// 	-webkit-transform: translateX(-50%) translateY(-50%);
+	// 	-moz-transform: translateX(-50%) translateY(-50%);
+	// 	-ms-transform: translateX(-50%) translateY(-50%);
+	// 	transform: translateX(-50%) translateY(-50%);
+	// }
 
 	&:hover{
 		color: #072e4a;
+		background: #fff;
 	}
 
 	&:hover:after{
@@ -251,28 +247,28 @@ header.shrink{
 	color: #072e4a;
 	border: 1px solid #fff;
 	margin-left: 18px;
+	background: #fff;
 	@include transition-duration(.3s);
-	&:after{
-		content: '';
-		position: absolute;
-		z-index: -1;
-		@include transition-duration(.3s);
-		width: 101%;
-		height: 103%;
-		top: 50%;
-		left: 50%;
-		background: #fff;
-		opacity: 1;
-		-webkit-transform: translateX(-50%) translateY(-50%);
-		-moz-transform: translateX(-50%) translateY(-50%);
-		-ms-transform: translateX(-50%) translateY(-50%);
-		transform: translateX(-50%) translateY(-50%);
-	}
+	// &:after{
+	// 	content: '';
+	// 	position: absolute;
+	// 	z-index: -1;
+	// 	@include transition-duration(.3s);
+	// 	width: 101%;
+	// 	height: 103%;
+	// 	top: 50%;
+	// 	left: 50%;
+	// 	background: #fff;
+	// 	opacity: 1;
+	// 	-webkit-transform: translateX(-50%) translateY(-50%);
+	// 	-moz-transform: translateX(-50%) translateY(-50%);
+	// 	-ms-transform: translateX(-50%) translateY(-50%);
+	// 	transform: translateX(-50%) translateY(-50%);
+	// }
 
 	&:hover{
 		color: #fff;
-		
-		
+		background: none;
 	}
 
 	&:hover:after{

@@ -35,10 +35,17 @@
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
+activate :directory_indexes
+
+activate :blog do |blog|
+  blog.permalink = "blog/{title}.html"
+  blog.layout = "blog-layout"
+end
+
 # Reload the browser automatically whenever files change
 activate :livereload
 
-activate :directory_indexes
+
 
 # Methods defined in the helpers block are available in templates
 # helpers do
