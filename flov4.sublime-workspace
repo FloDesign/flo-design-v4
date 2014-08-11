@@ -448,10 +448,13 @@
 			}
 		},
 		{
+			"contents": "---\ntitle: Hire Us or just say hi - Flo Design Limited	\n---\n\n\n\n<section class=\"masthead\" id=\"masthead\">\n	<img src=\"img/seawater.jpg\" alt=\"\" class=\"bg\">\n\n	<div class=\"wrapper\">\n		<h1><span class=\"hp-title-one\">We talk.</span><span class=\"hp-title-two\"><br/>This is how to contact us.</span></h1>\n		\n	</div><!--end wrapper-->\n</section>\n\n\n<section class=\"digits\">\n	<div class=\"wrapper\">\n		<h2>Our Digits</h2>\n		<div class=\"row cf\">\n			<div class=\"col2\"></div>\n			<div class=\"col7\">\n				<p>We love talking shop! if you've got a web project in the pipeline we'd love to have a chat about it with you to see if we can help. And if we can't we'll happily point you in the direction of someone who can. We're nice like that :-)</p>\n				<p>So what are you waiting for? drop us a line now!</p>\n			</div>\n			<div class=\"col4\"></div>\n		</div><!--end row-->\n		<div class=\"row cf\">\n			<div class=\"col6\">\n				<form method=\"post\" class=\"talk__form cf\" name=\"contact-form\" id=\"contact-form\">\n					<input type=\"text\" name=\"name\" id=\"name\" placeholder=\"Name\">\n					<input type=\"text\" name=\"email\" id=\"email\" placeholder=\"Email\">\n					<div class=\"form_dropdown\">\n						<select name=\"budget\" id=\"budget\">\n							<option value='' disabled selected style='display:none;'>Budget</option>\n							<option value=\"Under 5k\">Under £5k</option>\n							<option value=\"5k - 10k\">£5k - £10k</option>\n							<option value=\"10k - 15k\">£10k - £15k</option>\n							<option value=\"15k 20k\">£15k - £20k</option>\n							<option value=\"over 20k\">Over £20k</option>\n						</select>\n					</div>\n					<textarea name=\"message\" id=\"message\" rows=\"5\" placeholder=\"Message\"></textarea>\n					<a href=\"#\" id=\"form_send\" class=\"form_send\">SEND <span aria-hidden=\"true\" data-icon=\"&#xe604;\"></span></a>\n\n					<div class=\"success_fail\">\n						<img src=\"img/ajax-loader.gif\" alt=\"Loader\" class=\"loader\" />\n						<div class=\"contact-message\"></div>\n					</div><!--end success fail-->\n				</form>\n			</div><!--end col6-->\n			<div class=\"col6\">\n				<ul class=\"talk__details talk_details--hire\">\n					<li><span class=\"talk-icon\" aria-hidden=\"true\" data-icon=\"&#xe615;\"></span><span class=\"grey\">0113</span> 314 2010</li>\n					<li><span class=\"talk-icon\" aria-hidden=\"true\" data-icon=\"&#xe612;\"></span><a href=\"mailto:hello@flodesign.co.uk\"><span class=\"grey\">hello@</span>flodesign.co.uk</a></li>\n					<li><span class=\"talk-icon\" aria-hidden=\"true\" data-icon=\"&#xe617;\"></span><a href=\"https://twitter.com/flodesign\"><span class=\"grey\">@</span>flodesign</a></li>\n					<li><span class=\"talk-icon\" aria-hidden=\"true\" data-icon=\"&#xe616;\"></span><a href=\"https://facebook.com/flodesignltd\"><span class=\"grey\">facebook.com/</span>flodesignltd</a></li>\n				</ul>\n			</div><!--end col6-->\n			\n		</div><!--end row-->\n		\n	</div><!--end wrapper-->\n</section>\n\n<section class=\"map_container\">\n	<div class=\"wrapper\">\n		<h2>Our Location</h2>\n		\n		<div class=\"row\">\n			<div class=\"col2\"></div>\n			<div class=\"col7\">\n				<p>We're based in the heart of Leeds, the best city on the planet (well we think so anyway!). Leeds is brilliant, Yorshire's brilliant, we're brilliant! If you're ever in the neighbourhood feel free to drop in and we'll get the kettle on!</p>\n			</div>\n			<div class=\"col3\"></div>\n		</div>\n	</div>\n\n	<div class=\"cf\">\n		<div class=\"col12\">\n			b\n		</div>\n	</div>\n</section>\n",
 			"file": "source/contact.html.erb",
+			"file_size": 3489,
+			"file_write_time": 1392072264000000,
 			"settings":
 			{
-				"buffer_size": 3481,
+				"buffer_size": 3322,
 				"line_ending": "Unix"
 			}
 		},
@@ -464,10 +467,13 @@
 			}
 		},
 		{
+			"contents": "// header\n.site-logo{\n	background: url(../img/flo-logo.svg) no-repeat;\n	background-size: 100%;\n	width: 91px;\n	height: 73px;\n	display: block;\n	float: left;\n	position: relative;\n	top: 24px;\n	-webkit-transition: all 0.3s;\n    -moz-transition: all 0.3s;\n    -o-transition: all 0.3s;\n    transition: all 0.3s;\n}\n\n.index .site-logo{\n	cursor: default;\n}\n\n\nul.main-nav{\n	float: right;\n	position: relative;\n	top: 80px;\n	-webkit-transform: translateZ(0);\n	-ms-transform: translateZ(0);\n	-o-transform: translateZ(0);\n	transform: translateZ(0);\n	-webkit-transition: all 0.3s;\n    -moz-transition: all 0.3s;\n    -o-transition: all 0.3s;\n    transition: all 0.3s;\n	li{\n		display: inline;\n		a{\n			margin-left: 46px;\n			color: $inactive;\n			text-decoration: none;\n			font-size: 18px;\n			font-size: 1.12rem;\n			border-top: 2px solid rgb(255, 255, 255);\n			border-top: 2px solid rgba(255, 255, 255, 0);\n			@include transition-duration(.5s);\n			padding-top: 0px;\n			&:hover{\n				color: $highlight;\n				border-top: 2px solid $highlight;\n				padding-top: 10px;\n			}\n		}\n	}\n}\n\n.about a.about_link,\n.work a.work_link,\n.services a.services_link,\n.blog a.blog_link,\n.blog_post a.blog_link,\n.contact a.hire_link{\n	color: $highlight;\n	border-top: 2px solid $highlight;\n	padding-top: 10px;\n}\n\n.shrink ul.main-nav{\n	top: 15px;\n}\n\n.shrink .site-logo{\n	top: 8px;\n	background-size: 70%;\n}\n\nheader{\n	z-index: 999;\n	background: rgb(255, 255, 255);\n	background: rgba(255, 255, 255, .95);\n	position: fixed;\n	width: 100%;\n	height: 120px;\n	-webkit-transition: all 0.3s;\n    -moz-transition: all 0.3s;\n    -o-transition: all 0.3s;\n    transition: all 0.3s;\n    -webkit-transform: translateZ(0);\n    -moz-transform: translateZ(0);\n    -o-transform: translateZ(0);\n    transform: translateZ(0);\n\n}\n\n.blog_post .site-header{\n	border-bottom: 1px solid $inactive;\n}\n\nheader.shrink{\n	height: 50px;\n	border-bottom: 1px solid $inactive;\n	overflow: hidden;\n	z-index: 999;\n	background: rgb(255, 255, 255);\n	background: rgba(255, 255, 255, .95);\n	position: fixed;\n	width: 100%;\n}\n\n\n\n.mob-nav-btn{\n	display: none;\n}\n\n.masthead{\n	padding-bottom: 140px;\n	overflow: hidden;\n	// background: url(../img/water.jpg) no-repeat center fixed;\n\n	img{\n		position: fixed;\n		z-index: -1;\n		top:0;\n		width: 100%;\n		\n	}\n\n	h1{\n		position: relative;\n		// top: 50%;\n		// right: 24px;\n		// left: 24px;\n		color: #fff;\n		padding: 275px 0 35px 0;\n		line-height: 65px;\n		opacity: 1;\n	}\n	\n	.hp-title-one{\n		-webkit-animation-delay: .5s;\n		-moz-animation-delay: .5s;\n		-o-animation-delay: .5s;\n		animation-delay: .5s;\n		-webkit-animation-duration: 1s;\n		-moz-animation-duration: 1s;\n		-o-animation-duration: 1s;\n		animation-duration: 1s;\n		-webkit-animation-fill-mode:both;\n		-moz-animation-fill-mode:both;\n		-o-animation-fill-mode:both;\n		animation-fill-mode:both;\n		-webkit-animation-name: show;\n		-moz-animation-name: show;\n		-o-animation-name: show;\n		animation-name: show;\n		position: relative;\n	}\n\n	.hp-title-two{\n		-webkit-animation-delay: 1.5s;\n		-moz-animation-delay: 1.5s;\n		-o-animation-delay: 1.5s;\n		animation-delay: 1.5s;\n		-webkit-animation-duration: 1s;\n		-moz-animation-duration: 1s;\n		-o-animation-duration: 1s;\n		animation-duration: 1s;\n		-webkit-animation-fill-mode:both;\n		-moz-animation-fill-mode:both;\n		-o-animation-fill-mode:both;\n		animation-fill-mode:both;\n		-webkit-animation-name: show;\n		-moz-animation-name: show;\n		-o-animation-name: show;\n		animation-name: show;\n		position: relative;\n	}\n\n	a{\n		text-decoration: none;\n		text-transform: uppercase;\n		font-size: 24px;\n		font-size: 1.5rem;\n		font-weight: 400;\n		padding: 7px 15px;\n		white-space: nowrap;\n		-webkit-animation-delay: 1.5s;\n		-moz-animation-delay: 1.5s;\n		-o-animation-delay: 1.5s;\n		animation-delay: 1.5s;\n		-webkit-animation-duration: 1.5s;\n		-moz-animation-duration: 1.5s;\n		-o-animation-duration: 1.5s;\n		animation-duration: 1.5s;\n		-webkit-animation-fill-mode:both;\n		-moz-animation-fill-mode:both;\n		-o-animation-fill-mode:both;\n		animation-fill-mode:both;\n		-webkit-animation-name: show;\n		-moz-animation-name: show;\n		-o-animation-name: show;\n		animation-name: show;\n		position: relative;\n	}\n}\n\n\n\n	zt\n\n\n\n.ctas{\n	margin: 0 auto;\n	text-align: center;\n	position: relative;\n}\n\n.masthead__btn{\n	color: #fff;\n	border: 1px solid #fff;\n	@include transition-duration(.3s);\n	&:after{\n		content: '';\n		position: absolute;\n		z-index: -1;\n		@include transition-duration(.3s);\n		width: 0;\n		height: 103%;\n		top: 50%;\n		left: 50%;\n		background: #fff;\n		opacity: 0;\n		-webkit-transform: translateX(-50%) translateY(-50%);\n		-moz-transform: translateX(-50%) translateY(-50%);\n		-ms-transform: translateX(-50%) translateY(-50%);\n		transform: translateX(-50%) translateY(-50%);\n	}\n\n	&:hover{\n		color: #072e4a;\n	}\n\n	&:hover:after{\n		width: 101%;\n		opacity: 1;\n	}\n}\n\n\n.masthead__btn--solid{\n	color: #072e4a;\n	border: 1px solid #fff;\n	margin-left: 18px;\n	@include transition-duration(.3s);\n	&:after{\n		content: '';\n		position: absolute;\n		z-index: -1;\n		@include transition-duration(.3s);\n		width: 101%;\n		height: 103%;\n		top: 50%;\n		left: 50%;\n		background: #fff;\n		opacity: 1;\n		-webkit-transform: translateX(-50%) translateY(-50%);\n		-moz-transform: translateX(-50%) translateY(-50%);\n		-ms-transform: translateX(-50%) translateY(-50%);\n		transform: translateX(-50%) translateY(-50%);\n	}\n\n	&:hover{\n		color: #fff;\n		\n		\n	}\n\n	&:hover:after{\n		width: 0%;\n		opacity: 0;\n	}\n}\n\n.bg-arrow{\n	position: relative;\n	top: 3px;\n}\n\n.box{\n	border: 1px solid $highlight;\n	padding: 35px 24px;\n	text-align: center;\n	position: relative;\n	min-height: 282px;\n	\n	h3{\n		font-weight: 100;\n		text-align: center;\n		margin-bottom: 24px;\n	}\n\n	p{\n		font-size: 14px;\n		font-size: .88rem;\n	}\n	a{\n		text-transform: uppercase;\n		padding: 5px;\n		-webkit-perspective: 1000px;\n		-moz-perspective: 1000px;\n		perspective: 1000px;\n	}\n\n	.icon\n	{\n		color: $highlight;\n		font-size: 40px;\n		margin: 0 auto 22px auto;\n		display: block;\n	}	\n}\n\n\n\n.box.showscroll{\n	-webkit-animation-duration: .5s;\n	-moz-animation-duration: .5s;\n	-o-animation-duration: .5s;\n	animation-duration: .5s;\n	-webkit-animation-fill-mode:both;\n	-moz-animation-fill-mode:both;\n	-o-animation-fill-mode:both;\n	animation-fill-mode:both;\n	-webkit-animation-name: pulse;\n	-moz-animation-name: pulse;\n	-o-animation-name: pulse;\n	animation-name: pulse;\n}\n\n.showscroll.box1{\n	-webkit-animation-delay: .5s;\n	-moz-animation-delay: .5s;\n	-o-animation-delay: .5s;\n	animation-delay: .5s;\n}\n\n.showscroll.box2{\n	-webkit-animation-delay: 1s;\n	-moz-animation-delay: 1s;\n	-o-animation-delay: 1s;\n	animation-delay: 1s;\n}\n\n.showscroll.box3{\n	-webkit-animation-delay: 1.5s;\n	-moz-animation-delay: 1.5s;\n	-o-animation-delay: 1.5s;\n	animation-delay: 1.5s;\n\n}\n\n.showscroll.box4{\n	-webkit-animation-delay: 2s;\n	-moz-animation-delay: 2s;\n	-o-animation-delay: 2s;\n	animation-delay: 2s;\n}\n\n\n@-webkit-keyframes pulse {\n    0% {-webkit-transform: scale(1); }	\n    50% { -webkit-transform: scale(1.05);}\n    100% { -webkit-transform: scale(1);}\n}\n\n@-moz-keyframes pulse {\n    0% { -moz-transform: scale(1); }	\n	50% { -moz-transform: scale(1.05); }\n    100% { -moz-transform: scale(1); }\n}\n@-o-keyframes pulse {\n    0% { -o-transform: scale(1); }	\n	50% { -o-transform: scale(1.05); }\n    100% { -o-transform: scale(1); }\n}\n@keyframes pulse {\n    0% { transform: scale(1); }	\n	50% { transform: scale(1.05); }\n    100% { transform: scale(1); }\n}\n\n\n\n.box__corner{\n	width: 0px;\n	height: 0px;\n	border-style: solid;\n	border-width: 30px 30px 0 0;\n	border-color: #3d9add transparent transparent transparent;\n	position: absolute;\n	top: 0;\n	left: 0;\n}\n\n.offer{\n	background: #fff;\n	padding-bottom: 96px;\n}\n\n.built{\n	background: $grey-bg;\n	overflow: hidden;\n}\n\n\n\na .icon-link{\n	position: relative;\n	top: 3px;\n	left: 4px;\n	font-size: 20px;\n}\n\n// .cl-effect-2 a {\n// 	line-height: 26px;\n// 	-webkit-perspective: 1000px;\n// 	-moz-perspective: 1000px;\n// 	perspective: 1000px;\n// }\n\n// .cl-effect-2 a span.hover-effect {\n// 	position: relative;\n// 	display: inline-block;\n// 	padding: 0 14px;\n// 	background: #fff;\n// 	-webkit-transition: -webkit-transform 0.3s;\n// 	-moz-transition: -moz-transform 0.3s;\n// 	-o-transition: -0-transform 0.3s;\n// 	transition: transform 0.3s;\n// 	-webkit-transform-origin: 50% 0;\n// 	-moz-transform-origin: 50% 0;\n// 	-o-transform-origin: 50% 0;\n// 	transform-origin: 50% 0;\n// 	-webkit-transform-style: preserve-3d;\n// 	-moz-transform-style: preserve-3d;\n// 	-o-transform-style: preserve-3d;\n// 	transform-style: preserve-3d;\n// }\n\n// .csstransforms3d .cl-effect-2 a span.hover-effect::before {\n// 	position: absolute;\n// 	color: #fff;\n// 	top: 100%;\n// 	left: 0;\n// 	width: 100%;\n// 	height: 100%;\n// 	background: $highlight;\n// 	content: attr(data-hover);\n// 	-webkit-transition: background 0.3s;\n// 	-moz-transition: background 0.3s;\n// 	-o-transition: background 0.3s;\n// 	transition: background 0.3s;\n// 	-webkit-transform: rotateX(-90deg);\n// 	-moz-transform: rotateX(-90deg);\n// 	-0-transform: rotateX(-90deg);\n// 	transform: rotateX(-90deg);\n// 	-webkit-transform-origin: 50% 0;\n// 	-moz-transform-origin: 50% 0;\n// 	-0-transform-origin: 50% 0;\n// 	transform-origin: 50% 0;\n// }\n\n// .cl-effect-2 a:hover span.hover-effect,\n// .cl-effect-2 a:focus span.hover-effect {\n// 	-webkit-transform: rotateX(90deg) translateY(-22px);\n// 	-moz-transform: rotateX(90deg) translateY(-22px);\n// 	transform: rotateX(90deg) translateY(-22px);\n// }\n\n// .csstransforms3d .cl-effect-2 a:hover span.hover-effect::before,\n// .csstransforms3d .cl-effect-2 a:focus span.hover-effect::before {\n// 	background: #28a2ee;	\n// }\n\n.built__info{\n	background: rgba(61, 155, 221, .9);\n	width: 50%;\n	padding: 20px;\n	min-height: 120px;\n    bottom: -270px;\n    \n	h4{\n		color: #fff;\n		padding-bottom: 10px;\n	}\n	a{\n		color: #fff;\n	}\n}\n\n.animate-in .built__info{\n	\n	left: 0px;\n    bottom: 141px;\n    @include transition-duration(.5s);\n    @include transition-delay(1s);\n}\n\n.animate-out .built__info{\n	\n    bottom: 800px;\n    @include transition-duration(.5s);\n}\n\n.mbp{\n	opacity: 1;\n	top: -1000px;\n}\n\n.animate-in .mbp{\n	opacity: 1;\n	top: 0;\n	@include transition-duration(.5s);\n	@include transition-delay(.5s);\n}\n\n.animate-out .mbp{\n	top: 0;\n	opacity: 0;\n	@include transition-duration(.8s);\n	@include transition-delay(.3s);\n}\n\n\n.iphone{\n	right: 100px;\n	bottom: 1000px;\n	opacity: 1;\n}\n\n.animate-in .iphone{\n	right: 100px;\n	bottom: 90px;\n	opacity: 1;\n	@include transition-duration(.5s);\n	@include transition-delay(.8s);\n}\n\n.animate-out .iphone{\n	opacity: 1;\n	bottom: 90px;\n	right: -1200px;\n	@include transition-duration(.5s);\n	@include transition-delay(.2s);\n}\n\n.mbp_cfs{\n	opacity: 1;\n	bottom: -1000px;\n}\n\n.animate-in .mbp_cfs{\n	opacity: 1;\n	bottom: 0;\n	@include transition-duration(.5s);\n	@include transition-delay(.5s);\n}\n\n.animate-out .mbp_cfs{\n	bottom: -1000px;\n	opacity: 1;\n	@include transition-duration(.8s);\n}\n\n\n.ipad-vp{\n	\n	top: -1300px;\n	left: 50px;\n}\n\n.animate-in .ipad-vp{\n	\n	top: 0;\n	@include transition-duration(.5s);\n	@include transition-delay(.5s);\n}\n\n.animate-out .ipad-vp{\n	top: 1300px;\n	@include transition-duration(.8s);\n}\n\n\n.iphone-vp{\n	top: -1000px;\n	right: 80px;\n}\n\n.animate-in .iphone-vp{\n	top: 200px;\n	@include transition-duration(.5s);\n	@include transition-delay(.8s);\n}\n\n.animate-out .iphone-vp{\n	top: 1000px;\n	@include transition-duration(.8s);\n	@include transition-delay(.2s);\n}\n\n#sequence {\n	-webkit-transform: translateZ(0);\n	-ms-transform: translateZ(0);\n	-o-transform: translateZ(0);\n	transform: translateZ(0);\n	width: 100%;\n	height: 600px;\n    position: relative; /* required */\n    max-width: 1000px;\n    margin: 0 auto; \n}\n\n#sequence > .sequence-canvas li > * {  /* required */\n    position: absolute;\n}\n\n#sequence > .sequence-canvas { /* required */\n    height: 100%; \n    width: 100%;\n}\n\n#sequence > .sequence-canvas > li { /* required */\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    z-index: 1;\n}\n\n.talk{\n	background: #fff;\n	overflow: hidden;\n	padding-bottom: 72px;\n}\n\n.process{\n	background: #fff;\n	overflow: hidden;\n	padding-bottom: 72px;\n	img{\n		width: 100%;\n\n	}\n}\n\nform.talk__form{\n	width: 100%;\n	position: relative;\n	top: -20px;\n\n\n	input, textarea{\n		color: #aaaaaa;\n		background: #fff;\n		display: block;\n		width: 100%;\n		border-bottom: 1px solid $highlight;\n		border-top: 0;\n		border-right: 0;\n		border-left: 0;\n		font-family: \"proxima-nova\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n		font-weight: 100;\n		font-size: 24px;\n		font-size: 1.5rem;\n		padding: 20px 0 10px 0;\n		&:focus{\n		outline: none;\n	}\n	}\n}\n\n.form_dropdown select{\n	color: #aaaaaa;\n	width: 100%;\n	background: transparent;\n	display: block;\n	border: none;\n	font-family: \"proxima-nova\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n	font-weight: 100;\n	font-size: 24px;\n	font-size: 1.5rem;\n	padding: 20px 0 10px 0;\n	border-radius: 0;\n	-webkit-appearance: none;\n	-moz-appearance: none;\n	-o-appearance: none;\n	appearance: none;\n	&:focus{\n		outline: none;\n	}\n}\n\n.form_dropdown{\n	border-bottom: 1px solid $highlight;\n}\n\n.form_send{\n	font-size: 24px;\n	font-size: 1.5rem;\n	margin-top: 24px;\n	display: block;\n	width: 95px;\n	padding: 7px 7px 7px 15px;\n	border: 1px solid $highlight;\n	@include transition-duration(.5s);\n	&:hover{\n		color: #fff;\n		background: $highlight;\n		text-decoration: none;\n	}\n\n	\n	span{\n		position: relative;\n		top: 2px;\n	}\n}\n\n.success_fail{\n	margin: 20px 0;\n\n	.contact-message{\n		font-weight: bold;\n		padding: 10px 15px;\n	}\n\n	.contact-error{\n		color: #e74c3c;\n		border: 1px solid #e74c3c;\n\n	}\n\n	.contact-success{\n		color: #27ae60;\n		border: 1px solid #27ae60;\n		\n	}\n\n}\n\n.talk__details li{\n	font-size: 36px;\n	font-size: 2.25rem; \n	font-weight: 600;\n	padding: 24px 0;\n	&:first-child{\n		border-bottom: 1px solid #abadb2;\n	}\n	a{\n		color: $copy;\n	}\n}\n\n.talk_details--hire li{\n	border-bottom: 1px solid #abadb2;\n	&:last-child{\n		border-bottom: none;\n	}\n}\n\n.grey{\n	color: #abadb2;\n}\n\n.talk-icon{\n	color: $highlight;\n	padding-right: 20px;\n	font-size: 30px;\n	font-size: 1.88rem;\n	position: relative;\n	top: 5px;\n}\n\n\n.work_item, .service_item{\n	background: #fff;\n	overflow: hidden;\n	p{\n		font-size:18px;\n		font-size:1.12rem;\n		margin-top: 48px;\n	}\n	\n}\n\n\n.service_item{\n	padding-bottom: 110px;\n}\n\n.service_item_even, .map_container{\n	background: $grey-bg;\n}\n\n\n.service_img img{\n	display: block;\n	margin: 0 auto;\n	width: 100%;\n	max-width: 315px;\n}\n\n.work_imgs{\n	position: relative;\n}\n\n.work_item--iphone, .work_item--mbp{\n	position: absolute;\n}\n\n.work_item--mbp{\n	top: 20px;\n}\n\n.work_item--iphone{\n	top: 130px;\n}\n\n\n.inview .work_item--iphone{\n		-webkit-animation-delay: 1.5s;\n		-moz-animation-delay: 1.5s;\n		-o-animation-delay: 1.5s;\n		animation-delay: 1.5s;\n		-webkit-animation-duration: .5s;\n		-moz-animation-duration: .5s;\n		-o-animation-duration: .5s;\n		animation-duration: .5s;\n		-webkit-animation-fill-mode:both;\n		-moz-animation-fill-mode:both;\n		-o-animation-fill-mode:both;\n		animation-fill-mode:both;\n		-webkit-animation-name: ani-iphone-in;\n		-moz-animation-name: ani-iphone-in;\n		-o-animation-name: ani-iphone-in;\n		animation-name: ani-iphone-in;\n}\n\n.inview .work_item--mbp{\n		-webkit-animation-delay: 1.8s;\n		-moz-animation-delay: 1.8s;\n		-o-animation-delay: 1.8s;\n		animation-delay: 1.8s;\n		-webkit-animation-duration: .8s;\n		-moz-animation-duration: .8s;\n		-o-animation-duration: .8s;\n		animation-duration: .8s;\n		-webkit-animation-fill-mode:both;\n		-moz-animation-fill-mode:both;\n		-o-animation-fill-mode:both;\n		animation-fill-mode:both;\n		-webkit-animation-name: ani-mbp-in;\n		-moz-animation-name: ani-mbp-in;\n		-o-animation-name: ani-mbp-in;\n		animation-name: ani-mbp-in;\n}\n\n\n@-webkit-keyframes ani-iphone-in {\n    0% { top: 700px; }	\n    // 50% {opacity: .5; -webkit-transform: scale(1.05);}\n    100% { top: 110px;}\n}\n\n@-moz-keyframes ani-iphone-in {\n    0% { top: 700px; }	\n    // 50% {opacity: .5; -webkit-transform: scale(1.05);}\n    100% { top: 110px;}\n}\n\n@-o-keyframes ani-iphone-in {\n    0% { top: 700px; }	\n    // 50% {opacity: .5; -webkit-transform: scale(1.05);}\n    100% { top: 110px;}\n}\n\n@keyframes ani-iphone-in {\n    0% { top: 700px; }	\n    // 50% {opacity: .5; -webkit-transform: scale(1.05);}\n    100% { top: 110px;}\n}\n\n@-webkit-keyframes ani-mbp-in {\n    0% {top: 600px; }	\n    // 50% {opacity: .5; -webkit-transform: scale(1.05);}\n    100% {top: 20px;}\n}\n\n@-moz-keyframes ani-mbp-in {\n    0% {top: 600px; }	\n    // 50% {opacity: .5; -webkit-transform: scale(1.05);}\n    100% {top: 20px;}\n}\n\n@-o-keyframes ani-mbp-in {\n    0% {top: 600px; }	\n    // 50% {opacity: .5; -webkit-transform: scale(1.05);}\n    100% {top: 20px;}\n}\n\n@keyframes ani-mbp-in {\n    0% {top: 600px; }	\n    // 50% {opacity: .5; -webkit-transform: scale(1.05);}\n    100% {top: 20px;}\n}\n\n\n.tags{\n	margin-bottom: 100px;\n	li{\n		float: left;\n		padding: 2px 8px 0 8px;\n		font-size: 0.88rem;\n		font-size: 14px;\n		color: #9e9f9f;\n		background: $grey-bg;\n		margin: 0 10px 10px 0;	\n	}\n}\n\n.work_item--even{\n	background: $grey-bg;\n	.work_item--mbp{\n		\n		right: 0px;\n	}\n	.work_item--iphone{\n		top: 130px;\n		right: 0px;\n	}\n\n	.tags li{\n		background: #fff;\n	}\n}\n\n\n\n\n.work_ctas{\n	margin-bottom: 15px;\n	li{\n		float: left;\n		text-transform: uppercase;\n		margin-right: 20px;\n		a{\n			padding: 5px;\n			&:hover{\n				text-decoration: none;\n				background: $highlight;\n				color: #fff;\n			}\n		}\n	}\n}\n\n\n\n.mapbox{\n	margin: 20px 0 -2% 0;\n	height: 500px;\n}\n\n.digits{\n	background: #fff;\n	padding-bottom: 110px;\n}\n\n.values{\n	background: #fff;\n	padding: 96px 0;\n	.box{\n		padding: 35px 24px 10px 24px; \n	}\n}\n\n.icon-fire{\n	background: url(../img/fire.svg) no-repeat;\n	width: 100%;\n	height: 49px;\n	background-position: center;\n	margin-bottom: 16px; \n	text-align: center;\n}\n\n.icon-people{\n	background: url(../img/people.svg) no-repeat;\n	width: 100%;\n	height: 49px;\n	background-position: center;\n	margin-bottom: 16px; \n}\n\n.icon-happy{\n	background: url(../img/happy.svg) no-repeat;\n	width: 100%;\n	height: 49px;\n	background-position: center;\n	margin-bottom: 16px; \n}\n\n.icon-web{\n	background: url(../img/web.svg) no-repeat;\n	width: 100%;\n	height: 49px;\n	background-position: center;\n	margin-bottom: 16px; \n}\n\n.big_quote{\n	font-size: 48px;\n	font-size: 3rem;\n	font-weight: 100;\n	color: $highlight;\n	text-align: center;\n	padding: 82px 0;\n	line-height: 60px;\n	line-height: 3.75rem;\n}\n\n\n.team{\n	background: $grey-bg;\n	padding-bottom: 50px;\n}\n\n.member{\n	img{\n		width: 30%;\n		float: left;\n		margin-right: 5%;\n	}\n}\n\n.member__copy{\n	width: 65%;\n	float: right;\n	p{\n		padding-right: 10px;\n	}\n}\n\nul.member__social li{\n	display: inline;\n	margin-right: 10px;\n	a{\n		color: $copy;\n		@include transition-duration(.5s);\n		&:hover{\n			text-decoration: none;\n			color: $highlight;\n		}\n	}\n}\n\n\n.articles{\n	background: #fff;\n	padding-bottom: 20px;\n}\n.blog_item{\n	padding: 50px 0 40px 0;\n	border-bottom: 1px solid #ececec;\n	h2{\n		text-align: left;\n		padding: 10px 0 50px 0;\n		line-height: 48px;\n		line-height: 3rem;\n		a{\n			color: $copy;\n			@include transition-duration(.5s);\n			&:hover{\n				color: $highlight;\n				text-decoration: none;\n			}\n		}\n	}\n}\n\n.blog__main{\n	padding-right: 11.4%;\n	pre{\n		padding: 20px;\n		background: $grey-bg;\n		overflow: auto;\n		margin-bottom: 24px;\n		margin-bottom: 1.5rem;\n		font-family: \"Courier New\", Courier, \"Lucida Sans Typewriter\", \"Lucida Typewriter\", monospace;\n		// border: 1px solid #a7a9ac;\n		color: #a7a9ac;\n	}\n\n	img{\n		max-width: 100%;\n		border: 1px solid #a7a9ac;\n	}\n\n}\n\n.post_meta{\n	position: absolute;\n	bottom: -60px;\n	width: 100%;\n	dl{\n	border-left: 1px solid #ececec;\n	padding: 0px 0 85px 10px;\n	font-size: 18px;\n	font-size: 1.12rem;\n	font-weight: 600;\n	display: block;\n		dt{\n		float: left;\n		color: #a6a6a6;\n		margin-right: 10px;\n		}\n	}	\n} \n\n\n.article_wrapper{\n	padding-top: 100px;\n	background: #fff;\n}\n\n\nfooter{\n	color: $footer-copy;\n	background: $copy;\n	padding: 48px 0 24px 0;\n}\n\n.social-links{\n	margin-bottom: 24px;\n	li{\n		display: inline;\n		a{\n			color: $footer-copy;\n			margin-right: 3px;\n			@include transition-duration(.5s);\n			&:hover{\n				text-decoration: none;\n				color: $highlight;\n\n			}\n		}\n	}\n}\n\n.footer-nav{\n		position: absolute;\n		right: 0;\n		bottom: 0;\n		margin-bottom: 24px;\n		li{\n			display: inline;\n			border-right: 1px solid $footer-copy;\n			&:last-child{\n					border-right: 0;\n				} \n			a{\n				color: $footer-copy;\n				\n				padding-right: 5px;\n				\n			}\n		}\n}\n\n.footer-logo{\n	position: absolute;\n	right: 0;\n}\n",
 			"file": "source/css/_partials/_ui.scss",
+			"file_size": 20857,
+			"file_write_time": 1392072264000000,
 			"settings":
 			{
-				"buffer_size": 20857,
+				"buffer_size": 20239,
 				"line_ending": "Unix"
 			}
 		},
@@ -508,14 +514,6 @@
 			"settings":
 			{
 				"buffer_size": 205,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/css/_partials/_queries.scss",
-			"settings":
-			{
-				"buffer_size": 5783,
 				"line_ending": "Unix"
 			}
 		}
@@ -632,10 +630,10 @@
 	},
 	"file_history":
 	[
+		"/Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss",
 		"/Users/Russ/Documents/flodesign_v4/source/work.php.erb",
 		"/Users/Russ/Documents/flodesign_v4/source/services.php.erb",
 		"/Users/Russ/Documents/yo_webapp/app/styles/a.scss",
-		"/Users/Russ/Documents/flodesign_v4/source/css/_partials/_queries.scss",
 		"/Users/Russ/Documents/flodesign_v4/source/js/main.js",
 		"/Users/Russ/Documents/flodesign_v4/.gitignore",
 		"/Users/Russ/Dropbox/patch-edid.rb",
@@ -854,7 +852,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -977,8 +975,8 @@
 						"selection":
 						[
 							[
-								616,
-								616
+								4507,
+								4507
 							]
 						],
 						"settings":
@@ -1025,15 +1023,15 @@
 					"file": "source/contact.html.erb",
 					"settings":
 					{
-						"buffer_size": 3481,
+						"buffer_size": 3322,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								54,
-								54
+								3293,
+								3293
 							]
 						],
 						"settings":
@@ -1059,8 +1057,8 @@
 						"selection":
 						[
 							[
-								74,
-								74
+								1103,
+								1037
 							]
 						],
 						"settings":
@@ -1077,7 +1075,7 @@
 			]
 		},
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1085,15 +1083,15 @@
 					"file": "source/css/_partials/_ui.scss",
 					"settings":
 					{
-						"buffer_size": 20857,
+						"buffer_size": 20239,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19857,
-								19857
+								14493,
+								14493
 							]
 						],
 						"settings":
@@ -1102,7 +1100,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 16087.0,
+						"translation.y": 12131.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1119,8 +1117,8 @@
 						"selection":
 						[
 							[
-								394,
-								394
+								282,
+								122
 							]
 						],
 						"settings":
@@ -1174,8 +1172,8 @@
 						"selection":
 						[
 							[
-								1048,
-								1048
+								456,
+								456
 							]
 						],
 						"settings":
@@ -1184,7 +1182,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 306.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1240,33 +1238,6 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "source/css/_partials/_queries.scss",
-					"settings":
-					{
-						"buffer_size": 5783,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1997,
-								1997
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 392.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
 				}
 			]
 		}
@@ -1299,7 +1270,7 @@
 		"cols":
 		[
 			0.0,
-			0.537824910316,
+			0.568749041456,
 			1.0
 		],
 		"rows":
@@ -1785,7 +1756,7 @@
 		[
 			[
 				"",
-				"/Users/Russ/Documents/voicepower/voicepower.sublime-project"
+				"/Users/Russ/Documents/logistadvise-fe/logistadvise-fe.sublime-project"
 			],
 			[
 				"en",
@@ -1798,6 +1769,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 486.0,
+	"side_bar_width": 407.0,
 	"status_bar_visible": true
 }
