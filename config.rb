@@ -63,8 +63,17 @@ configure :build do
   # activate :asset_hash
 
   # Use relative URLs
-  activate :relative_assets
-
+  
   # Or use a different image path
   # set :http_path, "/Content/images/"
+
 end
+
+activate :relative_assets
+
+activate :blog do |blog|
+  blog.prefix = "blog"
+  blog.layout = "blog_layout"
+end
+
+activate :directory_indexes

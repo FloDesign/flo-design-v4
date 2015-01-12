@@ -6,8 +6,8 @@ title: We Love the web - Flo Design Limited
 
 
 <section class="masthead" id="masthead">
-	<img src="img/seawater.jpg" alt="" class="bg">
-
+	<!-- <img src="../img/seawater.jpg" alt="" class="bg"> -->
+	<%= image_tag 'seawater.jpg', :class => "bg" %>
 	<div class="wrapper">
 		<h1><span class="hp-title-one">We love the web.</span><span class="hp-title-two"><br/>This is who we are.</span></h1>
 	</div><!--end wrapper-->
@@ -67,16 +67,16 @@ title: We Love the web - Flo Design Limited
 		<h2>Our Process</h2>
 		<div class="row cf">
 			<div class="col3">
-				<img src="img/discovery.svg" alt="discovery">
+				<%= image_tag 'discovery.svg', :alt => "discovery" %>
 			</div>
 			<div class="col3">
-				<img src="img/structure.svg" alt="Structure">
+				<%= image_tag 'structure.svg', :alt => "Structure" %>
 			</div>
 			<div class="col3">
-				<img src="img/design.svg" alt="design">
+				<%= image_tag 'design.svg', :alt => "Design" %>
 			</div>
 			<div class="col3">
-				<img src="img/develop.svg" alt="development">
+				<%= image_tag 'develop.svg', :alt => "Develop" %>
 			</div>
 			
 		</div><!--end row-->
@@ -110,7 +110,8 @@ title: We Love the web - Flo Design Limited
 		<div class="row cf">
 			<div class="col6">
 				<div class="member cf">
-					<img src="img/russ.png"  alt="Russ" onload="this.width*=0.5;this.onload=null;">
+					
+					<%= image_tag 'russ.png', :alt => "Russ", :onLoad => "this.width*=0.5;this.onload=null;" %>
 					<div class="member__copy">
 						<h3>Russell Poulter</h3>
 						<p>I'm a Creative thinker and pixel pusher who's easily distracted by shiny Apple Products. I love solving problems through design & working closely with clients to deliver the best experience for their users.</p>
@@ -124,7 +125,7 @@ title: We Love the web - Flo Design Limited
 			</div><!--end col6-->
 			<div class="col6">
 				<div class="member cf">
-					<img src="img/craig.png" alt="Craig" onload="this.width*=0.5;this.onload=null;">
+					<%= image_tag 'craig.png', :alt => "Craig", :onLoad => "this.width*=0.5;this.onload=null;" %>
 					<div class="member__copy">
 						<h3>Craig Thompson</h3>
 						<p>I model the real world in code, to enable clients to get their data where it needs to be and presented in the best way to the user. I'm at home in the digital foundry, forging the engines that make websites work.</p>

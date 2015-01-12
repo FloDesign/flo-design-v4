@@ -5,7 +5,7 @@ title: We build. This is Our Work - Flo Design Limited
 
 
 <section class="masthead" id="masthead">
-	<img src="img/seawater.jpg" alt="" class="bg">
+	<%= image_tag 'seawater.jpg', :class => "bg" %>
 
 	<div class="wrapper">
 		<h1><span class="hp-title-one">We build.</span><span class="hp-title-two"><br/>This is our work.</span></h1>
@@ -38,8 +38,10 @@ title: We build. This is Our Work - Flo Design Limited
 
 			<div class="col7">
 				<div class="work_imgs">
-					<img class="work_item--mbp" src="img/hdn_mbp_lg.png" alt="" onload="this.width*=0.5;this.onload=null;">
-					<img class="work_item--iphone" src="img/hdn_iphone_lg.png" alt="" onload="this.width*=0.5;this.onload=null;">
+					
+					<%= image_tag 'hdn_mbp_lg.png', :class => "work_item--mbp", :onload => "this.width*=0.5;this.onload=null;" %>
+					<%= image_tag 'hdn_iphone_lg.png', :class => "work_item--iphone", :onload => "this.width*=0.5;this.onload=null;" %>
+
 				</div><!-- end work imgs-->
 			</div>
 		</div>
@@ -53,8 +55,8 @@ title: We build. This is Our Work - Flo Design Limited
 		<div class="row cf">
 			<div class="col7 cf">
 				<div class="work_imgs">	
-					<img class="work_item--mbp" src="img/vp_mbp_lg.png" alt="" onload="this.width*=0.5;this.onload=null;">
-					<img class="work_item--iphone" src="img/vp_iphone_lg.png" alt="" onload="this.width*=0.5;this.onload=null;">
+					<%= image_tag 'vp_mbp_lg.png', :class => "work_item--mbp", :onload => "this.width*=0.5;this.onload=null;" %>
+					<%= image_tag 'vp_iphone_lg.png', :class => "work_item--iphone", :onload => "this.width*=0.5;this.onload=null;" %>
 				</div><!--end work imgs-->
 			</div>
 
@@ -106,7 +108,7 @@ title: We build. This is Our Work - Flo Design Limited
 
 			<div class="col7 cf">
 				<div class="work_imgs">	
-					<img class="work_item--mbp" src="img/cfs_mbp_lg.png" alt="" onload="this.width*=0.5;this.onload=null;">
+					<%= image_tag 'cfs_mbp_lg.png', :class => "work_item--mbp", :onload => "this.width*=0.5;this.onload=null;" %>
 					<!-- <img class="work_item--iphone" src="img/hdn_iphone_lg.png" alt="" onload="this.width*=0.5;this.onload=null;"> -->
 				</div><!--end work imgs-->
 			</div>
@@ -123,7 +125,8 @@ title: We build. This is Our Work - Flo Design Limited
 
 			<div class="col7">
 				<div class="work_imgs">
-					<img class="work_item--mbp" src="img/cam_mbp_lg.png" alt="" onload="this.width*=0.5;this.onload=null;">
+					
+					<%= image_tag 'cam_mbp_lg.png', :class => "work_item--mbp", :onload => "this.width*=0.5;this.onload=null;" %>
 					<!-- <img class="work_item--iphone" src="img/hdn_iphone_lg.png" alt="" onload="this.width*=0.5;this.onload=null;"> -->
 				</div><!--end work imgs-->
 			</div>

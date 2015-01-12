@@ -1,5 +1,7 @@
 ---
 title: Blog - Flo Design Limited
+pageable: true
+per_page: 10
 ---
 
 <!-- Add your site or application content here -->
@@ -13,11 +15,34 @@ title: Blog - Flo Design Limited
 	</div><!--end wrapper-->
 </section>
 
+
+<% page_articles.each_with_index do |article, i| %>
+  <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
+  <!-- use article.summary(250) if you have Nokogiri available to show just
+       the first 250 characters -->
+  <%= article.body %>
+<% end %>
+
 <section class="articles">
 	<div class="wrapper">
 	<article class="blog_item">
 		<div class="row cf">
 			<div class="col9">
+
+				
+<% blog.articles[0...5].each do |article| %>
+  <article>
+    <h1>
+      <a href="<%= article.url %>"><%= article.title %></a>
+      <time><%= article.date.strftime('%b %e %Y') %></time>
+    </h1>
+
+    
+
+    <a href="<%= article.url %>">Read more</a>
+  </article>
+<% end %>
+
 				<div class="blog__main">
 					<time datetime="2013-11-15">15th November 2013</time>
 					<h2><a href="/blog_post.html">This is a blog post title</a></h2>
