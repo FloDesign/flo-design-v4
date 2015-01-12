@@ -204,33 +204,6 @@ header.shrink{
 }
 
 
-
-	@-webkit-keyframes show {
-	    0% {opacity: 0; top: 20px; }	
-	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
-	    100% {opacity: 1; top: 0px;}
-	}
-
-	 @-moz-keyframes show {
-	    0% {opacity: 0; top: 20px; }	
-	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
-	    100% {opacity: 1; top: 0px;}
-	}
-
-	 @-o-keyframes show {
-	    0% {opacity: 0; top: 20px; }	
-	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
-	    100% {opacity: 1; top: 0px;}
-	}
-
-	 @keyframes show {
-	    0% {opacity: 0; top: 20px; }	
-	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
-	    100% {opacity: 1; top: 0px;}
-	}
-
-
-
 .ctas{
 	margin: 0 auto;
 	text-align: center;
@@ -241,25 +214,26 @@ header.shrink{
 	color: #fff;
 	border: 1px solid #fff;
 	@include transition-duration(.3s);
-	&:after{
-		content: '';
-		position: absolute;
-		z-index: -1;
-		@include transition-duration(.3s);
-		width: 0;
-		height: 103%;
-		top: 50%;
-		left: 50%;
-		background: #fff;
-		opacity: 0;
-		-webkit-transform: translateX(-50%) translateY(-50%);
-		-moz-transform: translateX(-50%) translateY(-50%);
-		-ms-transform: translateX(-50%) translateY(-50%);
-		transform: translateX(-50%) translateY(-50%);
-	}
+	// &:after{
+	// 	content: '';
+	// 	position: absolute;
+	// 	z-index: -1;
+	// 	@include transition-duration(.3s);
+	// 	width: 0;
+	// 	height: 103%;
+	// 	top: 50%;
+	// 	left: 50%;
+	// 	background: #fff;
+	// 	opacity: 0;
+	// 	-webkit-transform: translateX(-50%) translateY(-50%);
+	// 	-moz-transform: translateX(-50%) translateY(-50%);
+	// 	-ms-transform: translateX(-50%) translateY(-50%);
+	// 	transform: translateX(-50%) translateY(-50%);
+	// }
 
 	&:hover{
 		color: #072e4a;
+		background: #fff;
 	}
 
 	&:hover:after{
@@ -273,28 +247,28 @@ header.shrink{
 	color: #072e4a;
 	border: 1px solid #fff;
 	margin-left: 18px;
+	background: #fff;
 	@include transition-duration(.3s);
-	&:after{
-		content: '';
-		position: absolute;
-		z-index: -1;
-		@include transition-duration(.3s);
-		width: 101%;
-		height: 103%;
-		top: 50%;
-		left: 50%;
-		background: #fff;
-		opacity: 1;
-		-webkit-transform: translateX(-50%) translateY(-50%);
-		-moz-transform: translateX(-50%) translateY(-50%);
-		-ms-transform: translateX(-50%) translateY(-50%);
-		transform: translateX(-50%) translateY(-50%);
-	}
+	// &:after{
+	// 	content: '';
+	// 	position: absolute;
+	// 	z-index: -1;
+	// 	@include transition-duration(.3s);
+	// 	width: 101%;
+	// 	height: 103%;
+	// 	top: 50%;
+	// 	left: 50%;
+	// 	background: #fff;
+	// 	opacity: 1;
+	// 	-webkit-transform: translateX(-50%) translateY(-50%);
+	// 	-moz-transform: translateX(-50%) translateY(-50%);
+	// 	-ms-transform: translateX(-50%) translateY(-50%);
+	// 	transform: translateX(-50%) translateY(-50%);
+	// }
 
 	&:hover{
 		color: #fff;
-		
-		
+		background: none;
 	}
 
 	&:hover:after{
@@ -1202,3 +1176,5 @@ footer{
 	position: absolute;
 	right: 0;
 }
+
+// testing slack nitbucket integration. 
