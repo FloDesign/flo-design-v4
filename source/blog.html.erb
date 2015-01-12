@@ -8,7 +8,7 @@ per_page: 10
 
 
 <section class="masthead" id="masthead">
-	<img src="img/seawater.jpg" alt="" class="bg">
+	<%= image_tag 'seawater.jpg', :class => "bg" %>
 
 	<div class="wrapper">
 		<h1><span class="hp-title-one">We blog.</span><span class="hp-title-two"><br/>This is what we think.</span></h1>
@@ -16,77 +16,37 @@ per_page: 10
 </section>
 
 
-<% page_articles.each_with_index do |article, i| %>
-  <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
-  <!-- use article.summary(250) if you have Nokogiri available to show just
-       the first 250 characters -->
-  <%= article.body %>
-<% end %>
-
 <section class="articles">
 	<div class="wrapper">
+
+	
+	<% page_articles.each_with_index do |article, i| %>	
 	<article class="blog_item">
 		<div class="row cf">
 			<div class="col9">
 
-				
-<% blog.articles[0...5].each do |article| %>
-  <article>
-    <h1>
-      <a href="<%= article.url %>"><%= article.title %></a>
-      <time><%= article.date.strftime('%b %e %Y') %></time>
-    </h1>
-
-    
-
-    <a href="<%= article.url %>">Read more</a>
-  </article>
-<% end %>
-
 				<div class="blog__main">
-					<time datetime="2013-11-15">15th November 2013</time>
-					<h2><a href="/blog_post.html">This is a blog post title</a></h2>
-					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+					<time datetime="<%= article.date %>"><%= article.date.strftime('%B %e %Y') %></time>
+					<h2><%= link_to article.title, article %></h2>
+					<%= article.summary %>
 				</div><!--end blog main-->
 			</div><!--end col9-->
 			<div class="col3">
 				<div class="post_meta">
 					<dl>
 						<dt>Time:</dt>
-						<dd>5 Min</dd>
+						<dd><%= article.data.time %> Min</dd>
 						<dt>In:</dt>
-						<dd>Tutorials</dd>
+						<dd><%= article.data.tags %></dd>
 						<dt>by:</dt>
-						<dd>Craig</dd>
+						<dd><%= article.data.author %></dd>
 					</dl>
 				</div><!--end post meta-->
 			</div><!--end col3-->
 		</div><!--end row-->
 	</article>
+	<% end %>
 
-	<article class="blog_item">
-		<div class="row cf">
-			<div class="col9">
-				<div class="blog__main">
-					<time datetime="2013-11-15">15th November 2013</time>
-					<h2><a href="">This is a blog post title</a></h2>
-					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.</p>
-				</div><!--end blog main-->
-			</div><!--end col9-->
-			<div class="col3">
-				<div class="post_meta">
-					<dl>
-						<dt>Time:</dt>
-						<dd>5 Min</dd>
-						<dt>In:</dt>
-						<dd>Tutorials</dd>
-						<dt>by:</dt>
-						<dd>Craig</dd>
-					</dl>
-				</div><!--end post meta-->
-			</div><!--end col3-->
-		</div><!--end row-->
-	</article>
 
 	</div><!--end wrapper-->
 </section>
