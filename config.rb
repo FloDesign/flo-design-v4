@@ -42,7 +42,7 @@ activate :directory_indexes
 # Reload the browser automatically whenever files change
 activate :livereload
 
-
+activate :imageoptim
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -83,4 +83,4 @@ activate :blog do |blog|
   blog.permalink = ":title"
 end
 
-activate :directory_indexes
+# activate :directory_indexes
