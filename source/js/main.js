@@ -59,7 +59,7 @@ $(document).ready(function () {
             return false;
         }
 
-        var mailerUrl = window.location.hostname + '/mailer.php';
+        var mailerUrl = window.location.origin + '/mailer.php';
 
         $('.contact-message').load(mailerUrl, $('#contact-form').serialize(), function(){
             $('.contact-message').addClass('contact-success');
