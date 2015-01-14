@@ -1,6 +1,6 @@
 ---
-title:  "We're open-sourcing our site. Here's why"
-date:   2015-01-14 17:05:47
+title:  We're open-sourcing our site. Here's why
+date: 2015-01-14 12:02 UTC
 tags: News
 time: 2
 author: Craig
