@@ -69,10 +69,12 @@ $(document).ready(function () {
         .done(function(data) {
           $('.contact-message').addClass('contact-success');
           $('.contact-message').html(data);
+          $('.loader').hide();
         })
         .fail(function() {
           $('.contact-message').addClass('contact-error');
           $('.contact-message').html(data);
+          $('.loader').hide();
         });
     
         $('.contact-message').show();
