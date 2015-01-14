@@ -37,11 +37,8 @@
 
 activate :directory_indexes
 
-
-
 # Reload the browser automatically whenever files change
 activate :livereload
-
 
 
 # Methods defined in the helpers block are available in templates
@@ -60,26 +57,29 @@ set :images_dir, 'img'
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
   # Enable cache buster
-  # activate :asset_hash
+  activate :asset_hash
 
-  # Use relative URLs
+  # optimise images on build
+  activate :imageoptim
   
   # Or use a different image path
   # set :http_path, "/Content/images/"
 
 end
 
+# Use relative URLs
 activate :relative_assets
 
 activate :blog do |blog|
   blog.prefix = "blog"
   blog.layout = "blog_layout"
+  blog.permalink = ":title"
 end
 
-activate :directory_indexes
+# activate :directory_indexes

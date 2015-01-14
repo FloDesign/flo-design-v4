@@ -1,6 +1,6 @@
 ---
-title: Web design agency in Leeds, UK - Flo Design Limited
-description: Web Design Leeds. We Work with great companies, brands and start ups to build websites that work.   	
+title: Web Design Leeds, Yorkshire - Flo Design Limited
+description: At Flo Design our Web Design is born in Leeds, working with great companies, brands and start-ups to build websites that look great and work.   	
 ---
 
 <!-- I test therefore I am -->
@@ -15,9 +15,13 @@ description: Web Design Leeds. We Work with great companies, brands and start up
 		<h1><span class="hp-title-one">We are Flo.</span><span class="hp-title-two"><br/> We build the web.</span></h1>
 		<div class="ctas">
 			
-			<a href="/about" class="masthead__btn">Find out more <span aria-hidden="true" data-icon="&#xe604;" class="bg-arrow"></span></a>
+			<!-- <a href="/about" class="masthead__btn">Find out more <span aria-hidden="true" data-icon="&#xe604;" class="bg-arrow"></span></a> -->
+			<%= link_to 'Find out more <span aria-hidden="true" data-icon="&#xe604;" class="bg-arrow"></span>', '/about.html', :class => "masthead__btn" %>
 
-			<a href="/contact" class="masthead__btn--solid">Hire us <span aria-hidden="true" data-icon="&#xe604;" class="bg-arrow"></span></a>
+
+			<!-- <a href="/contact" class="masthead__btn--solid">Hire us <span aria-hidden="true" data-icon="&#xe604;" class="bg-arrow"></span></a> -->
+			<%= link_to 'Hire us <span aria-hidden="true" data-icon="&#xe604;" class="bg-arrow"></span>', '/hire-us.html', :class => "masthead__btn--solid" %>
+
 		</div>
 	</div><!--end wrapper-->
 </section>

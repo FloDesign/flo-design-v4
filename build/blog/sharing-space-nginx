@@ -1,3 +1,5 @@
+<!-- Add your site or application content here -->
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -7,7 +9,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <!-- Use title if it's in the page YAML frontmatter -->
-        <title>Flo Design Ltd</title>
+        <title>Sharing space - Setting up Ghost behind a proxy - Nginx</title>
         <meta name="description" content="Flo Design Ltd">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -22,7 +24,7 @@
 
 
     </head>
-    <body class="README README_index">
+    <body class="blog blog_sharing-space-nginx">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
@@ -52,71 +54,86 @@
             </div><!--end wrapper-->
         </header>
 
-        <h1 id="html5-boilerplatehttphtml5boilerplatecom"><a href="http://html5boilerplate.com">HTML5 Boilerplate</a></h1>
+        <section class="article_wrapper">
+	<div class="wrapper">
 
-<p>HTML5 Boilerplate is a professional front-end template for building fast,
-robust, and adaptable web apps or sites.</p>
+	<article class="blog_item">
+		<div class="row cf">
+			<div class="col9">
+				<div class="blog__main">
+					<time datetime="2014-02-10 13:00:00 UTC">February 10 2014</time>
+					
+					<h2>Sharing space - Setting up Ghost behind a proxy - Nginx</h2>
 
-<p>This project is the product of many years of iterative development and combined
-community knowledge. It does not impose a specific development philosophy or
-framework, so you're free to architect your code in the way that you want.</p>
+					 <p>In my last blog post I explained how to set up a Ghost blog behind a proxy using Apache as the proxying server. This post is just a quickie to explain how to do the same with Nginx</p>
 
-<ul>
-  <li>Source: <a href="https://github.com/h5bp/html5-boilerplate">https://github.com/h5bp/html5-boilerplate</a></li>
-  <li>Homepage: <a href="http://html5boilerplate.com">http://html5boilerplate.com</a></li>
-  <li>Twitter: <a href="http://twitter.com/h5bp">@h5bp</a></li>
-</ul>
+<p>If you haven't done so you can set up node.js and Ghost by following the <a href="http://blog.flodesign.co.uk/sharing-space-setting-up-ghost-behind-a-proxy-apache/">previous tutorial</a></p>
 
-<h2 id="quick-start">Quick start</h2>
+<h3 id="step-1---locating-your-nginx-install">Step 1 - Locating your nginx install</h3>
 
-<p>Choose one of the following options:</p>
+<p>If you've installed your nginx server recently or using your distro's package manager you'll likely have a good idea of where your nginx folder is. However, if you've compiled from source you might not have caught where it's been installed to. We'll be creating files in the 'sites-available' directory so first we'll find where that is:</p>
+<pre>
+  locate nginx/sites-available
+  </pre>
 
-<ol>
-  <li>Download the latest stable release from
-<a href="http://html5boilerplate.com/">html5boilerplate.com</a> or a custom build from
-<a href="http://www.initializr.com">Initializr</a>.</li>
-  <li>Clone the git repo — <code>git clone
-https://github.com/h5bp/html5-boilerplate.git</code> - and checkout the tagged
-release you'd like to use.</li>
-</ol>
+<p>The output of this command should give you the full path to your nginx install as well as any conf files in that directory. Within that directory we need to create a new .conf file to tell our server where to pass requests. Load up your favourite text editor and create a new file called ghost.conf:</p>
 
-<h2 id="features">Features</h2>
+<pre>
+  nano nginx-path/sites-available/ghost.conf
+  </pre>
 
-<ul>
-  <li>HTML5 ready. Use the new elements with confidence.</li>
-  <li>Cross-browser compatible (Chrome, Opera, Safari, Firefox 3.6+, IE6+).</li>
-  <li>Designed with progressive enhancement in mind.</li>
-  <li>Includes <a href="http://necolas.github.com/normalize.css/">Normalize.css</a> for CSS
-normalizations and common bug fixes.</li>
-  <li>The latest <a href="http://jquery.com/">jQuery</a> via CDN, with a local fallback.</li>
-  <li>The latest <a href="http://modernizr.com/">Modernizr</a> build for feature detection.</li>
-  <li>IE-specific classes for easier cross-browser control.</li>
-  <li>Placeholder CSS Media Queries.</li>
-  <li>Useful CSS helpers.</li>
-  <li>Default print CSS, performance optimized.</li>
-  <li>Protection against any stray <code>console.log</code> causing JavaScript errors in
-IE6/7.</li>
-  <li>An optimized Google Analytics snippet.</li>
-  <li>Apache server caching, compression, and other configuration defaults for
-Grade-A performance.</li>
-  <li>Cross-domain Ajax and Flash.</li>
-  <li>"Delete-key friendly." Easy to strip out parts you don't need.</li>
-  <li>Extensive inline and accompanying documentation.</li>
-</ul>
+<p>In this file we're going to put the following:</p>
+<pre>
+  server {
+    listen 80;
+    server_name example.com;
 
-<h2 id="documentation">Documentation</h2>
+    location / {
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   Host      $http_host;
+        proxy_pass         http://127.0.0.1:2368;
+    }
+  }
+  </pre>
 
-<p>Take a look at the <a href="/h5bp/html5-boilerplate/blob/master/doc/README.md">documentation table of
-contents</a>. This
-documentation is bundled with the project, which makes it readily available for
-offline reading and provides a useful starting point for any documentation
-you want to write about your project.</p>
+<p>This file opens up a server block, which listens on the default HTTP port for incoming connections and sends the requests for example.com to our ghost install. Unlike Apache, we don't have to enable or set the proxy module as it is already enabled by default.</p>
 
-<h2 id="contributing">Contributing</h2>
+<p>After that we need to enable our new site config in nginx:</p>
 
-<p>Anyone and everyone is welcome to
-<a href="/h5bp/html5-boilerplate/blob/master/doc/contribute.md">contribute</a>. Hundreds
-of developers have helped make the HTML5 Boilerplate what it is today.</p>
+<pre>
+  ln -s nginx-path/sites-available/ghost.conf nginx-path/sites-enabled/ghost.conf
+  </pre>
+
+<p>Then just restart nginx and navigate to the domain you put in the server_name directive:</p>
+
+<pre>
+  service nginx restart
+  </pre>
+
+<p>Et voila!</p>
+
+<p><img alt="Test Ghost blog up and running" src="http://i.imgur.com/qW27oDL.png" /></p>
+
+					
+				</div><!--end blog main-->
+			</div><!--end col9-->
+			<div class="col3">
+				<div class="post_meta">
+					<dl>
+						<dt>Time:</dt>
+						<dd>5min</dd>
+						<dt>In:</dt>
+						<dd>Tutorials</dd>
+						<dt>by:</dt>
+						<dd>Craig</dd>
+					</dl>
+				</div><!--end post meta-->
+			</div><!--end col3-->
+		</div><!--end row-->
+	</article>
+
+	</div><!--end wrapper-->
+</section>
 
 
         <footer>
@@ -178,3 +195,8 @@ of developers have helped make the HTML5 Boilerplate what it is today.</p>
 
     </body>
 </html>
+
+
+
+
+

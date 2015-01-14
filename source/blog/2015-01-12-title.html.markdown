@@ -1,7 +1,0 @@
----
-title: TITLE
-date: 2015-01-12 13:30 UTC
-tags:
----
-
-This is some stuff.

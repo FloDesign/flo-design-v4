@@ -12,7 +12,9 @@ title: Blog Post - Flo Design Limited
 		<div class="row cf">
 			<div class="col9">
 				<div class="blog__main">
-					<time datetime="2013-11-15">15th November 2013</time>
+					<time datetime="<%= current_article.date %>"><%= current_article.date.strftime('%B %e %Y') %></time>
+					
+					<h2><%= current_article.title %></h2>
 
 					 <%= yield %>
 					
@@ -22,11 +24,11 @@ title: Blog Post - Flo Design Limited
 				<div class="post_meta">
 					<dl>
 						<dt>Time:</dt>
-						<dd>5 Min</dd>
+						<dd><%= current_article.data.time %>min</dd>
 						<dt>In:</dt>
-						<dd>Tutorials</dd>
+						<dd><%= current_article.data.tags %></dd>
 						<dt>by:</dt>
-						<dd>Craig</dd>
+						<dd><%= current_article.data.author %></dd>
 					</dl>
 				</div><!--end post meta-->
 			</div><!--end col3-->
