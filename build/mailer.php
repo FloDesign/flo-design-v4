@@ -1,9 +1,9 @@
 <?php 
 
-  $name = $_GET['name'];
-  $email = $_GET['email'];
-  $budget = $_GET['budget'];
-  $text = $_GET['message'];  
+  $name = $_POST['postName'];
+  $email = $_POST['postEmail'];
+  $budget = $_POST['postBudget'];
+  $text = $_POST['postMessage'];
 
   $to      = 'hello@flodesign.co.uk';
   $subject = 'Flo Design contact form';
