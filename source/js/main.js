@@ -59,11 +59,22 @@ $(document).ready(function () {
             return false;
         }
 
-        var mailerUrl = window.location.hostname + '/mailer.php';
+        var mailerUrl = window.location.origin + '/mailer.php';
 
-        $('.contact-message').load(mailerUrl, $('#contact-form').serialize(), function(){
-            $('.contact-message').addClass('contact-success');
-            $('.loader').hide();
+        $.ajax({
+          url: mailerUrl,
+          type: 'POST',
+          data: {postName: name, postEmail: email, postBudget: budget, postMessage: message},
+        })
+        .done(function(data) {
+          $('.contact-message').addClass('contact-success');
+          $('.contact-message').html(data);
+          $('.loader').hide();
+        })
+        .fail(function() {
+          $('.contact-message').addClass('contact-error');
+          $('.contact-message').html(data);
+          $('.loader').hide();
         });
     
         $('.contact-message').show();

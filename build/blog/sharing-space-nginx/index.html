@@ -1,3 +1,5 @@
+<!-- Add your site or application content here -->
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -7,14 +9,14 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <!-- Use title if it's in the page YAML frontmatter -->
-        <title>Flo Design Ltd</title>
+        <title>Sharing space - Setting up Ghost behind a proxy - Nginx</title>
         <meta name="description" content="Flo Design Ltd">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         
-        <link href="../css/styles-4e1bb6b4.css" media="screen" rel="stylesheet" type="text/css" />
-        <script src="../js/vendor/modernizr-2.6.1.min-68fdcc99.js" type="text/javascript"></script>
+        <link href="../../css/styles-4e1bb6b4.css" media="screen" rel="stylesheet" type="text/css" />
+        <script src="../../js/vendor/modernizr-2.6.1.min-68fdcc99.js" type="text/javascript"></script>
 
         <!-- TypeKit -->
         <script type="text/javascript" src="//use.typekit.net/fxd7tlq.js"></script>
@@ -22,7 +24,7 @@
 
 
     </head>
-    <body class="LICENSE LICENSE_index">
+    <body class="blog blog_sharing-space-nginx blog_sharing-space-nginx_index">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
@@ -30,7 +32,7 @@
         <header class="cf site-header">
             <div class="wrapper">
                 <a href="/" class="site-logo">
-                    <img class="logo" height="1" width="1" src="../img/dot-2daeaa8b.gif" />
+                    <img class="logo" height="1" width="1" src="../../img/dot-2daeaa8b.gif" />
 
                 </a>
                 
@@ -52,25 +54,86 @@
             </div><!--end wrapper-->
         </header>
 
-        <p>Copyright (c) HTML5 Boilerplate</p>
+        <section class="article_wrapper">
+	<div class="wrapper">
 
-<p>Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-of the Software, and to permit persons to whom the Software is furnished to do
-so, subject to the following conditions:</p>
+	<article class="blog_item">
+		<div class="row cf">
+			<div class="col9">
+				<div class="blog__main">
+					<time datetime="2014-02-10 13:00:00 UTC">February 10 2014</time>
+					
+					<h2>Sharing space - Setting up Ghost behind a proxy - Nginx</h2>
 
-<p>The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.</p>
+					 <p>In my last blog post I explained how to set up a Ghost blog behind a proxy using Apache as the proxying server. This post is just a quickie to explain how to do the same with Nginx</p>
 
-<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.</p>
+<p>If you haven't done so you can set up node.js and Ghost by following the <a href="http://blog.flodesign.co.uk/sharing-space-setting-up-ghost-behind-a-proxy-apache/">previous tutorial</a></p>
+
+<h3 id="step-1---locating-your-nginx-install">Step 1 - Locating your nginx install</h3>
+
+<p>If you've installed your nginx server recently or using your distro's package manager you'll likely have a good idea of where your nginx folder is. However, if you've compiled from source you might not have caught where it's been installed to. We'll be creating files in the 'sites-available' directory so first we'll find where that is:</p>
+<pre>
+  locate nginx/sites-available
+  </pre>
+
+<p>The output of this command should give you the full path to your nginx install as well as any conf files in that directory. Within that directory we need to create a new .conf file to tell our server where to pass requests. Load up your favourite text editor and create a new file called ghost.conf:</p>
+
+<pre>
+  nano nginx-path/sites-available/ghost.conf
+  </pre>
+
+<p>In this file we're going to put the following:</p>
+<pre>
+  server {
+    listen 80;
+    server_name example.com;
+
+    location / {
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   Host      $http_host;
+        proxy_pass         http://127.0.0.1:2368;
+    }
+  }
+  </pre>
+
+<p>This file opens up a server block, which listens on the default HTTP port for incoming connections and sends the requests for example.com to our ghost install. Unlike Apache, we don't have to enable or set the proxy module as it is already enabled by default.</p>
+
+<p>After that we need to enable our new site config in nginx:</p>
+
+<pre>
+  ln -s nginx-path/sites-available/ghost.conf nginx-path/sites-enabled/ghost.conf
+  </pre>
+
+<p>Then just restart nginx and navigate to the domain you put in the server_name directive:</p>
+
+<pre>
+  service nginx restart
+  </pre>
+
+<p>Et voila!</p>
+
+<p><img alt="Test Ghost blog up and running" src="http://i.imgur.com/qW27oDL.png" /></p>
+
+					
+				</div><!--end blog main-->
+			</div><!--end col9-->
+			<div class="col3">
+				<div class="post_meta">
+					<dl>
+						<dt>Time:</dt>
+						<dd>5min</dd>
+						<dt>In:</dt>
+						<dd>Tutorials</dd>
+						<dt>by:</dt>
+						<dd>Craig</dd>
+					</dl>
+				</div><!--end post meta-->
+			</div><!--end col3-->
+		</div><!--end row-->
+	</article>
+
+	</div><!--end wrapper-->
+</section>
 
 
         <footer>
@@ -92,7 +155,7 @@ SOFTWARE.</p>
                     
                     <div class="col5 cf">
                         
-                        <img class="footer-logo" src="../img/flo-logo-footer-e32f6c7b.svg" />
+                        <img class="footer-logo" src="../../img/flo-logo-footer-e32f6c7b.svg" />
 
                         <nav>
                             <ul class="footer-nav cf">
@@ -115,9 +178,9 @@ SOFTWARE.</p>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
-        <script src="../js/vendor/jquery.sequence-min-22e6c9c7.js" type="text/javascript"></script>
-        <script src="../js/plugins-7b748a7d.js" type="text/javascript"></script>
-        <script src="../js/main-7f687194.js" type="text/javascript"></script>
+        <script src="../../js/vendor/jquery.sequence-min-22e6c9c7.js" type="text/javascript"></script>
+        <script src="../../js/plugins-7b748a7d.js" type="text/javascript"></script>
+        <script src="../../js/main-2e04fc18.js" type="text/javascript"></script>
 
         <!-- Google Analytics -->
         <script>
@@ -132,3 +195,8 @@ SOFTWARE.</p>
 
     </body>
 </html>
+
+
+
+
+
