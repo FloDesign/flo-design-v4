@@ -33,7 +33,6 @@ set :deploy_to, '/var/www/flodesign.co.uk'
  server 'flodesign.co.uk',
    user: 'floploy',
    roles: %w{web},
-   port: 420,
    ssh_options: {
      user: 'floploy', # overrides user setting above
      keys: %w(/home/floploy/.ssh/id_rsa),
