@@ -59,7 +59,9 @@ $(document).ready(function () {
             return false;
         }
 
-        $('.contact-message').load('/mailer.php', $('#contact-form').serialize(), function(){
+        var mailerUrl = window.location.hostname + '/mailer.php';
+
+        $('.contact-message').load(mailerUrl, $('#contact-form').serialize(), function(){
             $('.contact-message').addClass('contact-success');
             $('.loader').hide();
         });
