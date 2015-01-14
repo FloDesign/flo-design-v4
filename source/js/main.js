@@ -61,7 +61,7 @@ $(document).ready(function () {
 
         var mailerUrl = window.location.origin + '/mailer.php';
 
-        $.$.ajax({
+        $.ajax({
           url: mailerUrl,
           type: 'POST',
           data: {postName: name, postEmail: email, postBudget: budget, postMessage: message},
