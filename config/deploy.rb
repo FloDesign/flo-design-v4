@@ -2,7 +2,7 @@
 lock '3.3.5'
 
 set :application, 'flo-design-v4'
-set :repo_url, 'git@bitbucket.org:flodesign/flo-design-v4.git'
+set :repo_url, 'git@github.com:FloDesign/flo-design-v4.git'
 
 # Default branch is :master
 ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
