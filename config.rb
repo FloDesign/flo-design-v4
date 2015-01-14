@@ -63,7 +63,7 @@ configure :build do
   activate :minify_javascript
 
   # Enable cache buster
-  activate :asset_hash
+  activate :asset_hash, :ignore => [/^mailer/]
 
   # optimise images on build
   activate :imageoptim

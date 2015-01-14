@@ -58,8 +58,8 @@ $(document).ready(function () {
             $('.loader').hide();
             return false;
         }
-    
-        $('.contact-message').load('mailer.php', $('#contact-form').serialize(), function(){
+
+        $('.contact-message').load('/mailer.php', $('#contact-form').serialize(), function(){
             $('.contact-message').addClass('contact-success');
             $('.loader').hide();
         });
