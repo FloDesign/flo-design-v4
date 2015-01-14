@@ -35,7 +35,7 @@
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
-activate :directory_indexes
+
 
 # Reload the browser automatically whenever files change
 activate :livereload
@@ -66,7 +66,7 @@ configure :build do
   activate :asset_hash, :ignore => [/^mailer/]
 
   # optimise images on build
-  activate :imageoptim
+  # activate :imageoptim
   
   # Or use a different image path
   # set :http_path, "/Content/images/"
@@ -81,5 +81,7 @@ activate :blog do |blog|
   blog.layout = "blog_layout"
   blog.permalink = ":title"
 end
+
+activate :directory_indexes
 
 # activate :directory_indexes
