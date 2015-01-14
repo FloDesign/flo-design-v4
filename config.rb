@@ -66,7 +66,7 @@ configure :build do
   activate :asset_hash, :ignore => [/^mailer/]
 
   # optimise images on build
-  # activate :imageoptim
+  activate :imageoptim
   
   # Or use a different image path
   # set :http_path, "/Content/images/"
