@@ -454,6 +454,51 @@ header.shrink{
 	}
 }
 
+ul.client_logos{
+	li{
+		width: 25%;
+		float: left;
+		text-align: center;
+	}
+}
+
+.client_logos__logo{
+	width: 200px;
+	height:200px;
+	background: url(../img/logos.png) no-repeat;
+	background-size: 200%;
+	display: block;
+	margin: 0 auto;
+}
+
+.logo_nhs{
+	background-position: 50%;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    /* Retina-specific stuff here */
+    .client_logos__logo{
+
+	background: url(../img/logos@2x.png) no-repeat;
+	background-size: 200%;
+
+}
+}
+
+.logo_nhs{
+	background-position: 100% 0;
+}
+
+.logo_nokia{
+	background-position: 0 100%;
+}
+
+.logo_yas{
+	background-position: 100% 100%;
+}
+
 
 a .icon-link{
 	position: relative;

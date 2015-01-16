@@ -81,6 +81,12 @@
 	    100% {top: 20px;}
 	}
 
+	ul.client_logos{
+		li{
+			width: 50%;
+		}
+	}
+
 	
 }
 
@@ -454,5 +460,11 @@
 
 	.footer-logo{
 		display: none;
+	}
+
+	ul.client_logos{
+		li{
+			width: 100%;
+		}
 	}
 }
