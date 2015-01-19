@@ -67,6 +67,9 @@ configure :build do
 
   # optimise images on build
   activate :imageoptim
+
+  # Minify Javascript on build
+  activate :minify_html
   
   # Or use a different image path
   # set :http_path, "/Content/images/"
