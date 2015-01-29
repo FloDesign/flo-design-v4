@@ -13,7 +13,7 @@ Its been a bit of a whirlwind here at Flo Design since the start of the year. Fi
 ### A new home
 just a week back after the Christmas and new year break we upped sticks and moved from our shared office space at QU2 and into our fancy new office that's all ours! No more exiting the room to take phone calls or having to listen to music on headphones. Its our office and we'll play rubbish music if we want to! The new office may be small but its perfectly formed and suits our needs brilliantly and the building is crammed full of other awesome creative companies and individuals, you can't help but be inspired by. We love our new home so feel free to drop in if you're in the area.
 
-![Our swanky new office](http://flodesign.co.uk/img/blog/office.jpg "Swanky Office")
+![Our swanky new office](/img/office.jpg "Swanky Office")
 
 ### A new site
 As well as moving into a brand new office we've also launched our brand new web site. I very quickly fell out of love with the old design and as such the site never grew beyond 2 pages. The use of lots of blocks of dark colour began to feel oppressive and constricting to me and it didn't really fit in with our values of keeping things simple, clean and open. It had to go. We're really happy with how the new site turned out, there is still more we'd like to do with it and add to it so keep an eye out for new things happening on there in the future :) we believe that the best sites evolve over time and that's what we want to do with this one. 
