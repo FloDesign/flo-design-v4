@@ -18,4 +18,4 @@ Whenever we're designing anything (in my case web sites and user interfaces) the
 
 Truly great design is design that you hardly notice, you should be able to pick up a product or use a service and accomplish your task easily and simply and it should be a nice experience. That's great design. That means a designer has done their job.
 
-The designer of my watch did their job, but then [he was damn good at it](https://www.google.co.uk/search?q=dieter+rams&oq=dieter&aqs=chrome.2.69i57j69i59j0l4.2742j0j7&sourceid=chrome&es_sm=119&ie=UTF-8) :-)
+The designer of my watch did their job, but then [they were damn good at it](https://www.google.co.uk/search?q=dieter+rams&oq=dieter&aqs=chrome.2.69i57j69i59j0l4.2742j0j7&sourceid=chrome&es_sm=119&ie=UTF-8) :-)
