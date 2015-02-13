@@ -1195,7 +1195,7 @@ ul.member__social li{
 
 .post_meta{
 	position: absolute;
-	bottom: -60px;
+	bottom: -66px;
 	width: 100%;
 	dl{
 	border-left: 1px solid #ececec;
@@ -1216,6 +1216,39 @@ ul.member__social li{
 .article_wrapper{
 	padding-top: 100px;
 	background: #fff;
+}
+
+
+.cta-box{
+	background: $grey-bg;
+	text-align: center;
+	color: #fff;
+	padding: 100px 0;
+	color: $copy;
+	h3{
+		margin-bottom: 30px;
+	}
+}
+
+.cta_btn{
+	color: $copy;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-size: 1.5rem;
+	font-weight: 400;
+	padding: 7px 15px;
+	white-space: nowrap;
+	background: $grey-bg;
+	display: inline-block;
+	border: 2px solid $copy;
+	@include transition-duration(.3s);
+	&:hover{
+		text-decoration: none;
+		color: #fff;
+		background: $highlight;
+		border: 2px solid $highlight;
+	}
 }
 
 
