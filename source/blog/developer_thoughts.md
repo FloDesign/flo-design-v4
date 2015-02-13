@@ -10,7 +10,7 @@ When a client approaches us to build an app or a website, they will usually have
 
 ###Initial consultation
 
-The first step is to ascertain exactly what the client needs to make their idea work for their users. Often clients will come along with a whizzbang idea and a list of functionality as long as your arm. Some of this functionality is often inspired by bigger sites completely outside the industry or demographic target that the client is aiming for. It's our job to ask the right questions to really nail down what the client's users are going to need. This ensures that not only will the user not be bombarded with functionality they're not going to use but that the client will only be paying for what's needed.
+The first step is to work out exactly what the client needs to make their idea work for their users. Often clients will come along with a whizzbang idea and a list of functionality as long as your arm. Some of this functionality is often inspired by bigger sites completely outside the industry or demographic target that the client is aiming for. It's our job to ask the right questions to really nail down what the client's users are going to need. This ensures that not only will the user not be bombarded with functionality they're not going to use but that the client will only be paying for what's needed.
 
 ###Model design
 
@@ -18,4 +18,14 @@ Development, especially in terms of web applications, often revolves around abst
 
 ###The Stack
 
-You'll notice we're all this way into the process and we haven't mentioned the build technology yet! It's a common misconception that a project starts with the platform it's going to be built on and goes from there. Here at FloDesign we work out what the project entails and then pick the platform that fits best. Choices range from an open-source system, which can be tweaked and changed to suit the project to a fully bespoke build for more complex apps. When we select tech it has to provide the best fit for the project, as well as being scalable for when we expand the functionality.
+You'll notice we're all this way into the process and we haven't mentioned the build technology yet! It's a common misconception that a project starts with the platform it's going to be built on and goes from there. Here at FloDesign we work out what the project entails and then pick the platform that fits best. Choices range from an open-source, off-the-shelf system, which can be tweaked and changed to suit the project, to a fully bespoke build for more complex apps. When we select tech it has to provide the best fit for the project, as well as being scalable for when or if we expand the functionality.
+
+###Prototyping and iteration
+
+Next we start with prototyping. We like to get into code as soon as possible to allow the client to have a play and see the direction the project is going in. Iterative development allows us to produce in sprints, test and deploy to the client quickly, which means that any changes in direction can be accommodated early on.
+
+###Ongoing development
+
+Our work doesn't stop once the project is live. While we aim to get the best fit for the project's users, it's not always easy to know exactly what they want. We work with the client, post launch, to analyse collected data and design new features or content.
+
+tl;dr: Start small so you don't waste time & money, analyse, iterate, improve.
