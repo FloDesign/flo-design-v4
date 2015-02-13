@@ -1,5 +1,5 @@
 ---
-title: This is how we do it: Our Development Process
+title: This is how we do it - Our Development Process
 date: 2015-02-13 10:06 UTC
 tags: Development, Workflow, FloDesign Process
 time: 5
