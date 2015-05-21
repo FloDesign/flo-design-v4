@@ -1,0 +1,79 @@
+workitems:
+- title: "Alscient Limited"
+  description: "Alscient Limited are a new &amp; exciting IT consultancy based in Leeds city centre. They contacted us as they weren't happy with their existing web site and didn't feel like it was doing them justice as they rapidly grew. We worked with the team at Alscient to design and develop a fully responsive web site that better reflected them as a business and served to promote their core values of honesty, innovation &amp; community. The use of professionally commissioned photography and a specialist copywriter, together with the striking designs means the new site will be an important marketing tool for years to come."
+  tags: 
+    -  design
+    -  development
+    -  project managment
+    -  HTML5
+    -  CSS3
+    -  responsive
+    -  wordpress
+  imgmbp: "als_mbp.png"
+  imgphone: "als_phone.png"
+  link: "http://www.alscient.com/"
+- title: "NHS Health Developer Network"
+  description: "We love the NHS, we think it's an institution to be proud of and it's one we're proud to have worked with. They asked us to design &amp; develop a site to be a resource and community for independent software developers. The site aims to assist in the creation of health and social care software and mobile applications. We explored a number of design directions but ultimately settled on a simple, bold colour-led design with each section of the site having its own colour identity. The site can be fully updated and maintained via the WordPress content management system, which was customised to meet the exacting requirements of the project."
+  tags: 
+    -  design
+    -  development
+    -  project managment
+    -  HTML5
+    -  CSS3
+    -  responsive
+    -  wordpress
+  imgmbp: "hdn_mbp_lg.png"
+  imgphone: "hdn_iphone_lg.png"
+  link: "http://developer.nhs.uk/"
+- title: "Yorkshire Ambulance Service"
+  description: "The Yorkshire Ambulance Service approached us to help them re-brand and re-design their internal intranet system. They wanted a simple and visually appealing design that would keep content and communication at the heart of the system. We worked closely with them to produce a comprehensive set of designs for mobile, tablet and desktop experiences."
+  tags: 
+    -  design
+    -  project managment
+    -  logo design
+    -  brand design
+    -  responsive
+    -  app design
+  imgmbp: "pulse_mbp_lg.png"
+  imgphone: "pulse_iphone_lg.png"
+  link: 
+- title: "LogistAdvise"
+  description: "We worked with LogistAdvise, a logistics startup, while they where based in Leeds. They approached us to design and build their idea for a freight carrier search engine application. We worked with the them to design and build the app. Our work covered logo and branding, user experience design, user interface design as well as developing the custom back end functionality using Ruby on Rails and services like the Google maps API. The LogistAdvise team has since relocated to Canada and continued development with their in-house team."
+  tags: 
+    -  design
+    -  development
+    -  project managment
+    -  HTML5
+    -  CSS3
+    -  logo design
+    -  brand design
+    -  responsive
+    -  app design
+  imgmbp: "la_mbp_lg.png"
+  imgphone: "la_iphone_lg.png"
+  link: "http://logistadvise.com/"
+- title: "VoicePower Limited"
+  description: "VoicePower Limited is an independent supplier of speech recognition and digital dictation solutions based in Harrogate. They hired us to design and build them a new marketing site to go along with a recent re-brand. They wanted a site that was clean, clear and easy to use and navigate. We produced a modern responsive site that works just as well across any device, from smart phone to desktop computer, with a focus on generating business leads via the site. The site can be updated and maintained via the WordPress content management system."
+  tags: 
+    -  design
+    -  development
+    -  project managment
+    -  HTML5
+    -  CSS3
+    -  responsive
+    -  wordpress
+  imgmbp: "vp_mbp_lg.png"
+  imgphone: "vp_iphone_lg.png"
+  link: "http://voicepower.co.uk/"
+- title: "Contract Furniture Specialists"
+  description: "Contract Furniture Specialists are a Chester based company who provide innovative, quality dining solutions to the educational and leisure markets. They were in need of a new web site that would generate more leads via the web and showcase their work in the best possible light. We worked closely with them to produce a site that not only looks good but is easy to use and keep up to date via the WordPress content management system."
+  tags: 
+    -  design
+    -  development
+    -  project managment
+    -  HTML5
+    -  CSS3
+    -  wordpress
+  imgmbp: "cfs_mbp_lg.png"
+  imgphone:
+  link: "http://voicepower.co.uk/"
