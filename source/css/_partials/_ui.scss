@@ -1010,7 +1010,8 @@ form.talk__form{
 		font-size: 14px;
 		color: #9e9f9f;
 		background: $grey-bg;
-		margin: 0 10px 10px 0;	
+		margin: 0 10px 10px 0;
+		text-transform: uppercase;	
 	}
 }
 
@@ -1300,4 +1301,42 @@ footer{
 	right: 0;
 }
 
-// testing slack nitbucket integration. 
+.laptop-overlay {
+	position: absolute;
+	right: -35%;
+	bottom: 0;
+}
+
+.case-study__section--white {
+	background-color: #fff;
+	.row {
+		margin: 0;
+	}
+}
+
+.case-study__section--grey {
+	background-color: $grey-bg;
+}
+
+.case-study__section--blue {
+	background-color: $flo-blue;
+	text-align: center;
+	.row {
+		margin: 0;
+	}
+	.big_quote {
+		color: #fff;
+	}
+}
+
+.tech-badge {
+	position: relative;
+	text-align: center;
+}
+
+.quote__attribution {
+	color: #fff;
+	font-size: 24px;
+	font-size: 1.5em;
+	line-height: auto;
+}
