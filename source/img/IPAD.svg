@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="377px" height="555px" viewBox="0 0 377 555" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.3 (16618) - http://www.bohemiancoding.com/sketch -->
+    <title>IPAD</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="BC_Case_study" sketch:type="MSArtboardGroup" transform="translate(-122.000000, -2099.000000)" stroke="#7E89A3">
+            <g id="IPAD-+-Group" sketch:type="MSLayerGroup" transform="translate(123.000000, 2100.000000)">
+                <g id="IPAD" sketch:type="MSShapeGroup">
+                    <path d="M354.037256,553 L20.9627438,553 C9.38560002,553 0,543.617477 0,532.043314 L0,20.9566858 C0,9.38252287 9.38385516,0 20.9627438,0 L354.037256,0 C365.616145,0 375,9.38252287 375,20.9566858 L375,532.043314 C375,543.617477 365.616145,553 354.037256,553 L354.037256,553 Z" id="bezel" stroke-width="2" fill="#FDFDFD"></path>
+                    <path d="M354.037256,553 L20.9627438,553 C9.38560002,553 0,543.617477 0,532.043314 L0,20.9566858 C0,9.38252287 9.38385516,0 20.9627438,0 L354.037256,0 C365.616145,0 375,9.38252287 375,20.9566858 L375,532.043314 C375,543.617477 365.616145,553 354.037256,553 L354.037256,553 Z" id="bezel-2" stroke-width="2" fill="#FDFDFD"></path>
+                    <rect id="screen" fill="#FFFFFF" x="30" y="56" width="317" height="441"></rect>
+                    <circle id="lock" cx="188" cy="524" r="14"></circle>
+                    <circle id="camera" cx="186" cy="29" r="5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
