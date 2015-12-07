@@ -1307,16 +1307,77 @@ footer{
 	bottom: 0;
 }
 
+
+// Case studies --------------------------------------------------------------------------
+
+
+.masthead-cs{
+	padding-bottom: 430px;
+}
+
 .case-study__section--white {
 	background-color: #fff;
+	padding-bottom: 140px;
 	.row {
 		margin: 0;
 	}
 }
 
+.header-video{
+	text-align: center;
+}
+
 .case-study__section--grey {
 	background-color: $grey-bg;
 }
+
+.main-screen{
+	background: #fff;	
+}
+
+
+.main-vid-item{
+	margin-top: -370px;
+	-webkit-animation-delay: 1.5s;
+	-moz-animation-delay: 1.5s;
+	-o-animation-delay: 1.5s;
+	animation-delay: 1.5s;
+	-webkit-animation-duration: 1.5s;
+	-moz-animation-duration: 1.5s;
+	-o-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-fill-mode:both;
+	-moz-animation-fill-mode:both;
+	-o-animation-fill-mode:both;
+	animation-fill-mode:both;
+	-webkit-animation-name: show;
+	-moz-animation-name: show;
+	-o-animation-name: show;
+	animation-name: show;
+	position: relative;
+	width: 100%;
+	max-width: 1195px;
+}
+
+
+
+.case-study--design{
+	margin-bottom: -250px;
+}
+
+.design-txt{
+	margin-top: 20px;
+}
+
+.ipad-overlay{
+	padding-top: 50px;
+}
+
+.case-study--tech{
+	padding-top: 250px;
+}
+
+
 
 .case-study__section--blue {
 	background-color: $flo-blue;
