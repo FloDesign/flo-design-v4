@@ -1390,6 +1390,8 @@ footer{
 
 
 
+
+
 .inview .ipad-overlay{
 	-webkit-animation-delay: 1s;
 	-moz-animation-delay: 1s;
@@ -1480,7 +1482,13 @@ footer{
 
 
 
-
+.laptop-overlay{
+	video{
+		position: absolute;
+    top: 70px;
+    left: 180px;
+	}
+}
 
 
 
