@@ -1313,15 +1313,22 @@ footer{
 
 .masthead-cs{
 	padding-bottom: 430px;
+	img{
+		width: 140%;
+	}
 }
 
 .case-study__section--white {
 	background-color: #fff;
-	padding-bottom: 140px;
 	.row {
 		margin: 0;
 	}
 }
+
+.case-study--background{
+	padding-bottom: 140px;
+}
+
 
 .header-video{
 	text-align: center;
@@ -1375,19 +1382,123 @@ footer{
 
 .case-study--tech{
 	padding-top: 250px;
+	padding-bottom: 140px;
+
 }
+
+
+
+
+
+.inview .ipad-overlay{
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
+	-webkit-animation-duration: .5s;
+	-moz-animation-duration: .5s;
+	-o-animation-duration: .5s;
+	animation-duration: .5s;
+	-webkit-animation-fill-mode:both;
+	-moz-animation-fill-mode:both;
+	-o-animation-fill-mode:both;
+	animation-fill-mode:both;
+	-webkit-animation-name: ani-ipad-cs-in;
+	-moz-animation-name: ani-ipad-cs-in;
+	-o-animation-name: ani-ipad-cs-in;
+	animation-name: ani-ipad-cs-in;
+	position: relative;
+}
+
+@-webkit-keyframes ani-ipad-cs-in {
+    0% { left: -700px; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { left: 0px;}
+}
+
+@-moz-keyframes ani-ipad-cs-in {
+    0% { left: -700px; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { left: 0px;}
+}
+
+@-o-keyframes ani-ipad-cs-in {
+    0% { left: -700px; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { left: 0px;}
+}
+
+@keyframes ani-ipad-cs-in {
+    0% { left: -700px; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { left: 0px;}
+}
+
+
+.inview .laptop-overlay{
+	-webkit-animation-delay: .5s;
+	-moz-animation-delay: .5s;
+	-o-animation-delay: .5s;
+	animation-delay: .5s;
+	-webkit-animation-duration: 1.5s;
+	-moz-animation-duration: 1.5s;
+	-o-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-fill-mode:both;
+	-moz-animation-fill-mode:both;
+	-o-animation-fill-mode:both;
+	animation-fill-mode:both;
+	-webkit-animation-name: ani-laptop-cs-in;
+	-moz-animation-name: ani-laptop-cs-in;
+	-o-animation-name: ani-laptop-cs-in;
+	animation-name: ani-laptop-cs-in;
+}
+
+@-webkit-keyframes ani-laptop-cs-in {
+    0% { right: -150%; opacity: 0; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { right: -35%; opacity: 1;}
+}
+
+@-moz-keyframes ani-laptop-cs-in {
+    0% { right: -150%; opacity: 0; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { right: -35%; opacity: 1;}
+}
+
+@-o-keyframes ani-laptop-cs-in {
+    0% { right: -150%;  opacity: 0;}	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { right: -35%; opacity: 1;}
+}
+
+@keyframes ani-laptop-cs-in {
+    0% { right: -150%; opacity: 0; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { right: -35%; opacity: 1;}
+}
+
+
+
+
 
 
 
 .case-study__section--blue {
 	background-color: $flo-blue;
 	text-align: center;
+	padding: 90px 0;
 	.row {
 		margin: 0;
 	}
 	.big_quote {
 		color: #fff;
+		padding: 50px;
 	}
+}
+
+.tech-logos{
+	margin: 110px 0 0 0;
 }
 
 .tech-badge {
