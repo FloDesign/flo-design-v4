@@ -1301,10 +1301,17 @@ footer{
 	right: 0;
 }
 
-.laptop-overlay {
-	position: absolute;
-	right: -35%;
-	bottom: 0;
+
+
+
+// Case studies --------------------------------------------------------------------------
+
+
+.masthead-cs{
+	padding-bottom: 475px;
+	img{
+		width: 140%;
+	}
 }
 
 .case-study__section--white {
@@ -1314,24 +1321,207 @@ footer{
 	}
 }
 
+.case-study--background{
+	padding-bottom: 140px;
+}
+
+
+.header-video{
+	text-align: center;
+}
+
 .case-study__section--grey {
 	background-color: $grey-bg;
 }
 
+.main-screen{
+	background: #fff;	
+}
+
+
+.main-vid-item{
+	margin-top: -370px;
+	-webkit-animation-delay: 1.5s;
+	-moz-animation-delay: 1.5s;
+	-o-animation-delay: 1.5s;
+	animation-delay: 1.5s;
+	-webkit-animation-duration: 1.5s;
+	-moz-animation-duration: 1.5s;
+	-o-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-fill-mode:both;
+	-moz-animation-fill-mode:both;
+	-o-animation-fill-mode:both;
+	animation-fill-mode:both;
+	-webkit-animation-name: show;
+	-moz-animation-name: show;
+	-o-animation-name: show;
+	animation-name: show;
+	position: relative;
+	width: 100%;
+	max-width: 1195px;
+}
+
+
+
+.case-study--design{
+	margin-bottom: -250px;
+}
+
+.design-txt{
+	margin-top: 20px;
+	width: 35%;
+}
+
+.ipad-overlay{
+	padding-top: 50px;
+	z-index: 99;
+	video{
+		    position: absolute;
+    		top: 107px;
+    		left: 25px;
+	}
+}
+
+.case-study--tech{
+	padding-top: 250px;
+	padding-bottom: 140px;
+
+}
+
+
+.inview .ipad-overlay{
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
+	-webkit-animation-duration: .5s;
+	-moz-animation-duration: .5s;
+	-o-animation-duration: .5s;
+	animation-duration: .5s;
+	-webkit-animation-fill-mode:both;
+	-moz-animation-fill-mode:both;
+	-o-animation-fill-mode:both;
+	animation-fill-mode:both;
+	-webkit-animation-name: ani-ipad-cs-in;
+	-moz-animation-name: ani-ipad-cs-in;
+	-o-animation-name: ani-ipad-cs-in;
+	animation-name: ani-ipad-cs-in;
+	position: relative;
+}
+
+@-webkit-keyframes ani-ipad-cs-in {
+    0% { left: -700px; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { left: 0px;}
+}
+
+@-moz-keyframes ani-ipad-cs-in {
+    0% { left: -700px; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { left: 0px;}
+}
+
+@-o-keyframes ani-ipad-cs-in {
+    0% { left: -700px; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { left: 0px;}
+}
+
+@keyframes ani-ipad-cs-in {
+    0% { left: -700px; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { left: 0px;}
+}
+
+
+
+.laptop-overlay {
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+}
+
+.inview .laptop-overlay{
+	-webkit-animation-delay: .5s;
+	-moz-animation-delay: .5s;
+	-o-animation-delay: .5s;
+	animation-delay: .5s;
+	-webkit-animation-duration: 1.5s;
+	-moz-animation-duration: 1.5s;
+	-o-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-fill-mode:both;
+	-moz-animation-fill-mode:both;
+	-o-animation-fill-mode:both;
+	animation-fill-mode:both;
+	-webkit-animation-name: ani-laptop-cs-in;
+	-moz-animation-name: ani-laptop-cs-in;
+	-o-animation-name: ani-laptop-cs-in;
+	animation-name: ani-laptop-cs-in;
+}
+
+@-webkit-keyframes ani-laptop-cs-in {
+    0% { left: 150%; opacity: 0; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { left: 35%; opacity: 1;}
+}
+
+@-moz-keyframes ani-laptop-cs-in {
+    0% { left: 150%; opacity: 0; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { left: 35%; opacity: 1;}
+}
+
+@-o-keyframes ani-laptop-cs-in {
+    0% { left: 150%;  opacity: 0;}	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { left: 35%; opacity: 1;}
+}
+
+@keyframes ani-laptop-cs-in {
+    0% { left: 150%; opacity: 0; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { left: 35%; opacity: 1;}
+}
+
+
+
+.laptop-overlay{
+	video{
+		position: absolute;
+    	top: 73px;
+    	left: 176px;
+	}
+}
+
+
+
 .case-study__section--blue {
 	background-color: $flo-blue;
 	text-align: center;
+	padding: 90px 0;
 	.row {
 		margin: 0;
 	}
 	.big_quote {
 		color: #fff;
+		padding: 50px;
 	}
+}
+
+.tech-logos{
+	margin: 110px 50px 0 50px;
+
 }
 
 .tech-badge {
 	position: relative;
 	text-align: center;
+	img{
+		max-width: 100%;
+		height: auto;
+	}
 }
 
 .quote__attribution {
