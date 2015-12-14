@@ -1301,18 +1301,14 @@ footer{
 	right: 0;
 }
 
-.laptop-overlay {
-	position: absolute;
-	right: -35%;
-	bottom: 0;
-}
+
 
 
 // Case studies --------------------------------------------------------------------------
 
 
 .masthead-cs{
-	padding-bottom: 430px;
+	padding-bottom: 475px;
 	img{
 		width: 140%;
 	}
@@ -1374,10 +1370,12 @@ footer{
 
 .design-txt{
 	margin-top: 20px;
+	width: 35%;
 }
 
 .ipad-overlay{
 	padding-top: 50px;
+	z-index: 99;
 }
 
 .case-study--tech{
@@ -1385,11 +1383,6 @@ footer{
 	padding-bottom: 140px;
 
 }
-
-
-
-
-
 
 
 .inview .ipad-overlay{
@@ -1437,6 +1430,13 @@ footer{
 }
 
 
+
+.laptop-overlay {
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+}
+
 .inview .laptop-overlay{
 	-webkit-animation-delay: .5s;
 	-moz-animation-delay: .5s;
@@ -1457,27 +1457,27 @@ footer{
 }
 
 @-webkit-keyframes ani-laptop-cs-in {
-    0% { right: -150%; opacity: 0; }	
+    0% { left: 150%; opacity: 0; }	
     // 50% {opacity: .5; -webkit-transform: scale(1.05);}
-    100% { right: -35%; opacity: 1;}
+    100% { left: 35%; opacity: 1;}
 }
 
 @-moz-keyframes ani-laptop-cs-in {
-    0% { right: -150%; opacity: 0; }	
+    0% { left: 150%; opacity: 0; }	
     // 50% {opacity: .5; -webkit-transform: scale(1.05);}
-    100% { right: -35%; opacity: 1;}
+    100% { left: 35%; opacity: 1;}
 }
 
 @-o-keyframes ani-laptop-cs-in {
-    0% { right: -150%;  opacity: 0;}	
+    0% { left: 150%;  opacity: 0;}	
     // 50% {opacity: .5; -webkit-transform: scale(1.05);}
-    100% { right: -35%; opacity: 1;}
+    100% { left: 35%; opacity: 1;}
 }
 
 @keyframes ani-laptop-cs-in {
-    0% { right: -150%; opacity: 0; }	
+    0% { left: 150%; opacity: 0; }	
     // 50% {opacity: .5; -webkit-transform: scale(1.05);}
-    100% { right: -35%; opacity: 1;}
+    100% { left: 35%; opacity: 1;}
 }
 
 
@@ -1485,8 +1485,8 @@ footer{
 .laptop-overlay{
 	video{
 		position: absolute;
-    top: 73px;
-    left: 176px;
+    	top: 73px;
+    	left: 176px;
 	}
 }
 
@@ -1506,12 +1506,17 @@ footer{
 }
 
 .tech-logos{
-	margin: 110px 0 0 0;
+	margin: 110px 50px 0 50px;
+
 }
 
 .tech-badge {
 	position: relative;
 	text-align: center;
+	img{
+		max-width: 100%;
+		height: auto;
+	}
 }
 
 .quote__attribution {
