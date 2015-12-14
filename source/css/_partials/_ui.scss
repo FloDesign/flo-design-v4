@@ -1376,6 +1376,11 @@ footer{
 .ipad-overlay{
 	padding-top: 50px;
 	z-index: 99;
+	video{
+		    position: absolute;
+    		top: 107px;
+    		left: 25px;
+	}
 }
 
 .case-study--tech{

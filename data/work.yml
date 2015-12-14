@@ -25,20 +25,6 @@ workitems:
   imgmbp: "hdn_mbp_lg.png"
   imgphone: "hdn_iphone_lg.png"
   link: "http://developer.nhs.uk/"
-- title: "Tyres Direct Online"
-  description: "The Yorkshire Ambulance Service approached us to help them re-brand and re-design their internal intranet system. They wanted a simple and visually appealing design that would keep content and communication at the heart of the system. We worked closely with them to produce a comprehensive set of designs for mobile, tablet and desktop experiences."
-  tags: 
-    -  design
-    -  development
-    -  project managment
-    -  HTML5
-    -  CSS3
-    -  logo design
-    -  responsive
-    -  e-commerce
-  imgmbp: "tyres_mbp.png"
-  imgphone: "tyres_iphone.png"
-  link: https://www.tyresdirectuk.co.uk/
 - title: "Yorkshire Ambulance Service"
   description: "The Yorkshire Ambulance Service approached us to help them re-brand and re-design their internal intranet system. They wanted a simple and visually appealing design that would keep content and communication at the heart of the system. We worked closely with them to produce a comprehensive set of designs for mobile, tablet and desktop experiences."
   tags: 

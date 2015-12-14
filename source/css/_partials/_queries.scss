@@ -116,10 +116,14 @@
 	}
 
 	.masthead-cs{
-		padding-bottom: 385px;
+		padding-bottom: 175px;
 		h1{
 			padding: 150px 0 35px 0;
 		}
+	}
+
+	.main-vid-item{
+		margin-top: -150px;
 	}
 
 	.case-study--background{
@@ -572,38 +576,30 @@
 	}
 
 	@-webkit-keyframes ani-ipad-cs-in {
-    0% { left: -150%; }	
+    0% { left: -200%; }	
     // 50% {opacity: .5; -webkit-transform: scale(1.05);}
-    100% { left: 0%;}
+    100% { left: 10%;}
 	}
 
 	@-moz-keyframes ani-ipad-cs-in {
-	    0% { left: -150%; }	
+	    0% { left: -200%; }	
 	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
-	    100% { left: 0%;}
+	    100% { left: 10%;}
 	}
 
 	@-o-keyframes ani-ipad-cs-in {
-	    0% { left: -150%; }	
+	    0% { left: -200%; }	
 	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
-	    100% { left: 0%;}
+	    100% { left: 10%;}
 	}
 
 	@keyframes ani-ipad-cs-in {
-	    0% { left: -150%; }	
+	    0% { left: -200%; }	
 	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
-	    100% { left: 0%;}
+	    100% { left: 10%;}
 	}
 
-	.ipad-overlay{
-		text-align: center;
-		padding-top: 30px;
-		img{
-			 max-width: 100%;
-    			height: auto;
-
-		}
-	}
+	
 
 	.tech-logos{
 		margin: 40px 50px 0 50px;
@@ -620,6 +616,14 @@
 
 	.case-study--tech{
 		padding-bottom: 40px;
+	}
+
+	.masthead-cs{
+		padding-bottom: 75px;
+	}
+
+	.main-vid-item{
+		margin-top: -70px;
 	}
 
 }
