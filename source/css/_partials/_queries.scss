@@ -115,6 +115,78 @@
 
 	}
 
+	.masthead-cs{
+		padding-bottom: 175px;
+		h1{
+			padding: 150px 0 35px 0;
+		}
+	}
+
+	.main-vid-item{
+		margin-top: -150px;
+	}
+
+	.case-study--background{
+		.col3{
+			width: 23.5%;
+		}
+	}
+
+	.design-txt{
+		width: 57.5%;
+    	left: 23.5%;
+    	position: relative;
+    	margin-bottom: 130px;
+	}
+
+	@-webkit-keyframes ani-laptop-cs-in {
+	    0% { left: 150%; opacity: 0; }	
+	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+	    100% { left: 20%; opacity: 1;}
+	}
+
+	@-moz-keyframes ani-laptop-cs-in {
+	    0% { left: 150%; opacity: 0; }	
+	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+	    100% { left: 20%; opacity: 1;}
+	}
+
+	@-o-keyframes ani-laptop-cs-in {
+	    0% { left: 150%;  opacity: 0;}	
+	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+	    100% { left: 20%; opacity: 1;}
+	}
+
+	@keyframes ani-laptop-cs-in {
+	    0% { left: 150%; opacity: 0; }	
+	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+	    100% { left: 20%; opacity: 1;}
+	}
+
+	@-webkit-keyframes ani-ipad-cs-in {
+    0% { left: -150%; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { left: -20%;}
+	}
+
+	@-moz-keyframes ani-ipad-cs-in {
+	    0% { left: -150%; }	
+	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+	    100% { left: -20%;}
+	}
+
+	@-o-keyframes ani-ipad-cs-in {
+	    0% { left: -150%; }	
+	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+	    100% { left: -20%;}
+	}
+
+	@keyframes ani-ipad-cs-in {
+	    0% { left: -150%; }	
+	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+	    100% { left: -20%;}
+	}
+
 	
 }
 
@@ -491,4 +563,67 @@
 			width: 100%;
 		}
 	}
+
+	.design-txt{
+		width: 100%;
+    	left: 0%;
+    	position: relative;
+    	margin-bottom: 0px;
+	}
+
+	.laptop-overlay{
+		display: none;
+	}
+
+	@-webkit-keyframes ani-ipad-cs-in {
+    0% { left: -200%; }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { left: 10%;}
+	}
+
+	@-moz-keyframes ani-ipad-cs-in {
+	    0% { left: -200%; }	
+	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+	    100% { left: 10%;}
+	}
+
+	@-o-keyframes ani-ipad-cs-in {
+	    0% { left: -200%; }	
+	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+	    100% { left: 10%;}
+	}
+
+	@keyframes ani-ipad-cs-in {
+	    0% { left: -200%; }	
+	    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+	    100% { left: 10%;}
+	}
+
+	
+
+	.tech-logos{
+		margin: 40px 50px 0 50px;
+
+	}
+
+	.tech-badge{
+		margin-bottom: 50px;
+	}
+
+	.case-study--background{
+		padding-bottom: 40px;
+	}
+
+	.case-study--tech{
+		padding-bottom: 40px;
+	}
+
+	.masthead-cs{
+		padding-bottom: 75px;
+	}
+
+	.main-vid-item{
+		margin-top: -70px;
+	}
+
 }

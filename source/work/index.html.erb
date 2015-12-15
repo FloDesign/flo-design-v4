@@ -1,0 +1,101 @@
+---
+title: We build. This is Our Work - Flo Design Limited
+description: Let our Work speak for itself, with lots of happy customers here is a select few of those sites, which shows off our Web Design Skills.
+---
+
+<section class="masthead" id="masthead">
+	<%= image_tag 'seawater.jpg', :class => "bg" %>
+	<div class="wrapper">
+		<h1><span class="hp-title-one">We build.</span><span class="hp-title-two"><br/>This is our work.</span></h1>
+	</div><!--end wrapper-->
+</section>
+
+
+
+
+
+
+<% count=1 %>
+
+<% data.work.workitems.each do |work| %>
+<% if count % 2 == 0 %>
+
+<section class="work_item work_item--even">
+	<div class="wrapper">
+		<h2><%= work.title %></h2>
+		<div class="row cf">
+			<div class="col7">
+				<div class="work_imgs">
+					<%= image_tag work.imgmbp, :class => "work_item--mbp", :onload => "this.width*=0.5;this.onload=null;" %>
+					<% if work.imgphone %>
+					<%= image_tag work.imgphone, :class => "work_item--iphone", :onload => "this.width*=0.5;this.onload=null;" %>
+					<% end %>
+				</div><!-- end work imgs-->
+			</div>
+
+			<div class="col5">
+				<p><%= work.description %></p>
+				
+				<ul class="tags cf">
+					<% work.tags.each do |tag| %>
+					<li><%= tag %></li>
+					<% end %>
+				</ul>
+				
+				<ul class="work_ctas cf">
+					<% if work.casestudy %>
+					<li><a href="<%= work.casestudy %>">View Case Study <span class="icon-link" aria-hidden="true" data-icon="&#xe604;"></span></a></li>
+					<% end %>
+					<% if work.link %>
+					<li><a href="<%= work.link %>">Launch Site <span class="icon-link" aria-hidden="true" data-icon="&#xe604;"></span></a></li>
+					<% end %>
+					
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<% else %>
+
+<section class="work_item">
+	<div class="wrapper">
+		<h2><%= work.title %></h2>
+		<div class="row cf">
+			<div class="col5">
+				<p><%= work.description %></p>
+				
+				<ul class="tags cf">
+					<% work.tags.each do |tag| %>
+					<li><%= tag %></li>
+					<% end %>
+				</ul>
+				
+				<ul class="work_ctas cf">
+					<% if work.casestudy %>
+					<li><a href="<%= work.casestudy %>">View Case Study <span class="icon-link" aria-hidden="true" data-icon="&#xe604;"></span></a></li>
+					<% end %>
+					<% if work.link %>
+					<li><a href="<%= work.link %>">Launch Site <span class="icon-link" aria-hidden="true" data-icon="&#xe604;"></span></a></li>
+					<% end %>
+					
+				</ul>
+				</ul>
+			</div>
+
+			<div class="col7">
+				<div class="work_imgs">
+					<%= image_tag work.imgmbp, :class => "work_item--mbp", :onload => "this.width*=0.5;this.onload=null;" %>
+					<% if work.imgphone %>
+					<%= image_tag work.imgphone, :class => "work_item--iphone", :onload => "this.width*=0.5;this.onload=null;" %>
+					<% end %>
+				</div><!-- end work imgs-->
+			</div>
+		</div>
+	</div>
+</section>
+<% end %>
+<% count +=1 %>
+<% end %>
+

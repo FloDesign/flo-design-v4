@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '3.3.5'
+lock '3.4.0'
 
 set :application, 'flo-design-v4'
 set :repo_url, 'git@github.com:FloDesign/flo-design-v4.git'
