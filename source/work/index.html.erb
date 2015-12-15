@@ -10,6 +10,11 @@ description: Let our Work speak for itself, with lots of happy customers here is
 	</div><!--end wrapper-->
 </section>
 
+
+
+
+
+
 <% count=1 %>
 
 <% data.work.workitems.each do |work| %>
@@ -38,9 +43,13 @@ description: Let our Work speak for itself, with lots of happy customers here is
 				</ul>
 				
 				<ul class="work_ctas cf">
+					<% if work.casestudy %>
+					<li><a href="<%= work.casestudy %>">View Case Study <span class="icon-link" aria-hidden="true" data-icon="&#xe604;"></span></a></li>
+					<% end %>
 					<% if work.link %>
 					<li><a href="<%= work.link %>">Launch Site <span class="icon-link" aria-hidden="true" data-icon="&#xe604;"></span></a></li>
 					<% end %>
+					
 				</ul>
 			</div>
 
@@ -64,9 +73,13 @@ description: Let our Work speak for itself, with lots of happy customers here is
 				</ul>
 				
 				<ul class="work_ctas cf">
+					<% if work.casestudy %>
+					<li><a href="<%= work.casestudy %>">View Case Study <span class="icon-link" aria-hidden="true" data-icon="&#xe604;"></span></a></li>
+					<% end %>
 					<% if work.link %>
 					<li><a href="<%= work.link %>">Launch Site <span class="icon-link" aria-hidden="true" data-icon="&#xe604;"></span></a></li>
 					<% end %>
+					
 				</ul>
 				</ul>
 			</div>
