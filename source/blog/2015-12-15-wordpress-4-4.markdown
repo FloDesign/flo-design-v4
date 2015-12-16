@@ -8,6 +8,8 @@ author: Craig
 
 The web community has been awash with anticipation recently as the newest version of Wordpress, v4.4 'Clifford', was released on the 8th of December. Alongside a new theme for 2016, improvements for images and support for embeddable objects; the infrastructure of Wordpress has undergone an overhaul with the inclusion of a REST API into the core. This has some fairly big implications for the future of Wordpress and the ways in which it can be utilised but what does the update mean for you?
 
+![Wordpress 4.4](/img/wordpress-bg-medblue.png)
+
 ### The client-side stuff
 
 The first change many Wordpress site-owners will notice is the new theme nestled in the Appearance menu. This theme changes up the classic blog design and includes development features that we're mostly used to now; responsive grid layouts with a flexible header. So far, so expected.
