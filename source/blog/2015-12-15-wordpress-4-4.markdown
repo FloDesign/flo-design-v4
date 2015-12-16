@@ -1,0 +1,29 @@
+---
+title:  "Wordpress 4.4 - An overview"
+date:   2015-12-15 15:28:00
+tags: Thoughts
+time: 5
+author: Craig
+---
+
+The web community has been awash with anticipation recently as the newest version of Wordpress, v4.4 'Clifford', was released on the 8th of December. Alongside a new theme for 2016, improvements for images and support for embeddable objects; the infrastructure of Wordpress has undergone an overhaul with the inclusion of a REST API into the core. This has some fairly big implications for the future of Wordpress and the ways in which it can be utilised but what does the update mean for you?
+
+![Wordpress 4.4](/img/wordpress-bg-medblue.png)
+
+### The client-side stuff
+
+The first change many Wordpress site-owners will notice is the new theme nestled in the Appearance menu. This theme changes up the classic blog design and includes development features that we're mostly used to now; responsive grid layouts with a flexible header. So far, so expected.
+
+One feature that may not be immeditaly obvious to many site-owners but will certainly make a big difference to users is the improvements to images. Wordpress 4.4 adds srcset and size parameters to image tags, enabling browsers to select the appropriate size image to display and disregarding the rest. This ensures that redundant data is not sent, therefore speeding up requests, a must when you consider Google [includes page speed in their algorithms when determining rankings](https://moz.com/learn/seo/page-speed).
+
+Finally, we have the ability to use Wordpress as an oEmbed provider. Wordpress has provided the ability to use oEmbed assets since version 2.9, meaning a site owner could embed objects from other sites around the web such as Reddit comments, Instagram images, Soundcloud files etc. With version 4.4 Wordpress posts can now be used as embed objects and dropped into other sites that support oEmbed.
+
+### What's under the bonnet
+
+The largest change in the latest version is the inclusion of the REST API infrastructure into the core of WP. Previously, a site-owner (or their developer) would need to include the WP-API plugin in order to utilise the REST functionality but that feature is now available right out of the box. The big change here is that we're seeing a decoupling of the Wordpress platform from the UI, both backend and frontend. This allows site-owners to develop and customise their interfaces to best suit them, while still retaining their data and not having to migrate to another system.
+
+Wordpress is a very popular site platform for a number of reasons; namely ease of use, ubiquity of themes & extensibility among others but 4.4 is certainly a new direction in moving Wordpress towards being not just a web CMS but a modular platform for serving and creating content across different devices. It will allow RESTful APIs to be built on top of Wordpress and to make that existing data available to more sources.
+
+### Changes to your site
+
+Thankfully, the user-facing changes in the new version should work without any tinkering from the site-owner. The srcset and size attributes on images will appear on image tags without changing any code and most plugin developers won't have to change any of their code to suit the updates. What this version is really about is laying the groundwork for extra capability within the Wordpress eco-system. Allowing developers and content-creators to work together to find new ways of using Wordpress. As ever, this comes with a raft of bug and security fixes so we'd certainly suggest updating as soon as possible!
