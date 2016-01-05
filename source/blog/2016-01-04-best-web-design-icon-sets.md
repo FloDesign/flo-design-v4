@@ -7,16 +7,16 @@ time: 5
 author: Russ
 ---
 
-Icons are a great way of communicating information quickly and efficiently in a small amount of screen real estate and better yet they’re language independent. In an ideal world we’d spend time crafting and designing custom iconography for each project we do but a lot of the time budgetry and time constraints make this impossible. Fortunately there are plenty of great high quality sets available but it can be a chore to sift through them all to find right one for your needs. Do you need am icon font? svgs? pngs? all of the above? Do you need social media icons as part of the set? Do you need them to scale?
+Icons are a great way of communicating information quickly and efficiently in a small amount of screen real estate and better yet they’re language independent. In an ideal world we’d spend time crafting and designing custom iconography for each project we do but a lot of the time and budget constraints make this impossible. Fortunately there are plenty of great high quality sets available but it can be a chore to sift through them all to find right one for your needs. Do you need an icon font? svgs? pngs? all of the above? Do you need social media icons as part of the set? Do you need them to scale?
 
-Luckily for you I’ve put together this handy list of sets that we  regularly call up on during our web design and web app projects.
+Luckily for you I’ve put together this handy list of sets that we regularly call upon during our web design and web app projects.
 
-Handily I’ve listed them with info on what format they come in, how many icons come in the set and if the whole set is free or just a sub set. Enjoy! 
+I’ve listed them with info on what format they come in, how many icons come in the set and if the whole set is free or just a sub set. Enjoy! 
 
 ## [Streamline Icons](http://www.streamlineicons.com/)
 ![Streamline Icons](/img/streamline.jpg)
 
-Streamline is a massive set of 4,000 icons spanning 97 categories. They offer a sub set of 100 icons for free but its definitely worth splashing out for one of the premium packs. What ever your icon need Streamline will have you covered.
+Streamline is a massive set of 4,000 icons spanning 97 categories. They offer a sub set of 100 icons for free but it's definitely worth splashing out for one of the premium packs. Whatever your icon needs, Streamline will have you covered.
 
 <ul class="info-box">
 	<li>Number of icons: 4,000. 100 for free</li>
@@ -29,7 +29,7 @@ Streamline is a massive set of 4,000 icons spanning 97 categories. They offer a 
 ## [Pictos & Pictos Redux](http://www.pictos.cc/)
 ![Pictos Icons](/img/pictos.jpg)
 
-Pictos by Drew Wilson has been a firm favorate of mine for a while and he's recently released a 2.0 version dubbed Pictos Redux which currently consists of 275 unique glyphs in 3 variations and has a further 825 icons on the way in parts 2, 3 & 4. The original Pictos Clasic is still available and can be found [here](http://www.pictos.cc/classic).
+Pictos by Drew Wilson has been a firm favourite of mine for a while and he's recently released a 2.0 version dubbed Pictos Redux which consists of 275 unique glyphs in 3 variations and has a further 825 icons on the way in parts 2, 3 & 4. The original Pictos Classic is still available and can be found [here](http://www.pictos.cc/classic).
 
 <ul class="info-box">
 	<li>Number of icons: 275 Redux &amp; 800+ Clasic</li>
@@ -68,7 +68,7 @@ A great little set of icons ideal for any transportation project that you might 
 ## [30 Line Icons](https://dribbble.com/shots/1871082-30-line-icon-Freebies?list=users&offset=1)
 ![30 line icons](/img/thirty-line-icons.jpg)
 
-A really nice little set thats got plenty of personality ideal if your doing a project with a playful feel to it. It's only available in sketch format though but it is free :-)
+A really nice little set thats got plenty of personality, ideal if your doing a project with a playful feel to it. It's only available in sketch format but it is free :-)
 
 <ul class="info-box">
 	<li>Number of icons: 30</li>
@@ -81,7 +81,7 @@ A really nice little set thats got plenty of personality ideal if your doing a p
 ## [Responsive Icons](http://iconsresponsive.com/free-icons/)
 ![Responsive Icons](/img/responsive_icons.jpg)
 
-A really nice, interesting set of 1000 icons in 3 styles and 4 sizes. Combined with media queries these can produce some really impactful results. There is a great free selection of 24 with 8 varients. 
+A really nice, interesting set of 1000 icons in 3 styles and 4 sizes. Combined with media queries these can produce some really powerful results. There is a great free selection of 24 with 8 variants. 
 
 <ul class="info-box">
 	<li>Number of icons: 1000. 24 for free</li>
@@ -94,7 +94,7 @@ A really nice, interesting set of 1000 icons in 3 styles and 4 sizes. Combined w
 ## [45 Free e-commerce icons](http://www.dreamstale.com/freebie-45-outline-e-commerce-icons/)
 ![e-commerce icons](/img/ecomm-icons.jpg)
 
-A nice line icon set that will go great with a minimal e-commerce store design. 45 vector in the set in ia eps & png format.
+A nice line icon set that will go great with a minimal e-commerce store design. 45 vector in the set in ai, eps & png format.
 
 <ul class="info-box">
 	<li>Number of icons: 45</li>
