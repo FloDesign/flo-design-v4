@@ -143,7 +143,7 @@ $(window).scroll(function(e){
 function parallax(){
   var scrolled = $(window).scrollTop();
   if(scrolled>0){
-    $('.bg').css('top',-(scrolled*0.5)+'px');
+    // $('.bg').css('top',-(scrolled*0.5)+'px');
     $('.masthead h1').css('top',-(scrolled*0.1)+'px');
     $('.masthead h1, .masthead .ctas').css('opacity',(5/scrolled*10));
 
