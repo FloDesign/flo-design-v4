@@ -1192,6 +1192,17 @@ ul.member__social li{
 		border: 1px solid #a7a9ac;
 	}
 
+	h1{
+		text-align: left;
+		padding: 10px 0 50px 0;
+		line-height: 48px;
+		line-height: 3rem;
+	}
+
+	h2{
+		padding: 20px 0 20px 0;
+	}
+
 }
 
 .post_meta{
@@ -1250,6 +1261,12 @@ ul.member__social li{
 		background: $highlight;
 		border: 2px solid $highlight;
 	}
+}
+
+.info-box{
+	padding: 20px;
+	margin: 0 0 24px 0;
+	background: $grey-bg;
 }
 
 

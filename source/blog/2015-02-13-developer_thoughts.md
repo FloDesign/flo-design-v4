@@ -1,7 +1,7 @@
 ---
 title: This is how we do it - Our Development Process
 date: 2015-02-13 10:06 UTC
-tags: Development, Workflow, FloDesign Process
+tags: Development
 time: 5
 author: Craig
 ---
