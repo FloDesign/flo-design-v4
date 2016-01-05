@@ -9,7 +9,7 @@ per_page: 10
 
 
 <section class="masthead" id="masthead">
-	<%= image_tag 'seawater.jpg', :class => "bg" %>
+	<!-- <%= image_tag 'seawater.jpg', :class => "bg" %> -->
 
 	<div class="wrapper">
 		<h1><span class="hp-title-one">We blog.</span><span class="hp-title-two"><br/>This is what we think.</span></h1>
@@ -18,11 +18,12 @@ per_page: 10
 
 
 <section class="articles">
-	<div class="wrapper">
+	
 
 	
 	<% page_articles.each_with_index do |article, i| %>	
 	<article class="blog_item">
+	<div class="wrapper">
 		<div class="row cf">
 			<div class="col9">
 
@@ -45,11 +46,12 @@ per_page: 10
 				</div><!--end post meta-->
 			</div><!--end col3-->
 		</div><!--end row-->
+	</div><!--end wrapper-->
 	</article>
 	<% end %>
 
 
-	</div><!--end wrapper-->
+	
 </section>
 
 

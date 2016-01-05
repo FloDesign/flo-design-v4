@@ -114,7 +114,7 @@ header.shrink{
 .masthead{
 	padding-bottom: 140px;
 	overflow: hidden;
-	// background: url(../img/water.jpg) no-repeat center fixed;
+	background: $grey-bg;
 
 	img{
 		position: fixed;
@@ -126,13 +126,15 @@ header.shrink{
 
 	h1{
 		position: relative;
-		// top: 50%;
-		// right: 24px;
-		// left: 24px;
-		color: #fff;
-		padding: 275px 0 35px 0;
+		font-weight: 300;
+		// text-align: left;
+		color: $highlight;
+		padding: 275px 50px 35px 50px;
+		// width: 60%;
 		line-height: 65px;
 		opacity: 1;
+		margin: 0 auto;
+		max-width: 800px;
 	}
 	
 	.hp-title-one{
@@ -248,9 +250,10 @@ header.shrink{
 }
 
 .masthead__btn{
-	color: #fff;
-	border: 1px solid #fff;
+	color: $highlight;
+	border: 1px solid $highlight;
 	@include transition-duration(.3s);
+	margin: 0 5px;
 	// &:after{
 	// 	content: '';
 	// 	position: absolute;
@@ -269,8 +272,9 @@ header.shrink{
 	// }
 
 	&:hover{
-		color: #072e4a;
-		background: #fff;
+		color: #fff;
+		background: $highlight;
+		border: 1px solid $highlight;
 	}
 
 	&:hover:after{
@@ -837,7 +841,7 @@ form.talk__form{
 .talk__details li{
 	font-size: 36px;
 	font-size: 2.25rem; 
-	font-weight: 600;
+	font-weight: 300;
 	padding: 24px 0;
 	&:first-child{
 		border-bottom: 1px solid #abadb2;
@@ -1239,6 +1243,8 @@ ul.member__social li{
 	color: $copy;
 	h3{
 		margin-bottom: 30px;
+		font-size: 30px;
+		font-size: 1.875rem;
 	}
 }
 
@@ -1260,6 +1266,27 @@ ul.member__social li{
 		color: #fff;
 		background: $highlight;
 		border: 2px solid $highlight;
+	}
+}
+
+.dl_btn{
+	color: $highlight;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-size: 1.125rem;
+	font-weight: 400;
+	padding: 7px 15px;
+	white-space: nowrap;
+	background: #fff;
+	display: inline-block;
+	border: 1px solid $highlight;
+	@include transition-duration(.3s);
+	&:hover{
+		text-decoration: none;
+		color: #fff;
+		background: $highlight;
+		border: 1px solid $highlight;
 	}
 }
 
@@ -1326,6 +1353,10 @@ footer{
 
 .masthead-cs{
 	padding-bottom: 475px;
+	background: none;
+	h1{
+		color: #fff;
+	}
 	img{
 		width: 140%;
 	}
