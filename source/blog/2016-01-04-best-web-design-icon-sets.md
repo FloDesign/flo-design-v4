@@ -24,6 +24,7 @@ Streamline is a massive set of 4,000 icons spanning 97 categories. They offer a 
 	<li>Format: ai, sketch, svg, eps, pdf, png</li>
 </ul>
 
+<a class="dl_btn" href="http://www.streamlineicons.com/">DOWNLOAD<span aria-hidden="true" data-icon="&#xe604;" class="bg-arrow"></span></a>
 
 ## [Pictos & Pictos Redux](http://www.pictos.cc/)
 ![Pictos Icons](/img/pictos.jpg)
@@ -36,6 +37,8 @@ Pictos by Drew Wilson has been a firm favorate of mine for a while and he's rece
 	<li>Format: ai, sketch, svg, eps, pdf, png, csh, ttf, woff, eot</li>
 </ul>
 
+<a class="dl_btn" href="http://www.pictos.cc/">DOWNLOAD<span aria-hidden="true" data-icon="&#xe604;" class="bg-arrow"></span></a>
+
 ## [Nova - Material Design Style](http://www.webalys.com/nova/)
 ![Nova Icons](/img/nova.jpg)
 
@@ -46,6 +49,8 @@ Designing an Android app? or perhaps you just want to get that Google material d
 	<li>Price: $0 - $127</li>
 	<li>Format: ai, sketch, svg, pdf</li>
 </ul>
+
+<a class="dl_btn" href="http://www.webalys.com/nova/">DOWNLOAD<span aria-hidden="true" data-icon="&#xe604;" class="bg-arrow"></span></a>
 
 ## [45 Free Transport icons](http://www.graphicsfuel.com/2015/01/exclusive-45-free-transport-icons/)
 ![Transport Icons](/img/transport.jpg)
@@ -58,6 +63,8 @@ A great little set of icons ideal for any transportation project that you might 
 	<li>Format: ai, eps, psd</li>
 </ul>
 
+<a class="dl_btn" href="http://www.graphicsfuel.com/2015/01/exclusive-45-free-transport-icons/">DOWNLOAD<span aria-hidden="true" data-icon="&#xe604;" class="bg-arrow"></span></a>
+
 ## [30 Line Icons](https://dribbble.com/shots/1871082-30-line-icon-Freebies?list=users&offset=1)
 ![30 line icons](/img/thirty-line-icons.jpg)
 
@@ -69,6 +76,8 @@ A really nice little set thats got plenty of personality ideal if your doing a p
 	<li>Format: sketch</li>
 </ul>
 
+<a class="dl_btn" href="https://dribbble.com/shots/1871082-30-line-icon-Freebies?list=users&offset=1">DOWNLOAD<span aria-hidden="true" data-icon="&#xe604;" class="bg-arrow"></span></a>
+
 ## [Responsive Icons](http://iconsresponsive.com/free-icons/)
 ![Responsive Icons](/img/responsive_icons.jpg)
 
@@ -77,8 +86,23 @@ A really nice, interesting set of 1000 icons in 3 styles and 4 sizes. Combined w
 <ul class="info-box">
 	<li>Number of icons: 1000. 24 for free</li>
 	<li>Price: $0 - $49 </li>
-	<li>Format: Ai, psd, Sketch, csh, svg, png, Webfont</li>
+	<li>Format: ai, psd, Sketch, csh, svg, png, Webfont</li>
 </ul>
+
+<a class="dl_btn" href="http://iconsresponsive.com/free-icons/">DOWNLOAD<span aria-hidden="true" data-icon="&#xe604;" class="bg-arrow"></span></a>
+
+## [45 Free e-commerce icons](http://www.dreamstale.com/freebie-45-outline-e-commerce-icons/)
+![e-commerce icons](/img/ecomm-icons.jpg)
+
+A nice line icon set that will go great with a minimal e-commerce store design. 45 vector in the set in ia eps & png format.
+
+<ul class="info-box">
+	<li>Number of icons: 45</li>
+	<li>Price: Free</li>
+	<li>Format: ai, eps, png</li>
+</ul>
+
+<a class="dl_btn" href="http://www.dreamstale.com/freebie-45-outline-e-commerce-icons/">DOWNLOAD<span aria-hidden="true" data-icon="&#xe604;" class="bg-arrow"></span></a>
 
 
 
