@@ -1578,3 +1578,89 @@ footer{
 	font-size: 1.5em;
 	line-height: auto;
 }
+
+
+// Services -------------------------------------------------
+
+
+.pie{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	background: $highlight;
+	position: relative;
+}
+
+.pie-right{
+	width: 90px;
+	height: 180px;
+	border-radius: 0px 180px 180px 0;
+	background: #DFDFDF;
+	position: absolute;
+	left: 50%;
+	transform: rotate(90deg);
+	transform-origin: center left;
+	-webkit-animation-duration: 1.5s;
+	-moz-animation-duration: 1.5s;
+	-o-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-fill-mode:both;
+	-moz-animation-fill-mode:both;
+	-o-animation-fill-mode:both;
+	animation-fill-mode:both;
+	-webkit-animation-name: pie-twentyfive;
+	-moz-animation-name: pie-twentyfive;
+	-o-animation-name: pie-twentyfive;
+	animation-name: pie-twentyfive;
+}
+
+@-webkit-keyframes pie-twentyfive {
+    0% { transform: rotate(0deg); }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { transform: rotate(90deg);}
+}
+
+@-moz-keyframes pie-twentyfive {
+    0% { transform: rotate(0deg); }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { transform: rotate(90deg);}
+}
+
+@-o-keyframes pie-twentyfive {
+    0% { transform: rotate(0deg);}	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { transform: rotate(90deg);}
+}
+
+@keyframes pie-twentyfive {
+    0% { transform: rotate(0deg); }	
+    // 50% {opacity: .5; -webkit-transform: scale(1.05);}
+    100% { transform: rotate(90deg);}
+}
+
+.pie-left{
+	width: 90px;
+	height: 180px;
+	border-radius: 180px 0 0 180px;
+	background: #DFDFDF;
+	position: absolute;
+	left: 0;
+}
+
+.pie-percent{
+	width: 170px;
+	height: 170px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	.number{
+		text-align: center;
+		font-size: 48px;
+		font-size: 3rem;
+		font-weight: 100;
+		color: $highlight;
+		line-height: 170px;
+	}
+}
