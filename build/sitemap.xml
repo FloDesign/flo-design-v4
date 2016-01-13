@@ -38,7 +38,7 @@
         <header class="cf site-header">
             <div class="wrapper">
                 <a href="/" class="site-logo">
-                    <img class="logo" height="1" width="1" alt="FloDesign Logo" src="img/dot-2daeaa8b.gif" />
+                    <img class="logo" height="1" width="1" alt="FloDesign Logo" src="img/dot.gif" />
 
                 </a>
                 
@@ -186,7 +186,7 @@
                     
                     <div class="col5 cf">
                         
-                        <img class="footer-logo" alt="FloDesign footer logo" src="img/flo-logo-footer-e32f6c7b.svg" />
+                        <img class="footer-logo" alt="FloDesign footer logo" src="img/flo-logo-footer.svg" />
 
                         <nav>
                             <ul class="footer-nav cf">
