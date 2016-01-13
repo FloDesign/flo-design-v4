@@ -14,8 +14,8 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link href="http://flodesign.co.uk/sitemap.xml" rel="canonical" />
-        <link href="css/styles.css" rel="stylesheet" />
-        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+        <link href="css/styles-e0efb10c.css" rel="stylesheet" />
+        <script src="js/vendor/modernizr-2.6.1.min-68fdcc99.js"></script>
 
         <!-- TypeKit -->
        <script>
@@ -38,7 +38,7 @@
         <header class="cf site-header">
             <div class="wrapper">
                 <a href="/" class="site-logo">
-                    <img class="logo" height="1" width="1" alt="FloDesign Logo" src="img/dot.gif" />
+                    <img class="logo" height="1" width="1" alt="FloDesign Logo" src="img/dot-2daeaa8b.gif" />
 
                 </a>
                 
@@ -129,25 +129,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://flodesign.co.ukhire-us.html</loc>
-    <lastmod>2016-01-13T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://flodesign.co.ukindex.html</loc>
-    <lastmod>2016-01-13T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://flodesign.co.ukLICENSE.html</loc>
-    <lastmod>2016-01-13T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://flodesign.co.ukREADME.html</loc>
+    <loc>http://flodesign.co.ukwork/index.html</loc>
     <lastmod>2016-01-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -159,7 +141,25 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://flodesign.co.ukwork/index.html</loc>
+    <loc>http://flodesign.co.ukhire-us.html</loc>
+    <lastmod>2016-01-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://flodesign.co.ukREADME.html</loc>
+    <lastmod>2016-01-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://flodesign.co.ukLICENSE.html</loc>
+    <lastmod>2016-01-13T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://flodesign.co.ukindex.html</loc>
     <lastmod>2016-01-13T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -186,7 +186,7 @@
                     
                     <div class="col5 cf">
                         
-                        <img class="footer-logo" alt="FloDesign footer logo" src="img/flo-logo-footer.svg" />
+                        <img class="footer-logo" alt="FloDesign footer logo" src="img/flo-logo-footer-e32f6c7b.svg" />
 
                         <nav>
                             <ul class="footer-nav cf">
@@ -209,9 +209,9 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
-        <script src="js/vendor/jquery.sequence-min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/vendor/jquery.sequence-min-6ce1ebd2.js"></script>
+        <script src="js/plugins-9b217a53.js"></script>
+        <script src="js/main-4ac611bf.js"></script>
 
         <!-- Google Analytics -->
         <script>
