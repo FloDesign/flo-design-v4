@@ -1,3 +1,5 @@
+require 'builder'
+
 ###
 # Compass
 ###
@@ -47,6 +49,8 @@ activate :livereload
 #     "Helping"
 #   end
 # end
+
+page "/sitemap.xml", :layout => false
 
 set :css_dir, 'css'
 
