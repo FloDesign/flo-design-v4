@@ -23,3 +23,5 @@ gem "middleman-blog"
 gem "nokogiri"
 
 gem "middleman-minify-html"
+
+gem "builder"
