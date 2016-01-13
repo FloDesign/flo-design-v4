@@ -50,8 +50,6 @@ activate :livereload
 #   end
 # end
 
-page "/sitemap.xml", :layout => false
-
 set :css_dir, 'css'
 
 set :js_dir, 'js'
@@ -70,7 +68,7 @@ configure :build do
   activate :asset_hash, :ignore => [/^mailer/]
 
   # optimise images on build
-  activate :imageoptim
+  #activate :imageoptim
 
   # Minify Javascript on build
   activate :minify_html
