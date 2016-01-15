@@ -17,15 +17,11 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://flodesign.co.uk/work/</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://flodesign.co.uk/work/buildcloud/</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>http://flodesign.co.uk/hire-us/</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://flodesign.co.uk/index.html</loc>
     <priority>0.7</priority>
   </url>
   <url>
@@ -33,7 +29,11 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://flodesign.co.uk/index.html</loc>
+    <loc>http://flodesign.co.uk/work/buildcloud/</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://flodesign.co.uk/work/</loc>
     <priority>0.7</priority>
   </url>
 </urlset>
