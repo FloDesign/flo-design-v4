@@ -1,5 +1,5 @@
 # robotstxt.org/
 
-Sitemap: http://flodesign.co.uk/sitemap.xml
+Sitemap: http://flodesign.co.uk//sitemap.xml
 
 User-agent: *
