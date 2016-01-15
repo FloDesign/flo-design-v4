@@ -1245,7 +1245,13 @@ ul.member__social li{
 		margin-bottom: 30px;
 		font-size: 30px;
 		font-size: 1.875rem;
+		line-height: 36px;
+		line-height: 2.25rem;
 	}
+}
+
+.cta-box__white{
+	background: #fff;
 }
 
 .cta_btn{
@@ -1726,3 +1732,28 @@ footer{
 		background: url(../img/red_cross.svg) no-repeat left center;
 	}
 }
+
+.wp-done{
+	text-align: center;
+}
+
+.wp-work-logos{
+	margin: 50px 0 80px 0;
+	text-align: center;
+	.cta_btn{
+
+	}
+}
+
+.wp-work{
+	width: 25%;
+	float: left;
+	text-align: center;
+	img{
+		width: 100%;
+		max-width: 215px;
+		// margin: 0 auto;
+	}
+}
+
+
