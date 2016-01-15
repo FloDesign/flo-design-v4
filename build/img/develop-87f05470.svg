@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="235px" height="235px" viewBox="0 0 235 235" enable-background="new 0 0 235 235" xml:space="preserve">
-<path fill-rule="evenodd" clip-rule="evenodd" fill="#3D9BDD" d="M0,0h235v235H0V0z"/>
-<rect x="62.063" y="158.12" fill="none" width="110.247" height="27.569"/>
-<text transform="matrix(1 0 0 1 62.0624 178.1291)" fill="#FFFFFF" font-family="'ProximaNova-Light'" font-size="30">Develop</text>
-<g>
-	<path fill="#FFFFFF" d="M155.125,65.118v45.785h-75.25V65.118H155.125 M155.125,59.734h-75.25c-2.955,0-5.375,2.424-5.375,5.385
-		v45.785c0,2.96,2.42,5.384,5.375,5.384h75.25c2.955,0,5.375-2.424,5.375-5.384V65.118C160.5,62.158,158.08,59.734,155.125,59.734
-		L155.125,59.734z"/>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M120.188,113.612v10.769h13.437c1.484,0,2.687,1.205,2.687,2.692
-		c0,1.487-1.203,2.692-2.687,2.692h-32.25c-1.484,0-2.688-1.205-2.688-2.692c0-1.487,1.203-2.692,2.688-2.692h13.438v-10.769
-		H120.188z"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="235" height="235" viewBox="0 0 235 235"><path fill-rule="evenodd" clip-rule="evenodd" fill="#3D9BDD" d="M0 0h235v235H0V0z"/><path fill="none" d="M62.063 158.12H172.31v27.57H62.063z"/><text transform="translate(62.062 178.13)" fill="#FFF" font-family="'ProximaNova-Light'" font-size="30">Develop</text><g fill="#FFF"><path d="M155.125 65.118v45.785h-75.25V65.118h75.25m0-5.384h-75.25c-2.955 0-5.375 2.424-5.375 5.385v45.784c0 2.96 2.42 5.384 5.375 5.384h75.25c2.955 0 5.375-2.424 5.375-5.384V65.118c0-2.96-2.42-5.384-5.375-5.384z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M120.188 113.612v10.77h13.437c1.484 0 2.687 1.204 2.687 2.69 0 1.488-1.203 2.693-2.687 2.693h-32.25c-1.484 0-2.688-1.205-2.688-2.692s1.203-2.692 2.688-2.692h13.438v-10.768h5.375z"/></g></svg>
