@@ -5,7 +5,7 @@ description: An insight into the work that went into creating our most ambitious
 
 <section class='masthead masthead-large masthead-cs' id='masthead'>
 	<!-- <img src="../img/seawater.jpg" alt="" class="bg"> -->
-	<%= image_tag 'bc-background.png', :class => "bg" %>
+	<%= image_tag 'bc-background.png', :class => "bg", :alt => "Buildcloud Background" %>
 	<div class="wrapper">
 		<h1><span class="hp-title-one case-study-header__small">Case study</span><span class="hp-title-two"><br />Building Buildcloud</span></h1>
 	</div><!--end wrapper-->
@@ -14,7 +14,7 @@ description: An insight into the work that went into creating our most ambitious
 <section class="main-screen">
 	<div class="wrapper">
 		<div class="overlay header-video">
-			<%= image_tag 'bc-newsfeed.png', :class => 'main-vid-item' %>
+			<%= image_tag 'bc-newsfeed.png', :class => 'main-vid-item', :alt => "Buildcloud video" %>
 		</div>
 	</div>
 </section>
@@ -44,14 +44,14 @@ description: An insight into the work that went into creating our most ambitious
 			</div>
 			
 			<div class="overlay ipad-overlay">
-				<%= image_tag 'IPAD.svg' %>
+				<%= image_tag 'IPAD.svg', :alt => "Ipad" %>
 				<video width="330" height="440" autoplay loop>
 					<source src="../../vid/bc-ipad-sm.mp4" type="video/mp4">
 				</video>
 			</div>
 		
 			<div class="overlay laptop-overlay">
-				<%= image_tag 'laptop.svg' %>
+				<%= image_tag 'laptop.svg', :alt => "Laptop" %>
 				<video width="924" height="538" autoplay loop>
 					<source src="../../vid/bc_newsfeed_sm.mp4" type="video/mp4">
 				</video>
@@ -75,13 +75,13 @@ description: An insight into the work that went into creating our most ambitious
 		<div class="tech-logos">
 			<div class="row cf">
 				<div class="tech-badge col4">
-					<%= image_tag 'laravel.png' %>
+					<%= image_tag 'laravel.png', :alt => "Laravel logo" %>
 				</div>
 				<div class="tech-badge col4">
-					<%= image_tag 'codeception.png' %>
+					<%= image_tag 'codeception.png', :alt => "Codeception logo" %>
 				</div>
 				<div class="tech-badge col4">
-					<%= image_tag 'stripe.png' %>
+					<%= image_tag 'stripe.png', :alt => "Stripe logo" %>
 				</div>
 			</div>
 		</div>
@@ -92,7 +92,7 @@ description: An insight into the work that went into creating our most ambitious
 	<div class="wrapper">
 		<div class="row cf">
 			<div class="mugshot">
-				<%= image_tag 'Cat_b.png' %>
+				<%= image_tag 'Cat_b.png', :alt => "Cat Barrett" %>
 			</div>
 		</div>
 		<div class="row cf">
@@ -111,7 +111,7 @@ description: An insight into the work that went into creating our most ambitious
 	<div class="cta-box">
 		<div class="wrapper">
 			<h3>Have a web app project you’d like to talk to us about?</h3>
-			<%= link_to 'Get in touch <span aria-hidden="true" data-icon="&#xe604;" class="bg-arrow"></span>', '/hire-us.html', :class => "cta_btn" %>
+			<%= link_to 'Get in touch <span aria-hidden="true" data-icon="&#xe604;" class="bg-arrow"></span>', '/hire-us/', :class => "cta_btn" %>
 		</div>
 	</div>
 </section>
