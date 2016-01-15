@@ -1,7 +1,3 @@
-# require 'builder'
-
-
-
 ###
 # Compass
 ###
