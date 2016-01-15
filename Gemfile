@@ -24,4 +24,4 @@ gem "nokogiri"
 
 gem "middleman-minify-html"
 
-gem "builder"
+# gem "builder"

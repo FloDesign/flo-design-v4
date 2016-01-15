@@ -1,4 +1,6 @@
-#require 'builder'
+# require 'builder'
+
+
 
 ###
 # Compass
@@ -88,5 +90,7 @@ activate :blog do |blog|
 end
 
 activate :directory_indexes
+
+page "/sitemap.xml", :layout => false
 
 # activate :directory_indexes
