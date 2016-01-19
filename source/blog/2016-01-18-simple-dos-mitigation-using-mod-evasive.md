@@ -6,8 +6,6 @@ time: 10
 author: Craig
 ---
 
-## What is a Denial of Service attack?
-
 A Distributed Denial of Service (DDoS) attack is when an attacker floods a server with multiple requests from multiple IPs, usually from a number of different compromised machines within a botnet. These types of attacks can be difficult to protect against, especially when dealing with a sophisticated attack using multiple anonymous VPNs. To mitigate the effects of these attacks on your servers it is best to use a service such as [Cloudflare's anti-DDoS protection](https://www.cloudflare.com/ddos/). However, there are some steps you can take on your own server to stop script kiddies and other low-level threats from bringing your site down.
 
 ## Introducing mod_evasive
