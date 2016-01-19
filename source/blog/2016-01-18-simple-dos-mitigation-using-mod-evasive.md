@@ -1,5 +1,6 @@
 ---
 title:  "Super-simple Denial of Service mitigation using mod_evasive - Apache"
+description: "Stop the script kiddies. A quick tutorial on mitigating Denial of Service attacks against an Apache web server"
 date:   2016-01-18 16:00:00
 tags: Tutorials
 time: 10
