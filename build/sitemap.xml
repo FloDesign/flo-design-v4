@@ -1,39 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://flodesign.co.uk/404/</loc>
+    <loc>http://flodesign.co.uk/about/</loc>
+
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://flodesign.co.uk/about/</loc>
+    <loc>http://flodesign.co.uk/blog/sharing-space-apache/</loc>
+
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://flodesign.co.uk/blog/sharing-space-nginx/</loc>
+
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://flodesign.co.uk/blog/new-site-new-office-new-year/</loc>
+
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://flodesign.co.uk/blog/to-share-is-to-care/</loc>
+
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://flodesign.co.uk/blog/i_love_my_new_watch/</loc>
+
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://flodesign.co.uk/blog/developer_thoughts/</loc>
+
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://flodesign.co.uk/blog/wordpress-4-4/</loc>
+
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://flodesign.co.uk/blog/best-web-design-icon-sets/</loc>
+
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://flodesign.co.uk/blog/simple-dos-mitigation-using-mod-evasive/</loc>
+
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://flodesign.co.uk/blog/</loc>
+
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://flodesign.co.uk/hire-us/</loc>
+
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://flodesign.co.uk/index.html</loc>
+    <loc>http://flodesign.co.uk/</loc>
+
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://flodesign.co.uk/services/leeds-wordpress-development/</loc>
+
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://flodesign.co.uk/work/buildcloud/</loc>
+
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://flodesign.co.uk/work/</loc>
+
     <priority>0.7</priority>
   </url>
 </urlset>
