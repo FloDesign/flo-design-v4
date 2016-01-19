@@ -83,7 +83,7 @@ We need to make sure this script is runnable by the apache process user as a sud
 
 then add the following:
 
-    www-data ALL=(ALL) NOPASSWD: /home/craig/scripts/ban_ip.sh
+    www-data ALL=(ALL) NOPASSWD: /home/user/ban_ip.sh
 
 Substitute the name of your apache process user for www-data, if needed. Then save and exit.
 

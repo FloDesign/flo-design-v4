@@ -49,7 +49,7 @@ echo "$IPTABLES -D INPUT -s $IP -j DROP" | at now + 2 hours
 # Remove lock file for future checks
 rm -f "$MOD_EVASIVE_LOGDIR"/dos-"$IP"
 </code></pre> <p>We need to make sure this script is runnable by the apache process user as a sudo command. First open up the sudoers editor 'visudo'</p> <pre><code>sudo visudo
-</code></pre> <p>then add the following:</p> <pre><code>www-data ALL=(ALL) NOPASSWD: /home/craig/scripts/ban_ip.sh
+</code></pre> <p>then add the following:</p> <pre><code>www-data ALL=(ALL) NOPASSWD: /home/user/ban_ip.sh
 </code></pre> <p>Substitute the name of your apache process user for www-data, if needed. Then save and exit.</p> <p>Your server should now be protected from DoS attacks!</p> </div> </div> <div class="col3 cf"> <div class=post_meta> <dl> <dt>Time:</dt> <dd>10min</dd> <dt>In:</dt> <dd>Tutorials</dd> <dt>by:</dt> <dd>Craig</dd> </dl> </div> </div> </div> </div> </article> <div class=comments> <div class=wrapper> <div id=disqus_thread></div> </div> </div> <div class=cta-box> <div class=wrapper> <h3>Think we can help with your web site or app project? </h3> <a class=cta_btn href="/hire-us/">Let&rsquo;s Chat <span aria-hidden=true data-icon="&#xe604;" class=bg-arrow></span></a> </div> </div> </section> <script>
 /**
 * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
