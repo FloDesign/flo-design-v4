@@ -1596,6 +1596,43 @@ footer{
 }
 
 
+// Case study img gallery section-----------------------------
+
+.case-study--design_images{
+	padding: 0 0 150px 0;
+}
+
+.case-study-imgset{
+	img{
+		width: 100%;
+	}
+	line-height:0;
+	margin: 80px -20px 150px -20px;
+	position: relative;
+}
+
+.img-l-sm{
+	width: 33.33%;
+	float: left;
+}
+
+.img-r-lg{
+	width: 66.66%;
+	float: left;
+	position: relative;
+}
+
+.img-hover{
+	position: absolute;
+	width: 50%;
+	top:-70px;
+	left: 45px;
+}
+
+
+
+
+
 // Services -------------------------------------------------
 
 

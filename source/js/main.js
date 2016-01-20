@@ -148,6 +148,7 @@ function parallax(){
     $('.masthead h1, .masthead .ctas').css('opacity',(5/scrolled*10));
 
     $('.masthead .ctas').css('top',-(scrolled*-0.5)+'px');
+    $('.img-hover').css('top',-(scrolled*0.05)+'px');
   }
 }
 
