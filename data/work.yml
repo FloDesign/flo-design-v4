@@ -40,6 +40,7 @@ workitems:
   imgmbp: "geoslam-mbp-lg.png"
   imgphone: "geoslam-iphone-lg.png"
   link: "http://www.geoslam.com/"
+  casestudy: "/work/geoslam/"
 - title: "NHS Health Developer Network"
   description: "We love the NHS, we think it's an institution to be proud of and it's one we're proud to have worked with. They asked us to design &amp; develop a site to be a resource and community for independent software developers. The site aims to assist in the creation of health and social care software and mobile applications. We explored a number of design directions but ultimately settled on a simple, bold colour-led design with each section of the site having its own colour identity. The site can be fully updated and maintained via the WordPress content management system, which was customised to meet the exacting requirements of the project."
   tags: 

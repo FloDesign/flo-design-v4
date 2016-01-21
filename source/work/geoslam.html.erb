@@ -35,7 +35,7 @@ description: An insight into the web design and development work that went into 
 </section>
 
 <section class="case-study__section--grey case-study--design_images">
-	<div class="wrapper">
+	<div class="wrapper wrapper-wide">
 		<h2>Design</h2>
 		
 
@@ -65,35 +65,23 @@ description: An insight into the web design and development work that went into 
 	</div>
 </section>
 
-<section class="case-study__section--white case-study--tech">
+<section class="case-study__section--white case-study--wp">
 	<div class="wrapper">
 		<h2>Technology</h2>
-		<div class="row cf">
-			<div class="col2"></div>
-			<div class="col7">
+		<div class="wp-container cf">
+			<div class="wp-logo">
+				<%= image_tag 'wp-w-logo.svg', :alt => "WordPress logo" %>
+			</div>
+			<div class="wp-info">
 				<p>Buildcloud is built on the Laravel PHP framework. Users can interact using the web-based application or via an iOS mobile app, which uses the included REST API. Using Laravel allowed us to work with a range of server technologies. We also had flexibility should the server environments ever need to change. Furthermore, we could stick to best practices by working within the framework structure.</p>
-
-				<p>We also integrated Buildcloud with the Stripe payment provider and Quaderno VAT-MOSS service. This allowed users to receive a real-time tax breakdown before setting up their subscription. All without ever leaving their page within the app.</p>
 			</div>
-			<div class="col2"></div>
+			
 		</div>
-		<div class="tech-logos">
-			<div class="row cf">
-				<div class="tech-badge col4">
-					<%= image_tag 'laravel.png', :alt => "Laravel logo" %>
-				</div>
-				<div class="tech-badge col4">
-					<%= image_tag 'codeception.png', :alt => "Codeception logo" %>
-				</div>
-				<div class="tech-badge col4">
-					<%= image_tag 'stripe.png', :alt => "Stripe logo" %>
-				</div>
-			</div>
-		</div>
+		
 	</div>
 </section>
 
-<section class="case-study__section--blue">
+<!-- <section class="case-study__section--blue">
 	<div class="wrapper">
 		<div class="row cf">
 			<div class="mugshot">
@@ -110,7 +98,7 @@ description: An insight into the web design and development work that went into 
 		</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <section class="case-study__section--white">
 	<div class="cta-box">
