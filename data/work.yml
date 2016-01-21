@@ -28,7 +28,7 @@ workitems:
   imgphone: "als_phone.png"
   link: "http://www.alscient.com/"
 - title: "GeoSLAM Limited"
-  description: "GeoSLAM are a Nottingham based technology start-up who develop survey solutions for the measurement and mapping of multi-level three-dimensional environments. Working alongside the team at GeoSLAM we produced a striking design that incorporated some of the fantastic 3D point cloud imagery form their scanning products. The new bespoke built WordPress site not only looks fantastic but is also easy to navigate, update and is optimised for mobile and desktop devices."
+  description: "GeoSLAM are a Nottingham based technology start-up who develop survey solutions for the measurement and mapping of multi-level three-dimensional environments. Working alongside the team at GeoSLAM we produced a striking design that incorporated some of the fantastic 3D point cloud imagery form their scanning products."
   tags: 
     -  design
     -  development
