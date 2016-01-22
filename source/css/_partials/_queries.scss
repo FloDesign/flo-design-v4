@@ -136,7 +136,7 @@
 		margin-top: -150px;
 	}
 
-	.case-study--background{
+	.case-study--background, .case-study--design_images{
 		.col3{
 			width: 23.5%;
 		}
@@ -236,6 +236,22 @@
 			margin: 0 auto;
 		}
 	}
+
+	.case-study--background{
+		padding-bottom: 60px;
+	}
+
+	.case-study--design_images{
+		padding: 15px 0 60px 0;
+	}
+
+	.case-study-imgset{
+		margin: 50px -20px 120px -20px;
+	}
+
+	.case-study--wp{
+		padding: 0 0 90px 0;
+	}
 }
 
 @media screen and (max-width: 560px) {
@@ -260,6 +276,47 @@
 	.wp-work-logos{
 		margin: 10px 0 30px 0;
 	}
+	
+	.case-study-imgset{
+		margin: 20px -20px 90px -20px;
+	}
+
+	.img-l-sm, .img-r-lg{
+		width: 100%;
+	}
+
+	.img-hover{
+		top: -46px;
+    	left: 25px;
+	}
+
+	.wp-container{
+	display: block;
+    table-layout: none;
+    width: 100%;
+	}
+
+	.wp-logo{
+		text-align: center;
+		display: block;
+	    width: 100%;
+	    margin-bottom: 30px;
+	    img{
+	    	margin-right: 0px;
+	    	max-width: 140px
+
+	    }
+	}
+
+	.wp-info{
+		display: block;
+	    width: 100%;
+	    
+	}
+	.case-study--wp{
+		padding: 0 0 30px 0;
+	}
+
 }
 
 @media screen and (max-width: 535px) {
@@ -683,11 +740,19 @@
 	}
 
 	.case-study--background{
-		padding-bottom: 40px;
+		padding-bottom: 20px;
 	}
 
 	.case-study--tech{
 		padding-bottom: 40px;
+	}
+
+	.case-study--design_images {
+	    padding: 15px 0 20px 0;
+	}
+
+	.case-study-imgset {
+	    margin: 20px -20px 70px -20px;
 	}
 
 	.masthead-cs{
