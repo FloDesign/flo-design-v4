@@ -76,6 +76,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>http://flodesign.co.uk/work/geoslam/</loc>
+
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://flodesign.co.uk/work/</loc>
 
     <priority>0.7</priority>
