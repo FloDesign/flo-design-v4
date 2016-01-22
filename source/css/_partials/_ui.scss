@@ -158,10 +158,10 @@ header.shrink{
 	}
 
 	.hp-title-two{
-		-webkit-animation-delay: 1.5s;
-		-moz-animation-delay: 1.5s;
-		-o-animation-delay: 1.5s;
-		animation-delay: 1.5s;
+		-webkit-animation-delay: 1s;
+		-moz-animation-delay: 1s;
+		-o-animation-delay: 5s;
+		animation-delay: 1s;
 		-webkit-animation-duration: 1s;
 		-moz-animation-duration: 1s;
 		-o-animation-duration: 1s;
@@ -185,10 +185,10 @@ header.shrink{
 		font-weight: 400;
 		padding: 7px 15px;
 		white-space: nowrap;
-		-webkit-animation-delay: 1.5s;
-		-moz-animation-delay: 1.5s;
-		-o-animation-delay: 1.5s;
-		animation-delay: 1.5s;
+		-webkit-animation-delay: 1s;
+		-moz-animation-delay: 1s;
+		-o-animation-delay: 1s;
+		animation-delay: 1s;
 		-webkit-animation-duration: 1.5s;
 		-moz-animation-duration: 1.5s;
 		-o-animation-duration: 1.5s;
@@ -1403,10 +1403,10 @@ footer{
 
 .main-vid-item{
 	margin-top: -370px;
-	-webkit-animation-delay: 1.5s;
-	-moz-animation-delay: 1.5s;
-	-o-animation-delay: 1.5s;
-	animation-delay: 1.5s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
 	-webkit-animation-duration: 1.5s;
 	-moz-animation-duration: 1.5s;
 	-o-animation-duration: 1.5s;
@@ -1422,6 +1422,9 @@ footer{
 	position: relative;
 	width: 100%;
 	max-width: 1195px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 34px 0px rgba(0,0,0,0.50);
+	
 }
 
 
