@@ -4,7 +4,7 @@
 # is considered to be the first unless any hosts have the primary
 # property set.  Don't declare `role :all`, it's a meta role.
 
-set :deploy_to, '/var/www/flodesign.co.uk'
+set :deploy_to, '/usr/share/nginx/flodesign'
 
 # Extended Server Syntax
 # ======================
@@ -31,11 +31,11 @@ set :deploy_to, '/var/www/flodesign.co.uk'
 # And/or per server (overrides global)
 # ------------------------------------
  server 'flodesign.co.uk',
-   user: 'floploy',
+   user: 'deploy',
    roles: %w{web},
    ssh_options: {
-     user: 'floploy', # overrides user setting above
-     keys: %w(/home/floploy/.ssh/id_rsa),
+     user: 'deploy', # overrides user setting above
+     #keys: %w(/home/floploy/.ssh/id_rsa),
      forward_agent: false,
      auth_methods: %w(publickey)
      # password: 'please use keys'

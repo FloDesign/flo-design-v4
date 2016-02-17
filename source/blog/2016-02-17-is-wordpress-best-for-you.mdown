@@ -1,0 +1,30 @@
+---
+title:  "Do you need a Wordpress site?"
+date:   2016-02-17 13:42:00
+tags: Thoughts
+time: 5
+author: Craig
+---
+
+Wordpress powers a staggering 25% of websites today. This huge market share makes the platform well-known, even to those outside of the web industry. We often have clients come to us asking specifically for a Wordpress website. We wouldn't be doing our job as experts unless we challenged assumptions to ascertain what the client is really trying to achieve. To that end, the first question we usually ask is 'Is Wordpress right for you?'
+
+### One size fits none
+
+We love Wordpress. It offers clients a wide range of functionality, excellent extensibility and, as it's so popular, there are an abundance of PHP/Wordpress developers out there to take on additional work if it is requried.
+
+However, there are scenarios where Wordpress may be sub-optimal for a client's objective. Instead of insisting on a Wordpress build, a client could consider some of the alternatives. Furthermore, the web is an iterative industry and sites can be improved upon and, with some thought at the start of the project, moved to different platforms fairly easily. Here are some examples of situations which may not require a Wordpress build, starting at the simplest site.
+
+### The static site
+
+If the content of a site doesn't change much, or at all, then coding up a theme to use Wordpress may be an extra step which doesn't need to be taken, saving the client time and money. When building Wordpress sites at Flo Design we code up the front-end templates before converting to a PHP theme, which allows quick iteration while the design is still relatively fluid to ensure it meets the needs of the client. We do our initial coding in the Middleman static-site generator so all the considerations of a production-ready site (minified CSS and Javascript, optimised images etc.) are already in place. If the content doesn't need to change then we can deploy at that point and the client has their site live.
+
+	If your content rarely, if ever, changes consider using a static site generator tool. The site can be put live quicker and the templates can always be adapted for Wordpress at a later date.
+
+### The e-commerce site
+
+E-commerce is a huge growth area and Wordpress has come along leaps and bounds in the setor, with great plugins like WooCommerce giving a drop-in shopping cart. However, e-commerce in Wordpress is still fairly basic and doesn't offer some of the more complex functionality that a site owner may need to do business. This is usually evident with stock management as most clients will have specific needs when it comes to integration with their systems. Admittedly, most e-commerce solutions have some foibles and rarely offer everything a client will need but, unless the store will be very basic, it pays to invest a bit more and get a site that customers will enjoy using and will keep them coming back; as well as keeping the staff who run the store sane!
+
+	While Wordpress allows for extensibilty in the form of plugins, the architecture can make it difficult to create some of the more complex functionality needed by storefronts. Consider adapting a specialist e-commerce software solution or, in the case of very specific needs, developing a custom solution which will do exactly what you need it to.
+
+### The web app
+
