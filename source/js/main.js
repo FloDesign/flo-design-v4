@@ -169,3 +169,26 @@ $('.count').each(function () {
         }
     });
 });
+
+
+$.jribbble.setToken('c8c3e2722a373b2d15166f1e0232a5564e96b5c93da80b29accd709a54a9ef8d');
+
+    /*
+      Jribbble methods make ajax requests to the Dribbble API. When
+      the requests complete, a Promise is returned. Use `then` to take an action
+      on the response from the server.
+    */
+    $.jribbble.users('russpoulter').shots({per_page: 12}).then(function(shots) {
+  var html = [];
+  
+  shots.forEach(function(shot) {
+    html.push('<div class="shots--shot">');
+    html.push('<a href="' + shot.html_url + '" target="_blank">');
+    html.push('<img src="' + shot.images.normal + '">');
+    html.push('</a></div>');
+  });
+
+      $('.shots').html(html.join(''));
+    });
+
+

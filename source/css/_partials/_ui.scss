@@ -114,8 +114,9 @@ header.shrink{
 .masthead{
 	padding-bottom: 140px;
 	overflow: hidden;
-	background: $grey-bg;
-
+	// background: $grey-bg;
+	/* Rectangle 515: */
+	background: linear-gradient(-180deg, rgba(255,255,255,0.80) 0%, #F6F6F6 100%);
 	img{
 		position: fixed;
 		z-index: -1;
@@ -1844,4 +1845,95 @@ footer{
 		// margin: 0 auto;
 	}
 }
+
+
+// New work page ------------------------------------------------------------
+
+
+a.work-box{
+	width: 33.33%;
+	float: left;
+	position: relative;
+	line-height: 0;
+	overflow: hidden;
+	img{
+		width: 100%;
+		transform: scale(1.05);
+		transition: all 1s ease;
+	}
+
+	&:hover{
+		.work-box__overlay{
+			opacity: 1;
+			visibility: visible;
+		}
+		img{
+			transform: scale(1);
+		}
+	}
+
+	hr{
+		margin: 30px 50px;
+	}
+}
+
+.work-box__overlay{
+	position: absolute;
+	top: 0;
+	bottom:0;
+	background: rgba(57, 159, 204, .9);
+	color: #fff;
+	text-decoration: none;
+	padding: 50px;
+	box-sizing: border-box;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.5s ease;
+	line-height: 1;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.overlay-container{
+	width: 100%;
+}
+
+.work-items{
+	padding: 0 0 150px 0;
+}
+
+.shots{
+	border: 1px solid #E0E0E0;
+	margin-top: 80px;
+}
+.shots--shot{
+	float: left;
+	width: 25%;
+	overflow: hidden;
+	a{
+		display: block;
+		line-height: 0;
+	}
+	img{
+		width: 100%;
+		transform: scale(1);
+		transition: all .3s ease;
+
+	}
+	&:hover{
+		img{
+			transform: scale(1.1);
+		}
+	}
+}
+
+
+
+
+
+
+
+
 
