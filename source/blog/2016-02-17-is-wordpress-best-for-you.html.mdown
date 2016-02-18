@@ -7,9 +7,9 @@ time: 5
 author: Craig
 ---
 
-![Is Wordpress right for you?](/img/wordpress-cms.jpg)
-
 Wordpress powers a staggering 25% of websites today<sup>[1](http://w3techs.com/technologies/history_overview/content_management/all/y)</sup>. This huge market share makes the platform well-known, even to those outside of the web industry. We often have clients come to us asking specifically for a Wordpress website. We wouldn't be doing our job as experts unless we challenged assumptions to ascertain what the client is really trying to achieve. To that end, the first question we usually ask is 'Is Wordpress right for you?'
+
+![Is Wordpress right for you?](/img/wordpress-cms.jpg)
 
 ## One size fits none
 
