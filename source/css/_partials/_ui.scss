@@ -1191,6 +1191,15 @@ ul.member__social li{
 		color: #a7a9ac;
 	}
 
+	blockquote {
+		padding: 20px;
+		background: $grey-bg;
+		font-style: italic;
+		p{
+			padding-bottom: 0;
+		}
+	}
+
 	img{
 		max-width: 100%;
 		border: 1px solid #a7a9ac;

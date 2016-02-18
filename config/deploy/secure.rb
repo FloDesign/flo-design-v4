@@ -30,12 +30,12 @@ set :deploy_to, '/usr/share/nginx/flodesign'
 #
 # And/or per server (overrides global)
 # ------------------------------------
- server 'flodesign.co.uk',
+ server '188.166.148.201',
    user: 'deploy',
    roles: %w{web},
    ssh_options: {
      user: 'deploy', # overrides user setting above
-     #keys: %w(/home/floploy/.ssh/id_rsa),
+     #keys: %w(/home/deploy/.ssh/id_rsa),
      forward_agent: false,
      auth_methods: %w(publickey)
      # password: 'please use keys'
