@@ -25,6 +25,8 @@ Mailgun offers a tiered pricing structure, with the first 10,000 emails being fr
 
 Amazon's Simple Email Service is a service which offers 62,000 free emails when sending from an Amazon EC2 instance. If your hosting is already set up on EC2 then this service is a no-brainer. Why go elsewhere when Amazon will give you all that capacity for free? Unfortunataly, Amazon pricing can be a little tricky to get your head around. While sending the emails is free, you will still be charged for data transfer out to the internet. However, This is reasonably priced, with your first 1Gb being free. After this it costs $0.09 per GB up to 10TB. As long as the emails are optimised there should be no problem with the free tier, although it's worth keeping an eye on this extra statistic as well as the number of emails sent. SES keeps a pool of IPs for sending emails so there is no dedicated IP option, although the IP is determinable. Like Mailgun, Laravel offers an SES driver out of the box.
 
+It's worth noting that while SES allows transactional email sending, it doesn't include a templating engine like the other alternatives and Mandrill do. This could pose a problem for those looking for an integrated campaign system. Thanks to [@michaelw90](https://twitter.com/michaelw90) for pointing that one out!
+
 [Find out more](https://aws.amazon.com/ses/)
 
 ##Sendgrid
