@@ -56,6 +56,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>http://flodesign.co.uk/blog/alternatives-to-mandrill/</loc>
+
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://flodesign.co.uk/blog/</loc>
 
     <priority>0.7</priority>
