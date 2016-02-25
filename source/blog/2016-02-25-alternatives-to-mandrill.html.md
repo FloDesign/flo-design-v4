@@ -41,4 +41,6 @@ Sendgrid is very similar to Mailgun in that they offer a free tier of up to 12,0
 
 Postmark is a transactional email service with a very simple pricing structure. The first 25,000 emails are free. After that the cost is based on volume. Users buy credits, with 1 credit equating to 1 email sent. 1000 credits start at $1.50 and discounts are applied at 500,000; 1,000,000; 2,000,000 and 5,000,000 credits. This pricing structure is not based on a monthly cost, making it ideal for infrequent or low volume senders. Postmark don't offer dedicated IP addresses as they think they're a bad idea. Their reasoning can be read [on their blog](https://postmarkapp.com/blog/the-false-promises-of-dedicated-ips)
 
+##In summary
+
 Each of the providers mentioned above have robust APIs, allowing developers to integrate apps in with each service. Mandrill remains a good product and its integration with Mailchimp will allow existing paid account holders some degree of streamlining with their campaign workflow. However, for those with low volume or infrequent email needs, it may push the price of doing business with Mailchimp beyond what they're willing to pay.
