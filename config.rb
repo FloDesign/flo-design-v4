@@ -81,6 +81,7 @@ end
 activate :relative_assets
 
 activate :blog do |blog|
+  blog.paginate = true
   blog.prefix = "blog"
   blog.layout = "blog_layout"
   blog.permalink = ":title"

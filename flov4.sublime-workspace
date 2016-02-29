@@ -403,7 +403,7 @@
 			"file": "source/about.html.erb",
 			"settings":
 			{
-				"buffer_size": 6274,
+				"buffer_size": 7272,
 				"line_ending": "Unix"
 			}
 		},
@@ -411,7 +411,7 @@
 			"file": "source/blog.html.erb",
 			"settings":
 			{
-				"buffer_size": 1377,
+				"buffer_size": 1390,
 				"line_ending": "Unix"
 			}
 		},
@@ -419,7 +419,7 @@
 			"file": "source/layouts/layout.erb",
 			"settings":
 			{
-				"buffer_size": 6269,
+				"buffer_size": 6443,
 				"line_ending": "Unix"
 			}
 		},
@@ -438,7 +438,7 @@
 			"file": "source/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 9252,
+				"buffer_size": 9586,
 				"line_ending": "Unix"
 			}
 		},
@@ -446,7 +446,7 @@
 			"file": "source/css/_partials/_ui.scss",
 			"settings":
 			{
-				"buffer_size": 26290,
+				"buffer_size": 31334,
 				"line_ending": "Unix"
 			}
 		},
@@ -454,7 +454,7 @@
 			"file": "source/css/_partials/_grid.scss",
 			"settings":
 			{
-				"buffer_size": 996,
+				"buffer_size": 1034,
 				"line_ending": "Unix"
 			}
 		},
@@ -470,7 +470,7 @@
 			"file": "source/css/_partials/_type.scss",
 			"settings":
 			{
-				"buffer_size": 1856,
+				"buffer_size": 1926,
 				"line_ending": "Unix"
 			}
 		},
@@ -847,7 +847,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6274,
+						"buffer_size": 7272,
 						"regions":
 						{
 						},
@@ -876,7 +876,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1377,
+						"buffer_size": 1390,
 						"regions":
 						{
 						},
@@ -905,7 +905,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6269,
+						"buffer_size": 6443,
 						"regions":
 						{
 						},
@@ -964,7 +964,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9252,
+						"buffer_size": 9586,
 						"regions":
 						{
 						},
@@ -999,15 +999,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 26290,
+						"buffer_size": 31334,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14493,
-								14493
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1016,7 +1016,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 12182.0,
+						"translation.y": 11561.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1028,15 +1028,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 996,
+						"buffer_size": 1034,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								282,
-								122
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1087,7 +1087,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1856,
+						"buffer_size": 1926,
 						"regions":
 						{
 						},
