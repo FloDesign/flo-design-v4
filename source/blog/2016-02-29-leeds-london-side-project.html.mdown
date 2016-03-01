@@ -1,0 +1,35 @@
+---
+title: Leeds v London - A quick look at a side project
+description: A quick look at a side project we put together for a bit of fun!
+date: 2016-02-29 17:00 UTC
+tags: Side Projects
+time: 5
+author: Russ
+---
+
+Two things we really like here at Flo are Leeds, the fantastic city where we're based, and tinkering around with code to build something fun and/or cool. So when we saw the great initiative [London to Leeds](http://www.londontoleeds.com/), which aims to relocate tech start-ups to Leeds by showing off all the city has to offer, we wanted to build something that would help extol the virtues of living in our great city. But what to do?
+
+After having a think and a good read of the London to Leeds site we took our inspiration from a couple of links on the [Why move to Leeds](http://www.londontoleeds.com/whymovetoleeds/) page which showed the price difference of 2 properties, one in Leeds and one in London. It was a good serious comparison of 2 similar properties but wouldn't it be cool if there was a little app that did this and maybe not is a serious way? Just a bit of fun at London property market's expense. Would it be useful? Probably not. Would it be fun? Absolutely! So over the course of a couple of days we pinched a few hours here and a few hours there and hacked a little app together.
+
+So it is with great pleasure that I present to you [leedsvlondon.com](http://leedsvlondon.com/).
+
+![Leeds v London](/img/leedsvlondon_1.jpg)
+
+Basically, it's a property price comparison site for Leeds and London, if price comparison sites where completely arbitrary and random. We've made use of the [Zoopla API](http://developer.zoopla.com/) and we just grab a fairly random property (we do have some logic in there) based on your search criteria and present you with a result from Leeds and a result from London and then compare the cost.
+
+It's just a bit fun and not at all scientific but it does highlight the huge gap in property prices between Leeds and London and hopefully it will make some people chuckle while at the same time make them think twice about locating business in London over Leeds.
+
+It has a couple of drawbacks, most notably is the 100 per hour rate limit Zoopla impose on the API. Unfortunately this isn't something we can get around without coughing up some cash to Zoopla, which we're not going to do. If it's not working when you try it then try again in the next hour, because the chances are we've hit that limit.
+
+We had a blast hacking this together and we hope people have a bit of fun looking at the results it throws up. Make sure to tweet your result when you find out how much you could save living in Leeds over London. 
+
+We'd love to know what you think about our little side project so feel free to leave a comment below. 
+
+
+
+
+
+
+
+
+ 
