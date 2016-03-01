@@ -61,6 +61,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>http://flodesign.co.uk/blog/leeds-london-side-project/</loc>
+
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://flodesign.co.uk/blog/</loc>
 
     <priority>0.7</priority>
@@ -92,6 +97,11 @@
   </url>
   <url>
     <loc>http://flodesign.co.uk/work/</loc>
+
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://flodesign.co.uk/blog/page/2/</loc>
 
     <priority>0.7</priority>
   </url>
