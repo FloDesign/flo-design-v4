@@ -5,19 +5,19 @@
 
 /*--- Icons ---*/
 @font-face {
-	font-family: 'flo-icon';
-	src:url('../fonts/flo-icons.eot');
-	src:url('../fonts/flo-icons.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/flo-icons.woff') format('woff'),
-		url('../fonts/flo-icons.ttf') format('truetype'),
-		url('../fonts/flo-icons.svg#flo-icon') format('svg');
+	font-family: 'flo-icons';
+	src:url('../fonts/flo-font.eot');
+	src:url('../fonts/flo-font.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/flo-font.woff') format('woff'),
+		url('../fonts/flo-font.ttf') format('truetype'),
+		url('../fonts/flo-font.svg#flo-icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 
 [data-icon]:before {
-	font-family: 'flo-icon';
+	font-family: 'flo-icons';
 	content: attr(data-icon);
 	speak: none;
 	font-weight: normal;
