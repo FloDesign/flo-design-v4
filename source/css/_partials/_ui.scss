@@ -57,7 +57,7 @@ ul.main-nav{
 .services a.services_link,
 .blog a.blog_link,
 .blog_post a.blog_link,
-.contact a.hire_link{
+.hire-us a.hire_link{
 	color: $highlight;
 	border-top: 2px solid $highlight;
 	padding-top: 10px;
@@ -206,14 +206,32 @@ header.shrink{
 }
 
 .masthead--home{
-	background: url(../img/flo_home_bg.jpg) no-repeat center bottom;
+	background: url(../img/flo_bg_eight.jpg) no-repeat center top;
 	background-size: cover;
 }
 
 .masthead--about{
-	background: url(../img/flo_about_bg.jpg) no-repeat center center;
+	background: url(../img/flo_bg_four.jpg) no-repeat center center;
 	background-size: cover;
 }
+
+.masthead--work{
+	background: url(../img/flo_bg_six.jpg) no-repeat top center;
+	background-size: cover;
+}
+
+.masthead--blog{
+	background: url(../img/flo_bg_seven.jpg) no-repeat top center;
+	background-size: cover;
+}
+
+.masthead--hire{
+	background: url(../img/flo_bg_two.jpg) no-repeat top center;
+	background-size: cover;
+}
+
+
+
 
 
 @-webkit-keyframes show {
