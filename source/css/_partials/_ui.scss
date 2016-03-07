@@ -207,6 +207,12 @@ header.shrink{
 
 .masthead--home{
 	background: url(../img/flo_home_bg.jpg) no-repeat center bottom;
+	background-size: cover;
+}
+
+.masthead--about{
+	background: url(../img/flo_about_bg.jpg) no-repeat center center;
+	background-size: cover;
 }
 
 
@@ -1131,9 +1137,11 @@ form.talk__form{
 
 .member{
 	img{
-		width: 30%;
+		width: 27%;
 		float: left;
 		margin-right: 5%;
+		border-radius: 50%;
+		border: 3px solid $highlight;
 	}
 }
 
