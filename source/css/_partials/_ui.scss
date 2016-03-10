@@ -1184,6 +1184,126 @@ ul.member__social li{
 	}
 }
 
+// **************************
+// New Blog listings - March 2016
+// **************************
+
+.blog-articles{
+	display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    border-top: 1px solid #E7E7E7;
+    border-left: 1px solid #E7E7E7;
+    margin: 120px 0;
+    align-items: stretch;
+}
+
+.blog-article{
+	 // width: 300px;
+    // height: 250px;
+    flex-grow: 1;
+    flex-shrink: 0;
+	max-width: 33.333%;
+	img{
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	a{
+		display: block;
+		color: $copy;
+		@include transition-duration(.3s);
+		&:hover{
+			text-decoration: none;
+			h2{
+				color: $flo-blue;
+			}
+		}
+	}
+	
+}
+
+.blog-article__inner{
+	padding: 30px;
+	border-right: 1px solid #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+	position: relative;
+	height: 510px;
+}
+
+.blog-article__meta{
+	font-weight: bold;
+	color: #BABABA;
+	font-size: 14px;
+	time{
+		font-weight: bold;
+		color: #BABABA;
+		font-size: 14px;	
+	}
+
+}
+
+h2.blog-article__title{
+	@include transition-duration(.3s);
+	font-size: 24px;
+	padding: 0;
+	text-align: left;
+	line-height: 30px;
+	padding-bottom: 15px;
+}
+
+.blog-article__summary{
+	height: 90px;
+	overflow: hidden;
+	position: relative;
+	&:after{
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: linear-gradient(-180deg, rgba(255,255,255,0.00) 0%, #FFFFFF 100%);
+	}
+}
+
+.blog-article__author-img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 2px solid $flo-blue;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	position: absolute;
+	left: 30px;
+	bottom: 30px;
+	&.Russ{
+		background: url(../img/russ_avatar.jpg)no-repeat center center;
+		background-size: cover;
+	}
+	&.Craig{
+		background: url(../img/craig_avatar.jpg)no-repeat center center;
+		background-size: cover;
+	}
+}
+
+.blog-article__tag{
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	color: $flo-blue;
+}
+
+
+
+
+
+
 
 .articles{
 	background: #fff;
