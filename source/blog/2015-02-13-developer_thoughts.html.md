@@ -1,6 +1,7 @@
 ---
 title: This is how we do it - Our Development Process
 date: 2015-02-13 10:06 UTC
+img: blog_img_dev_process.jpg
 tags: Development
 time: 5
 author: Craig

@@ -1,5 +1,6 @@
 ---
 title:  "Sharing space - Setting up Ghost behind a proxy - Apache"
+img: blog_img_ghost_apache.jpg
 date:   2014-01-31 17:05:47
 tags: Tutorials
 time: 10
