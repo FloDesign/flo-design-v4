@@ -1,6 +1,7 @@
 ---
 title: "We're open-sourcing our site. Here's why"
 date: 2015-01-14 17:05:47
+img: blog_img_opensource.jpg
 tags: News
 time: 2
 author: Craig
