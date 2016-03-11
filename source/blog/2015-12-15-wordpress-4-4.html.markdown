@@ -2,6 +2,7 @@
 title:  "Wordpress 4.4 - An overview"
 description: Our Technical director takes a look at what's new in WordPress 4.4
 date:   2015-12-15 15:28:00
+img: blog_img_wordpress.jpg
 tags: Thoughts
 time: 5
 author: Craig

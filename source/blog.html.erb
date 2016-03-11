@@ -2,57 +2,51 @@
 title: Blog - Flo Design Limited
 description: This is the bit where we discuss the company and show off some of our knowledge. Its our industry chat for those that are interested.
 pageable: true
-per_page: 10
+per_page: 12
 ---
 
 <!-- Add your site or application content here -->
 
 
 <section class="masthead masthead--blog" id="masthead">
-	<!-- <%= image_tag 'seawater.jpg', :class => "bg" %> -->
 
 	<div class="wrapper">
 		<h1><span class="hp-title-one">We blog.</span><span class="hp-title-two"><br/>This is what we think.</span></h1>
 	</div><!--end wrapper-->
 </section>
 
+<div class="wrapper">
+<section class="blog-articles">
+		
+		<% page_articles.each_with_index do |article, i| %>	
+		<article class="blog-article">
+			<a href="<%= article.url %>">
+				<div class="blog-article__inner">
+					
+					<%= image_tag article.data.img, :alt => "Blog Image"%>
+		
+					<div class="blog-article__meta">
+						By <%= article.data.author %> on <time datetime="<%= article.date %>"><%= article.date.strftime('%B %e %Y') %></time> - <%= article.data.time %>min Read
+					</div>
+					<h2 class="blog-article__title"><%= article.title %></h2>
+					<div class="blog-article__summary">
+						<%= Nokogiri::HTML(article.summary).text %>
+					</div>
+					<div class="blog-article__author-img <%= article.data.author %>">
+						<%= article.data.author %>
+					</div>
+					<div class="blog-article__tag"><%= article.data.tags %></div>
+				</div>
+			</a>
+		</article>
+		<% end %>
 
-<section class="articles">
-	
-
-	
-	<% page_articles.each_with_index do |article, i| %>	
-	<article class="blog_item">
-	<div class="wrapper">
-		<div class="row cf">
-			<div class="col9">
-
-				<div class="blog__main">
-					<time datetime="<%= article.date %>"><%= article.date.strftime('%B %e %Y') %></time>
-					<h2><%= link_to article.title, article %></h2>
-					<%= article.summary %>
-				</div><!--end blog main-->
-			</div><!--end col9-->
-			<div class="col3">
-				<div class="post_meta">
-					<dl>
-						<dt>Time:</dt>
-						<dd><%= article.data.time %> Min</dd>
-						<dt>In:</dt>
-						<dd><%= article.data.tags %></dd>
-						<dt>by:</dt>
-						<dd><%= article.data.author %></dd>
-					</dl>
-				</div><!--end post meta-->
-			</div><!--end col3-->
-		</div><!--end row-->
-	</div><!--end wrapper-->
-	</article>
-	<% end %>
-
-
+		
+		
 	
 </section>
+</div>
+
 
 
 

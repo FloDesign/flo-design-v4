@@ -1,6 +1,7 @@
 ---
 title: Great free and premium icon sets for your web designs in 2016
 description: A collection of great free and premium icon sets to help you in your web designs in 2016
+img: blog_img_icons.jpg
 date: 2016-01-04 15:50 UTC
 tags: Resources
 time: 5

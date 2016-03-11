@@ -1,6 +1,7 @@
 ---
 title:  "Do you need a Wordpress site?"
 description: A few thoughts on Wordpress and suggestions for alternatives that could save time & money
+img: blog_img_wordpress.jpg
 date:   2016-02-17 13:42:00
 tags: Thoughts
 time: 5

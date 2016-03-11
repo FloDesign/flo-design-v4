@@ -1,6 +1,7 @@
 ---
 title:  "New site, New Office , New Year"
 date:   2014-03-20 11:23:00
+img: blog_img_new_office.jpg
 tags: News
 time: 2
 author: Russ
