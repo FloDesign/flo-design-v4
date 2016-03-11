@@ -1,6 +1,7 @@
 ---
 title:  "Alternatives to Mandrill"
 description: Mandrill have announced they're upping their prices and merging with Mailchimp. Here are some alternatives to consider
+img: blog_img_mandrill.jpg
 date:   2016-02-25 08:02:00
 tags: Thoughts
 time: 5

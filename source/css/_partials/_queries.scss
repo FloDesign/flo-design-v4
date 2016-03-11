@@ -197,6 +197,11 @@
 	    100% { left: -20%;}
 	}
 
+
+	.blog-article{
+		max-width: 50%;
+	}
+
 	
 }
 
@@ -342,7 +347,7 @@
 	h2,.beta{
 		font-size:30px;
 		font-size:1.88rem;
-		font-weight: 600;
+		// font-weight: 600;
 		padding: 35px 0 25px 0;
 		line-height: 30px;
 		line-height: 1.88rem;
@@ -780,5 +785,40 @@
 	.dodont_container{
 		padding: 0 10px;
 	}
+	
+
+	.blog-articles{
+		margin: 30px 0;
+	}
+
+	.blog-article{
+		max-width: 100%;
+	}
+
+	.blog-article__inner{
+		padding: 20px;
+		height: 450px;
+	}
+
+	h2.blog-article__title{
+		font-size: 20px;
+		line-height: 22px;
+	}
+
+	.blog-article__meta{
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.blog-article__author-img{
+		left: 20px;
+		bottom: 20px;
+	}
+
+	.blog-article__tag{
+		right: 20px;
+		bottom: 20px;
+	}
+
 
 }

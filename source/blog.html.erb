@@ -23,13 +23,14 @@ per_page: 12
 			<a href="<%= article.url %>">
 				<div class="blog-article__inner">
 					
-					<%= image_tag 'blog_img.jpg', :alt => "Russell Poulter", :class => "author_avatar"%>
+					<%= image_tag article.data.img, :alt => "Blog Image"%>
+		
 					<div class="blog-article__meta">
 						By <%= article.data.author %> on <time datetime="<%= article.date %>"><%= article.date.strftime('%B %e %Y') %></time> - <%= article.data.time %>min Read
 					</div>
 					<h2 class="blog-article__title"><%= article.title %></h2>
 					<div class="blog-article__summary">
-						<%= article.summary %>
+						<%= Nokogiri::HTML(article.summary).text %>
 					</div>
 					<div class="blog-article__author-img <%= article.data.author %>">
 						<%= article.data.author %>

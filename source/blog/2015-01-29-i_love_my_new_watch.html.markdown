@@ -1,6 +1,7 @@
 ---
 title: Thoughts on design & why I love my new watch
 date: 2015-01-29 19:50 UTC
+img: blog_img_watch.jpg
 tags: Design
 time: 2
 author: Russ

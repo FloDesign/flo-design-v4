@@ -1,6 +1,7 @@
 ---
 title:  "Sharing space - Setting up Ghost behind a proxy - Nginx"
 date:   2014-02-10 13:00:00
+img: blog_img_ghost_nginx.jpg
 tags: Tutorials
 time: 5
 author: Craig
