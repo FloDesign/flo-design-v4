@@ -1,0 +1,53 @@
+---
+title: 5 reasons 2016 is the time to get a new website.
+description: We take a look at why 2016 could be the year you need to get a new website.
+img: blog_spacejam.jpg
+date: 2016-03-29 12:15 UTC
+tags: Web Design
+time: 6
+author: Russ
+---
+
+Is your website starting to feel a bit….rough around the edges? Has it still got a visiter counter and a guest book? Or perhaps  it looks like the [Space Jam site from 1996?](http://www.warnerbros.com/archive/spacejam/movie/jam.htm). If so perhaps its time for an update. Here we take a look at 5 reasons why it could be time for a new website and why you should care.
+
+## 1. Your site isn’t Mobile friendly
+The internet is no longer something accessed purely via a desktop or laptop computer. The rise of the mobile web over the last few  years has been nothing short of meteoric. In 2014 mobile internet usage exceeded desktop usage for the first time and it's showing no sign of slowing down. A 2015 report from Ofcom stated that 33% of internet users viewed their smartphone as the most important device for getting online, contrasted with just 14% stating desktop. With the rise of faster 4G connections people are doing even more with their phones and tablet devices as connections become quicker & more reliable.
+
+Users expectations of the mobile web are increasing all the time, when the first iPhone launched in 2007 people where blown away just by the fact that you could access ‘real’ websites after the disappointment that had been [WAP](https://en.wikipedia.org/wiki/Wireless_Application_Protocol)(remember that!?) and were more than happy to pinch and zoom their way around websites built for desktop screens. Fast forward 7 years and people expect a smoother, more integrated experience with content optimised for their device. If they have to pinch and zoom around your site reading tiny text they’re not going to stick around for long.
+
+As if this wasn’t reason enough in April 2015 Google began ranking mobile optimised sites higher on searches conducted on mobiles and a lot of searching happens on mobiles! 
+
+### Why should you care?
+If your website isn’t optimised for mobile & tablet visitors as well as desktop, you’re losing traffic, potential leads and customers. If users have a negative, frustrating experience they’ll leave your site and go onto the next. In 2016 a mobile friendly site is an expectation not an unexpected plus.
+
+## 2. Your users can't find what they want
+Everyone on the internet is looking for something. They have a problem and they’re looking for a solution. They could be looking for a deal on car insurance, searching for a life partner or the name of Arnold Schwarzenegger’s big screen [debut](https://www.youtube.com/watch?v=Wj4NGS_o68g). Whatever it is they’re looking for they want to find it quickly and easily. If they can’t they’ll be back to Google, clicking on your competitor. If your website lacks clear simple navigation and content hierarchy, or it's just pages and pages of long form text, chances are your users are having to try too hard to find what they’re looking for and that means they’re probably not hanging around for long.
+
+A clue to this can be found in your analytics data (you’ve got that, right?). What's your bounce rate like on your main landing pages? What's your most popular content? Is it easy to navigate to?
+
+### Why should you care?
+Your users came to your site looking for an answer to a problem, if they can’t find it quickly and easily they’re gone along with their potential business. This means you’re losing potential leads and customers.
+
+## 3. Out of date or Stale content.
+How fresh is the content on your website? When was the last time you updated the content or added something new? Is your last blog post from 2012 when Sandra from accounts, who left last year, did that fun run?
+
+The internet is a ‘real time’ information resource and, as such, the content of your website should be bang up to date. You should have a content strategy in place that is designed to meet the marketing goals of the business. What kind of content are you going to produce, how often and over what mediums? If you don’t get a plan in place things will just stagnate.
+
+### Why should you care?
+Fresh content is important on the web for a number of reasons. First of all it will carry more weight with users, especially if you’re in a fast moving or heavily regulated industry. Secondly you’ll rank better on Google if your content is new, as it is deemed more relevant. Regular new content will drive traffic to your site and help build sound relationships with your visitors by establishing you as a reputable source of up to date information.
+
+## 4. It's not unique
+Take a look at your home page. Has it got something that will stick in peoples' minds, that will make it memorable? perhaps some well written copy that's full of personality? Some unique striking imagery? Some subtle animation or transitions? No? Then you have a problem. If your site looks like every other average website out there then why would potential customers choose you? Does your company's personality come leaping from the screen or is it just full of nondescript stock photography of smiling business men and women. Every business and organisation is unique and your website needs to portray that uniqueness so that users pay attention and you don’t just fade into the crowd.
+
+### Why should you care?
+If you don’t identify with your website, how are your users and potential customers going to. Your website should be your website not just a template with a logo change. If users can’t identify with you in some way they’re probably not going to make contact with you.
+
+## 5. your website is sloooooow..
+How long your site takes to load is important. Really, really important. In a 2012 study, 67% of UK customers cited slow page load as the main reason for e-commerce cart abandonment. Another study by Akamai and Forrester Research in 2009 found that nearly half of web users expect a site to load in under 2 seconds and tend to abandon them if it goes beyond 3 seconds. Google have also stated on a number of occasions that page speed is a key factor in how they rank sites, so if you want to rank well you need to be fast! As a result, site speed and performance should be a key design factor of your site. Every design element needs to be able to justify its inclusion on the page otherwise it's just bloating your page. Ideally no page should be more than 2mb in size and have as few server requests as possible.
+
+### Why should you care?
+If your site is slow more users and potential customers are going to abandon it and it won’t rank as well in Google. Your site's performance is key to its success and needs to be considered and from day one in any web design process.
+
+## Conclusion
+As the web continues to mature and becomes more integrated into our everyday lives our expectations of it continue to rise. If your site isn’t up to snuff it's going to hurt your chances of online success. Is that something your business can risk? If you’ve been putting off updating your site for a while, now is the ideal time to get it sorted and make sure you’re ready to take on everything the future has to throw at your business.
+ 
