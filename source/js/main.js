@@ -15,18 +15,18 @@ $(document).ready(function () {
     $('.form_send').click(function(event) {
       event.preventDefault();
       $('.loader').show();
-      
+
         var name = $('input#name').val();
         var email = $('input#email').val();
         var budget = $('select#budget').val();
         var message = $('textarea#message').val();
-      
+
         if($('.contact-message').html() !== ''){
             $('.contact-message').attr('class', 'contact-message');
             $('.contact-message').html('');
             $('.contact-message').hide();
         }
-      
+
         if (name === '' || name === ' ' || name === 'Name') {
             $('.contact-message').addClass('contact-error');
             $('.contact-message').html('Hey John Doe! We need to know your name please. Thank you');
@@ -34,15 +34,15 @@ $(document).ready(function () {
             $('.loader').hide();
             return false;
         }
-        
+
         if (email === '' || email === ' ') {
             $('.contact-message').addClass('contact-error');
-            $('.contact-message').html('Uh oh! Looks like something’s wrong with the Email you gave.');
+            $('.contact-message').html('Uh oh! We need an email to get back to you.');
             $('.contact-message').show();
             $('.loader').hide();
             return false;
         }
-        
+
         else if (!IsEmail(email)) {
             $('.contact-message').addClass('contact-error');
             $('.contact-message').html('Uh oh! Looks like something’s wrong with the Email you gave.');
@@ -50,7 +50,7 @@ $(document).ready(function () {
             $('.loader').hide();
             return false;
         }
-    
+
         if (message === '' || message === ' ' || message === 'Message') {
             $('.contact-message').addClass('contact-error');
             $('.contact-message').html('Dont be shy! Leave us a message about what you want to discuss.');
@@ -59,25 +59,7 @@ $(document).ready(function () {
             return false;
         }
 
-        var mailerUrl = window.location.origin + '/mailer.php';
-
-        $.ajax({
-          url: mailerUrl,
-          type: 'POST',
-          data: {postName: name, postEmail: email, postBudget: budget, postMessage: message},
-        })
-        .done(function(data) {
-          $('.contact-message').addClass('contact-success');
-          $('.contact-message').html(data);
-          $('.loader').hide();
-        })
-        .fail(function() {
-          $('.contact-message').addClass('contact-error');
-          $('.contact-message').html(data);
-          $('.loader').hide();
-        });
-    
-        $('.contact-message').show();
+        $('#contact-form').submit();
     });
 });
 
