@@ -1,8 +1,8 @@
 ---
 title: My Tokyo cyberpunk adventure.
-description: this is the discription.
+description: Craig jetted off to Tokyo to discover what cyberpunk goodies he could find. So what did he find in Tokyo other than vending machine coffee?
 img: blog_tokyo.jpg
-date: 2016-05-25 16:25 UTC
+date: 2016-05-25 10:25 UTC
 tags: Thoughts
 time: 5
 author: Craig
