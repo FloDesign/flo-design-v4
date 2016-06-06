@@ -1,8 +1,8 @@
 ---
 title: HTTPS by default.
-description:
+description: Having a secure website isn’t just for E-Commerce sites anymore. A HTTPS WordPress site can help you rank higher as well as make your site faster to load.
 img: blog_https.png
-date: 2016-06-06 13:00 UTC
+date: 2016-06-06 10:00 UTC
 tags: Devops
 time: 5
 author: Craig
