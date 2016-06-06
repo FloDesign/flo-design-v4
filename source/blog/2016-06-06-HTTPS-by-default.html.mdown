@@ -1,0 +1,50 @@
+---
+title: HTTPS by default.
+description:
+img: blog_https.png
+date: 2016-06-06 13:00 UTC
+tags: Devops
+time: 5
+author: Craig
+---
+
+Online security is a hot topic in the IT world. Numerous high-profile breaches in recent years have underlined a need for website owners to ensure they are implementing security measures to keep their users' data safe. While most website owners won't have to deal with the kind of breach that saw [a Bangaldeshi bank lose $81m](http://www.cnet.com/uk/news/swift-security-breach-bangladesh-central-bank-81-million-cyber-theft/) due to holes in the SWIFT transaction software, it can be prudent to set up HTTPS on websites as the first line of defence.
+
+### What is SSL/TSL & HTTPS
+Secure Socket Layer(SSL) & Transport Security Layer(TLS) are security technologies for creating encrypted links between a client application and a server. Hyper Text Transfer Protocol Secure (HTTPS) is the secure version of HTTP; the protocol used to transfer data between a webserver and client. HTTPS uses SSL or TLS to encrypt communications using a Public Key Infrastructure(PKI), in which transmissions are encrypted on the client end by a key sent from the server, known as the public key. The encrypted transmission is then sent to the server and decrypted using a key known only to the server, called the private key. This encrypted communication cannot be read by anyone other than the client from which it originated and the server that holds the private key. This ensures that nobody outside the link can eavesdrop on the conversation between the two.
+
+![Lock and key](/img/blog_lock.jpg)
+
+### The case for security
+If the owner of a website is running a static site, wherein no user data is passed back and forth, it may seem superfluous to set up HTTPS. If no confidential user information is being sent or received why bother, right? There are some advantages to HTTPS which may not seem obvious.
+
+### Better Google ranking
+In 2014, Google called for '[HTTPS everywhere](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html)' on the web. They want to make the web a safer place for users and therefore rank sites using HTTPS by default higher than their HTTP counterparts. The ranking metric is a small part of a larger algorithm, centred around content, but every little helps in the cut-throat world of SEO.
+
+![Fast by Onno Kluyt(https://www.flickr.com/photos/onnoweb/)](/img/blog_fast.jpg)
+
+### Faster Load times
+It used to be that HTTPS was considered to use more resources and increase page-load times over HTTP. After all, the content needs to be encrypted, sent to the server, decrypted and finally parsed and acted on before the process reverses to send the result back to the user. However, thanks to advances in encryption techniques and server routing, the overhead for HTTPS is now considered negligible. In many cases it can actually produce [faster load times than HTTP](https://www.maxcdn.com/blog/ssl-performance-myth/).
+
+### Better referrals
+HTTPS to HTTP links do not have complete referral information. This means that if a user has come through from Google search (HTTPS by default) to an HTTP site then some of the referral information will be lost. Accurate referral information is essential for website owners to understand their visitors and so having an HTTPS to HTTPS connection will ensure that all the information is preserved. Interestingly, HTTP to HTTPS traffic has the referral information preserved. Meaning it works for referrers not using HTTPS too.
+
+### Enforcing trust in the site
+One of the main advantages of HTTPS is that it lets people know that they're dealing with who they think they're dealing with. If a website owner has an Extended Validation certificate installed on their site then the user can be relatively sure (nothing is certain in security) that the website they're visiting belongs to the company who's website it is. Lower levels of certificate and different certificate authorities (the people who check you're who you say you are) may not do the same checks but, as a minimum, there is usually a check to make sure the web address is at least pointing to the correct server.
+
+### It's too difficult/costs too much/causes problems
+It's not all roses in the garden of web security. There are some issues which may bite website owners. These issues usually have workarounds or solutions but it pays to know the pitfalls.
+
+### The price of certificates
+SSL certificates can be expensive beasts. There are various tiers and different certificate authorities will perform different checks but usually the more work for the authority, the more expensive the certificate. Unless the site is designed to take credit card details or other confidential information then usually a basic certificate that validates the web address points to the correct server will suffice. Thankfully, there has been some movement towards providing these basic certificates for free. [LetsEncrypt](https://letsencrypt.org/) offer free, automated certificates to anyone and [Cloudflare](https://www.cloudflare.com/ssl/) offer certificates to anyone signed up for one of their plans, including the Free tier.
+
+![CCTV against brick wall by Jonathan D.Abolins(https://www.flickr.com/photos/jabolins/)](/img/blog_cctv.jpg)
+
+### Danger, Will Robinson
+Browsers which use strict security settings, such as Chrome, can throw a wobbly when confronted with resources served over HTTPS and HTTP on the same page. This can happen when most of the assets are served by the server but one or two script files may be served from an outside source. If the protocols are mixed then the browser will assume the page is insecure and display an appropriate warning. This can be worked around by either serving all assets from the secured site or only using outside sources that are served over HTTPS.
+
+### Secure doesn't always mean secure
+HTTPS is secure, except when it isn't. There are a number of exploits in the wild, which can cause an HTTPS site to reveal its encrypted information. Thankfully, these are well known and steps can be taken to close the holes. Communications are encrypted using a series of algorithms, known as cyphers (same deal as the ancient Romans moving letters around in coded letters but on a much more complex scale). Some of these cyphers have been cracked and are therefore insecure. Luckily these can be turned off in a webserver's configuration. [SSLLabs provide a test suite](https://www.ssllabs.com/ssltest) for testing sites against known attack vectors to ensure that a site isn't vulnerable to the latest exploits.
+
+### Lock up your daughters, erm, sites
+Privacy aside, there are a raft of benefits to enabling HTTPS by default. It increases trust in your brand and site, can speed up your page load times and can boost your search rankings. New tools are making it easier to acquire, install and update certificates, while tools like SSLLabs can ensure that any loopholes are closed and unavailable to hackers. We enable HTTPS by default here at Flo Design and we suggest you do too.
