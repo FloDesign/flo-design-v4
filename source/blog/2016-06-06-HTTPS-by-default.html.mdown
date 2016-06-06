@@ -2,7 +2,7 @@
 title: HTTPS by default.
 description:
 img: blog_https.png
-date: 2016-06-06 13:00 UTC
+date: 2016-06-06 10:00 UTC
 tags: Devops
 time: 5
 author: Craig
