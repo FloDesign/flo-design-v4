@@ -1,4 +1,19 @@
 workitems:
+- title: "Beach Front Villas"
+  description: "Beach Front Villas are a new start up business who provide luxury villa rentals on the stunning Turks & Caicos Islands in the Caribbean. Robin Spruce, Beach Front Villas owner and founder approached us to produce a class leading, visually stunning and easy to use website."
+  tags: 
+    -  ui design
+    -  ux design 
+    -  development
+    -  project managment
+    -  HTML5
+    -  CSS3
+    -  responsive
+    -  wordpress
+  imgmbp: "bfv-mbp-lg.png"
+  imgphone: "bfv-iphone-lg.png"
+  link: "http://www.beachfrontvillas.tc/"
+  casestudy: "/work/beachfrontvillas/"
 - title: "Buildcloud"
   description: "Buildcloud is a kick ass technology start-up based in Leeds. We worked with the Buildcloud founders to design and build an app that revolutionises how architects manage &amp; communicate on projects."
   tags: 
