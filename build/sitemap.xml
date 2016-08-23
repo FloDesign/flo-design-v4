@@ -76,6 +76,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>http://flodesign.co.uk/blog/getting_started_in_the_web_industry/</loc>
+
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://flodesign.co.uk/blog/</loc>
 
     <priority>0.7</priority>
