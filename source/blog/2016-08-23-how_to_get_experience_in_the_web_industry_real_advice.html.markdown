@@ -58,13 +58,13 @@ New Javascript frameworks pop up at insane speeds. Every week somebody seems to 
 
 Concentrate on making your applications work. Hacks and workarounds can be sorted out later when you have a better understanding of the system and as your skill in development increases. 
 
-As to methodologies, perhaps try a few, but know that if you're looking to make a career in the web industry then any employer you work for will probably have their own style and process for you to work with.
+As to methodologies, perhaps try a few, but know that, if you're looking to make a career in the web industry, then any employer you work for will probably have their own style and process for you to work with.
 
 ### Find a mentor
 
 Perhaps the best thing about joining the web industry today is the amount of people who are willing to give up their time freely to help newcomers. Many industry gatherings have [Slack](https://slack.com/) channels where you can usually find great one on one advice about a specific problem. Here's a [list](http://techbeacon.com/46-slack-groups-developers) to get you started.
 
-It's also an idea to get along to any local web industry events in your area. [Eventbrite](https://www.eventbrite.co.uk/) is a good place to start finding events in your area. Often these are free and you'll learn loads, as well as making new friends. If all else fails there's always [Stack Overflow](http://stackoverflow.com/). This site crowdsources answers to questions posted by its users. The quality of the advice can vary wildly but more often than not you'll find the answer you need. 
+It's also an idea to get along to any local web industry events. [Eventbrite](https://www.eventbrite.co.uk/) is a good place to start finding events in your area. Often these are free and you'll learn loads, as well as making new friends. If all else fails there's always [Stack Overflow](http://stackoverflow.com/). This site crowdsources answers to questions posted by its users. The quality of the advice can vary wildly but more often than not you'll find the answer you need. 
 
 Like any internet community, the userbase can be a bit acerbic so be sure to stick to the rules of posting so you don't get discouraged when a neckbeard calls you out on the format of your question or something equally inane.
 
