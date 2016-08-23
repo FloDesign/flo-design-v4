@@ -8,7 +8,7 @@ time: 8
 author: Craig
 ---
 
-2016 is a great year to be starting, or thinking about starting a career in the web industry. Tutorial series are available for free or very cheaply all over the web. Whether your focus is design, development, devops or a bit of everything, you'll be able to find the resources you need to move forward. However, resources aren't the only thing you'll need to get ahead in the industry and many people find themselves stuck in a rut. Read on for a guide to getting started and growing yourself in the industry.
+Now is a great time to be starting, or thinking about starting a career in the web industry. Tutorial series are available for free or very cheaply all over the web. Whether your focus is design, development, devops or a bit of everything, you'll be able to find the resources you need to move forward. However, resources aren't the only thing you'll need to get ahead in the industry and many people find themselves stuck in a rut. Read on for a guide to getting started and growing yourself in the industry.
 
 ### My cup runneth over, spilling beer all over the floor
 
@@ -28,7 +28,7 @@ The solution is to get started creating something. If you want to be a developer
 
 This is a fair enough statement. We all have to start somewhere and the web industry can be an intimidating place. When it comes to being a developer you've got the added complication of a myriad of different languages and frameworks you can try. 
 
-	Protip: they're all pretty much the same. 
+>Protip: they're all pretty much the same. 
 
 Some people on Twitter will insist that Ruby is the greatest thing ever and if you're not using it then you're doing something wrong. Others will say that PHP is the most widely-used language and you'd be a fool not to concentrate on that. 
 
